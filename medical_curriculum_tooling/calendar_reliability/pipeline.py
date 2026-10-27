@@ -171,22 +171,9 @@ def default_state(feed_id: str) -> dict[str, Any]:
     }
 
 
-def bootstrap_state(paths: PipelinePaths, feed_id: str) -> dict[str, Any]:
-    state = default_state(feed_id)
-    if paths.bootstrap is None:
-        return state
-
-    spec = source.FEED_SPECS[feed_id]
-    candidates = [
-        paths.bootstrap / f"{feed_id}-status.json",
-        paths.bootstrap / spec.route_path.lstrip("/").replace(".ics", "-status.json"),
-    ]
-    status_path = next((candidate for candidate in candidates if candidate.exists()), None)
-    if status_path is None:
-        return state
-    payload = read_json(status_path)
-    if not payload or not isinstance(payload.get("events"), list):
-        return state
+def state_from_status_payload(feed_id: str, payload: Any) -> dict[str, Any] | None:
+    if not isinstance(payload, dict) or not isinstance(payload.get("events"), list):
+        return None
     observed = payload.get("generated_at_utc") or payload.get("last_successful_fetch_at_utc")
     ledger: dict[str, dict[str, Any]] = {}
     for row in payload["events"]:
@@ -202,30 +189,72 @@ def bootstrap_state(paths: PipelinePaths, feed_id: str) -> dict[str, Any]:
             "last_missing_at_utc": None,
             "missing_successes": 0,
             "last_snapshot_present": True,
-            "retention_state": "bootstrap",
+            "retention_state": "public_status_recovery",
         }
+    state = default_state(feed_id)
     state.update(
         {
             "updated_at_utc": observed,
-            "last_successful_fetch_at_utc": observed,
+            "last_successful_fetch_at_utc": payload.get("last_successful_fetch_at_utc") or observed,
             "last_publication_at_utc": payload.get("last_publication_at_utc") or observed,
-            "health": "healthy" if ledger or payload.get("event_count") == 0 else "degraded",
-            "stale": False,
-            "source_snapshot_hash": payload.get("source_snapshot_hash") or source_event_hash(payload["events"]),
-            "last_published_source_snapshot_hash": payload.get("source_snapshot_hash") or source_event_hash(payload["events"]),
-            "published_ics_hash": payload.get("content_hash") or payload.get("published_ics_hash"),
+            "health": payload.get("health") or ("healthy" if ledger or payload.get("event_count") == 0 else "degraded"),
+            "stale": bool(payload.get("stale", False)),
+            "source_snapshot_hash": payload.get("source_snapshot_hash"),
+            "last_published_source_snapshot_hash": payload.get("last_published_source_snapshot_hash"),
+            "published_ics_hash": payload.get("content_hash"),
             "published_event_count": len(ledger),
             "published_events": [record["event"] for record in ledger.values()],
             "ledger": ledger,
+            "last_error": payload.get("last_error"),
+            "consecutive_failures": int(payload.get("consecutive_failures") or 0),
+            "last_alerts": payload.get("alerts") if isinstance(payload.get("alerts"), list) else [],
         }
     )
     return state
 
 
+def bootstrap_state(paths: PipelinePaths, feed_id: str) -> dict[str, Any]:
+    state = default_state(feed_id)
+    if paths.bootstrap is None:
+        return state
+
+    spec = source.FEED_SPECS[feed_id]
+    candidates = [
+        paths.bootstrap / f"{feed_id}-status.json",
+        paths.bootstrap / spec.route_path.lstrip("/").replace(".ics", "-status.json"),
+    ]
+    status_path = next((candidate for candidate in candidates if candidate.exists()), None)
+    if status_path is None:
+        return state
+    try:
+        payload = read_json(status_path)
+    except (OSError, UnicodeError, ValueError):
+        return state
+    recovered = state_from_status_payload(feed_id, payload)
+    return recovered or state
+
+
+def recover_state_from_public(paths: PipelinePaths, feed_id: str) -> dict[str, Any] | None:
+    _, status_path = feed_public_paths(paths, feed_id)
+    if not status_path.exists():
+        return None
+    try:
+        payload = read_json(status_path)
+    except (OSError, UnicodeError, ValueError):
+        return None
+    recovered = state_from_status_payload(feed_id, payload)
+    if recovered is not None:
+        recovered["last_alerts"] = [{"type": "state_recovered_from_public_status"}]
+    return recovered
+
+
 def load_state(paths: PipelinePaths, feed_id: str) -> dict[str, Any]:
-    payload = read_json(state_path(paths, feed_id))
+    try:
+        payload = read_json(state_path(paths, feed_id))
+    except (OSError, UnicodeError, ValueError):
+        return recover_state_from_public(paths, feed_id) or bootstrap_state(paths, feed_id)
     if not payload or payload.get("version") != STATE_VERSION:
-        return bootstrap_state(paths, feed_id)
+        return recover_state_from_public(paths, feed_id) or bootstrap_state(paths, feed_id)
     return payload
 
 

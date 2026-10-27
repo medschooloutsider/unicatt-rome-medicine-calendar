@@ -177,3 +177,25 @@ class CalendarPipelineTests(unittest.TestCase):
         self.assertFalse(verification["ok"])
         self.assertTrue(any("hash mismatch" in error for error in verification["errors"]))
 
+    def test_corrupt_state_recovers_from_last_verified_public_status(self):
+      with tempfile.TemporaryDirectory() as directory:
+        root = Path(directory)
+        paths, first = run(root, [lesson("keep", "01/11/2026")])
+        self.assertTrue(first["ok"])
+        state_file = pipeline.state_path(paths, "year3-lessons")
+        state_file.write_text("", encoding="utf-8")
+
+        recovered = pipeline.run_all(
+            paths,
+            feeds=["year3-lessons"],
+            now=NOW + timedelta(minutes=15),
+            fetcher=fetcher_for([lesson("keep", "01/11/2026")]),
+            enable_alerts=False,
+        )
+        self.assertTrue(recovered["ok"])
+        self.assertTrue(pipeline.verify_publication(paths, ["year3-lessons"])["ok"])
+        status_path = pipeline.feed_public_paths(paths, "year3-lessons")[1]
+        status = json.loads(status_path.read_text(encoding="utf-8"))
+        self.assertEqual(status["event_count"], 1)
+        self.assertFalse(status["stale"])
+

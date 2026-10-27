@@ -17,6 +17,9 @@ ledger and health receipts alongside them.
 - Past events are never erased.
 - Every successful poll records the source snapshot hash, publication hash,
   last successful fetch, last publication, and event ledger.
+- If a state JSON is empty or corrupt, the next run reconstructs it from the
+  last verified public status before polling, so one transient filesystem
+  failure cannot erase or suppress the publication.
 - The optional Telegram hook is best-effort only. JSON alert receipts are the
   durable alert path; notifications cannot make a good publication fail.
 
