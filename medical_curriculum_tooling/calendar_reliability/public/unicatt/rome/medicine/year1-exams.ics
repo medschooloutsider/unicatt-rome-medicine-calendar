@@ -1,0 +1,1977 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Codex Automation//UCSC Unicatt Calendar Broadcast//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:UCSC Rome Medicine Year 1 Exams
+X-WR-CALDESC:Realtime Year 1 exam feed for UCSC Rome Medicine and Surgery
+ . Entries are NOT erased as days pass. Past entries remain in place inde
+ finitely for future audit. Corrections and cancellations retain event id
+ entity\; no rolling date cutoff is permitted for this or any future stat
+ ion.
+X-WR-TIMEZONE:Europe/Rome
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+X-LIC-LOCATION:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-9117b63fec70ebe78b5e0c0f789c2269d27da637@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260126T090000
+DTEND;TZID=Europe/Rome:20260126T140000
+SUMMARY:BASIC SCIENCES - APPELLO D'ESAME
+LOCATION:Istituti Biologici - San Camillo
+DESCRIPTION:Course code: A001980\nTeacher: PAPI MASSIMILIANO\nExam type: 
+ APPELLO D'ESAME\nSource date: 26/01/2026\nBuilding: Istituti Biologici\n
+ Room: San Camillo\nDuration: 05:00\nSource: https://secure.unicatt.it/di
+ datticaweb2/ps/esami/\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-f5629a8f3e0835ed42c086fddeb3a1253ec32a81@codex
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260126T090000
+DTEND;TZID=Europe/Rome:20260126T103000
+SUMMARY:SCIENTIFIC ENGLISH - Exam
+LOCATION:
+DESCRIPTION:Course code: A002225\nTeacher: TAYLOR ANITA\nSource date: 26/
+ 01/2026\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb
+ 2/ps/esami/\n\nEntries are NOT erased as days pass. Past entries remain 
+ in place indefinitely for future audit. Corrections and cancellations re
+ tain event identity\; no rolling date cutoff is permitted for this or an
+ y future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-c42c1b70a1f04a8c2a4e862bc7a6eabd6e2f9aba@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260128T090000
+DTEND;TZID=Europe/Rome:20260128T130000
+SUMMARY:ITALIAN LANGUAGE I - APPELLO D'ESAME
+LOCATION:Giovanni XXIII - Laboratorio linguistico
+DESCRIPTION:Course code: A002221\nTeacher: LEWIS SIMON GRAHAM\nExam type:
+  APPELLO D'ESAME\nSource date: 28/01/2026\nBuilding: Giovanni XXIII\nRoo
+ m: Laboratorio linguistico\nDuration: 04:00\nSource: https://secure.unic
+ att.it/didatticaweb2/ps/esami/\n\nEntries are NOT erased as days pass. P
+ ast entries remain in place indefinitely for future audit. Corrections a
+ nd cancellations retain event identity\; no rolling date cutoff is permi
+ tted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-ebae209b01611843032e9a64f0b564f154d7741f@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260128T090000
+DTEND;TZID=Europe/Rome:20260128T160000
+SUMMARY:ITALIAN LANGUAGE I - CODA D'ESAME
+LOCATION:Giovanni XXIII - Bausola
+DESCRIPTION:Course code: A002221\nTeacher: LEWIS SIMON GRAHAM\nExam type:
+  CODA D'ESAME\nSource date: 28/01/2026\nBuilding: Giovanni XXIII\nRoom: 
+ Bausola\nDuration: 07:00\nSource: https://secure.unicatt.it/didatticaweb
+ 2/ps/esami/\n\nEntries are NOT erased as days pass. Past entries remain 
+ in place indefinitely for future audit. Corrections and cancellations re
+ tain event identity\; no rolling date cutoff is permitted for this or an
+ y future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-c86b767faaa54752076eb110060d79c37e203e5a@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260130T143000
+DTEND;TZID=Europe/Rome:20260130T183000
+SUMMARY:LIFE OF CELLS\, TISSUES AND MICROBES - APPELLO D'ESAME
+LOCATION:Giovanni XXIII - 1
+DESCRIPTION:Course code: A002193\nTeacher: LATTANZI WANDA\nExam type: APP
+ ELLO D'ESAME\nSource date: 30/01/2026\nBuilding: Giovanni XXIII\nRoom: 1
+ \nDuration: 04:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/es
+ ami/\n\nEntries are NOT erased as days pass. Past entries remain in plac
+ e indefinitely for future audit. Corrections and cancellations retain ev
+ ent identity\; no rolling date cutoff is permitted for this or any futur
+ e station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-ad6dae653c72c6406bcb7da5bf5bb4eef1b44d75@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260203T090000
+DTEND;TZID=Europe/Rome:20260203T130000
+SUMMARY:FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY (MSK/HEART/VASCULAR SYS
+ TEM) - APPELLO D'ESAME
+LOCATION:Istituti Biologici - San Camillo
+DESCRIPTION:Course code: A002232\nTeacher: TAMAGNONE LUCA\nExam type: APP
+ ELLO D'ESAME\nSource date: 03/02/2026\nBuilding: Istituti Biologici\nRoo
+ m: San Camillo\nDuration: 04:00\nSource: https://secure.unicatt.it/didat
+ ticaweb2/ps/esami/\n\nEntries are NOT erased as days pass. Past entries 
+ remain in place indefinitely for future audit. Corrections and cancellat
+ ions retain event identity\; no rolling date cutoff is permitted for thi
+ s or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-c08d8d6319a6c0af29b9ff5bc1fcaec342349291@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260205T090000
+DTEND;TZID=Europe/Rome:20260205T110000
+SUMMARY:GENE REGULATION AND CELL METABOLISM - APPELLO D'ESAME
+LOCATION:Istituti Biologici - San Camillo
+DESCRIPTION:Course code: A002229\nTeacher: ARCOVITO ALESSANDRO\nExam type
+ : APPELLO D'ESAME\nSource date: 05/02/2026\nBuilding: Istituti Biologici
+ \nRoom: San Camillo\nDuration: 02:00\nSource: https://secure.unicatt.it/
+ didatticaweb2/ps/esami/\n\nEntries are NOT erased as days pass. Past ent
+ ries remain in place indefinitely for future audit. Corrections and canc
+ ellations retain event identity\; no rolling date cutoff is permitted fo
+ r this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-d7648e69d1280a54520918231a12b663e641e24b@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260205T110000
+DTEND;TZID=Europe/Rome:20260205T130000
+SUMMARY:GENE REGULATION AND CELL METABOLISM - CODA D'ESAME
+LOCATION:Giovanni XXIII - 5
+DESCRIPTION:Course code: A002229\nTeacher: ARCOVITO ALESSANDRO\nExam type
+ : CODA D'ESAME\nSource date: 05/02/2026\nBuilding: Giovanni XXIII\nRoom:
+  5\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/
+ esami/\n\nEntries are NOT erased as days pass. Past entries remain in pl
+ ace indefinitely for future audit. Corrections and cancellations retain 
+ event identity\; no rolling date cutoff is permitted for this or any fut
+ ure station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-1b1c55563439cd70a68f73e465d10cc670476c8d@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260206T090000
+DTEND;TZID=Europe/Rome:20260206T120000
+SUMMARY:THEOLOGY 1: INTRODUCTION TO CHRISTOLOGY AND SCRIPTURES - APPELLO 
+ D'ESAME
+LOCATION:Giovanni XXIII - 5
+DESCRIPTION:Course code: A002562\nTeacher: IODICE FABIO\nExam type: APPEL
+ LO D'ESAME\nSource date: 06/02/2026\nBuilding: Giovanni XXIII\nRoom: 5\n
+ Duration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esam
+ i/\n\nEntries are NOT erased as days pass. Past entries remain in place 
+ indefinitely for future audit. Corrections and cancellations retain even
+ t identity\; no rolling date cutoff is permitted for this or any future 
+ station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-19cd49db45e78ec3f2633cc5a7fc8c1ba868e736@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260209T090000
+DTEND;TZID=Europe/Rome:20260209T110000
+SUMMARY:BASIC SCIENCES - APPELLO D'ESAME
+LOCATION:Istituti Biologici - San Camillo
+DESCRIPTION:Course code: A001980\nTeacher: PAPI MASSIMILIANO\nExam type: 
+ APPELLO D'ESAME\nSource date: 09/02/2026\nBuilding: Istituti Biologici\n
+ Room: San Camillo\nDuration: 02:00\nSource: https://secure.unicatt.it/di
+ datticaweb2/ps/esami/\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-10861442fc8560b587f15348865536528ce860b0@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260209T110000
+DTEND;TZID=Europe/Rome:20260209T130000
+SUMMARY:BASIC SCIENCES - CODA D'ESAME
+LOCATION:Giovanni XXIII - 5
+DESCRIPTION:Course code: A001980\nTeacher: PAPI MASSIMILIANO\nExam type: 
+ CODA D'ESAME\nSource date: 09/02/2026\nBuilding: Giovanni XXIII\nRoom: 5
+ \nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/es
+ ami/\n\nEntries are NOT erased as days pass. Past entries remain in plac
+ e indefinitely for future audit. Corrections and cancellations retain ev
+ ent identity\; no rolling date cutoff is permitted for this or any futur
+ e station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-ee41effcbf074d659ee969b53a9f40a6a30a89cb@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260213T090000
+DTEND;TZID=Europe/Rome:20260213T170000
+SUMMARY:LIFE OF CELLS\, TISSUES AND MICROBES - APPELLO D'ESAME
+LOCATION:Istituti Biologici - San Camillo
+DESCRIPTION:Course code: A002193\nTeacher: LATTANZI WANDA\nExam type: APP
+ ELLO D'ESAME\nSource date: 13/02/2026\nBuilding: Istituti Biologici\nRoo
+ m: San Camillo\nDuration: 08:00\nSource: https://secure.unicatt.it/didat
+ ticaweb2/ps/esami/\n\nEntries are NOT erased as days pass. Past entries 
+ remain in place indefinitely for future audit. Corrections and cancellat
+ ions retain event identity\; no rolling date cutoff is permitted for thi
+ s or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-e529064dda99fcea8ad452ab28631442b55a8056@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260217T090000
+DTEND;TZID=Europe/Rome:20260217T130000
+SUMMARY:FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY (MSK/HEART/VASCULAR SYS
+ TEM) - APPELLO D'ESAME
+LOCATION:Istituti Biologici - San Camillo
+DESCRIPTION:Course code: A002232\nTeacher: TAMAGNONE LUCA\nExam type: APP
+ ELLO D'ESAME\nSource date: 17/02/2026\nBuilding: Istituti Biologici\nRoo
+ m: San Camillo\nDuration: 04:00\nSource: https://secure.unicatt.it/didat
+ ticaweb2/ps/esami/\n\nEntries are NOT erased as days pass. Past entries 
+ remain in place indefinitely for future audit. Corrections and cancellat
+ ions retain event identity\; no rolling date cutoff is permitted for thi
+ s or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-cd9e406345bf3b85dbc08971c2b75d0abfda71f6@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260220T090000
+DTEND;TZID=Europe/Rome:20260220T110000
+SUMMARY:GENE REGULATION AND CELL METABOLISM - APPELLO D'ESAME
+LOCATION:Istituti Biologici - San Camillo
+DESCRIPTION:Course code: A002229\nTeacher: ARCOVITO ALESSANDRO\nExam type
+ : APPELLO D'ESAME\nSource date: 20/02/2026\nBuilding: Istituti Biologici
+ \nRoom: San Camillo\nDuration: 02:00\nSource: https://secure.unicatt.it/
+ didatticaweb2/ps/esami/\n\nEntries are NOT erased as days pass. Past ent
+ ries remain in place indefinitely for future audit. Corrections and canc
+ ellations retain event identity\; no rolling date cutoff is permitted fo
+ r this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-bd3eb673ed87196963226429091f537ee0eef0c2@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260220T110000
+DTEND;TZID=Europe/Rome:20260220T130000
+SUMMARY:GENE REGULATION AND CELL METABOLISM - CODA D'ESAME
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: A002229\nTeacher: ARCOVITO ALESSANDRO\nExam type
+ : CODA D'ESAME\nSource date: 20/02/2026\nBuilding: Giovanni XXIII\nRoom:
+  2\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/
+ esami/\n\nEntries are NOT erased as days pass. Past entries remain in pl
+ ace indefinitely for future audit. Corrections and cancellations retain 
+ event identity\; no rolling date cutoff is permitted for this or any fut
+ ure station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-8c9f90071a0d42da3bedf3a3d49cf3f832dc1ef7@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260225T090000
+DTEND;TZID=Europe/Rome:20260225T160000
+SUMMARY:ITALIAN LANGUAGE I - APPELLO D'ESAME
+LOCATION:Economia - 108
+DESCRIPTION:Course code: A002221\nTeacher: LEWIS SIMON GRAHAM\nExam type:
+  APPELLO D'ESAME\nSource date: 25/02/2026\nBuilding: Economia\nRoom: 108
+ \nDuration: 07:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/es
+ ami/\n\nEntries are NOT erased as days pass. Past entries remain in plac
+ e indefinitely for future audit. Corrections and cancellations retain ev
+ ent identity\; no rolling date cutoff is permitted for this or any futur
+ e station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-1d63b603155ef66efd21363a23b733f75f081cbe@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260225T090000
+DTEND;TZID=Europe/Rome:20260225T160000
+SUMMARY:ITALIAN LANGUAGE I - CODA D'ESAME
+LOCATION:Economia - 109
+DESCRIPTION:Course code: A002221\nTeacher: LEWIS SIMON GRAHAM\nExam type:
+  CODA D'ESAME\nSource date: 25/02/2026\nBuilding: Economia\nRoom: 109\nD
+ uration: 07:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami
+ /\n\nEntries are NOT erased as days pass. Past entries remain in place i
+ ndefinitely for future audit. Corrections and cancellations retain event
+  identity\; no rolling date cutoff is permitted for this or any future s
+ tation.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-0de35d93f9e044d73cfd5e563f4067ff309fc201@codex
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260225T090000
+DTEND;TZID=Europe/Rome:20260225T160000
+SUMMARY:SCIENTIFIC ENGLISH - Exam
+LOCATION:
+DESCRIPTION:Course code: A002225\nTeacher: TAYLOR ANITA\nSource date: 25/
+ 02/2026\nDuration: 07:00\nSource: https://secure.unicatt.it/didatticaweb
+ 2/ps/esami/\n\nEntries are NOT erased as days pass. Past entries remain 
+ in place indefinitely for future audit. Corrections and cancellations re
+ tain event identity\; no rolling date cutoff is permitted for this or an
+ y future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-4cdb004d19cc8bae176dd5038cc6c71b0184fd36@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260226T090000
+DTEND;TZID=Europe/Rome:20260226T120000
+SUMMARY:THEOLOGY 1: INTRODUCTION TO CHRISTOLOGY AND SCRIPTURES - APPELLO 
+ D'ESAME
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: A002562\nTeacher: IODICE FABIO\nExam type: APPEL
+ LO D'ESAME\nSource date: 26/02/2026\nBuilding: Giovanni XXIII\nRoom: 2\n
+ Duration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esam
+ i/\n\nEntries are NOT erased as days pass. Past entries remain in place 
+ indefinitely for future audit. Corrections and cancellations retain even
+ t identity\; no rolling date cutoff is permitted for this or any future 
+ station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-3ba6d8ea0ccad34b890205dabf1edde4f404b35f@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260330T090000
+DTEND;TZID=Europe/Rome:20260330T160000
+SUMMARY:ITALIAN LANGUAGE I - APPELLO D'ESAME
+LOCATION:Economia - 108
+DESCRIPTION:Course code: A002221\nTeacher: LEWIS SIMON GRAHAM\nExam type:
+  APPELLO D'ESAME\nSource date: 30/03/2026\nBuilding: Economia\nRoom: 108
+ \nDuration: 07:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/es
+ ami/\n\nEntries are NOT erased as days pass. Past entries remain in plac
+ e indefinitely for future audit. Corrections and cancellations retain ev
+ ent identity\; no rolling date cutoff is permitted for this or any futur
+ e station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-1a4224111a1853ac7a17b17af43826826f695a6e@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260330T090000
+DTEND;TZID=Europe/Rome:20260330T160000
+SUMMARY:ITALIAN LANGUAGE I - CODA D'ESAME
+LOCATION:Economia - 109
+DESCRIPTION:Course code: A002221\nTeacher: LEWIS SIMON GRAHAM\nExam type:
+  CODA D'ESAME\nSource date: 30/03/2026\nBuilding: Economia\nRoom: 109\nD
+ uration: 07:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami
+ /\n\nEntries are NOT erased as days pass. Past entries remain in place i
+ ndefinitely for future audit. Corrections and cancellations retain event
+  identity\; no rolling date cutoff is permitted for this or any future s
+ tation.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-99b82a897fd1995a593419f220e2843d58240e10@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260330T140000
+DTEND;TZID=Europe/Rome:20260330T170000
+SUMMARY:SCIENTIFIC ENGLISH - APPELLO D'ESAME
+LOCATION:Giovanni XXIII - 1
+DESCRIPTION:Course code: A002225\nTeacher: TAYLOR ANITA\nExam type: APPEL
+ LO D'ESAME\nSource date: 30/03/2026\nBuilding: Giovanni XXIII\nRoom: 1\n
+ Duration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esam
+ i/\n\nEntries are NOT erased as days pass. Past entries remain in place 
+ indefinitely for future audit. Corrections and cancellations retain even
+ t identity\; no rolling date cutoff is permitted for this or any future 
+ station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-79daba6a33b8b90d16da1796cb0d1551ac253f05@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260401T090000
+DTEND;TZID=Europe/Rome:20260401T110000
+SUMMARY:BASIC SCIENCES - APPELLO D'ESAME
+LOCATION:Istituti Biologici - San Camillo
+DESCRIPTION:Course code: A001980\nTeacher: PAPI MASSIMILIANO\nExam type: 
+ APPELLO D'ESAME\nSource date: 01/04/2026\nBuilding: Istituti Biologici\n
+ Room: San Camillo\nDuration: 02:00\nSource: https://secure.unicatt.it/di
+ datticaweb2/ps/esami/\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-a0527b184ecfbe63e4f0f0f51a455748ea36e41b@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260401T110000
+DTEND;TZID=Europe/Rome:20260401T130000
+SUMMARY:BASIC SCIENCES - CODA D'ESAME
+LOCATION:Giovanni XXIII - 5
+DESCRIPTION:Course code: A001980\nTeacher: PAPI MASSIMILIANO\nExam type: 
+ CODA D'ESAME\nSource date: 01/04/2026\nBuilding: Giovanni XXIII\nRoom: 5
+ \nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/es
+ ami/\n\nEntries are NOT erased as days pass. Past entries remain in plac
+ e indefinitely for future audit. Corrections and cancellations retain ev
+ ent identity\; no rolling date cutoff is permitted for this or any futur
+ e station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-0946c5648d2e46843b1c128bb6a05dd65c4f91c5@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20260407T090000
+DTEND;TZID=Europe/Rome:20260407T110000
+SUMMARY:LIFE OF CELLS\, TISSUES AND MICROBES - APPELLO D'ESAME
+LOCATION:Giovanni XXIII - Laboratorio informatica
+DESCRIPTION:Course code: A002193\nTeacher: LATTANZI WANDA\nExam type: APP
+ ELLO D'ESAME\nSource date: 07/04/2026\nBuilding: Giovanni XXIII\nRoom: L
+ aboratorio informatica\nDuration: 02:00\nSource: https://secure.unicatt.
+ it/didatticaweb2/ps/esami/\n\nEntries are NOT erased as days pass. Past 
+ entries remain in place indefinitely for future audit. Corrections and c
+ ancellations retain event identity\; no rolling date cutoff is permitted
+  for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-a390e1adcbede0ae538e125d6249bca059693b4a@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20261027T083218Z
+SEQUENCE:2
+DTSTART;TZID=Europe/Rome:20260407T090000
+DTEND;TZID=Europe/Rome:20260407T110000
+SUMMARY:LIFE OF CELLS\, TISSUES AND MICROBES - APPELLO D'ESAME
+LOCATION:Istituti Biologici - San Camillo
+DESCRIPTION:Retained from previous UCSC calendar feed.\nSource kind: exam
+ \nSource record id: 121008245\nSource date: 07/04/2026\n\nCalendar persi
+ stence note: retained because the event is in the past and no longer app
+ ears in the upstream feed.\n\nCalendar reliability note: retained becaus
+ e the event is past and absent from the upstream snapshot.\n\nEntries ar
+ e NOT erased as days pass. Past entries remain in place indefinitely for
+  future audit. Corrections and cancellations retain event identity\; no 
+ rolling date cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-8600ca6566730f87de9fbdb69d7dcff32261d727@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260407T110000
+DTEND;TZID=Europe/Rome:20260407T130000
+SUMMARY:LIFE OF CELLS\, TISSUES AND MICROBES - CODA D'ESAME
+LOCATION:Giovanni XXIII - 5
+DESCRIPTION:Course code: A002193\nTeacher: LATTANZI WANDA\nExam type: COD
+ A D'ESAME\nSource date: 07/04/2026\nBuilding: Giovanni XXIII\nRoom: 5\nD
+ uration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami
+ /\n\nEntries are NOT erased as days pass. Past entries remain in place i
+ ndefinitely for future audit. Corrections and cancellations retain event
+  identity\; no rolling date cutoff is permitted for this or any future s
+ tation.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-0270d4c74f1cdc59b618ab179e86029e44569409@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260409T090000
+DTEND;TZID=Europe/Rome:20260409T110000
+SUMMARY:GENE REGULATION AND CELL METABOLISM - APPELLO D'ESAME
+LOCATION:Istituti Biologici - San Camillo
+DESCRIPTION:Course code: A002229\nTeacher: ARCOVITO ALESSANDRO\nExam type
+ : APPELLO D'ESAME\nSource date: 09/04/2026\nBuilding: Istituti Biologici
+ \nRoom: San Camillo\nDuration: 02:00\nSource: https://secure.unicatt.it/
+ didatticaweb2/ps/esami/\n\nEntries are NOT erased as days pass. Past ent
+ ries remain in place indefinitely for future audit. Corrections and canc
+ ellations retain event identity\; no rolling date cutoff is permitted fo
+ r this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-51b39f741be4cd68a5f3879da120743df5c5f7d0@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260409T110000
+DTEND;TZID=Europe/Rome:20260409T130000
+SUMMARY:GENE REGULATION AND CELL METABOLISM - CODA D'ESAME
+LOCATION:Giovanni XXIII - 5
+DESCRIPTION:Course code: A002229\nTeacher: ARCOVITO ALESSANDRO\nExam type
+ : CODA D'ESAME\nSource date: 09/04/2026\nBuilding: Giovanni XXIII\nRoom:
+  5\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/
+ esami/\n\nEntries are NOT erased as days pass. Past entries remain in pl
+ ace indefinitely for future audit. Corrections and cancellations retain 
+ event identity\; no rolling date cutoff is permitted for this or any fut
+ ure station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-ec06143c8515d609fbfb658a01b73224338824ba@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20260410T090000
+DTEND;TZID=Europe/Rome:20260410T120000
+SUMMARY:FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY (MSK/HEART/VASCULAR SYS
+ TEM) - APPELLO D'ESAME
+LOCATION:Giovanni XXIII - Laboratorio linguistico
+DESCRIPTION:Course code: A002232\nTeacher: TAMAGNONE LUCA\nExam type: APP
+ ELLO D'ESAME\nSource date: 10/04/2026\nBuilding: Giovanni XXIII\nRoom: L
+ aboratorio linguistico\nDuration: 03:00\nSource: https://secure.unicatt.
+ it/didatticaweb2/ps/esami/\n\nEntries are NOT erased as days pass. Past 
+ entries remain in place indefinitely for future audit. Corrections and c
+ ancellations retain event identity\; no rolling date cutoff is permitted
+  for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-08746d69a9afd370c402d1d70ca9d2d8ddd0c951@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260410T090000
+DTEND;TZID=Europe/Rome:20260410T120000
+SUMMARY:THEOLOGY 1: INTRODUCTION TO CHRISTOLOGY AND SCRIPTURES - APPELLO 
+ D'ESAME
+LOCATION:Giovanni XXIII - 5
+DESCRIPTION:Course code: A002562\nTeacher: IODICE FABIO\nExam type: APPEL
+ LO D'ESAME\nSource date: 10/04/2026\nBuilding: Giovanni XXIII\nRoom: 5\n
+ Duration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esam
+ i/\n\nEntries are NOT erased as days pass. Past entries remain in place 
+ indefinitely for future audit. Corrections and cancellations retain even
+ t identity\; no rolling date cutoff is permitted for this or any future 
+ station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-50dd302ad590aca154b93b65442e1144f0b682fc@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20261027T083218Z
+SEQUENCE:2
+DTSTART;TZID=Europe/Rome:20260410T110000
+DTEND;TZID=Europe/Rome:20260410T140000
+SUMMARY:FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY (MSK/HEART/VASCULAR SYS
+ TEM) - APPELLO D'ESAME
+LOCATION:Giovanni XXIII - Laboratorio informatica
+DESCRIPTION:Retained from previous UCSC calendar feed.\nSource kind: exam
+ \nSource record id: 121044838\nSource date: 10/04/2026\n\nCalendar persi
+ stence note: retained because the event is in the past and no longer app
+ ears in the upstream feed.\n\nCalendar reliability note: retained becaus
+ e the event is past and absent from the upstream snapshot.\n\nEntries ar
+ e NOT erased as days pass. Past entries remain in place indefinitely for
+  future audit. Corrections and cancellations retain event identity\; no 
+ rolling date cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-44b8b8a4ef117dec172c21b198f633828c8a5d05@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20261027T083218Z
+SEQUENCE:3
+DTSTART;TZID=Europe/Rome:20260616T090000
+DTEND;TZID=Europe/Rome:20260616T110000
+SUMMARY:BASIC SCIENCES - APPELLO D'ESAME
+LOCATION:Istituti Biologici - San Camillo
+DESCRIPTION:Course code: A001980\nTeacher: PAPI MASSIMILIANO\nExam type: 
+ APPELLO D'ESAME\nSource date: 16/06/2026\nBuilding: Istituti Biologici\n
+ Room: San Camillo\nDuration: 02:00\nSource: https://secure.unicatt.it/di
+ datticaweb2/ps/esami/\n\nCalendar persistence note: retained because the
+  event is in the past and no longer appears in the upstream feed.\n\nCal
+ endar reliability note: retained because the event is past and absent fr
+ om the upstream snapshot.\n\nEntries are NOT erased as days pass. Past e
+ ntries remain in place indefinitely for future audit. Corrections and ca
+ ncellations retain event identity\; no rolling date cutoff is permitted 
+ for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-e04cc7e83c2700ef5c18e4241a3cb6d7353a4a19@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260907T090601Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20260616T090000
+DTEND;TZID=Europe/Rome:20260616T130000
+SUMMARY:BASIC SCIENCES - APPELLO D'ESAME
+LOCATION:Istituti Biologici - San Camillo
+DESCRIPTION:Course code: A001980\nTeacher: PAPI MASSIMILIANO\nExam type: 
+ APPELLO D'ESAME\nSource date: 16/06/2026\nBuilding: Istituti Biologici\n
+ Room: San Camillo\nDuration: 04:00\nSource: https://secure.unicatt.it/di
+ datticaweb2/ps/esami/\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-689421de4ca7ad076eb4b62328632735b0cf9fb5@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20261027T083218Z
+SEQUENCE:3
+DTSTART;TZID=Europe/Rome:20260616T110000
+DTEND;TZID=Europe/Rome:20260616T130000
+SUMMARY:BASIC SCIENCES - CODA D'ESAME
+LOCATION:Giovanni XXIII - 5
+DESCRIPTION:Course code: A001980\nTeacher: PAPI MASSIMILIANO\nExam type: 
+ CODA D'ESAME\nSource date: 16/06/2026\nBuilding: Giovanni XXIII\nRoom: 5
+ \nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/es
+ ami/\n\nCalendar persistence note: retained because the event is in the 
+ past and no longer appears in the upstream feed.\n\nCalendar reliability
+  note: retained because the event is past and absent from the upstream s
+ napshot.\n\nEntries are NOT erased as days pass. Past entries remain in 
+ place indefinitely for future audit. Corrections and cancellations retai
+ n event identity\; no rolling date cutoff is permitted for this or any f
+ uture station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-e7a55df12f28421a90e6db8838e644bf8c2a8e8e@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260617T090000
+DTEND;TZID=Europe/Rome:20260617T110000
+SUMMARY:LIFE OF CELLS\, TISSUES AND MICROBES - APPELLO D'ESAME
+LOCATION:Istituti Biologici - San Camillo
+DESCRIPTION:Course code: A002193\nTeacher: LATTANZI WANDA\nExam type: APP
+ ELLO D'ESAME\nSource date: 17/06/2026\nBuilding: Istituti Biologici\nRoo
+ m: San Camillo\nDuration: 02:00\nSource: https://secure.unicatt.it/didat
+ ticaweb2/ps/esami/\n\nEntries are NOT erased as days pass. Past entries 
+ remain in place indefinitely for future audit. Corrections and cancellat
+ ions retain event identity\; no rolling date cutoff is permitted for thi
+ s or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-784bb0ad31c04c55417f12a1be61a63b156245c5@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260617T110000
+DTEND;TZID=Europe/Rome:20260617T130000
+SUMMARY:LIFE OF CELLS\, TISSUES AND MICROBES - CODA D'ESAME
+LOCATION:Istituti Biologici - San Camillo
+DESCRIPTION:Course code: A002193\nTeacher: LATTANZI WANDA\nExam type: COD
+ A D'ESAME\nSource date: 17/06/2026\nBuilding: Istituti Biologici\nRoom: 
+ San Camillo\nDuration: 02:00\nSource: https://secure.unicatt.it/didattic
+ aweb2/ps/esami/\n\nEntries are NOT erased as days pass. Past entries rem
+ ain in place indefinitely for future audit. Corrections and cancellation
+ s retain event identity\; no rolling date cutoff is permitted for this o
+ r any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-857fcd55a575ebc501052816ba746cf0755078fe@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20261027T083218Z
+SEQUENCE:4
+DTSTART;TZID=Europe/Rome:20260619T090000
+DTEND;TZID=Europe/Rome:20260619T130000
+SUMMARY:FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY (MSK/HEART/VASCULAR SYS
+ TEM) - APPELLO D'ESAME
+LOCATION:Giovanni XXIII - Laboratorio linguistico
+DESCRIPTION:Retained from previous UCSC calendar feed.\nSource kind: exam
+ \nSource record id: 121044816\nSource date: 19/06/2026\n\nCalendar persi
+ stence note: future event disappeared from the latest upstream feed\; re
+ tained as tentative pending the next successful snapshot.\n\nCalendar pe
+ rsistence note: future event disappeared from the upstream feed in repea
+ ted successful snapshots\; retained as cancelled until reviewed or repla
+ ced.\n\nCalendar persistence note: retained because the event is in the 
+ past and no longer appears in the upstream feed.\n\nCalendar reliability
+  note: retained because the event is past and absent from the upstream s
+ napshot.\n\nEntries are NOT erased as days pass. Past entries remain in 
+ place indefinitely for future audit. Corrections and cancellations retai
+ n event identity\; no rolling date cutoff is permitted for this or any f
+ uture station.
+STATUS:CANCELLED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-5c68e4c2006db57626fa596a9c1dc7009ef176e1@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20260619T113000
+DTEND;TZID=Europe/Rome:20260619T143000
+SUMMARY:FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY (MSK/HEART/VASCULAR SYS
+ TEM) - APPELLO D'ESAME
+LOCATION:Giovanni XXIII - 1
+DESCRIPTION:Course code: A002232\nTeacher: TAMAGNONE LUCA\nExam type: APP
+ ELLO D'ESAME\nSource date: 19/06/2026\nBuilding: Giovanni XXIII\nRoom: 1
+ \nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/es
+ ami/\n\nEntries are NOT erased as days pass. Past entries remain in plac
+ e indefinitely for future audit. Corrections and cancellations retain ev
+ ent identity\; no rolling date cutoff is permitted for this or any futur
+ e station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-1f4adce2c6f83d3d8924e4cd33e35f22d5f480b9@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260623T090000
+DTEND;TZID=Europe/Rome:20260623T160000
+SUMMARY:ITALIAN LANGUAGE I - APPELLO D'ESAME
+LOCATION:Economia - 109
+DESCRIPTION:Course code: A002221\nTeacher: LEWIS SIMON GRAHAM\nExam type:
+  APPELLO D'ESAME\nSource date: 23/06/2026\nBuilding: Economia\nRoom: 109
+ \nDuration: 07:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/es
+ ami/\n\nEntries are NOT erased as days pass. Past entries remain in plac
+ e indefinitely for future audit. Corrections and cancellations retain ev
+ ent identity\; no rolling date cutoff is permitted for this or any futur
+ e station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-d1fd599bd666e813c2b23a6217e1ca4189bba32b@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260623T090000
+DTEND;TZID=Europe/Rome:20260623T160000
+SUMMARY:ITALIAN LANGUAGE I - CODA D'ESAME
+LOCATION:Economia - 105
+DESCRIPTION:Course code: A002221\nTeacher: LEWIS SIMON GRAHAM\nExam type:
+  CODA D'ESAME\nSource date: 23/06/2026\nBuilding: Economia\nRoom: 105\nD
+ uration: 07:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami
+ /\n\nEntries are NOT erased as days pass. Past entries remain in place i
+ ndefinitely for future audit. Corrections and cancellations retain event
+  identity\; no rolling date cutoff is permitted for this or any future s
+ tation.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-aec48afec37f748761af8091ab5fb350b7abba7d@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260623T090000
+DTEND;TZID=Europe/Rome:20260623T160000
+SUMMARY:SCIENTIFIC ENGLISH - APPELLO D'ESAME
+LOCATION:Istituti Biologici - San Camillo
+DESCRIPTION:Course code: A002225\nTeacher: TAYLOR ANITA\nExam type: APPEL
+ LO D'ESAME\nSource date: 23/06/2026\nBuilding: Istituti Biologici\nRoom:
+  San Camillo\nDuration: 07:00\nSource: https://secure.unicatt.it/didatti
+ caweb2/ps/esami/\n\nEntries are NOT erased as days pass. Past entries re
+ main in place indefinitely for future audit. Corrections and cancellatio
+ ns retain event identity\; no rolling date cutoff is permitted for this 
+ or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-416ed0ecc9f748a5e6441e23630cefe710bdd8e3@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260907T090601Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20260623T110000
+DTEND;TZID=Europe/Rome:20260623T150000
+SUMMARY:GENE REGULATION AND CELL METABOLISM - APPELLO D'ESAME
+LOCATION:Giovanni XXIII - Laboratorio linguistico
+DESCRIPTION:Course code: A002229\nTeacher: ARCOVITO ALESSANDRO\nExam type
+ : APPELLO D'ESAME\nSource date: 23/06/2026\nBuilding: Giovanni XXIII\nRo
+ om: Laboratorio linguistico\nDuration: 04:00\nSource: https://secure.uni
+ catt.it/didatticaweb2/ps/esami/\n\nEntries are NOT erased as days pass. 
+ Past entries remain in place indefinitely for future audit. Corrections 
+ and cancellations retain event identity\; no rolling date cutoff is perm
+ itted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-9f257aee9664e1b1a9bb7546822b395bca5e4b8e@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20261027T083218Z
+SEQUENCE:3
+DTSTART;TZID=Europe/Rome:20260623T110000
+DTEND;TZID=Europe/Rome:20260623T150000
+SUMMARY:GENE REGULATION AND CELL METABOLISM - APPELLO D'ESAME
+LOCATION:Giovanni XXIII - Laboratorio informatica
+DESCRIPTION:Course code: A002229\nTeacher: ARCOVITO ALESSANDRO\nExam type
+ : APPELLO D'ESAME\nSource date: 23/06/2026\nBuilding: Giovanni XXIII\nRo
+ om: Laboratorio informatica\nDuration: 04:00\nSource: https://secure.uni
+ catt.it/didatticaweb2/ps/esami/\n\nCalendar persistence note: retained b
+ ecause the event is in the past and no longer appears in the upstream fe
+ ed.\n\nCalendar reliability note: retained because the event is past and
+  absent from the upstream snapshot.\n\nEntries are NOT erased as days pa
+ ss. Past entries remain in place indefinitely for future audit. Correcti
+ ons and cancellations retain event identity\; no rolling date cutoff is 
+ permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-e5aab41e0c1b657ea197350cbeddf6d0f7df4ced@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260907T090601Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20260623T110000
+DTEND;TZID=Europe/Rome:20260623T150000
+SUMMARY:GENE REGULATION AND CELL METABOLISM - APPELLO D'ESAME
+LOCATION:Giovanni XXIII - Laboratorio informatica
+DESCRIPTION:Course code: A002229\nTeacher: ARCOVITO ALESSANDRO\nExam type
+ : APPELLO D'ESAME\nSource date: 23/06/2026\nBuilding: Giovanni XXIII\nRo
+ om: Laboratorio informatica\nDuration: 04:00\nSource: https://secure.uni
+ catt.it/didatticaweb2/ps/esami/\n\nEntries are NOT erased as days pass. 
+ Past entries remain in place indefinitely for future audit. Corrections 
+ and cancellations retain event identity\; no rolling date cutoff is perm
+ itted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-ba6cb94f2b28fd28868bfb30d46fcc11bc7fee2d@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20261027T083218Z
+SEQUENCE:3
+DTSTART;TZID=Europe/Rome:20260623T110000
+DTEND;TZID=Europe/Rome:20260623T150000
+SUMMARY:GENE REGULATION AND CELL METABOLISM - CODA D'ESAME
+LOCATION:Giovanni XXIII - 5
+DESCRIPTION:Course code: A002229\nTeacher: ARCOVITO ALESSANDRO\nExam type
+ : CODA D'ESAME\nSource date: 23/06/2026\nBuilding: Giovanni XXIII\nRoom:
+  5\nDuration: 04:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/
+ esami/\n\nCalendar persistence note: retained because the event is in th
+ e past and no longer appears in the upstream feed.\n\nCalendar reliabili
+ ty note: retained because the event is past and absent from the upstream
+  snapshot.\n\nEntries are NOT erased as days pass. Past entries remain i
+ n place indefinitely for future audit. Corrections and cancellations ret
+ ain event identity\; no rolling date cutoff is permitted for this or any
+  future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-0bd89c5df7bd9b36c75de4ed60ef80442a7246bb@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260907T090601Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20260623T120000
+DTEND;TZID=Europe/Rome:20260623T160000
+SUMMARY:GENE REGULATION AND CELL METABOLISM - CODA D'ESAME
+LOCATION:Giovanni XXIII - 5
+DESCRIPTION:Course code: A002229\nTeacher: ARCOVITO ALESSANDRO\nExam type
+ : CODA D'ESAME\nSource date: 23/06/2026\nBuilding: Giovanni XXIII\nRoom:
+  5\nDuration: 04:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/
+ esami/\n\nEntries are NOT erased as days pass. Past entries remain in pl
+ ace indefinitely for future audit. Corrections and cancellations retain 
+ event identity\; no rolling date cutoff is permitted for this or any fut
+ ure station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-54d1bde4d37dd340e94d4bcef9878b15679723a2@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260630T090000
+DTEND;TZID=Europe/Rome:20260630T110000
+SUMMARY:BASIC SCIENCES - APPELLO D'ESAME
+LOCATION:Istituti Biologici - San Camillo
+DESCRIPTION:Course code: A001980\nTeacher: PAPI MASSIMILIANO\nExam type: 
+ APPELLO D'ESAME\nSource date: 30/06/2026\nBuilding: Istituti Biologici\n
+ Room: San Camillo\nDuration: 02:00\nSource: https://secure.unicatt.it/di
+ datticaweb2/ps/esami/\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-d31cec98d673a4f9f724c49720257884dae21112@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260630T110000
+DTEND;TZID=Europe/Rome:20260630T130000
+SUMMARY:BASIC SCIENCES - CODA D'ESAME
+LOCATION:Giovanni XXIII - 5
+DESCRIPTION:Course code: A001980\nTeacher: PAPI MASSIMILIANO\nExam type: 
+ CODA D'ESAME\nSource date: 30/06/2026\nBuilding: Giovanni XXIII\nRoom: 5
+ \nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/es
+ ami/\n\nEntries are NOT erased as days pass. Past entries remain in plac
+ e indefinitely for future audit. Corrections and cancellations retain ev
+ ent identity\; no rolling date cutoff is permitted for this or any futur
+ e station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-5d6c241110a6f10c25d5ea9f8e0acd69ad5aa83f@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260701T090000
+DTEND;TZID=Europe/Rome:20260701T120000
+SUMMARY:THEOLOGY 1: INTRODUCTION TO CHRISTOLOGY AND SCRIPTURES - APPELLO 
+ D'ESAME
+LOCATION:Giovanni XXIII - 5
+DESCRIPTION:Course code: A002562\nTeacher: IODICE FABIO\nExam type: APPEL
+ LO D'ESAME\nSource date: 01/07/2026\nBuilding: Giovanni XXIII\nRoom: 5\n
+ Duration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esam
+ i/\n\nEntries are NOT erased as days pass. Past entries remain in place 
+ indefinitely for future audit. Corrections and cancellations retain even
+ t identity\; no rolling date cutoff is permitted for this or any future 
+ station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-cab404b935cc70e8aef5c90f37271dc42b616d7e@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260907T090601Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20260707T090000
+DTEND;TZID=Europe/Rome:20260707T160000
+SUMMARY:ITALIAN LANGUAGE I - APPELLO D'ESAME
+LOCATION:Giovanni XXIII - 5
+DESCRIPTION:Course code: A002221\nTeacher: LEWIS SIMON GRAHAM\nExam type:
+  APPELLO D'ESAME\nSource date: 07/07/2026\nBuilding: Giovanni XXIII\nRoo
+ m: 5\nDuration: 07:00\nSource: https://secure.unicatt.it/didatticaweb2/p
+ s/esami/\n\nEntries are NOT erased as days pass. Past entries remain in 
+ place indefinitely for future audit. Corrections and cancellations retai
+ n event identity\; no rolling date cutoff is permitted for this or any f
+ uture station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-d46ea80036289c9eec36d911ad1a24e20d264db5@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20261027T083218Z
+SEQUENCE:3
+DTSTART;TZID=Europe/Rome:20260707T090000
+DTEND;TZID=Europe/Rome:20260707T160000
+SUMMARY:ITALIAN LANGUAGE I - APPELLO D'ESAME
+LOCATION:Economia - 109
+DESCRIPTION:Course code: A002221\nTeacher: LEWIS SIMON GRAHAM\nExam type:
+  APPELLO D'ESAME\nSource date: 07/07/2026\nBuilding: Economia\nRoom: 109
+ \nDuration: 07:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/es
+ ami/\n\nCalendar persistence note: retained because the event is in the 
+ past and no longer appears in the upstream feed.\n\nCalendar reliability
+  note: retained because the event is past and absent from the upstream s
+ napshot.\n\nEntries are NOT erased as days pass. Past entries remain in 
+ place indefinitely for future audit. Corrections and cancellations retai
+ n event identity\; no rolling date cutoff is permitted for this or any f
+ uture station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-9220f4b19fc83feec8cdfefda4169fdd964bb75e@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260707T090000
+DTEND;TZID=Europe/Rome:20260707T160000
+SUMMARY:ITALIAN LANGUAGE I - CODA D'ESAME
+LOCATION:Economia - 105
+DESCRIPTION:Course code: A002221\nTeacher: LEWIS SIMON GRAHAM\nExam type:
+  CODA D'ESAME\nSource date: 07/07/2026\nBuilding: Economia\nRoom: 105\nD
+ uration: 07:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami
+ /\n\nEntries are NOT erased as days pass. Past entries remain in place i
+ ndefinitely for future audit. Corrections and cancellations retain event
+  identity\; no rolling date cutoff is permitted for this or any future s
+ tation.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-730d3e968061539adf149a4f8aa123b771e9d178@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260707T090000
+DTEND;TZID=Europe/Rome:20260707T160000
+SUMMARY:SCIENTIFIC ENGLISH - APPELLO D'ESAME
+LOCATION:Giovanni XXIII - 1
+DESCRIPTION:Course code: A002225\nTeacher: TAYLOR ANITA\nExam type: APPEL
+ LO D'ESAME\nSource date: 07/07/2026\nBuilding: Giovanni XXIII\nRoom: 1\n
+ Duration: 07:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esam
+ i/\n\nEntries are NOT erased as days pass. Past entries remain in place 
+ indefinitely for future audit. Corrections and cancellations retain even
+ t identity\; no rolling date cutoff is permitted for this or any future 
+ station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-f1708b13d947cc57a32a73d3bab718da6af7f2a8@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260709T090000
+DTEND;TZID=Europe/Rome:20260709T110000
+SUMMARY:LIFE OF CELLS\, TISSUES AND MICROBES - APPELLO D'ESAME
+LOCATION:Istituti Biologici - San Camillo
+DESCRIPTION:Course code: A002193\nTeacher: LATTANZI WANDA\nExam type: APP
+ ELLO D'ESAME\nSource date: 09/07/2026\nBuilding: Istituti Biologici\nRoo
+ m: San Camillo\nDuration: 02:00\nSource: https://secure.unicatt.it/didat
+ ticaweb2/ps/esami/\n\nEntries are NOT erased as days pass. Past entries 
+ remain in place indefinitely for future audit. Corrections and cancellat
+ ions retain event identity\; no rolling date cutoff is permitted for thi
+ s or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-1cc06423b2bac30c04abf928276049e7a4f26f82@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260709T110000
+DTEND;TZID=Europe/Rome:20260709T130000
+SUMMARY:LIFE OF CELLS\, TISSUES AND MICROBES - CODA D'ESAME
+LOCATION:Giovanni XXIII - 5
+DESCRIPTION:Course code: A002193\nTeacher: LATTANZI WANDA\nExam type: COD
+ A D'ESAME\nSource date: 09/07/2026\nBuilding: Giovanni XXIII\nRoom: 5\nD
+ uration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami
+ /\n\nEntries are NOT erased as days pass. Past entries remain in place i
+ ndefinitely for future audit. Corrections and cancellations retain event
+  identity\; no rolling date cutoff is permitted for this or any future s
+ tation.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-8921c1c58cd860a2edfa38b2ca5618487eb92225@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260713T090000
+DTEND;TZID=Europe/Rome:20260713T130000
+SUMMARY:FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY (MSK/HEART/VASCULAR SYS
+ TEM) - APPELLO D'ESAME
+LOCATION:Istituti Biologici - San Camillo
+DESCRIPTION:Course code: A002232\nTeacher: TAMAGNONE LUCA\nExam type: APP
+ ELLO D'ESAME\nSource date: 13/07/2026\nBuilding: Istituti Biologici\nRoo
+ m: San Camillo\nDuration: 04:00\nSource: https://secure.unicatt.it/didat
+ ticaweb2/ps/esami/\n\nEntries are NOT erased as days pass. Past entries 
+ remain in place indefinitely for future audit. Corrections and cancellat
+ ions retain event identity\; no rolling date cutoff is permitted for thi
+ s or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-b4caabf89d9a01cbbb1d811fbb7dfa3e40a41a5b@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260714T090000
+DTEND;TZID=Europe/Rome:20260714T110000
+SUMMARY:GENE REGULATION AND CELL METABOLISM - APPELLO D'ESAME
+LOCATION:Istituti Biologici - San Camillo
+DESCRIPTION:Course code: A002229\nTeacher: ARCOVITO ALESSANDRO\nExam type
+ : APPELLO D'ESAME\nSource date: 14/07/2026\nBuilding: Istituti Biologici
+ \nRoom: San Camillo\nDuration: 02:00\nSource: https://secure.unicatt.it/
+ didatticaweb2/ps/esami/\n\nEntries are NOT erased as days pass. Past ent
+ ries remain in place indefinitely for future audit. Corrections and canc
+ ellations retain event identity\; no rolling date cutoff is permitted fo
+ r this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-5e68d370d7ed707ce656857ee507e0d360b34e0b@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260714T110000
+DTEND;TZID=Europe/Rome:20260714T130000
+SUMMARY:GENE REGULATION AND CELL METABOLISM - CODA D'ESAME
+LOCATION:Giovanni XXIII - 5
+DESCRIPTION:Course code: A002229\nTeacher: ARCOVITO ALESSANDRO\nExam type
+ : CODA D'ESAME\nSource date: 14/07/2026\nBuilding: Giovanni XXIII\nRoom:
+  5\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/
+ esami/\n\nEntries are NOT erased as days pass. Past entries remain in pl
+ ace indefinitely for future audit. Corrections and cancellations retain 
+ event identity\; no rolling date cutoff is permitted for this or any fut
+ ure station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-1bf8726442477e46e94352bee3a1868564aa7c6f@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260716T090000
+DTEND;TZID=Europe/Rome:20260716T120000
+SUMMARY:THEOLOGY 1: INTRODUCTION TO CHRISTOLOGY AND SCRIPTURES - APPELLO 
+ D'ESAME
+LOCATION:Giovanni XXIII - 5
+DESCRIPTION:Course code: A002562\nTeacher: IODICE FABIO\nExam type: APPEL
+ LO D'ESAME\nSource date: 16/07/2026\nBuilding: Giovanni XXIII\nRoom: 5\n
+ Duration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esam
+ i/\n\nEntries are NOT erased as days pass. Past entries remain in place 
+ indefinitely for future audit. Corrections and cancellations retain even
+ t identity\; no rolling date cutoff is permitted for this or any future 
+ station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-9376109bc21020b76a4736e8b2e7bf444548a22e@codex
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260907T090601Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20260717T070000
+DTEND;TZID=Europe/Rome:20260717T080000
+SUMMARY:INTERNSHIP IN HUMAN ANATOMY: SPINAL MUSCULAR ATROPHY - Exam
+LOCATION:
+DESCRIPTION:Course code: ML000212\nTeacher: PAGLIARINI VITTORIA\nSource d
+ ate: 17/07/2026\nDuration: 01:00\nSource: https://secure.unicatt.it/dida
+ tticaweb2/ps/esami/\n\nEntries are NOT erased as days pass. Past entries
+  remain in place indefinitely for future audit. Corrections and cancella
+ tions retain event identity\; no rolling date cutoff is permitted for th
+ is or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-3ac9a6595ec897a578fd8ba2ed337dfd9d7221a9@codex
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260907T090601Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20260717T080000
+DTEND;TZID=Europe/Rome:20260717T090000
+SUMMARY:INTERNSHIP IN PHYSICS - Exam
+LOCATION:
+DESCRIPTION:Course code: ML000135\nTeacher: PAPI MASSIMILIANO\nSource dat
+ e: 17/07/2026\nDuration: 01:00\nSource: https://secure.unicatt.it/didatt
+ icaweb2/ps/esami/\n\nEntries are NOT erased as days pass. Past entries r
+ emain in place indefinitely for future audit. Corrections and cancellati
+ ons retain event identity\; no rolling date cutoff is permitted for this
+  or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-66600069d1a4a8dc4e8b0de3d3c151d516c63b38@codex
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260907T090601Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20260717T080000
+DTEND;TZID=Europe/Rome:20260717T090000
+SUMMARY:LABORATORY OF PHYSICS APPLIED TO MEDICINE - Exam
+LOCATION:
+DESCRIPTION:Course code: A002757\nTeacher: PERINI GIORDANO\nSource date: 
+ 17/07/2026\nDuration: 01:00\nSource: https://secure.unicatt.it/didattica
+ web2/ps/esami/\n\nEntries are NOT erased as days pass. Past entries rema
+ in in place indefinitely for future audit. Corrections and cancellations
+  retain event identity\; no rolling date cutoff is permitted for this or
+  any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-3c0b44d07eb1bd8c2ac02b78012dcc76f58705aa@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260907T090601Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20260831T143000
+DTEND;TZID=Europe/Rome:20260831T183000
+SUMMARY:FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY (MSK/HEART/VASCULAR SYS
+ TEM) - PRE ESAME
+LOCATION:Istituti Biologici - Pasteur
+DESCRIPTION:Course code: A002232\nTeacher: TAMAGNONE LUCA\nExam type: PRE
+  ESAME\nSource date: 31/08/2026\nBuilding: Istituti Biologici\nRoom: Pas
+ teur\nDuration: 04:00\nSource: https://secure.unicatt.it/didatticaweb2/p
+ s/esami/\n\nEntries are NOT erased as days pass. Past entries remain in 
+ place indefinitely for future audit. Corrections and cancellations retai
+ n event identity\; no rolling date cutoff is permitted for this or any f
+ uture station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-7028fcdc60f4499c28f4b8a43d1f0d60f1d0abb2@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260901T090000
+DTEND;TZID=Europe/Rome:20260901T130000
+SUMMARY:FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY (MSK/HEART/VASCULAR SYS
+ TEM) - APPELLO D'ESAME
+LOCATION:Giovanni XXIII - Laboratorio informatica
+DESCRIPTION:Course code: A002232\nTeacher: TAMAGNONE LUCA\nExam type: APP
+ ELLO D'ESAME\nSource date: 01/09/2026\nBuilding: Giovanni XXIII\nRoom: L
+ aboratorio informatica\nDuration: 04:00\nSource: https://secure.unicatt.
+ it/didatticaweb2/ps/esami/\n\nEntries are NOT erased as days pass. Past 
+ entries remain in place indefinitely for future audit. Corrections and c
+ ancellations retain event identity\; no rolling date cutoff is permitted
+  for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-d729383d8798d4bf6b47f375734816838313c53b@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260901T090000
+DTEND;TZID=Europe/Rome:20260901T120000
+SUMMARY:THEOLOGY 1: INTRODUCTION TO CHRISTOLOGY AND SCRIPTURES - APPELLO 
+ D'ESAME
+LOCATION:Giovanni XXIII - 5
+DESCRIPTION:Course code: A002562\nTeacher: IODICE FABIO\nExam type: APPEL
+ LO D'ESAME\nSource date: 01/09/2026\nBuilding: Giovanni XXIII\nRoom: 5\n
+ Duration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esam
+ i/\n\nEntries are NOT erased as days pass. Past entries remain in place 
+ indefinitely for future audit. Corrections and cancellations retain even
+ t identity\; no rolling date cutoff is permitted for this or any future 
+ station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-640998640b45e506d01903fa38daaaf7d2def06d@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260903T090000
+DTEND;TZID=Europe/Rome:20260903T110000
+SUMMARY:LIFE OF CELLS\, TISSUES AND MICROBES - APPELLO D'ESAME
+LOCATION:Istituti Biologici - San Camillo
+DESCRIPTION:Course code: A002193\nTeacher: LATTANZI WANDA\nExam type: APP
+ ELLO D'ESAME\nSource date: 03/09/2026\nBuilding: Istituti Biologici\nRoo
+ m: San Camillo\nDuration: 02:00\nSource: https://secure.unicatt.it/didat
+ ticaweb2/ps/esami/\n\nEntries are NOT erased as days pass. Past entries 
+ remain in place indefinitely for future audit. Corrections and cancellat
+ ions retain event identity\; no rolling date cutoff is permitted for thi
+ s or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-ca9645ab7f810e4a7ad6621d1485d7c7d9247718@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260903T110000
+DTEND;TZID=Europe/Rome:20260903T130000
+SUMMARY:LIFE OF CELLS\, TISSUES AND MICROBES - CODA D'ESAME
+LOCATION:Giovanni XXIII - 5
+DESCRIPTION:Course code: A002193\nTeacher: LATTANZI WANDA\nExam type: COD
+ A D'ESAME\nSource date: 03/09/2026\nBuilding: Giovanni XXIII\nRoom: 5\nD
+ uration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami
+ /\n\nEntries are NOT erased as days pass. Past entries remain in place i
+ ndefinitely for future audit. Corrections and cancellations retain event
+  identity\; no rolling date cutoff is permitted for this or any future s
+ tation.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-a6a59befd0355d8e0612ceeb1567cb50055c51c4@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260908T090000
+DTEND;TZID=Europe/Rome:20260908T110000
+SUMMARY:GENE REGULATION AND CELL METABOLISM - APPELLO D'ESAME
+LOCATION:Istituti Biologici - San Camillo
+DESCRIPTION:Course code: A002229\nTeacher: ARCOVITO ALESSANDRO\nExam type
+ : APPELLO D'ESAME\nSource date: 08/09/2026\nBuilding: Istituti Biologici
+ \nRoom: San Camillo\nDuration: 02:00\nSource: https://secure.unicatt.it/
+ didatticaweb2/ps/esami/\n\nEntries are NOT erased as days pass. Past ent
+ ries remain in place indefinitely for future audit. Corrections and canc
+ ellations retain event identity\; no rolling date cutoff is permitted fo
+ r this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-3523e010ca977af85b61d79d6936603745124a16@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260908T090000
+DTEND;TZID=Europe/Rome:20260908T160000
+SUMMARY:ITALIAN LANGUAGE I - APPELLO D'ESAME
+LOCATION:Economia - 109
+DESCRIPTION:Course code: A002221\nTeacher: LEWIS SIMON GRAHAM\nExam type:
+  APPELLO D'ESAME\nSource date: 08/09/2026\nBuilding: Economia\nRoom: 109
+ \nDuration: 07:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/es
+ ami/\n\nEntries are NOT erased as days pass. Past entries remain in plac
+ e indefinitely for future audit. Corrections and cancellations retain ev
+ ent identity\; no rolling date cutoff is permitted for this or any futur
+ e station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-d6dc373cc2936cc8b418a5be473e6881e32bc949@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260908T090000
+DTEND;TZID=Europe/Rome:20260908T160000
+SUMMARY:ITALIAN LANGUAGE I - CODA D'ESAME
+LOCATION:Economia - 102
+DESCRIPTION:Course code: A002221\nTeacher: LEWIS SIMON GRAHAM\nExam type:
+  CODA D'ESAME\nSource date: 08/09/2026\nBuilding: Economia\nRoom: 102\nD
+ uration: 07:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami
+ /\n\nEntries are NOT erased as days pass. Past entries remain in place i
+ ndefinitely for future audit. Corrections and cancellations retain event
+  identity\; no rolling date cutoff is permitted for this or any future s
+ tation.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-5ffcbc6408eda3b2e8df9bc70f79b12527e2a041@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260908T090000
+DTEND;TZID=Europe/Rome:20260908T160000
+SUMMARY:SCIENTIFIC ENGLISH - APPELLO D'ESAME
+LOCATION:Giovanni XXIII - Laboratorio linguistico
+DESCRIPTION:Course code: A002225\nTeacher: TAYLOR ANITA\nExam type: APPEL
+ LO D'ESAME\nSource date: 08/09/2026\nBuilding: Giovanni XXIII\nRoom: Lab
+ oratorio linguistico\nDuration: 07:00\nSource: https://secure.unicatt.it
+ /didatticaweb2/ps/esami/\n\nEntries are NOT erased as days pass. Past en
+ tries remain in place indefinitely for future audit. Corrections and can
+ cellations retain event identity\; no rolling date cutoff is permitted f
+ or this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-67f6342e333db5e5e9adb83815e84c4602067b6d@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260908T110000
+DTEND;TZID=Europe/Rome:20260908T130000
+SUMMARY:GENE REGULATION AND CELL METABOLISM - CODA D'ESAME
+LOCATION:Giovanni XXIII - 5
+DESCRIPTION:Course code: A002229\nTeacher: ARCOVITO ALESSANDRO\nExam type
+ : CODA D'ESAME\nSource date: 08/09/2026\nBuilding: Giovanni XXIII\nRoom:
+  5\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/
+ esami/\n\nEntries are NOT erased as days pass. Past entries remain in pl
+ ace indefinitely for future audit. Corrections and cancellations retain 
+ event identity\; no rolling date cutoff is permitted for this or any fut
+ ure station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-292a3121c7795160dffef6b6fbb673553077d663@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260909T090000
+DTEND;TZID=Europe/Rome:20260909T110000
+SUMMARY:BASIC SCIENCES - APPELLO D'ESAME
+LOCATION:Istituti Biologici - San Camillo
+DESCRIPTION:Course code: A001980\nTeacher: PAPI MASSIMILIANO\nExam type: 
+ APPELLO D'ESAME\nSource date: 09/09/2026\nBuilding: Istituti Biologici\n
+ Room: San Camillo\nDuration: 02:00\nSource: https://secure.unicatt.it/di
+ datticaweb2/ps/esami/\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-ecc3a63ff57f62e6adf2c9dbd32dae822b04f9eb@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260909T110000
+DTEND;TZID=Europe/Rome:20260909T130000
+SUMMARY:BASIC SCIENCES - CODA D'ESAME
+LOCATION:Istituti Biologici - San Camillo
+DESCRIPTION:Course code: A001980\nTeacher: PAPI MASSIMILIANO\nExam type: 
+ CODA D'ESAME\nSource date: 09/09/2026\nBuilding: Istituti Biologici\nRoo
+ m: San Camillo\nDuration: 02:00\nSource: https://secure.unicatt.it/didat
+ ticaweb2/ps/esami/\n\nEntries are NOT erased as days pass. Past entries 
+ remain in place indefinitely for future audit. Corrections and cancellat
+ ions retain event identity\; no rolling date cutoff is permitted for thi
+ s or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-0e601091dcb00c57240798b7e220ffb2ea1aa080@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20261027T083218Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20260914T090000
+DTEND;TZID=Europe/Rome:20260914T180000
+SUMMARY:FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY (MSK/HEART/VASCULAR SYS
+ TEM) - PRE ESAME
+LOCATION:Istituti Biologici - Pasteur
+DESCRIPTION:Course code: A002232\nTeacher: TAMAGNONE LUCA\nExam type: PRE
+  ESAME\nSource date: 14/09/2026\nBuilding: Istituti Biologici\nRoom: Pas
+ teur\nDuration: 09:00\nSource: https://secure.unicatt.it/didatticaweb2/p
+ s/esami/\n\nEntries are NOT erased as days pass. Past entries remain in 
+ place indefinitely for future audit. Corrections and cancellations retai
+ n event identity\; no rolling date cutoff is permitted for this or any f
+ uture station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-380adb1a62c4f7764b702450f1db48e8579365e5@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20261027T083218Z
+SEQUENCE:2
+DTSTART;TZID=Europe/Rome:20260915T090000
+DTEND;TZID=Europe/Rome:20260915T130000
+SUMMARY:FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY (MSK/HEART/VASCULAR SYS
+ TEM) - APPELLO D'ESAME
+LOCATION:Giovanni XXIII - Laboratorio informatica
+DESCRIPTION:Course code: A002232\nTeacher: TAMAGNONE LUCA\nExam type: APP
+ ELLO D'ESAME\nSource date: 15/09/2026\nBuilding: Giovanni XXIII\nRoom: L
+ aboratorio informatica\nDuration: 04:00\nSource: https://secure.unicatt.
+ it/didatticaweb2/ps/esami/\n\nCalendar reliability note: retained becaus
+ e the event is past and absent from the upstream snapshot.\n\nEntries ar
+ e NOT erased as days pass. Past entries remain in place indefinitely for
+  future audit. Corrections and cancellations retain event identity\; no 
+ rolling date cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-4c29eafaad406a75c601c15889f5f8d563ecb010@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20261027T083218Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260915T090000
+DTEND;TZID=Europe/Rome:20260915T180000
+SUMMARY:FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY (MSK/HEART/VASCULAR SYS
+ TEM) - PRE ESAME
+LOCATION:Istituti Biologici - Pasteur
+DESCRIPTION:Course code: A002232\nTeacher: TAMAGNONE LUCA\nExam type: PRE
+  ESAME\nSource date: 15/09/2026\nBuilding: Istituti Biologici\nRoom: Pas
+ teur\nDuration: 09:00\nSource: https://secure.unicatt.it/didatticaweb2/p
+ s/esami/\n\nCalendar reliability note: retained because the event is pas
+ t and absent from the upstream snapshot.\n\nEntries are NOT erased as da
+ ys pass. Past entries remain in place indefinitely for future audit. Cor
+ rections and cancellations retain event identity\; no rolling date cutof
+ f is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-145fa1c47af1eb78b614f51eaad60991c198f834@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20261027T083218Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20260915T110000
+DTEND;TZID=Europe/Rome:20260915T130000
+SUMMARY:FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY (MSK/HEART/VASCULAR SYS
+ TEM) - APPELLO D'ESAME
+LOCATION:Giovanni XXIII - Laboratorio linguistico
+DESCRIPTION:Course code: A002232\nTeacher: TAMAGNONE LUCA\nExam type: APP
+ ELLO D'ESAME\nSource date: 15/09/2026\nBuilding: Giovanni XXIII\nRoom: L
+ aboratorio linguistico\nDuration: 02:00\nSource: https://secure.unicatt.
+ it/didatticaweb2/ps/esami/\n\nEntries are NOT erased as days pass. Past 
+ entries remain in place indefinitely for future audit. Corrections and c
+ ancellations retain event identity\; no rolling date cutoff is permitted
+  for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-65a4956bcd3bd0e22d36f31f7b68c22a8dcea421@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20261027T083218Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20260915T110000
+DTEND;TZID=Europe/Rome:20260915T130000
+SUMMARY:FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY (MSK/HEART/VASCULAR SYS
+ TEM) - APPELLO D'ESAME
+LOCATION:Giovanni XXIII - Laboratorio informatica
+DESCRIPTION:Course code: A002232\nTeacher: TAMAGNONE LUCA\nExam type: APP
+ ELLO D'ESAME\nSource date: 15/09/2026\nBuilding: Giovanni XXIII\nRoom: L
+ aboratorio informatica\nDuration: 02:00\nSource: https://secure.unicatt.
+ it/didatticaweb2/ps/esami/\n\nEntries are NOT erased as days pass. Past 
+ entries remain in place indefinitely for future audit. Corrections and c
+ ancellations retain event identity\; no rolling date cutoff is permitted
+  for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-4c72040d637e05a1b81a99ff1b8114454144f53c@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260917T090000
+DTEND;TZID=Europe/Rome:20260917T110000
+SUMMARY:LIFE OF CELLS\, TISSUES AND MICROBES - APPELLO D'ESAME
+LOCATION:Istituti Biologici - San Camillo
+DESCRIPTION:Course code: A002193\nTeacher: LATTANZI WANDA\nExam type: APP
+ ELLO D'ESAME\nSource date: 17/09/2026\nBuilding: Istituti Biologici\nRoo
+ m: San Camillo\nDuration: 02:00\nSource: https://secure.unicatt.it/didat
+ ticaweb2/ps/esami/\n\nEntries are NOT erased as days pass. Past entries 
+ remain in place indefinitely for future audit. Corrections and cancellat
+ ions retain event identity\; no rolling date cutoff is permitted for thi
+ s or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-f892a5f6a541d2ef77836118700119436a2c2246@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260917T110000
+DTEND;TZID=Europe/Rome:20260917T130000
+SUMMARY:LIFE OF CELLS\, TISSUES AND MICROBES - APPELLO D'ESAME
+LOCATION:Giovanni XXIII - 5
+DESCRIPTION:Course code: A002193\nTeacher: LATTANZI WANDA\nExam type: APP
+ ELLO D'ESAME\nSource date: 17/09/2026\nBuilding: Giovanni XXIII\nRoom: 5
+ \nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/es
+ ami/\n\nEntries are NOT erased as days pass. Past entries remain in plac
+ e indefinitely for future audit. Corrections and cancellations retain ev
+ ent identity\; no rolling date cutoff is permitted for this or any futur
+ e station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-4792cc1569a69850ce59c31cb5b59632db82a1f2@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260922T090000
+DTEND;TZID=Europe/Rome:20260922T110000
+SUMMARY:GENE REGULATION AND CELL METABOLISM - APPELLO D'ESAME
+LOCATION:Istituti Biologici - San Camillo
+DESCRIPTION:Course code: A002229\nTeacher: ARCOVITO ALESSANDRO\nExam type
+ : APPELLO D'ESAME\nSource date: 22/09/2026\nBuilding: Istituti Biologici
+ \nRoom: San Camillo\nDuration: 02:00\nSource: https://secure.unicatt.it/
+ didatticaweb2/ps/esami/\n\nEntries are NOT erased as days pass. Past ent
+ ries remain in place indefinitely for future audit. Corrections and canc
+ ellations retain event identity\; no rolling date cutoff is permitted fo
+ r this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-728d8cbdf0296634132f1e4e6b2ee5394d6b5223@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260922T090000
+DTEND;TZID=Europe/Rome:20260922T160000
+SUMMARY:ITALIAN LANGUAGE I - APPELLO D'ESAME
+LOCATION:Economia - 109
+DESCRIPTION:Course code: A002221\nTeacher: LEWIS SIMON GRAHAM\nExam type:
+  APPELLO D'ESAME\nSource date: 22/09/2026\nBuilding: Economia\nRoom: 109
+ \nDuration: 07:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/es
+ ami/\n\nEntries are NOT erased as days pass. Past entries remain in plac
+ e indefinitely for future audit. Corrections and cancellations retain ev
+ ent identity\; no rolling date cutoff is permitted for this or any futur
+ e station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-7204a6b504dfcef325d863d9160871a560d299b4@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20261027T083218Z
+SEQUENCE:4
+DTSTART;TZID=Europe/Rome:20260922T090000
+DTEND;TZID=Europe/Rome:20260922T160000
+SUMMARY:ITALIAN LANGUAGE I - CODA D'ESAME
+LOCATION:Economia - 102
+DESCRIPTION:Course code: A002221\nTeacher: LEWIS SIMON GRAHAM\nExam type:
+  CODA D'ESAME\nSource date: 22/09/2026\nBuilding: Economia\nRoom: 102\nD
+ uration: 07:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami
+ /\n\nCalendar persistence note: future event disappeared from the latest
+  upstream feed\; retained as tentative pending the next successful snaps
+ hot.\n\nCalendar persistence note: future event disappeared from the ups
+ tream feed in repeated successful snapshots\; retained as cancelled unti
+ l reviewed or replaced.\n\nCalendar reliability note: retained because t
+ he event is past and absent from the upstream snapshot.\n\nEntries are N
+ OT erased as days pass. Past entries remain in place indefinitely for fu
+ ture audit. Corrections and cancellations retain event identity\; no rol
+ ling date cutoff is permitted for this or any future station.
+STATUS:CANCELLED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-fddc52da258413412c5c07b483acd991f2c6de58@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260907T090601Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20260922T090000
+DTEND;TZID=Europe/Rome:20260922T160000
+SUMMARY:ITALIAN LANGUAGE I - CODA D'ESAME
+LOCATION:Economia - 15
+DESCRIPTION:Course code: A002221\nTeacher: LEWIS SIMON GRAHAM\nExam type:
+  CODA D'ESAME\nSource date: 22/09/2026\nBuilding: Economia\nRoom: 15\nDu
+ ration: 07:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/
+ \n\nEntries are NOT erased as days pass. Past entries remain in place in
+ definitely for future audit. Corrections and cancellations retain event 
+ identity\; no rolling date cutoff is permitted for this or any future st
+ ation.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-60eb392bf2cfba9bfc3f9efcdd0a4a2383031891@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260922T090000
+DTEND;TZID=Europe/Rome:20260922T160000
+SUMMARY:SCIENTIFIC ENGLISH - APPELLO D'ESAME
+LOCATION:Giovanni XXIII - Laboratorio linguistico
+DESCRIPTION:Course code: A002225\nTeacher: TAYLOR ANITA\nExam type: APPEL
+ LO D'ESAME\nSource date: 22/09/2026\nBuilding: Giovanni XXIII\nRoom: Lab
+ oratorio linguistico\nDuration: 07:00\nSource: https://secure.unicatt.it
+ /didatticaweb2/ps/esami/\n\nEntries are NOT erased as days pass. Past en
+ tries remain in place indefinitely for future audit. Corrections and can
+ cellations retain event identity\; no rolling date cutoff is permitted f
+ or this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-65c75ff2fe661cf55e2d30b3be790e7cc4a7577b@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260922T110000
+DTEND;TZID=Europe/Rome:20260922T130000
+SUMMARY:GENE REGULATION AND CELL METABOLISM - CODA D'ESAME
+LOCATION:Giovanni XXIII - 5
+DESCRIPTION:Course code: A002229\nTeacher: ARCOVITO ALESSANDRO\nExam type
+ : CODA D'ESAME\nSource date: 22/09/2026\nBuilding: Giovanni XXIII\nRoom:
+  5\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/
+ esami/\n\nEntries are NOT erased as days pass. Past entries remain in pl
+ ace indefinitely for future audit. Corrections and cancellations retain 
+ event identity\; no rolling date cutoff is permitted for this or any fut
+ ure station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-3356f914d56b4f1f6ae3b0f34836a759bb61dc68@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20261027T083218Z
+SEQUENCE:4
+DTSTART;TZID=Europe/Rome:20260923T090000
+DTEND;TZID=Europe/Rome:20260923T110000
+SUMMARY:BASIC SCIENCES - APPELLO D'ESAME
+LOCATION:Istituti Biologici - San Camillo
+DESCRIPTION:Course code: A001980\nTeacher: PAPI MASSIMILIANO\nExam type: 
+ APPELLO D'ESAME\nSource date: 23/09/2026\nBuilding: Istituti Biologici\n
+ Room: San Camillo\nDuration: 02:00\nSource: https://secure.unicatt.it/di
+ datticaweb2/ps/esami/\n\nCalendar persistence note: future event disappe
+ ared from the latest upstream feed\; retained as tentative pending the n
+ ext successful snapshot.\n\nCalendar persistence note: future event disa
+ ppeared from the upstream feed in repeated successful snapshots\; retain
+ ed as cancelled until reviewed or replaced.\n\nCalendar reliability note
+ : retained because the event is past and absent from the upstream snapsh
+ ot.\n\nEntries are NOT erased as days pass. Past entries remain in place
+  indefinitely for future audit. Corrections and cancellations retain eve
+ nt identity\; no rolling date cutoff is permitted for this or any future
+  station.
+STATUS:CANCELLED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-4ddbf29229f91088491bcb6d21f43c2b94c43d46@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20261027T083218Z
+SEQUENCE:4
+DTSTART;TZID=Europe/Rome:20260923T110000
+DTEND;TZID=Europe/Rome:20260923T130000
+SUMMARY:BASIC SCIENCES - CODA D'ESAME
+LOCATION:Giovanni XXIII - 5
+DESCRIPTION:Course code: A001980\nTeacher: PAPI MASSIMILIANO\nExam type: 
+ CODA D'ESAME\nSource date: 23/09/2026\nBuilding: Giovanni XXIII\nRoom: 5
+ \nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/es
+ ami/\n\nCalendar persistence note: future event disappeared from the lat
+ est upstream feed\; retained as tentative pending the next successful sn
+ apshot.\n\nCalendar persistence note: future event disappeared from the 
+ upstream feed in repeated successful snapshots\; retained as cancelled u
+ ntil reviewed or replaced.\n\nCalendar reliability note: retained becaus
+ e the event is past and absent from the upstream snapshot.\n\nEntries ar
+ e NOT erased as days pass. Past entries remain in place indefinitely for
+  future audit. Corrections and cancellations retain event identity\; no 
+ rolling date cutoff is permitted for this or any future station.
+STATUS:CANCELLED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-f7dfc271a03380d4e663a3e47c255ce5655f968f@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260907T090601Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20260923T130000
+DTEND;TZID=Europe/Rome:20260923T170000
+SUMMARY:BASIC SCIENCES - APPELLO D'ESAME
+LOCATION:Giovanni XXIII - Laboratorio informatica
+DESCRIPTION:Course code: A001980\nTeacher: PAPI MASSIMILIANO\nExam type: 
+ APPELLO D'ESAME\nSource date: 23/09/2026\nBuilding: Giovanni XXIII\nRoom
+ : Laboratorio informatica\nDuration: 04:00\nSource: https://secure.unica
+ tt.it/didatticaweb2/ps/esami/\n\nEntries are NOT erased as days pass. Pa
+ st entries remain in place indefinitely for future audit. Corrections an
+ d cancellations retain event identity\; no rolling date cutoff is permit
+ ted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-occurrence-10d8d02d210ae96dbc412b151963fa46f59185f3@code
+ x
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260517T154924Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260924T090000
+DTEND;TZID=Europe/Rome:20260924T120000
+SUMMARY:THEOLOGY 1: INTRODUCTION TO CHRISTOLOGY AND SCRIPTURES - APPELLO 
+ D'ESAME
+LOCATION:Giovanni XXIII - 5
+DESCRIPTION:Course code: A002562\nTeacher: IODICE FABIO\nExam type: APPEL
+ LO D'ESAME\nSource date: 24/09/2026\nBuilding: Giovanni XXIII\nRoom: 5\n
+ Duration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esam
+ i/\n\nEntries are NOT erased as days pass. Past entries remain in place 
+ indefinitely for future audit. Corrections and cancellations retain even
+ t identity\; no rolling date cutoff is permitted for this or any future 
+ station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-99f1daa96f91ffd8374079b2e9076c83eb958ba2@codex
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260907T090601Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20260925T070000
+DTEND;TZID=Europe/Rome:20260925T080000
+SUMMARY:INTERNSHIP IN HUMAN ANATOMY: SPINAL MUSCULAR ATROPHY - Exam
+LOCATION:
+DESCRIPTION:Course code: ML000212\nTeacher: PAGLIARINI VITTORIA\nSource d
+ ate: 25/09/2026\nDuration: 01:00\nSource: https://secure.unicatt.it/dida
+ tticaweb2/ps/esami/\n\nEntries are NOT erased as days pass. Past entries
+  remain in place indefinitely for future audit. Corrections and cancella
+ tions retain event identity\; no rolling date cutoff is permitted for th
+ is or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-ad820d12096f9b400cf56233dc8f94af8cd99a74@codex
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260907T090601Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20260925T080000
+DTEND;TZID=Europe/Rome:20260925T090000
+SUMMARY:INTERNSHIP IN PHYSICS - Exam
+LOCATION:
+DESCRIPTION:Course code: ML000135\nTeacher: PAPI MASSIMILIANO\nSource dat
+ e: 25/09/2026\nDuration: 01:00\nSource: https://secure.unicatt.it/didatt
+ icaweb2/ps/esami/\n\nEntries are NOT erased as days pass. Past entries r
+ emain in place indefinitely for future audit. Corrections and cancellati
+ ons retain event identity\; no rolling date cutoff is permitted for this
+  or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-exam-aac67cfb021a18b0107b9a1931d28c1d3d1eea57@codex
+DTSTAMP:20261027T083250Z
+LAST-MODIFIED:20260907T090601Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20260925T080000
+DTEND;TZID=Europe/Rome:20260925T090000
+SUMMARY:LABORATORY OF PHYSICS APPLIED TO MEDICINE - Exam
+LOCATION:
+DESCRIPTION:Course code: A002757\nTeacher: PERINI GIORDANO\nSource date: 
+ 25/09/2026\nDuration: 01:00\nSource: https://secure.unicatt.it/didattica
+ web2/ps/esami/\n\nEntries are NOT erased as days pass. Past entries rema
+ in in place indefinitely for future audit. Corrections and cancellations
+  retain event identity\; no rolling date cutoff is permitted for this or
+  any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

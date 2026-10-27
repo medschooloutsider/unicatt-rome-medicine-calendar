@@ -1,0 +1,1634 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Codex Automation//UCSC Unicatt Calendar Broadcast//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Italy Holidays
+X-WR-CALDESC:Italian national public holidays\, 2024 onward\; all-day dat
+ es. Rome patronal holiday and ordinary Sundays excluded. Future law chan
+ ges require review. Entries are NOT erased as days pass. Past entries re
+ main in place indefinitely for future audit. Corrections and cancellatio
+ ns retain event identity\; no rolling date cutoff is permitted for this 
+ or any future station.
+X-WR-TIMEZONE:Europe/Rome
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+X-LIC-LOCATION:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:italy-holiday-2024-01-01@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20240101
+DTEND;VALUE=DATE:20240102
+SUMMARY:New Year's Day / Capodanno
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2024-01-06@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20240106
+DTEND;VALUE=DATE:20240107
+SUMMARY:Epiphany / Epifania
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2024-03-31@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20240331
+DTEND;VALUE=DATE:20240401
+SUMMARY:Easter Sunday / Pasqua
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2024-04-01@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20240401
+DTEND;VALUE=DATE:20240402
+SUMMARY:Easter Monday / Pasquetta
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2024-04-25@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20240425
+DTEND;VALUE=DATE:20240426
+SUMMARY:Liberation Day / Festa della Liberazione
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2024-05-01@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20240501
+DTEND;VALUE=DATE:20240502
+SUMMARY:Labour Day / Festa del Lavoro
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2024-06-02@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20240602
+DTEND;VALUE=DATE:20240603
+SUMMARY:Republic Day / Festa della Repubblica
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2024-08-15@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20240815
+DTEND;VALUE=DATE:20240816
+SUMMARY:Assumption / Ferragosto
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2024-11-01@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20241101
+DTEND;VALUE=DATE:20241102
+SUMMARY:All Saints / Ognissanti
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2024-12-08@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20241208
+DTEND;VALUE=DATE:20241209
+SUMMARY:Immaculate Conception / Immacolata Concezione
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2024-12-25@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20241225
+DTEND;VALUE=DATE:20241226
+SUMMARY:Christmas / Natale
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2024-12-26@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20241226
+DTEND;VALUE=DATE:20241227
+SUMMARY:St Stephen / Santo Stefano
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2025-01-01@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20250101
+DTEND;VALUE=DATE:20250102
+SUMMARY:New Year's Day / Capodanno
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2025-01-06@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20250106
+DTEND;VALUE=DATE:20250107
+SUMMARY:Epiphany / Epifania
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2025-04-20@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20250420
+DTEND;VALUE=DATE:20250421
+SUMMARY:Easter Sunday / Pasqua
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2025-04-21@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20250421
+DTEND;VALUE=DATE:20250422
+SUMMARY:Easter Monday / Pasquetta
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2025-04-25@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20250425
+DTEND;VALUE=DATE:20250426
+SUMMARY:Liberation Day / Festa della Liberazione
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2025-05-01@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20250501
+DTEND;VALUE=DATE:20250502
+SUMMARY:Labour Day / Festa del Lavoro
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2025-06-02@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20250602
+DTEND;VALUE=DATE:20250603
+SUMMARY:Republic Day / Festa della Repubblica
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2025-08-15@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20250815
+DTEND;VALUE=DATE:20250816
+SUMMARY:Assumption / Ferragosto
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2025-11-01@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20251101
+DTEND;VALUE=DATE:20251102
+SUMMARY:All Saints / Ognissanti
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2025-12-08@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20251208
+DTEND;VALUE=DATE:20251209
+SUMMARY:Immaculate Conception / Immacolata Concezione
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2025-12-25@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20251225
+DTEND;VALUE=DATE:20251226
+SUMMARY:Christmas / Natale
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2025-12-26@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20251226
+DTEND;VALUE=DATE:20251227
+SUMMARY:St Stephen / Santo Stefano
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2026-01-01@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260101
+DTEND;VALUE=DATE:20260102
+SUMMARY:New Year's Day / Capodanno
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2026-01-06@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260106
+DTEND;VALUE=DATE:20260107
+SUMMARY:Epiphany / Epifania
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2026-04-05@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260405
+DTEND;VALUE=DATE:20260406
+SUMMARY:Easter Sunday / Pasqua
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2026-04-06@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260406
+DTEND;VALUE=DATE:20260407
+SUMMARY:Easter Monday / Pasquetta
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2026-04-25@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260425
+DTEND;VALUE=DATE:20260426
+SUMMARY:Liberation Day / Festa della Liberazione
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2026-05-01@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+SUMMARY:Labour Day / Festa del Lavoro
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2026-06-02@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260602
+DTEND;VALUE=DATE:20260603
+SUMMARY:Republic Day / Festa della Repubblica
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2026-08-15@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260815
+DTEND;VALUE=DATE:20260816
+SUMMARY:Assumption / Ferragosto
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2026-10-04@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:St Francis of Assisi / San Francesco d'Assisi
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2026-11-01@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:All Saints / Ognissanti
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2026-12-08@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:Immaculate Conception / Immacolata Concezione
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2026-12-25@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261225
+DTEND;VALUE=DATE:20261226
+SUMMARY:Christmas / Natale
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2026-12-26@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261226
+DTEND;VALUE=DATE:20261227
+SUMMARY:St Stephen / Santo Stefano
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2027-01-01@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:New Year's Day / Capodanno
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2027-01-06@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270106
+DTEND;VALUE=DATE:20270107
+SUMMARY:Epiphany / Epifania
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2027-03-28@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270328
+DTEND;VALUE=DATE:20270329
+SUMMARY:Easter Sunday / Pasqua
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2027-03-29@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270329
+DTEND;VALUE=DATE:20270330
+SUMMARY:Easter Monday / Pasquetta
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2027-04-25@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270425
+DTEND;VALUE=DATE:20270426
+SUMMARY:Liberation Day / Festa della Liberazione
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2027-05-01@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+SUMMARY:Labour Day / Festa del Lavoro
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2027-06-02@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270602
+DTEND;VALUE=DATE:20270603
+SUMMARY:Republic Day / Festa della Repubblica
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2027-08-15@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270815
+DTEND;VALUE=DATE:20270816
+SUMMARY:Assumption / Ferragosto
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2027-10-04@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20271004
+DTEND;VALUE=DATE:20271005
+SUMMARY:St Francis of Assisi / San Francesco d'Assisi
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2027-11-01@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20271101
+DTEND;VALUE=DATE:20271102
+SUMMARY:All Saints / Ognissanti
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2027-12-08@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20271208
+DTEND;VALUE=DATE:20271209
+SUMMARY:Immaculate Conception / Immacolata Concezione
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2027-12-25@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20271225
+DTEND;VALUE=DATE:20271226
+SUMMARY:Christmas / Natale
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2027-12-26@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20271226
+DTEND;VALUE=DATE:20271227
+SUMMARY:St Stephen / Santo Stefano
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2028-01-01@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20280101
+DTEND;VALUE=DATE:20280102
+SUMMARY:New Year's Day / Capodanno
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2028-01-06@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20280106
+DTEND;VALUE=DATE:20280107
+SUMMARY:Epiphany / Epifania
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2028-04-16@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20280416
+DTEND;VALUE=DATE:20280417
+SUMMARY:Easter Sunday / Pasqua
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2028-04-17@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20280417
+DTEND;VALUE=DATE:20280418
+SUMMARY:Easter Monday / Pasquetta
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2028-04-25@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20280425
+DTEND;VALUE=DATE:20280426
+SUMMARY:Liberation Day / Festa della Liberazione
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2028-05-01@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20280501
+DTEND;VALUE=DATE:20280502
+SUMMARY:Labour Day / Festa del Lavoro
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2028-06-02@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20280602
+DTEND;VALUE=DATE:20280603
+SUMMARY:Republic Day / Festa della Repubblica
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2028-08-15@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20280815
+DTEND;VALUE=DATE:20280816
+SUMMARY:Assumption / Ferragosto
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2028-10-04@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20281004
+DTEND;VALUE=DATE:20281005
+SUMMARY:St Francis of Assisi / San Francesco d'Assisi
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2028-11-01@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20281101
+DTEND;VALUE=DATE:20281102
+SUMMARY:All Saints / Ognissanti
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2028-12-08@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20281208
+DTEND;VALUE=DATE:20281209
+SUMMARY:Immaculate Conception / Immacolata Concezione
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2028-12-25@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20281225
+DTEND;VALUE=DATE:20281226
+SUMMARY:Christmas / Natale
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2028-12-26@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20281226
+DTEND;VALUE=DATE:20281227
+SUMMARY:St Stephen / Santo Stefano
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2029-01-01@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20290101
+DTEND;VALUE=DATE:20290102
+SUMMARY:New Year's Day / Capodanno
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2029-01-06@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20290106
+DTEND;VALUE=DATE:20290107
+SUMMARY:Epiphany / Epifania
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2029-04-01@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20290401
+DTEND;VALUE=DATE:20290402
+SUMMARY:Easter Sunday / Pasqua
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2029-04-02@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20290402
+DTEND;VALUE=DATE:20290403
+SUMMARY:Easter Monday / Pasquetta
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2029-04-25@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20290425
+DTEND;VALUE=DATE:20290426
+SUMMARY:Liberation Day / Festa della Liberazione
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2029-05-01@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20290501
+DTEND;VALUE=DATE:20290502
+SUMMARY:Labour Day / Festa del Lavoro
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2029-06-02@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20290602
+DTEND;VALUE=DATE:20290603
+SUMMARY:Republic Day / Festa della Repubblica
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2029-08-15@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20290815
+DTEND;VALUE=DATE:20290816
+SUMMARY:Assumption / Ferragosto
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2029-10-04@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20291004
+DTEND;VALUE=DATE:20291005
+SUMMARY:St Francis of Assisi / San Francesco d'Assisi
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2029-11-01@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20291101
+DTEND;VALUE=DATE:20291102
+SUMMARY:All Saints / Ognissanti
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2029-12-08@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20291208
+DTEND;VALUE=DATE:20291209
+SUMMARY:Immaculate Conception / Immacolata Concezione
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2029-12-25@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20291225
+DTEND;VALUE=DATE:20291226
+SUMMARY:Christmas / Natale
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2029-12-26@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20291226
+DTEND;VALUE=DATE:20291227
+SUMMARY:St Stephen / Santo Stefano
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2030-01-01@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20300101
+DTEND;VALUE=DATE:20300102
+SUMMARY:New Year's Day / Capodanno
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2030-01-06@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20300106
+DTEND;VALUE=DATE:20300107
+SUMMARY:Epiphany / Epifania
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2030-04-21@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20300421
+DTEND;VALUE=DATE:20300422
+SUMMARY:Easter Sunday / Pasqua
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2030-04-22@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20300422
+DTEND;VALUE=DATE:20300423
+SUMMARY:Easter Monday / Pasquetta
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2030-04-25@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20300425
+DTEND;VALUE=DATE:20300426
+SUMMARY:Liberation Day / Festa della Liberazione
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2030-05-01@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20300501
+DTEND;VALUE=DATE:20300502
+SUMMARY:Labour Day / Festa del Lavoro
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2030-06-02@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20300602
+DTEND;VALUE=DATE:20300603
+SUMMARY:Republic Day / Festa della Repubblica
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2030-08-15@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20300815
+DTEND;VALUE=DATE:20300816
+SUMMARY:Assumption / Ferragosto
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2030-10-04@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20301004
+DTEND;VALUE=DATE:20301005
+SUMMARY:St Francis of Assisi / San Francesco d'Assisi
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2030-11-01@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20301101
+DTEND;VALUE=DATE:20301102
+SUMMARY:All Saints / Ognissanti
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2030-12-08@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20301208
+DTEND;VALUE=DATE:20301209
+SUMMARY:Immaculate Conception / Immacolata Concezione
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2030-12-25@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20301225
+DTEND;VALUE=DATE:20301226
+SUMMARY:Christmas / Natale
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:italy-holiday-2030-12-26@ucsc-calendar
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20301226
+DTEND;VALUE=DATE:20301227
+SUMMARY:St Stephen / Santo Stefano
+LOCATION:Italy
+DESCRIPTION:National public holiday. Sources: https://presidenza.governo.
+ it/ufficio_cerimoniale/cerimoniale/giornate.html \; https://www.normatti
+ va.it/eli/id/2025/10/10/25G00153/ORIGINAL\n\nEntries are NOT erased as d
+ ays pass. Past entries remain in place indefinitely for future audit. Co
+ rrections and cancellations retain event identity\; no rolling date cuto
+ ff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

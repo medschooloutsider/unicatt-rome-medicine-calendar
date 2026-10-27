@@ -1,0 +1,1546 @@
+{
+  "feed_id": "italy-holidays",
+  "calendar_name": "Italy Holidays",
+  "generated_at_utc": "2026-10-27T08:32:57+00:00",
+  "last_successful_fetch_at_utc": "2026-10-27T08:32:57+00:00",
+  "last_publication_at_utc": "2026-10-27T08:32:57+00:00",
+  "generated_age_seconds": 0,
+  "event_count": 89,
+  "cancelled_count": 0,
+  "tentative_count": 0,
+  "source_counts": {
+    "national_holidays": 89
+  },
+  "source_payload": {},
+  "source_urls": [
+    "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html",
+    "https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL"
+  ],
+  "source_snapshot_hash": "e00cc54ec303a3a4811e18a35a175927ee1d82819022a82dfbcbab8909375d91",
+  "last_published_source_snapshot_hash": "e00cc54ec303a3a4811e18a35a175927ee1d82819022a82dfbcbab8909375d91",
+  "content_hash": "c3d3c59b6e1aff034f44b1e4916f9a3f89759dcc078b73aa9c128dfa818f44e0",
+  "publication_mode": "github-pages-static",
+  "dynamic_refresh": "GitHub Actions poller; no Vercel Blob dependency",
+  "health": "healthy",
+  "healthy": true,
+  "stale": false,
+  "consecutive_failures": 0,
+  "last_error": null,
+  "alerts": [],
+  "retention_policy": "Entries are NOT erased as days pass. Past entries remain in place indefinitely for future audit. Corrections and cancellations retain event identity; no rolling date cutoff is permitted for this or any future station.",
+  "events": [
+    {
+      "uid": "italy-holiday-2024-01-01@ucsc-calendar",
+      "summary": "New Year's Day / Capodanno",
+      "start": "2024-01-01T00:00:00+01:00",
+      "end": "2024-01-02T00:00:00+01:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2024-01-01@ucsc-calendar",
+      "source_date": "2024-01-01",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2024-01-06@ucsc-calendar",
+      "summary": "Epiphany / Epifania",
+      "start": "2024-01-06T00:00:00+01:00",
+      "end": "2024-01-07T00:00:00+01:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2024-01-06@ucsc-calendar",
+      "source_date": "2024-01-06",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2024-03-31@ucsc-calendar",
+      "summary": "Easter Sunday / Pasqua",
+      "start": "2024-03-31T00:00:00+01:00",
+      "end": "2024-04-01T00:00:00+02:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2024-03-31@ucsc-calendar",
+      "source_date": "2024-03-31",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2024-04-01@ucsc-calendar",
+      "summary": "Easter Monday / Pasquetta",
+      "start": "2024-04-01T00:00:00+02:00",
+      "end": "2024-04-02T00:00:00+02:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2024-04-01@ucsc-calendar",
+      "source_date": "2024-04-01",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2024-04-25@ucsc-calendar",
+      "summary": "Liberation Day / Festa della Liberazione",
+      "start": "2024-04-25T00:00:00+02:00",
+      "end": "2024-04-26T00:00:00+02:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2024-04-25@ucsc-calendar",
+      "source_date": "2024-04-25",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2024-05-01@ucsc-calendar",
+      "summary": "Labour Day / Festa del Lavoro",
+      "start": "2024-05-01T00:00:00+02:00",
+      "end": "2024-05-02T00:00:00+02:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2024-05-01@ucsc-calendar",
+      "source_date": "2024-05-01",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2024-06-02@ucsc-calendar",
+      "summary": "Republic Day / Festa della Repubblica",
+      "start": "2024-06-02T00:00:00+02:00",
+      "end": "2024-06-03T00:00:00+02:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2024-06-02@ucsc-calendar",
+      "source_date": "2024-06-02",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2024-08-15@ucsc-calendar",
+      "summary": "Assumption / Ferragosto",
+      "start": "2024-08-15T00:00:00+02:00",
+      "end": "2024-08-16T00:00:00+02:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2024-08-15@ucsc-calendar",
+      "source_date": "2024-08-15",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2024-11-01@ucsc-calendar",
+      "summary": "All Saints / Ognissanti",
+      "start": "2024-11-01T00:00:00+01:00",
+      "end": "2024-11-02T00:00:00+01:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2024-11-01@ucsc-calendar",
+      "source_date": "2024-11-01",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2024-12-08@ucsc-calendar",
+      "summary": "Immaculate Conception / Immacolata Concezione",
+      "start": "2024-12-08T00:00:00+01:00",
+      "end": "2024-12-09T00:00:00+01:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2024-12-08@ucsc-calendar",
+      "source_date": "2024-12-08",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2024-12-25@ucsc-calendar",
+      "summary": "Christmas / Natale",
+      "start": "2024-12-25T00:00:00+01:00",
+      "end": "2024-12-26T00:00:00+01:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2024-12-25@ucsc-calendar",
+      "source_date": "2024-12-25",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2024-12-26@ucsc-calendar",
+      "summary": "St Stephen / Santo Stefano",
+      "start": "2024-12-26T00:00:00+01:00",
+      "end": "2024-12-27T00:00:00+01:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2024-12-26@ucsc-calendar",
+      "source_date": "2024-12-26",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2025-01-01@ucsc-calendar",
+      "summary": "New Year's Day / Capodanno",
+      "start": "2025-01-01T00:00:00+01:00",
+      "end": "2025-01-02T00:00:00+01:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2025-01-01@ucsc-calendar",
+      "source_date": "2025-01-01",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2025-01-06@ucsc-calendar",
+      "summary": "Epiphany / Epifania",
+      "start": "2025-01-06T00:00:00+01:00",
+      "end": "2025-01-07T00:00:00+01:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2025-01-06@ucsc-calendar",
+      "source_date": "2025-01-06",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2025-04-20@ucsc-calendar",
+      "summary": "Easter Sunday / Pasqua",
+      "start": "2025-04-20T00:00:00+02:00",
+      "end": "2025-04-21T00:00:00+02:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2025-04-20@ucsc-calendar",
+      "source_date": "2025-04-20",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2025-04-21@ucsc-calendar",
+      "summary": "Easter Monday / Pasquetta",
+      "start": "2025-04-21T00:00:00+02:00",
+      "end": "2025-04-22T00:00:00+02:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2025-04-21@ucsc-calendar",
+      "source_date": "2025-04-21",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2025-04-25@ucsc-calendar",
+      "summary": "Liberation Day / Festa della Liberazione",
+      "start": "2025-04-25T00:00:00+02:00",
+      "end": "2025-04-26T00:00:00+02:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2025-04-25@ucsc-calendar",
+      "source_date": "2025-04-25",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2025-05-01@ucsc-calendar",
+      "summary": "Labour Day / Festa del Lavoro",
+      "start": "2025-05-01T00:00:00+02:00",
+      "end": "2025-05-02T00:00:00+02:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2025-05-01@ucsc-calendar",
+      "source_date": "2025-05-01",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2025-06-02@ucsc-calendar",
+      "summary": "Republic Day / Festa della Repubblica",
+      "start": "2025-06-02T00:00:00+02:00",
+      "end": "2025-06-03T00:00:00+02:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2025-06-02@ucsc-calendar",
+      "source_date": "2025-06-02",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2025-08-15@ucsc-calendar",
+      "summary": "Assumption / Ferragosto",
+      "start": "2025-08-15T00:00:00+02:00",
+      "end": "2025-08-16T00:00:00+02:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2025-08-15@ucsc-calendar",
+      "source_date": "2025-08-15",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2025-11-01@ucsc-calendar",
+      "summary": "All Saints / Ognissanti",
+      "start": "2025-11-01T00:00:00+01:00",
+      "end": "2025-11-02T00:00:00+01:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2025-11-01@ucsc-calendar",
+      "source_date": "2025-11-01",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2025-12-08@ucsc-calendar",
+      "summary": "Immaculate Conception / Immacolata Concezione",
+      "start": "2025-12-08T00:00:00+01:00",
+      "end": "2025-12-09T00:00:00+01:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2025-12-08@ucsc-calendar",
+      "source_date": "2025-12-08",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2025-12-25@ucsc-calendar",
+      "summary": "Christmas / Natale",
+      "start": "2025-12-25T00:00:00+01:00",
+      "end": "2025-12-26T00:00:00+01:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2025-12-25@ucsc-calendar",
+      "source_date": "2025-12-25",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2025-12-26@ucsc-calendar",
+      "summary": "St Stephen / Santo Stefano",
+      "start": "2025-12-26T00:00:00+01:00",
+      "end": "2025-12-27T00:00:00+01:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2025-12-26@ucsc-calendar",
+      "source_date": "2025-12-26",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2026-01-01@ucsc-calendar",
+      "summary": "New Year's Day / Capodanno",
+      "start": "2026-01-01T00:00:00+01:00",
+      "end": "2026-01-02T00:00:00+01:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2026-01-01@ucsc-calendar",
+      "source_date": "2026-01-01",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2026-01-06@ucsc-calendar",
+      "summary": "Epiphany / Epifania",
+      "start": "2026-01-06T00:00:00+01:00",
+      "end": "2026-01-07T00:00:00+01:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2026-01-06@ucsc-calendar",
+      "source_date": "2026-01-06",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2026-04-05@ucsc-calendar",
+      "summary": "Easter Sunday / Pasqua",
+      "start": "2026-04-05T00:00:00+02:00",
+      "end": "2026-04-06T00:00:00+02:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2026-04-05@ucsc-calendar",
+      "source_date": "2026-04-05",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2026-04-06@ucsc-calendar",
+      "summary": "Easter Monday / Pasquetta",
+      "start": "2026-04-06T00:00:00+02:00",
+      "end": "2026-04-07T00:00:00+02:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2026-04-06@ucsc-calendar",
+      "source_date": "2026-04-06",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2026-04-25@ucsc-calendar",
+      "summary": "Liberation Day / Festa della Liberazione",
+      "start": "2026-04-25T00:00:00+02:00",
+      "end": "2026-04-26T00:00:00+02:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2026-04-25@ucsc-calendar",
+      "source_date": "2026-04-25",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2026-05-01@ucsc-calendar",
+      "summary": "Labour Day / Festa del Lavoro",
+      "start": "2026-05-01T00:00:00+02:00",
+      "end": "2026-05-02T00:00:00+02:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2026-05-01@ucsc-calendar",
+      "source_date": "2026-05-01",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2026-06-02@ucsc-calendar",
+      "summary": "Republic Day / Festa della Repubblica",
+      "start": "2026-06-02T00:00:00+02:00",
+      "end": "2026-06-03T00:00:00+02:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2026-06-02@ucsc-calendar",
+      "source_date": "2026-06-02",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2026-08-15@ucsc-calendar",
+      "summary": "Assumption / Ferragosto",
+      "start": "2026-08-15T00:00:00+02:00",
+      "end": "2026-08-16T00:00:00+02:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2026-08-15@ucsc-calendar",
+      "source_date": "2026-08-15",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2026-10-04@ucsc-calendar",
+      "summary": "St Francis of Assisi / San Francesco d'Assisi",
+      "start": "2026-10-04T00:00:00+02:00",
+      "end": "2026-10-05T00:00:00+02:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2026-10-04@ucsc-calendar",
+      "source_date": "2026-10-04",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2026-11-01@ucsc-calendar",
+      "summary": "All Saints / Ognissanti",
+      "start": "2026-11-01T00:00:00+01:00",
+      "end": "2026-11-02T00:00:00+01:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2026-11-01@ucsc-calendar",
+      "source_date": "2026-11-01",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2026-12-08@ucsc-calendar",
+      "summary": "Immaculate Conception / Immacolata Concezione",
+      "start": "2026-12-08T00:00:00+01:00",
+      "end": "2026-12-09T00:00:00+01:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2026-12-08@ucsc-calendar",
+      "source_date": "2026-12-08",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2026-12-25@ucsc-calendar",
+      "summary": "Christmas / Natale",
+      "start": "2026-12-25T00:00:00+01:00",
+      "end": "2026-12-26T00:00:00+01:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2026-12-25@ucsc-calendar",
+      "source_date": "2026-12-25",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2026-12-26@ucsc-calendar",
+      "summary": "St Stephen / Santo Stefano",
+      "start": "2026-12-26T00:00:00+01:00",
+      "end": "2026-12-27T00:00:00+01:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2026-12-26@ucsc-calendar",
+      "source_date": "2026-12-26",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2027-01-01@ucsc-calendar",
+      "summary": "New Year's Day / Capodanno",
+      "start": "2027-01-01T00:00:00+01:00",
+      "end": "2027-01-02T00:00:00+01:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2027-01-01@ucsc-calendar",
+      "source_date": "2027-01-01",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2027-01-06@ucsc-calendar",
+      "summary": "Epiphany / Epifania",
+      "start": "2027-01-06T00:00:00+01:00",
+      "end": "2027-01-07T00:00:00+01:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2027-01-06@ucsc-calendar",
+      "source_date": "2027-01-06",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2027-03-28@ucsc-calendar",
+      "summary": "Easter Sunday / Pasqua",
+      "start": "2027-03-28T00:00:00+01:00",
+      "end": "2027-03-29T00:00:00+02:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2027-03-28@ucsc-calendar",
+      "source_date": "2027-03-28",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2027-03-29@ucsc-calendar",
+      "summary": "Easter Monday / Pasquetta",
+      "start": "2027-03-29T00:00:00+02:00",
+      "end": "2027-03-30T00:00:00+02:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2027-03-29@ucsc-calendar",
+      "source_date": "2027-03-29",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2027-04-25@ucsc-calendar",
+      "summary": "Liberation Day / Festa della Liberazione",
+      "start": "2027-04-25T00:00:00+02:00",
+      "end": "2027-04-26T00:00:00+02:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2027-04-25@ucsc-calendar",
+      "source_date": "2027-04-25",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2027-05-01@ucsc-calendar",
+      "summary": "Labour Day / Festa del Lavoro",
+      "start": "2027-05-01T00:00:00+02:00",
+      "end": "2027-05-02T00:00:00+02:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2027-05-01@ucsc-calendar",
+      "source_date": "2027-05-01",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2027-06-02@ucsc-calendar",
+      "summary": "Republic Day / Festa della Repubblica",
+      "start": "2027-06-02T00:00:00+02:00",
+      "end": "2027-06-03T00:00:00+02:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2027-06-02@ucsc-calendar",
+      "source_date": "2027-06-02",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2027-08-15@ucsc-calendar",
+      "summary": "Assumption / Ferragosto",
+      "start": "2027-08-15T00:00:00+02:00",
+      "end": "2027-08-16T00:00:00+02:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2027-08-15@ucsc-calendar",
+      "source_date": "2027-08-15",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2027-10-04@ucsc-calendar",
+      "summary": "St Francis of Assisi / San Francesco d'Assisi",
+      "start": "2027-10-04T00:00:00+02:00",
+      "end": "2027-10-05T00:00:00+02:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2027-10-04@ucsc-calendar",
+      "source_date": "2027-10-04",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2027-11-01@ucsc-calendar",
+      "summary": "All Saints / Ognissanti",
+      "start": "2027-11-01T00:00:00+01:00",
+      "end": "2027-11-02T00:00:00+01:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2027-11-01@ucsc-calendar",
+      "source_date": "2027-11-01",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2027-12-08@ucsc-calendar",
+      "summary": "Immaculate Conception / Immacolata Concezione",
+      "start": "2027-12-08T00:00:00+01:00",
+      "end": "2027-12-09T00:00:00+01:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2027-12-08@ucsc-calendar",
+      "source_date": "2027-12-08",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2027-12-25@ucsc-calendar",
+      "summary": "Christmas / Natale",
+      "start": "2027-12-25T00:00:00+01:00",
+      "end": "2027-12-26T00:00:00+01:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2027-12-25@ucsc-calendar",
+      "source_date": "2027-12-25",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2027-12-26@ucsc-calendar",
+      "summary": "St Stephen / Santo Stefano",
+      "start": "2027-12-26T00:00:00+01:00",
+      "end": "2027-12-27T00:00:00+01:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2027-12-26@ucsc-calendar",
+      "source_date": "2027-12-26",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2028-01-01@ucsc-calendar",
+      "summary": "New Year's Day / Capodanno",
+      "start": "2028-01-01T00:00:00+01:00",
+      "end": "2028-01-02T00:00:00+01:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2028-01-01@ucsc-calendar",
+      "source_date": "2028-01-01",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2028-01-06@ucsc-calendar",
+      "summary": "Epiphany / Epifania",
+      "start": "2028-01-06T00:00:00+01:00",
+      "end": "2028-01-07T00:00:00+01:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2028-01-06@ucsc-calendar",
+      "source_date": "2028-01-06",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2028-04-16@ucsc-calendar",
+      "summary": "Easter Sunday / Pasqua",
+      "start": "2028-04-16T00:00:00+02:00",
+      "end": "2028-04-17T00:00:00+02:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2028-04-16@ucsc-calendar",
+      "source_date": "2028-04-16",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2028-04-17@ucsc-calendar",
+      "summary": "Easter Monday / Pasquetta",
+      "start": "2028-04-17T00:00:00+02:00",
+      "end": "2028-04-18T00:00:00+02:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2028-04-17@ucsc-calendar",
+      "source_date": "2028-04-17",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2028-04-25@ucsc-calendar",
+      "summary": "Liberation Day / Festa della Liberazione",
+      "start": "2028-04-25T00:00:00+02:00",
+      "end": "2028-04-26T00:00:00+02:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2028-04-25@ucsc-calendar",
+      "source_date": "2028-04-25",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2028-05-01@ucsc-calendar",
+      "summary": "Labour Day / Festa del Lavoro",
+      "start": "2028-05-01T00:00:00+02:00",
+      "end": "2028-05-02T00:00:00+02:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2028-05-01@ucsc-calendar",
+      "source_date": "2028-05-01",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2028-06-02@ucsc-calendar",
+      "summary": "Republic Day / Festa della Repubblica",
+      "start": "2028-06-02T00:00:00+02:00",
+      "end": "2028-06-03T00:00:00+02:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2028-06-02@ucsc-calendar",
+      "source_date": "2028-06-02",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2028-08-15@ucsc-calendar",
+      "summary": "Assumption / Ferragosto",
+      "start": "2028-08-15T00:00:00+02:00",
+      "end": "2028-08-16T00:00:00+02:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2028-08-15@ucsc-calendar",
+      "source_date": "2028-08-15",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2028-10-04@ucsc-calendar",
+      "summary": "St Francis of Assisi / San Francesco d'Assisi",
+      "start": "2028-10-04T00:00:00+02:00",
+      "end": "2028-10-05T00:00:00+02:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2028-10-04@ucsc-calendar",
+      "source_date": "2028-10-04",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2028-11-01@ucsc-calendar",
+      "summary": "All Saints / Ognissanti",
+      "start": "2028-11-01T00:00:00+01:00",
+      "end": "2028-11-02T00:00:00+01:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2028-11-01@ucsc-calendar",
+      "source_date": "2028-11-01",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2028-12-08@ucsc-calendar",
+      "summary": "Immaculate Conception / Immacolata Concezione",
+      "start": "2028-12-08T00:00:00+01:00",
+      "end": "2028-12-09T00:00:00+01:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2028-12-08@ucsc-calendar",
+      "source_date": "2028-12-08",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2028-12-25@ucsc-calendar",
+      "summary": "Christmas / Natale",
+      "start": "2028-12-25T00:00:00+01:00",
+      "end": "2028-12-26T00:00:00+01:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2028-12-25@ucsc-calendar",
+      "source_date": "2028-12-25",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2028-12-26@ucsc-calendar",
+      "summary": "St Stephen / Santo Stefano",
+      "start": "2028-12-26T00:00:00+01:00",
+      "end": "2028-12-27T00:00:00+01:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2028-12-26@ucsc-calendar",
+      "source_date": "2028-12-26",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2029-01-01@ucsc-calendar",
+      "summary": "New Year's Day / Capodanno",
+      "start": "2029-01-01T00:00:00+01:00",
+      "end": "2029-01-02T00:00:00+01:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2029-01-01@ucsc-calendar",
+      "source_date": "2029-01-01",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2029-01-06@ucsc-calendar",
+      "summary": "Epiphany / Epifania",
+      "start": "2029-01-06T00:00:00+01:00",
+      "end": "2029-01-07T00:00:00+01:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2029-01-06@ucsc-calendar",
+      "source_date": "2029-01-06",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2029-04-01@ucsc-calendar",
+      "summary": "Easter Sunday / Pasqua",
+      "start": "2029-04-01T00:00:00+02:00",
+      "end": "2029-04-02T00:00:00+02:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2029-04-01@ucsc-calendar",
+      "source_date": "2029-04-01",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2029-04-02@ucsc-calendar",
+      "summary": "Easter Monday / Pasquetta",
+      "start": "2029-04-02T00:00:00+02:00",
+      "end": "2029-04-03T00:00:00+02:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2029-04-02@ucsc-calendar",
+      "source_date": "2029-04-02",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2029-04-25@ucsc-calendar",
+      "summary": "Liberation Day / Festa della Liberazione",
+      "start": "2029-04-25T00:00:00+02:00",
+      "end": "2029-04-26T00:00:00+02:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2029-04-25@ucsc-calendar",
+      "source_date": "2029-04-25",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2029-05-01@ucsc-calendar",
+      "summary": "Labour Day / Festa del Lavoro",
+      "start": "2029-05-01T00:00:00+02:00",
+      "end": "2029-05-02T00:00:00+02:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2029-05-01@ucsc-calendar",
+      "source_date": "2029-05-01",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2029-06-02@ucsc-calendar",
+      "summary": "Republic Day / Festa della Repubblica",
+      "start": "2029-06-02T00:00:00+02:00",
+      "end": "2029-06-03T00:00:00+02:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2029-06-02@ucsc-calendar",
+      "source_date": "2029-06-02",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2029-08-15@ucsc-calendar",
+      "summary": "Assumption / Ferragosto",
+      "start": "2029-08-15T00:00:00+02:00",
+      "end": "2029-08-16T00:00:00+02:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2029-08-15@ucsc-calendar",
+      "source_date": "2029-08-15",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2029-10-04@ucsc-calendar",
+      "summary": "St Francis of Assisi / San Francesco d'Assisi",
+      "start": "2029-10-04T00:00:00+02:00",
+      "end": "2029-10-05T00:00:00+02:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2029-10-04@ucsc-calendar",
+      "source_date": "2029-10-04",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2029-11-01@ucsc-calendar",
+      "summary": "All Saints / Ognissanti",
+      "start": "2029-11-01T00:00:00+01:00",
+      "end": "2029-11-02T00:00:00+01:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2029-11-01@ucsc-calendar",
+      "source_date": "2029-11-01",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2029-12-08@ucsc-calendar",
+      "summary": "Immaculate Conception / Immacolata Concezione",
+      "start": "2029-12-08T00:00:00+01:00",
+      "end": "2029-12-09T00:00:00+01:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2029-12-08@ucsc-calendar",
+      "source_date": "2029-12-08",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2029-12-25@ucsc-calendar",
+      "summary": "Christmas / Natale",
+      "start": "2029-12-25T00:00:00+01:00",
+      "end": "2029-12-26T00:00:00+01:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2029-12-25@ucsc-calendar",
+      "source_date": "2029-12-25",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2029-12-26@ucsc-calendar",
+      "summary": "St Stephen / Santo Stefano",
+      "start": "2029-12-26T00:00:00+01:00",
+      "end": "2029-12-27T00:00:00+01:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2029-12-26@ucsc-calendar",
+      "source_date": "2029-12-26",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2030-01-01@ucsc-calendar",
+      "summary": "New Year's Day / Capodanno",
+      "start": "2030-01-01T00:00:00+01:00",
+      "end": "2030-01-02T00:00:00+01:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2030-01-01@ucsc-calendar",
+      "source_date": "2030-01-01",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2030-01-06@ucsc-calendar",
+      "summary": "Epiphany / Epifania",
+      "start": "2030-01-06T00:00:00+01:00",
+      "end": "2030-01-07T00:00:00+01:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2030-01-06@ucsc-calendar",
+      "source_date": "2030-01-06",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2030-04-21@ucsc-calendar",
+      "summary": "Easter Sunday / Pasqua",
+      "start": "2030-04-21T00:00:00+02:00",
+      "end": "2030-04-22T00:00:00+02:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2030-04-21@ucsc-calendar",
+      "source_date": "2030-04-21",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2030-04-22@ucsc-calendar",
+      "summary": "Easter Monday / Pasquetta",
+      "start": "2030-04-22T00:00:00+02:00",
+      "end": "2030-04-23T00:00:00+02:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2030-04-22@ucsc-calendar",
+      "source_date": "2030-04-22",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2030-04-25@ucsc-calendar",
+      "summary": "Liberation Day / Festa della Liberazione",
+      "start": "2030-04-25T00:00:00+02:00",
+      "end": "2030-04-26T00:00:00+02:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2030-04-25@ucsc-calendar",
+      "source_date": "2030-04-25",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2030-05-01@ucsc-calendar",
+      "summary": "Labour Day / Festa del Lavoro",
+      "start": "2030-05-01T00:00:00+02:00",
+      "end": "2030-05-02T00:00:00+02:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2030-05-01@ucsc-calendar",
+      "source_date": "2030-05-01",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2030-06-02@ucsc-calendar",
+      "summary": "Republic Day / Festa della Repubblica",
+      "start": "2030-06-02T00:00:00+02:00",
+      "end": "2030-06-03T00:00:00+02:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2030-06-02@ucsc-calendar",
+      "source_date": "2030-06-02",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2030-08-15@ucsc-calendar",
+      "summary": "Assumption / Ferragosto",
+      "start": "2030-08-15T00:00:00+02:00",
+      "end": "2030-08-16T00:00:00+02:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2030-08-15@ucsc-calendar",
+      "source_date": "2030-08-15",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2030-10-04@ucsc-calendar",
+      "summary": "St Francis of Assisi / San Francesco d'Assisi",
+      "start": "2030-10-04T00:00:00+02:00",
+      "end": "2030-10-05T00:00:00+02:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2030-10-04@ucsc-calendar",
+      "source_date": "2030-10-04",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2030-11-01@ucsc-calendar",
+      "summary": "All Saints / Ognissanti",
+      "start": "2030-11-01T00:00:00+01:00",
+      "end": "2030-11-02T00:00:00+01:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2030-11-01@ucsc-calendar",
+      "source_date": "2030-11-01",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2030-12-08@ucsc-calendar",
+      "summary": "Immaculate Conception / Immacolata Concezione",
+      "start": "2030-12-08T00:00:00+01:00",
+      "end": "2030-12-09T00:00:00+01:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2030-12-08@ucsc-calendar",
+      "source_date": "2030-12-08",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2030-12-25@ucsc-calendar",
+      "summary": "Christmas / Natale",
+      "start": "2030-12-25T00:00:00+01:00",
+      "end": "2030-12-26T00:00:00+01:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2030-12-25@ucsc-calendar",
+      "source_date": "2030-12-25",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    },
+    {
+      "uid": "italy-holiday-2030-12-26@ucsc-calendar",
+      "summary": "St Stephen / Santo Stefano",
+      "start": "2030-12-26T00:00:00+01:00",
+      "end": "2030-12-27T00:00:00+01:00",
+      "location": "Italy",
+      "description": "National public holiday. Sources: https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html ; https://www.normattiva.it/eli/id/2025/10/10/25G00153/ORIGINAL",
+      "status": null,
+      "source_kind": "holiday",
+      "source_record_id": "italy-holiday-2030-12-26@ucsc-calendar",
+      "source_date": "2030-12-26",
+      "metadata": {
+        "all_day": true
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:26+00:00"
+    }
+  ]
+}

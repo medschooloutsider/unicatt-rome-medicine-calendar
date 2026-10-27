@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Codex Automation//UCSC Unicatt Calendar Broadcast//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:UCSC Rome Medicine Year 1 Lessons
+X-WR-CALDESC:2024-2030 cohort\; academic year 2024-2025. Historical recon
+ struction\; incomplete coverage must not be interpreted as no lessons. E
+ ntries are NOT erased as days pass. Past entries remain in place indefin
+ itely for future audit. Corrections and cancellations retain event ident
+ ity\; no rolling date cutoff is permitted for this or any future station
+ .
+X-WR-TIMEZONE:Europe/Rome
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+X-LIC-LOCATION:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+END:VCALENDAR

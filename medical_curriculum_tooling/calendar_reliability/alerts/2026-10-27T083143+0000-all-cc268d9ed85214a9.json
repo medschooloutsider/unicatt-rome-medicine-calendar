@@ -1,0 +1,6 @@
+{
+  "feed_id": "all",
+  "observed_at_utc": "2026-10-27T08:31:43+00:00",
+  "type": "watchdog_failure",
+  "message": "year2-lessons: source freshness; year2-lessons: publication freshness; year2-lessons: uninitialized; year2-exams: source freshness; year2-exams: publication freshness; year2-exams: uninitialized; year1-exams: source freshness; year1-exams: publication freshness; year1-exams: uninitialized; year1-lessons: source freshness; year1-lessons: publication freshness; year1-lessons: uninitialized; year3-lessons: source freshness; year3-lessons: publication freshness; year3-lessons: uninitialized; year3-exams: source freshness; year3-exams: publication freshness; year3-exams: uninitialized; italy-holidays: source freshness; italy-holidays: publication freshness; italy-holidays: uninitialized; tartu-y1-lessons: source freshness; tartu-y1-lessons: publication freshness; tartu-y1-lessons: uninitialized; missing publication: year2-lessons; missing publication: year2-exams; missing publication: year1-exams; missing publication: year1-lessons; missing publication: year3-lessons; missing publication: year3-exams; missing publication: italy-holidays; missing publication: tartu-y1-lessons"
+}

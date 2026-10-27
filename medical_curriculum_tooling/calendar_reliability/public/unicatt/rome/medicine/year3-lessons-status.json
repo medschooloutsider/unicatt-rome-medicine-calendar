@@ -1,0 +1,4065 @@
+{
+  "feed_id": "year3-lessons",
+  "calendar_name": "UCSC Rome Medicine Year 3 Lessons",
+  "generated_at_utc": "2026-10-27T08:32:54+00:00",
+  "last_successful_fetch_at_utc": "2026-10-27T08:32:54+00:00",
+  "last_publication_at_utc": "2026-10-27T08:32:54+00:00",
+  "generated_age_seconds": 0,
+  "event_count": 129,
+  "cancelled_count": 4,
+  "tentative_count": 0,
+  "source_counts": {
+    "base_lessons": 83,
+    "room_changes": 8,
+    "extra_lessons": 0,
+    "suspensions": 0,
+    "merge_notes": 8
+  },
+  "source_payload": {
+    "codiceSede": "RM",
+    "annoAccademico": "2026",
+    "codiceFacolta": "75012",
+    "codiceCorsoDiLaurea": "0H0B",
+    "annoDiCorso": "3"
+  },
+  "source_urls": [
+    "https://secure.unicatt.it/didatticaweb2/ps/lezioni/",
+    "https://secure.unicatt.it/didatticaweb2/cambiaula/",
+    "https://secure.unicatt.it/didatticaweb2/lezionistraordinarie/",
+    "https://secure.unicatt.it/didatticaweb2/sospensioni/"
+  ],
+  "source_snapshot_hash": "8c71d3e9d0eca979a7a96a42b1af0d4afcb93758c05d9ba704bf25c8b4d73ec7",
+  "last_published_source_snapshot_hash": "8c71d3e9d0eca979a7a96a42b1af0d4afcb93758c05d9ba704bf25c8b4d73ec7",
+  "content_hash": "3e12723568c577af2e009b72d64d0c67622495de56826049130da3081c7ac4e1",
+  "publication_mode": "github-pages-static",
+  "dynamic_refresh": "GitHub Actions poller; no Vercel Blob dependency",
+  "health": "healthy",
+  "healthy": true,
+  "stale": false,
+  "consecutive_failures": 0,
+  "last_error": null,
+  "alerts": [
+    {
+      "type": "confirmed_cancellation",
+      "uid": "unicatt-lesson-occurrence-121921777@codex",
+      "summary": "FIRST AID (MECHANISMS AND MANIFESTATIONS OF DISEASES)"
+    },
+    {
+      "type": "confirmed_cancellation",
+      "uid": "unicatt-lesson-occurrence-121921781@codex",
+      "summary": "FIRST AID (MECHANISMS AND MANIFESTATIONS OF DISEASES)"
+    },
+    {
+      "type": "confirmed_cancellation",
+      "uid": "unicatt-lesson-occurrence-121871194@codex",
+      "summary": "GENERAL PHARMACOLOGY (APPROACH TO DIAGNOSIS AND TREATMENT)"
+    },
+    {
+      "type": "confirmed_cancellation",
+      "uid": "unicatt-lesson-occurrence-121921854@codex",
+      "summary": "FIRST AID (MECHANISMS AND MANIFESTATIONS OF DISEASES)"
+    }
+  ],
+  "retention_policy": "Entries are NOT erased as days pass. Past entries remain in place indefinitely for future audit. Corrections and cancellations retain event identity; no rolling date cutoff is permitted for this or any future station.",
+  "events": [
+    {
+      "uid": "unicatt-lesson-occurrence-121920261@codex",
+      "summary": "PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-09-25T08:30:00+02:00",
+      "end": "2026-09-25T09:15:00+02:00",
+      "location": "Giovanni XXIII - 5",
+      "description": "Course code: MR000125\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: MARINO MARIAPAOLA\nSource date: 25/09/2026\nBuilding: Giovanni XXIII\nRoom: 5\nDuration: 00:45\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121920261",
+      "source_date": "25/09/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000125",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121776994,
+        "idCalendarioAula": 121920261,
+        "matchKey": [
+          "MR000125",
+          "25/09/2026",
+          "08:30",
+          "09:15"
+        ],
+        "flags": {
+          "room_change": true,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121920893@codex",
+      "summary": "PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-09-28T09:15:00+02:00",
+      "end": "2026-09-28T10:45:00+02:00",
+      "location": "Giovanni XXIII - Lazzati",
+      "description": "Course code: MR000125\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: PANI GIOVAMBATTISTA\nSource date: 28/09/2026\nBuilding: Giovanni XXIII\nRoom: Lazzati\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121920893",
+      "source_date": "28/09/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000125",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121777024,
+        "idCalendarioAula": 121920893,
+        "matchKey": [
+          "MR000125",
+          "28/09/2026",
+          "09:15",
+          "10:45"
+        ],
+        "flags": {
+          "room_change": true,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121840852@codex",
+      "summary": "THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS",
+      "start": "2026-09-28T10:45:00+02:00",
+      "end": "2026-09-28T13:00:00+02:00",
+      "location": "Giovanni XXIII - Lazzati",
+      "description": "Course code: MR000319\nIntegrated course code: MR000044\nIntegrated course: THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS\nTeacher: CHOI HA NA\nSource date: 28/09/2026\nBuilding: Giovanni XXIII\nRoom: Lazzati\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121840852",
+      "source_date": "28/09/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000319",
+        "codiceCorsoIntegrato": "MR000044",
+        "idLezione": 121812664,
+        "idCalendarioAula": 121840852,
+        "matchKey": [
+          "MR000319",
+          "28/09/2026",
+          "10:45",
+          "13:00"
+        ],
+        "flags": {
+          "room_change": true,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121920352@codex",
+      "summary": "PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-09-29T10:45:00+02:00",
+      "end": "2026-09-29T12:15:00+02:00",
+      "location": "Giovanni XXIII - Lazzati",
+      "description": "Course code: MR000125\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SERINI SIMONA\nSource date: 29/09/2026\nBuilding: Giovanni XXIII\nRoom: Lazzati\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121920352",
+      "source_date": "29/09/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000125",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121776995,
+        "idCalendarioAula": 121920352,
+        "matchKey": [
+          "MR000125",
+          "29/09/2026",
+          "10:45",
+          "12:15"
+        ],
+        "flags": {
+          "room_change": true,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121921818@codex",
+      "summary": "FIRST AID (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-09-29T14:15:00+02:00",
+      "end": "2026-09-29T17:15:00+02:00",
+      "location": "Giovanni XXIII - 5",
+      "description": "Course code: MR000127\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SOAVE PAOLO MAURIZIO\nSource date: 29/09/2026\nBuilding: Giovanni XXIII\nRoom: 5\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121921818",
+      "source_date": "29/09/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000127",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121777002,
+        "idCalendarioAula": 121921818,
+        "matchKey": [
+          "MR000127",
+          "29/09/2026",
+          "14:15",
+          "17:15"
+        ],
+        "flags": {
+          "room_change": true,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121920901@codex",
+      "summary": "PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-09-30T08:30:00+02:00",
+      "end": "2026-09-30T10:45:00+02:00",
+      "location": "Giovanni XXIII - Bausola",
+      "description": "Course code: MR000125\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: PANI GIOVAMBATTISTA\nSource date: 30/09/2026\nBuilding: Giovanni XXIII\nRoom: Bausola\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121920901",
+      "source_date": "30/09/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000125",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121777024,
+        "idCalendarioAula": 121920901,
+        "matchKey": [
+          "MR000125",
+          "30/09/2026",
+          "08:30",
+          "10:45"
+        ],
+        "flags": {
+          "room_change": true,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121871460@codex",
+      "summary": "LABORATORY DIAGNOSTIC (APPROACH TO DIAGNOSIS AND TREATMENT)",
+      "start": "2026-09-30T10:45:00+02:00",
+      "end": "2026-09-30T13:00:00+02:00",
+      "location": "Giovanni XXIII - Bausola",
+      "description": "Course code: MR000129\nIntegrated course code: MR000016\nIntegrated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: CORASOLLA CARREGARI VICTOR\nSource date: 30/09/2026\nBuilding: Giovanni XXIII\nRoom: Bausola\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121871460",
+      "source_date": "30/09/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000129",
+        "codiceCorsoIntegrato": "MR000016",
+        "idLezione": 121777007,
+        "idCalendarioAula": 121871460,
+        "matchKey": [
+          "MR000129",
+          "30/09/2026",
+          "10:45",
+          "13:00"
+        ],
+        "flags": {
+          "room_change": true,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121871132@codex",
+      "summary": "GENERAL PHARMACOLOGY (APPROACH TO DIAGNOSIS AND TREATMENT)",
+      "start": "2026-10-01T08:30:00+02:00",
+      "end": "2026-10-01T10:45:00+02:00",
+      "location": "Giovanni XXIII - Lazzati",
+      "description": "Course code: MR000135\nIntegrated course code: MR000016\nIntegrated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: MORES NADIA\nSource date: 01/10/2026\nBuilding: Giovanni XXIII\nRoom: Lazzati\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121871132",
+      "source_date": "01/10/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000135",
+        "codiceCorsoIntegrato": "MR000016",
+        "idLezione": 121540335,
+        "idCalendarioAula": 121871132,
+        "matchKey": [
+          "MR000135",
+          "01/10/2026",
+          "08:30",
+          "10:45"
+        ],
+        "flags": {
+          "room_change": true,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121920906@codex",
+      "summary": "PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-10-01T10:45:00+02:00",
+      "end": "2026-10-01T12:15:00+02:00",
+      "location": "Giovanni XXIII - Lazzati",
+      "description": "Course code: MR000125\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: PANI GIOVAMBATTISTA\nSource date: 01/10/2026\nBuilding: Giovanni XXIII\nRoom: Lazzati\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121920906",
+      "source_date": "01/10/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000125",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121777024,
+        "idCalendarioAula": 121920906,
+        "matchKey": [
+          "MR000125",
+          "01/10/2026",
+          "10:45",
+          "12:15"
+        ],
+        "flags": {
+          "room_change": true,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121871465@codex",
+      "summary": "LABORATORY DIAGNOSTIC (APPROACH TO DIAGNOSIS AND TREATMENT)",
+      "start": "2026-10-02T10:00:00+02:00",
+      "end": "2026-10-02T13:00:00+02:00",
+      "location": "Giovanni XXIII - Bausola",
+      "description": "Course code: MR000129\nIntegrated course code: MR000016\nIntegrated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: CORASOLLA CARREGARI VICTOR\nSource date: 02/10/2026\nBuilding: Giovanni XXIII\nRoom: Bausola\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121871465",
+      "source_date": "02/10/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000129",
+        "codiceCorsoIntegrato": "MR000016",
+        "idLezione": 121777007,
+        "idCalendarioAula": 121871465,
+        "matchKey": [
+          "MR000129",
+          "02/10/2026",
+          "10:00",
+          "13:00"
+        ],
+        "flags": {
+          "room_change": true,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121920914@codex",
+      "summary": "PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-10-05T08:30:00+02:00",
+      "end": "2026-10-05T10:00:00+02:00",
+      "location": "Giovanni XXIII - Lazzati",
+      "description": "Course code: MR000125\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: PANI GIOVAMBATTISTA\nSource date: 05/10/2026\nBuilding: Giovanni XXIII\nRoom: Lazzati\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121920914",
+      "source_date": "05/10/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000125",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121777024,
+        "idCalendarioAula": 121920914,
+        "matchKey": [
+          "MR000125",
+          "05/10/2026",
+          "08:30",
+          "10:00"
+        ],
+        "flags": {
+          "room_change": true,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121920359@codex",
+      "summary": "PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-10-05T10:00:00+02:00",
+      "end": "2026-10-05T10:45:00+02:00",
+      "location": "Giovanni XXIII - Lazzati",
+      "description": "Course code: MR000125\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SERINI SIMONA\nSource date: 05/10/2026\nBuilding: Giovanni XXIII\nRoom: Lazzati\nDuration: 00:45\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121920359",
+      "source_date": "05/10/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000125",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121776995,
+        "idCalendarioAula": 121920359,
+        "matchKey": [
+          "MR000125",
+          "05/10/2026",
+          "10:00",
+          "10:45"
+        ],
+        "flags": {
+          "room_change": true,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121840864@codex",
+      "summary": "THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS",
+      "start": "2026-10-05T10:45:00+02:00",
+      "end": "2026-10-05T13:00:00+02:00",
+      "location": "Giovanni XXIII - Lazzati",
+      "description": "Course code: MR000319\nIntegrated course code: MR000044\nIntegrated course: THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS\nTeacher: CHOI HA NA\nSource date: 05/10/2026\nBuilding: Giovanni XXIII\nRoom: Lazzati\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121840864",
+      "source_date": "05/10/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000319",
+        "codiceCorsoIntegrato": "MR000044",
+        "idLezione": 121812664,
+        "idCalendarioAula": 121840864,
+        "matchKey": [
+          "MR000319",
+          "05/10/2026",
+          "10:45",
+          "13:00"
+        ],
+        "flags": {
+          "room_change": true,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121871470@codex",
+      "summary": "LABORATORY DIAGNOSTIC (APPROACH TO DIAGNOSIS AND TREATMENT)",
+      "start": "2026-10-06T08:30:00+02:00",
+      "end": "2026-10-06T10:45:00+02:00",
+      "location": "Giovanni XXIII - Lazzati",
+      "description": "Course code: MR000129\nIntegrated course code: MR000016\nIntegrated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: CORASOLLA CARREGARI VICTOR\nSource date: 06/10/2026\nBuilding: Giovanni XXIII\nRoom: Lazzati\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121871470",
+      "source_date": "06/10/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000129",
+        "codiceCorsoIntegrato": "MR000016",
+        "idLezione": 121777007,
+        "idCalendarioAula": 121871470,
+        "matchKey": [
+          "MR000129",
+          "06/10/2026",
+          "08:30",
+          "10:45"
+        ],
+        "flags": {
+          "room_change": true,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121920276@codex",
+      "summary": "PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-10-06T10:45:00+02:00",
+      "end": "2026-10-06T12:15:00+02:00",
+      "location": "Giovanni XXIII - Lazzati",
+      "description": "Course code: MR000125\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: MARINO MARIAPAOLA\nSource date: 06/10/2026\nBuilding: Giovanni XXIII\nRoom: Lazzati\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121920276",
+      "source_date": "06/10/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000125",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121776994,
+        "idCalendarioAula": 121920276,
+        "matchKey": [
+          "MR000125",
+          "06/10/2026",
+          "10:45",
+          "12:15"
+        ],
+        "flags": {
+          "room_change": true,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121920283@codex",
+      "summary": "PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-10-07T08:30:00+02:00",
+      "end": "2026-10-07T10:45:00+02:00",
+      "location": "Giovanni XXIII - Lazzati",
+      "description": "Course code: MR000125\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: MARINO MARIAPAOLA\nSource date: 07/10/2026\nBuilding: Giovanni XXIII\nRoom: Lazzati\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121920283",
+      "source_date": "07/10/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000125",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121776994,
+        "idCalendarioAula": 121920283,
+        "matchKey": [
+          "MR000125",
+          "07/10/2026",
+          "08:30",
+          "10:45"
+        ],
+        "flags": {
+          "room_change": true,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121871474@codex",
+      "summary": "LABORATORY DIAGNOSTIC (APPROACH TO DIAGNOSIS AND TREATMENT)",
+      "start": "2026-10-07T10:45:00+02:00",
+      "end": "2026-10-07T13:00:00+02:00",
+      "location": "Giovanni XXIII - Lazzati",
+      "description": "Course code: MR000129\nIntegrated course code: MR000016\nIntegrated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: CORASOLLA CARREGARI VICTOR\nSource date: 07/10/2026\nBuilding: Giovanni XXIII\nRoom: Lazzati\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121871474",
+      "source_date": "07/10/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000129",
+        "codiceCorsoIntegrato": "MR000016",
+        "idLezione": 121777007,
+        "idCalendarioAula": 121871474,
+        "matchKey": [
+          "MR000129",
+          "07/10/2026",
+          "10:45",
+          "13:00"
+        ],
+        "flags": {
+          "room_change": true,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121871453@codex",
+      "summary": "GENERAL RADIODIAGNOSTICS (INCLUSIVE NM, RT) (APPROACH TO DIAGNOSIS AND TREATMENT)",
+      "start": "2026-10-08T09:15:00+02:00",
+      "end": "2026-10-08T10:45:00+02:00",
+      "location": "Giovanni XXIII - Lazzati",
+      "description": "Course code: MR000137\nIntegrated course code: MR000016\nIntegrated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: CELLINI FRANCESCO\nSource date: 08/10/2026\nBuilding: Giovanni XXIII\nRoom: Lazzati\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121871453",
+      "source_date": "08/10/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000137",
+        "codiceCorsoIntegrato": "MR000016",
+        "idLezione": 121777014,
+        "idCalendarioAula": 121871453,
+        "matchKey": [
+          "MR000137",
+          "08/10/2026",
+          "09:15",
+          "10:45"
+        ],
+        "flags": {
+          "room_change": true,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121919996@codex",
+      "summary": "INTERNAL MEDICINE (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-10-08T10:45:00+02:00",
+      "end": "2026-10-08T12:15:00+02:00",
+      "location": "Giovanni XXIII - Lazzati",
+      "description": "Course code: MR000126\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: GAMBASSI GIOVANNI\nSource date: 08/10/2026\nBuilding: Giovanni XXIII\nRoom: Lazzati\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121919996",
+      "source_date": "08/10/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000126",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121776996,
+        "idCalendarioAula": 121919996,
+        "matchKey": [
+          "MR000126",
+          "08/10/2026",
+          "10:45",
+          "12:15"
+        ],
+        "flags": {
+          "room_change": true,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121921844@codex",
+      "summary": "FIRST AID (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-10-09T08:30:00+02:00",
+      "end": "2026-10-09T10:00:00+02:00",
+      "location": "Giovanni XXIII - Lazzati",
+      "description": "Course code: MR000127\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: CUTULI SALVATORE LUCIO\nSource date: 09/10/2026\nBuilding: Giovanni XXIII\nRoom: Lazzati\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121921844",
+      "source_date": "09/10/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000127",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121777000,
+        "idCalendarioAula": 121921844,
+        "matchKey": [
+          "MR000127",
+          "09/10/2026",
+          "08:30",
+          "10:00"
+        ],
+        "flags": {
+          "room_change": true,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121871137@codex",
+      "summary": "GENERAL PHARMACOLOGY (APPROACH TO DIAGNOSIS AND TREATMENT)",
+      "start": "2026-10-09T10:00:00+02:00",
+      "end": "2026-10-09T11:30:00+02:00",
+      "location": "Giovanni XXIII - Lazzati",
+      "description": "Course code: MR000135\nIntegrated course code: MR000016\nIntegrated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: MORES NADIA\nSource date: 09/10/2026\nBuilding: Giovanni XXIII\nRoom: Lazzati\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121871137",
+      "source_date": "09/10/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000135",
+        "codiceCorsoIntegrato": "MR000016",
+        "idLezione": 121540335,
+        "idCalendarioAula": 121871137,
+        "matchKey": [
+          "MR000135",
+          "09/10/2026",
+          "10:00",
+          "11:30"
+        ],
+        "flags": {
+          "room_change": true,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121920366@codex",
+      "summary": "PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-10-12T08:30:00+02:00",
+      "end": "2026-10-12T10:45:00+02:00",
+      "location": "Giovanni XXIII - Lazzati",
+      "description": "Course code: MR000125\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SERINI SIMONA\nSource date: 12/10/2026\nBuilding: Giovanni XXIII\nRoom: Lazzati\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121920366",
+      "source_date": "12/10/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000125",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121776995,
+        "idCalendarioAula": 121920366,
+        "matchKey": [
+          "MR000125",
+          "12/10/2026",
+          "08:30",
+          "10:45"
+        ],
+        "flags": {
+          "room_change": true,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121840872@codex",
+      "summary": "THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS",
+      "start": "2026-10-12T10:45:00+02:00",
+      "end": "2026-10-12T13:00:00+02:00",
+      "location": "Giovanni XXIII - Lazzati",
+      "description": "Course code: MR000319\nIntegrated course code: MR000044\nIntegrated course: THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS\nTeacher: CHOI HA NA\nSource date: 12/10/2026\nBuilding: Giovanni XXIII\nRoom: Lazzati\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121840872",
+      "source_date": "12/10/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000319",
+        "codiceCorsoIntegrato": "MR000044",
+        "idLezione": 121812664,
+        "idCalendarioAula": 121840872,
+        "matchKey": [
+          "MR000319",
+          "12/10/2026",
+          "10:45",
+          "13:00"
+        ],
+        "flags": {
+          "room_change": true,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121942076@codex",
+      "summary": "MOLECULAR DIAGNOSTICS (APPROACH TO DIAGNOSIS AND TREATMENT)",
+      "start": "2026-10-13T08:30:00+02:00",
+      "end": "2026-10-13T10:45:00+02:00",
+      "location": "Giovanni XXIII - Lazzati",
+      "description": "Course code: MR000133\nIntegrated course code: MR000016\nIntegrated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: CORASOLLA CARREGARI VICTOR\nSource date: 13/10/2026\nBuilding: Giovanni XXIII\nRoom: Lazzati\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121942076",
+      "source_date": "13/10/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000133",
+        "codiceCorsoIntegrato": "MR000016",
+        "idLezione": 121777009,
+        "idCalendarioAula": 121942076,
+        "matchKey": [
+          "MR000133",
+          "13/10/2026",
+          "08:30",
+          "10:45"
+        ],
+        "flags": {
+          "room_change": true,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121920370@codex",
+      "summary": "PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-10-13T10:45:00+02:00",
+      "end": "2026-10-13T12:15:00+02:00",
+      "location": "Giovanni XXIII - Lazzati",
+      "description": "Course code: MR000125\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SERINI SIMONA\nSource date: 13/10/2026\nBuilding: Giovanni XXIII\nRoom: Lazzati\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121920370",
+      "source_date": "13/10/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000125",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121776995,
+        "idCalendarioAula": 121920370,
+        "matchKey": [
+          "MR000125",
+          "13/10/2026",
+          "10:45",
+          "12:15"
+        ],
+        "flags": {
+          "room_change": true,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121942080@codex",
+      "summary": "MOLECULAR DIAGNOSTICS (APPROACH TO DIAGNOSIS AND TREATMENT)",
+      "start": "2026-10-14T10:45:00+02:00",
+      "end": "2026-10-14T13:00:00+02:00",
+      "location": "Giovanni XXIII - Lazzati",
+      "description": "Course code: MR000133\nIntegrated course code: MR000016\nIntegrated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: CORASOLLA CARREGARI VICTOR\nSource date: 14/10/2026\nBuilding: Giovanni XXIII\nRoom: Lazzati\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121942080",
+      "source_date": "14/10/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000133",
+        "codiceCorsoIntegrato": "MR000016",
+        "idLezione": 121777009,
+        "idCalendarioAula": 121942080,
+        "matchKey": [
+          "MR000133",
+          "14/10/2026",
+          "10:45",
+          "13:00"
+        ],
+        "flags": {
+          "room_change": true,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121873145@codex",
+      "summary": "CLINICAL PHYSICS (APPROACH TO DIAGNOSIS AND TREATMENT)",
+      "start": "2026-10-15T08:30:00+02:00",
+      "end": "2026-10-15T10:45:00+02:00",
+      "location": "Giovanni XXIII - Lazzati",
+      "description": "Course code: MR000136\nIntegrated course code: MR000016\nIntegrated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: CIASCA GABRIELE\nSource date: 15/10/2026\nBuilding: Giovanni XXIII\nRoom: Lazzati\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121873145",
+      "source_date": "15/10/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000136",
+        "codiceCorsoIntegrato": "MR000016",
+        "idLezione": 121777011,
+        "idCalendarioAula": 121873145,
+        "matchKey": [
+          "MR000136",
+          "15/10/2026",
+          "08:30",
+          "10:45"
+        ],
+        "flags": {
+          "room_change": true,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121920922@codex",
+      "summary": "PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-10-15T10:45:00+02:00",
+      "end": "2026-10-15T12:15:00+02:00",
+      "location": "Giovanni XXIII - Lazzati",
+      "description": "Course code: MR000125\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: PANI GIOVAMBATTISTA\nSource date: 15/10/2026\nBuilding: Giovanni XXIII\nRoom: Lazzati\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121920922",
+      "source_date": "15/10/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000125",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121777024,
+        "idCalendarioAula": 121920922,
+        "matchKey": [
+          "MR000125",
+          "15/10/2026",
+          "10:45",
+          "12:15"
+        ],
+        "flags": {
+          "room_change": true,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121921849@codex",
+      "summary": "FIRST AID (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-10-16T08:30:00+02:00",
+      "end": "2026-10-16T10:00:00+02:00",
+      "location": "Giovanni XXIII - Lazzati",
+      "description": "Course code: MR000127\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: CUTULI SALVATORE LUCIO\nSource date: 16/10/2026\nBuilding: Giovanni XXIII\nRoom: Lazzati\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121921849",
+      "source_date": "16/10/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000127",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121777000,
+        "idCalendarioAula": 121921849,
+        "matchKey": [
+          "MR000127",
+          "16/10/2026",
+          "08:30",
+          "10:00"
+        ],
+        "flags": {
+          "room_change": true,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121873341@codex",
+      "summary": "CLINICAL GENETICS (APPROACH TO DIAGNOSIS AND TREATMENT)",
+      "start": "2026-10-16T10:00:00+02:00",
+      "end": "2026-10-16T11:30:00+02:00",
+      "location": "Giovanni XXIII - Lazzati",
+      "description": "Course code: MR000134\nIntegrated course code: MR000016\nIntegrated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: MARANGI GIUSEPPE\nSource date: 16/10/2026\nBuilding: Giovanni XXIII\nRoom: Lazzati\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121873341",
+      "source_date": "16/10/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000134",
+        "codiceCorsoIntegrato": "MR000016",
+        "idLezione": 121777010,
+        "idCalendarioAula": 121873341,
+        "matchKey": [
+          "MR000134",
+          "16/10/2026",
+          "10:00",
+          "11:30"
+        ],
+        "flags": {
+          "room_change": true,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121871174@codex",
+      "summary": "GENERAL PHARMACOLOGY (APPROACH TO DIAGNOSIS AND TREATMENT)",
+      "start": "2026-10-16T11:45:00+02:00",
+      "end": "2026-10-16T13:15:00+02:00",
+      "location": "Giovanni XXIII - Lazzati",
+      "description": "Course code: MR000135\nIntegrated course code: MR000016\nIntegrated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: MORES NADIA\nSource date: 16/10/2026\nBuilding: Giovanni XXIII\nRoom: Lazzati\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121871174",
+      "source_date": "16/10/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000135",
+        "codiceCorsoIntegrato": "MR000016",
+        "idLezione": 121540335,
+        "idCalendarioAula": 121871174,
+        "matchKey": [
+          "MR000135",
+          "16/10/2026",
+          "11:45",
+          "13:15"
+        ],
+        "flags": {
+          "room_change": true,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121840880@codex",
+      "summary": "THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS",
+      "start": "2026-10-19T10:45:00+02:00",
+      "end": "2026-10-19T13:00:00+02:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000319\nIntegrated course code: MR000044\nIntegrated course: THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS\nTeacher: CHOI HA NA\nSource date: 19/10/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121840880",
+      "source_date": "19/10/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000319",
+        "codiceCorsoIntegrato": "MR000044",
+        "idLezione": 121812664,
+        "idCalendarioAula": 121840880,
+        "matchKey": [
+          "MR000319",
+          "19/10/2026",
+          "10:45",
+          "13:00"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121942084@codex",
+      "summary": "MOLECULAR DIAGNOSTICS (APPROACH TO DIAGNOSIS AND TREATMENT)",
+      "start": "2026-10-20T08:30:00+02:00",
+      "end": "2026-10-20T10:45:00+02:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000133\nIntegrated course code: MR000016\nIntegrated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: CORASOLLA CARREGARI VICTOR\nSource date: 20/10/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121942084",
+      "source_date": "20/10/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000133",
+        "codiceCorsoIntegrato": "MR000016",
+        "idLezione": 121777009,
+        "idCalendarioAula": 121942084,
+        "matchKey": [
+          "MR000133",
+          "20/10/2026",
+          "08:30",
+          "10:45"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121920287@codex",
+      "summary": "PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-10-20T10:45:00+02:00",
+      "end": "2026-10-20T12:15:00+02:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000125\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: MARINO MARIAPAOLA\nSource date: 20/10/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121920287",
+      "source_date": "20/10/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000125",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121776994,
+        "idCalendarioAula": 121920287,
+        "matchKey": [
+          "MR000125",
+          "20/10/2026",
+          "10:45",
+          "12:15"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121920927@codex",
+      "summary": "PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-10-21T08:30:00+02:00",
+      "end": "2026-10-21T10:45:00+02:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000125\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: PANI GIOVAMBATTISTA\nSource date: 21/10/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121920927",
+      "source_date": "21/10/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000125",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121777024,
+        "idCalendarioAula": 121920927,
+        "matchKey": [
+          "MR000125",
+          "21/10/2026",
+          "08:30",
+          "10:45"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121873153@codex",
+      "summary": "CLINICAL PHYSICS (APPROACH TO DIAGNOSIS AND TREATMENT)",
+      "start": "2026-10-21T10:45:00+02:00",
+      "end": "2026-10-21T13:00:00+02:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000136\nIntegrated course code: MR000016\nIntegrated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: CIASCA GABRIELE\nSource date: 21/10/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121873153",
+      "source_date": "21/10/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000136",
+        "codiceCorsoIntegrato": "MR000016",
+        "idLezione": 121777011,
+        "idCalendarioAula": 121873153,
+        "matchKey": [
+          "MR000136",
+          "21/10/2026",
+          "10:45",
+          "13:00"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121873353@codex",
+      "summary": "CLINICAL GENETICS (APPROACH TO DIAGNOSIS AND TREATMENT)",
+      "start": "2026-10-22T08:30:00+02:00",
+      "end": "2026-10-22T10:45:00+02:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000134\nIntegrated course code: MR000016\nIntegrated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: MARANGI GIUSEPPE\nSource date: 22/10/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121873353",
+      "source_date": "22/10/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000134",
+        "codiceCorsoIntegrato": "MR000016",
+        "idLezione": 121777010,
+        "idCalendarioAula": 121873353,
+        "matchKey": [
+          "MR000134",
+          "22/10/2026",
+          "08:30",
+          "10:45"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121920291@codex",
+      "summary": "PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-10-22T10:45:00+02:00",
+      "end": "2026-10-22T12:15:00+02:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000125\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: MARINO MARIAPAOLA\nSource date: 22/10/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121920291",
+      "source_date": "22/10/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000125",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121776994,
+        "idCalendarioAula": 121920291,
+        "matchKey": [
+          "MR000125",
+          "22/10/2026",
+          "10:45",
+          "12:15"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121921717@codex",
+      "summary": "INTERNAL MEDICINE (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-10-23T08:30:00+02:00",
+      "end": "2026-10-23T10:00:00+02:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000126\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: CARDILLO CARMINE\nSource date: 23/10/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121921717",
+      "source_date": "23/10/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000126",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121776997,
+        "idCalendarioAula": 121921717,
+        "matchKey": [
+          "MR000126",
+          "23/10/2026",
+          "08:30",
+          "10:00"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121942088@codex",
+      "summary": "MOLECULAR DIAGNOSTICS (APPROACH TO DIAGNOSIS AND TREATMENT)",
+      "start": "2026-10-23T10:00:00+02:00",
+      "end": "2026-10-23T13:00:00+02:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000133\nIntegrated course code: MR000016\nIntegrated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: CORASOLLA CARREGARI VICTOR\nSource date: 23/10/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121942088",
+      "source_date": "23/10/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000133",
+        "codiceCorsoIntegrato": "MR000016",
+        "idLezione": 121777009,
+        "idCalendarioAula": 121942088,
+        "matchKey": [
+          "MR000133",
+          "23/10/2026",
+          "10:00",
+          "13:00"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121920385@codex",
+      "summary": "PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-10-26T08:30:00+01:00",
+      "end": "2026-10-26T10:45:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000125\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SERINI SIMONA\nSource date: 26/10/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121920385",
+      "source_date": "26/10/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000125",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121776995,
+        "idCalendarioAula": 121920385,
+        "matchKey": [
+          "MR000125",
+          "26/10/2026",
+          "08:30",
+          "10:45"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121840888@codex",
+      "summary": "THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS",
+      "start": "2026-10-26T10:45:00+01:00",
+      "end": "2026-10-26T13:00:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000319\nIntegrated course code: MR000044\nIntegrated course: THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS\nTeacher: CHOI HA NA\nSource date: 26/10/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121840888",
+      "source_date": "26/10/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000319",
+        "codiceCorsoIntegrato": "MR000044",
+        "idLezione": 121812664,
+        "idCalendarioAula": 121840888,
+        "matchKey": [
+          "MR000319",
+          "26/10/2026",
+          "10:45",
+          "13:00"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121871194@codex",
+      "summary": "GENERAL PHARMACOLOGY (APPROACH TO DIAGNOSIS AND TREATMENT)",
+      "start": "2026-10-27T08:30:00+01:00",
+      "end": "2026-10-27T10:45:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000135\nIntegrated course code: MR000016\nIntegrated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: MORES NADIA\nSource date: 27/10/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.\n\nCalendar reliability note: cancelled after two consecutive valid upstream snapshots omitted this future event.",
+      "status": "CANCELLED",
+      "source_kind": "lesson",
+      "source_record_id": "121871194",
+      "source_date": "27/10/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000135",
+        "codiceCorsoIntegrato": "MR000016",
+        "idLezione": 121540335,
+        "idCalendarioAula": 121871194,
+        "matchKey": [
+          "MR000135",
+          "27/10/2026",
+          "08:30",
+          "10:45"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 2,
+      "last_modified_utc": "2026-10-27T08:32:54+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121920393@codex",
+      "summary": "PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-10-27T10:45:00+01:00",
+      "end": "2026-10-27T12:15:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000125\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SERINI SIMONA\nSource date: 27/10/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121920393",
+      "source_date": "27/10/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000125",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121776995,
+        "idCalendarioAula": 121920393,
+        "matchKey": [
+          "MR000125",
+          "27/10/2026",
+          "10:45",
+          "12:15"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121920295@codex",
+      "summary": "PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-10-28T08:30:00+01:00",
+      "end": "2026-10-28T10:45:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000125\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: MARINO MARIAPAOLA\nSource date: 28/10/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121920295",
+      "source_date": "28/10/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000125",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121776994,
+        "idCalendarioAula": 121920295,
+        "matchKey": [
+          "MR000125",
+          "28/10/2026",
+          "08:30",
+          "10:45"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121873157@codex",
+      "summary": "CLINICAL PHYSICS (APPROACH TO DIAGNOSIS AND TREATMENT)",
+      "start": "2026-10-28T10:45:00+01:00",
+      "end": "2026-10-28T13:00:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000136\nIntegrated course code: MR000016\nIntegrated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: CIASCA GABRIELE\nSource date: 28/10/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121873157",
+      "source_date": "28/10/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000136",
+        "codiceCorsoIntegrato": "MR000016",
+        "idLezione": 121777011,
+        "idCalendarioAula": 121873157,
+        "matchKey": [
+          "MR000136",
+          "28/10/2026",
+          "10:45",
+          "13:00"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121873365@codex",
+      "summary": "CLINICAL GENETICS (APPROACH TO DIAGNOSIS AND TREATMENT)",
+      "start": "2026-10-29T08:30:00+01:00",
+      "end": "2026-10-29T10:45:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000134\nIntegrated course code: MR000016\nIntegrated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: MARANGI GIUSEPPE\nSource date: 29/10/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121873365",
+      "source_date": "29/10/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000134",
+        "codiceCorsoIntegrato": "MR000016",
+        "idLezione": 121777010,
+        "idCalendarioAula": 121873365,
+        "matchKey": [
+          "MR000134",
+          "29/10/2026",
+          "08:30",
+          "10:45"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121920958@codex",
+      "summary": "PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-10-29T10:45:00+01:00",
+      "end": "2026-10-29T12:15:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000125\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: PANI GIOVAMBATTISTA\nSource date: 29/10/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121920958",
+      "source_date": "29/10/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000125",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121777024,
+        "idCalendarioAula": 121920958,
+        "matchKey": [
+          "MR000125",
+          "29/10/2026",
+          "10:45",
+          "12:15"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-122162622@codex",
+      "summary": "GENERAL PHARMACOLOGY (APPROACH TO DIAGNOSIS AND TREATMENT)",
+      "start": "2026-10-29T14:00:00+01:00",
+      "end": "2026-10-29T16:15:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000135\nIntegrated course code: MR000016\nIntegrated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: MORES NADIA\nSource date: 29/10/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "122162622",
+      "source_date": "29/10/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000135",
+        "codiceCorsoIntegrato": "MR000016",
+        "idLezione": 121540335,
+        "idCalendarioAula": 122162622,
+        "matchKey": [
+          "MR000135",
+          "29/10/2026",
+          "14:00",
+          "16:15"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121921854@codex",
+      "summary": "FIRST AID (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-10-30T08:30:00+01:00",
+      "end": "2026-10-30T10:00:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000127\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SCAPIGLIATI ANDREA\nSource date: 30/10/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.\n\nCalendar reliability note: cancelled after two consecutive valid upstream snapshots omitted this future event.",
+      "status": "CANCELLED",
+      "source_kind": "lesson",
+      "source_record_id": "121921854",
+      "source_date": "30/10/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000127",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121777001,
+        "idCalendarioAula": 121921854,
+        "matchKey": [
+          "MR000127",
+          "30/10/2026",
+          "08:30",
+          "10:00"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 2,
+      "last_modified_utc": "2026-10-27T08:32:54+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121871198@codex",
+      "summary": "GENERAL PHARMACOLOGY (APPROACH TO DIAGNOSIS AND TREATMENT)",
+      "start": "2026-10-30T10:00:00+01:00",
+      "end": "2026-10-30T11:30:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000135\nIntegrated course code: MR000016\nIntegrated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: MORES NADIA\nSource date: 30/10/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121871198",
+      "source_date": "30/10/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000135",
+        "codiceCorsoIntegrato": "MR000016",
+        "idLezione": 121540335,
+        "idCalendarioAula": 121871198,
+        "matchKey": [
+          "MR000135",
+          "30/10/2026",
+          "10:00",
+          "11:30"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121920965@codex",
+      "summary": "PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-11-02T08:30:00+01:00",
+      "end": "2026-11-02T10:45:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000125\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: PANI GIOVAMBATTISTA\nSource date: 02/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121920965",
+      "source_date": "02/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000125",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121777024,
+        "idCalendarioAula": 121920965,
+        "matchKey": [
+          "MR000125",
+          "02/11/2026",
+          "08:30",
+          "10:45"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121840900@codex",
+      "summary": "THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS",
+      "start": "2026-11-02T10:45:00+01:00",
+      "end": "2026-11-02T13:00:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000319\nIntegrated course code: MR000044\nIntegrated course: THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS\nTeacher: CHOI HA NA\nSource date: 02/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121840900",
+      "source_date": "02/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000319",
+        "codiceCorsoIntegrato": "MR000044",
+        "idLezione": 121812664,
+        "idCalendarioAula": 121840900,
+        "matchKey": [
+          "MR000319",
+          "02/11/2026",
+          "10:45",
+          "13:00"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121873402@codex",
+      "summary": "GENERAL PATHOLOGY (APPROACH TO DIAGNOSIS AND TREATMENT)",
+      "start": "2026-11-03T08:30:00+01:00",
+      "end": "2026-11-03T10:45:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000130\nIntegrated course code: MR000016\nIntegrated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: RINDI GUIDO\nSource date: 03/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121873402",
+      "source_date": "03/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000130",
+        "codiceCorsoIntegrato": "MR000016",
+        "idLezione": 121777008,
+        "idCalendarioAula": 121873402,
+        "matchKey": [
+          "MR000130",
+          "03/11/2026",
+          "08:30",
+          "10:45"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121920306@codex",
+      "summary": "PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-11-03T10:45:00+01:00",
+      "end": "2026-11-03T12:15:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000125\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: MARINO MARIAPAOLA\nSource date: 03/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121920306",
+      "source_date": "03/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000125",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121776994,
+        "idCalendarioAula": 121920306,
+        "matchKey": [
+          "MR000125",
+          "03/11/2026",
+          "10:45",
+          "12:15"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-122054081@codex",
+      "summary": "FIRST AID AND NURSING PRACTICE PROFESSIONAL TRAINING (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-11-03T14:15:00+01:00",
+      "end": "2026-11-03T19:15:00+01:00",
+      "location": "Policlinico - Gemelli Training Center",
+      "description": "Course code: MR000128\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: CESARE MANUELE\nSource date: 03/11/2026\nBuilding: Policlinico\nRoom: Gemelli Training Center\nDuration: 05:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "122054081",
+      "source_date": "03/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000128",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121777006,
+        "idCalendarioAula": 122054081,
+        "matchKey": [
+          "MR000128",
+          "03/11/2026",
+          "14:15",
+          "19:15"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-122054170@codex",
+      "summary": "FIRST AID AND NURSING PRACTICE PROFESSIONAL TRAINING (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-11-03T14:15:00+01:00",
+      "end": "2026-11-03T19:15:00+01:00",
+      "location": "Policlinico - Gemelli Training Center",
+      "description": "Course code: MR000128\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SCAPIGLIATI ANDREA\nSource date: 03/11/2026\nBuilding: Policlinico\nRoom: Gemelli Training Center\nDuration: 05:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "122054170",
+      "source_date": "03/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000128",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121777004,
+        "idCalendarioAula": 122054170,
+        "matchKey": [
+          "MR000128",
+          "03/11/2026",
+          "14:15",
+          "19:15"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121920317@codex",
+      "summary": "PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-11-04T08:30:00+01:00",
+      "end": "2026-11-04T10:45:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000125\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: MARINO MARIAPAOLA\nSource date: 04/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121920317",
+      "source_date": "04/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000125",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121776994,
+        "idCalendarioAula": 121920317,
+        "matchKey": [
+          "MR000125",
+          "04/11/2026",
+          "08:30",
+          "10:45"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121873407@codex",
+      "summary": "GENERAL PATHOLOGY (APPROACH TO DIAGNOSIS AND TREATMENT)",
+      "start": "2026-11-04T10:45:00+01:00",
+      "end": "2026-11-04T13:00:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000130\nIntegrated course code: MR000016\nIntegrated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: RINDI GUIDO\nSource date: 04/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121873407",
+      "source_date": "04/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000130",
+        "codiceCorsoIntegrato": "MR000016",
+        "idLezione": 121777008,
+        "idCalendarioAula": 121873407,
+        "matchKey": [
+          "MR000130",
+          "04/11/2026",
+          "10:45",
+          "13:00"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121873373@codex",
+      "summary": "CLINICAL GENETICS (APPROACH TO DIAGNOSIS AND TREATMENT)",
+      "start": "2026-11-05T08:30:00+01:00",
+      "end": "2026-11-05T10:45:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000134\nIntegrated course code: MR000016\nIntegrated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: MARANGI GIUSEPPE\nSource date: 05/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121873373",
+      "source_date": "05/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000134",
+        "codiceCorsoIntegrato": "MR000016",
+        "idLezione": 121777010,
+        "idCalendarioAula": 121873373,
+        "matchKey": [
+          "MR000134",
+          "05/11/2026",
+          "08:30",
+          "10:45"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121920041@codex",
+      "summary": "INTERNAL MEDICINE (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-11-05T10:45:00+01:00",
+      "end": "2026-11-05T12:15:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000126\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: GAMBASSI GIOVANNI\nSource date: 05/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121920041",
+      "source_date": "05/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000126",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121776996,
+        "idCalendarioAula": 121920041,
+        "matchKey": [
+          "MR000126",
+          "05/11/2026",
+          "10:45",
+          "12:15"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121921725@codex",
+      "summary": "INTERNAL MEDICINE (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-11-06T08:30:00+01:00",
+      "end": "2026-11-06T10:00:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000126\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: CARDILLO CARMINE\nSource date: 06/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121921725",
+      "source_date": "06/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000126",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121776997,
+        "idCalendarioAula": 121921725,
+        "matchKey": [
+          "MR000126",
+          "06/11/2026",
+          "08:30",
+          "10:00"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121873149@codex",
+      "summary": "CLINICAL PHYSICS (APPROACH TO DIAGNOSIS AND TREATMENT)",
+      "start": "2026-11-06T10:00:00+01:00",
+      "end": "2026-11-06T10:45:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000136\nIntegrated course code: MR000016\nIntegrated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: CIASCA GABRIELE\nSource date: 06/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 00:45\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121873149",
+      "source_date": "06/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000136",
+        "codiceCorsoIntegrato": "MR000016",
+        "idLezione": 121777011,
+        "idCalendarioAula": 121873149,
+        "matchKey": [
+          "MR000136",
+          "06/11/2026",
+          "10:00",
+          "10:45"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121873411@codex",
+      "summary": "GENERAL PATHOLOGY (APPROACH TO DIAGNOSIS AND TREATMENT)",
+      "start": "2026-11-06T10:45:00+01:00",
+      "end": "2026-11-06T13:00:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000130\nIntegrated course code: MR000016\nIntegrated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: RINDI GUIDO\nSource date: 06/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121873411",
+      "source_date": "06/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000130",
+        "codiceCorsoIntegrato": "MR000016",
+        "idLezione": 121777008,
+        "idCalendarioAula": 121873411,
+        "matchKey": [
+          "MR000130",
+          "06/11/2026",
+          "10:45",
+          "13:00"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121920401@codex",
+      "summary": "PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-11-09T08:30:00+01:00",
+      "end": "2026-11-09T10:45:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000125\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SERINI SIMONA\nSource date: 09/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121920401",
+      "source_date": "09/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000125",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121776995,
+        "idCalendarioAula": 121920401,
+        "matchKey": [
+          "MR000125",
+          "09/11/2026",
+          "08:30",
+          "10:45"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121840912@codex",
+      "summary": "THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS",
+      "start": "2026-11-09T10:45:00+01:00",
+      "end": "2026-11-09T13:00:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000319\nIntegrated course code: MR000044\nIntegrated course: THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS\nTeacher: CHOI HA NA\nSource date: 09/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121840912",
+      "source_date": "09/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000319",
+        "codiceCorsoIntegrato": "MR000044",
+        "idLezione": 121812664,
+        "idCalendarioAula": 121840912,
+        "matchKey": [
+          "MR000319",
+          "09/11/2026",
+          "10:45",
+          "13:00"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-122054089@codex",
+      "summary": "FIRST AID AND NURSING PRACTICE PROFESSIONAL TRAINING (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-11-09T14:15:00+01:00",
+      "end": "2026-11-09T19:15:00+01:00",
+      "location": "Policlinico - Gemelli Training Center",
+      "description": "Course code: MR000128\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: CESARE MANUELE\nSource date: 09/11/2026\nBuilding: Policlinico\nRoom: Gemelli Training Center\nDuration: 05:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "122054089",
+      "source_date": "09/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000128",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121777006,
+        "idCalendarioAula": 122054089,
+        "matchKey": [
+          "MR000128",
+          "09/11/2026",
+          "14:15",
+          "19:15"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-122054182@codex",
+      "summary": "FIRST AID AND NURSING PRACTICE PROFESSIONAL TRAINING (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-11-09T14:15:00+01:00",
+      "end": "2026-11-09T19:15:00+01:00",
+      "location": "Policlinico - Gemelli Training Center",
+      "description": "Course code: MR000128\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SCAPIGLIATI ANDREA\nSource date: 09/11/2026\nBuilding: Policlinico\nRoom: Gemelli Training Center\nDuration: 05:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "122054182",
+      "source_date": "09/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000128",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121777004,
+        "idCalendarioAula": 122054182,
+        "matchKey": [
+          "MR000128",
+          "09/11/2026",
+          "14:15",
+          "19:15"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121873435@codex",
+      "summary": "CLINICAL PATHOLOGY (APPROACH TO DIAGNOSIS AND TREATMENT)",
+      "start": "2026-11-10T08:30:00+01:00",
+      "end": "2026-11-10T10:45:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000132\nIntegrated course code: MR000016\nIntegrated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: RIA FRANCESCO\nSource date: 10/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121873435",
+      "source_date": "10/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000132",
+        "codiceCorsoIntegrato": "MR000016",
+        "idLezione": 121776992,
+        "idCalendarioAula": 121873435,
+        "matchKey": [
+          "MR000132",
+          "10/11/2026",
+          "08:30",
+          "10:45"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121920416@codex",
+      "summary": "PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-11-10T10:45:00+01:00",
+      "end": "2026-11-10T12:15:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000125\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SERINI SIMONA\nSource date: 10/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121920416",
+      "source_date": "10/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000125",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121776995,
+        "idCalendarioAula": 121920416,
+        "matchKey": [
+          "MR000125",
+          "10/11/2026",
+          "10:45",
+          "12:15"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121920420@codex",
+      "summary": "PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-11-11T08:30:00+01:00",
+      "end": "2026-11-11T10:00:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000125\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SERINI SIMONA\nSource date: 11/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121920420",
+      "source_date": "11/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000125",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121776995,
+        "idCalendarioAula": 121920420,
+        "matchKey": [
+          "MR000125",
+          "11/11/2026",
+          "08:30",
+          "10:00"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121920053@codex",
+      "summary": "INTERNAL MEDICINE (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-11-11T10:00:00+01:00",
+      "end": "2026-11-11T10:45:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000126\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: GAMBASSI GIOVANNI\nSource date: 11/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 00:45\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121920053",
+      "source_date": "11/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000126",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121776996,
+        "idCalendarioAula": 121920053,
+        "matchKey": [
+          "MR000126",
+          "11/11/2026",
+          "10:00",
+          "10:45"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121873449@codex",
+      "summary": "CLINICAL PATHOLOGY (APPROACH TO DIAGNOSIS AND TREATMENT)",
+      "start": "2026-11-11T10:45:00+01:00",
+      "end": "2026-11-11T13:00:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000132\nIntegrated course code: MR000016\nIntegrated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: RIA FRANCESCO\nSource date: 11/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121873449",
+      "source_date": "11/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000132",
+        "codiceCorsoIntegrato": "MR000016",
+        "idLezione": 121776992,
+        "idCalendarioAula": 121873449,
+        "matchKey": [
+          "MR000132",
+          "11/11/2026",
+          "10:45",
+          "13:00"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121873387@codex",
+      "summary": "CLINICAL GENETICS (APPROACH TO DIAGNOSIS AND TREATMENT)",
+      "start": "2026-11-12T08:30:00+01:00",
+      "end": "2026-11-12T10:45:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000134\nIntegrated course code: MR000016\nIntegrated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: MARANGI GIUSEPPE\nSource date: 12/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121873387",
+      "source_date": "12/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000134",
+        "codiceCorsoIntegrato": "MR000016",
+        "idLezione": 121777010,
+        "idCalendarioAula": 121873387,
+        "matchKey": [
+          "MR000134",
+          "12/11/2026",
+          "08:30",
+          "10:45"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121920321@codex",
+      "summary": "PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-11-12T10:45:00+01:00",
+      "end": "2026-11-12T12:15:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000125\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: MARINO MARIAPAOLA\nSource date: 12/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121920321",
+      "source_date": "12/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000125",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121776994,
+        "idCalendarioAula": 121920321,
+        "matchKey": [
+          "MR000125",
+          "12/11/2026",
+          "10:45",
+          "12:15"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-122162638@codex",
+      "summary": "GENERAL PHARMACOLOGY (APPROACH TO DIAGNOSIS AND TREATMENT)",
+      "start": "2026-11-12T14:00:00+01:00",
+      "end": "2026-11-12T16:15:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000135\nIntegrated course code: MR000016\nIntegrated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: MORES NADIA\nSource date: 12/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "122162638",
+      "source_date": "12/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000135",
+        "codiceCorsoIntegrato": "MR000016",
+        "idLezione": 121540335,
+        "idCalendarioAula": 122162638,
+        "matchKey": [
+          "MR000135",
+          "12/11/2026",
+          "14:00",
+          "16:15"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121921789@codex",
+      "summary": "FIRST AID (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-11-13T08:30:00+01:00",
+      "end": "2026-11-13T10:00:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000127\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: DE PASCALE GENNARO\nSource date: 13/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121921789",
+      "source_date": "13/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000127",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121776998,
+        "idCalendarioAula": 121921789,
+        "matchKey": [
+          "MR000127",
+          "13/11/2026",
+          "08:30",
+          "10:00"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121873453@codex",
+      "summary": "CLINICAL PATHOLOGY (APPROACH TO DIAGNOSIS AND TREATMENT)",
+      "start": "2026-11-13T10:00:00+01:00",
+      "end": "2026-11-13T13:00:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000132\nIntegrated course code: MR000016\nIntegrated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: RIA FRANCESCO\nSource date: 13/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121873453",
+      "source_date": "13/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000132",
+        "codiceCorsoIntegrato": "MR000016",
+        "idLezione": 121776992,
+        "idCalendarioAula": 121873453,
+        "matchKey": [
+          "MR000132",
+          "13/11/2026",
+          "10:00",
+          "13:00"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121920431@codex",
+      "summary": "PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-11-16T08:30:00+01:00",
+      "end": "2026-11-16T10:00:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000125\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SERINI SIMONA\nSource date: 16/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121920431",
+      "source_date": "16/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000125",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121776995,
+        "idCalendarioAula": 121920431,
+        "matchKey": [
+          "MR000125",
+          "16/11/2026",
+          "08:30",
+          "10:00"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121921802@codex",
+      "summary": "FIRST AID (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-11-16T10:00:00+01:00",
+      "end": "2026-11-16T10:45:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000127\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: GRIECO DOMENICO LUCA\nSource date: 16/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 00:45\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121921802",
+      "source_date": "16/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000127",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121776999,
+        "idCalendarioAula": 121921802,
+        "matchKey": [
+          "MR000127",
+          "16/11/2026",
+          "10:00",
+          "10:45"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121840943@codex",
+      "summary": "THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS",
+      "start": "2026-11-16T10:45:00+01:00",
+      "end": "2026-11-16T13:00:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000319\nIntegrated course code: MR000044\nIntegrated course: THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS\nTeacher: CHOI HA NA\nSource date: 16/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121840943",
+      "source_date": "16/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000319",
+        "codiceCorsoIntegrato": "MR000044",
+        "idLezione": 121812664,
+        "idCalendarioAula": 121840943,
+        "matchKey": [
+          "MR000319",
+          "16/11/2026",
+          "10:45",
+          "13:00"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-122054178@codex",
+      "summary": "FIRST AID AND NURSING PRACTICE PROFESSIONAL TRAINING (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-11-16T14:15:00+01:00",
+      "end": "2026-11-16T19:15:00+01:00",
+      "location": "Policlinico - Gemelli Training Center",
+      "description": "Course code: MR000128\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SCAPIGLIATI ANDREA\nSource date: 16/11/2026\nBuilding: Policlinico\nRoom: Gemelli Training Center\nDuration: 05:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "122054178",
+      "source_date": "16/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000128",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121777004,
+        "idCalendarioAula": 122054178,
+        "matchKey": [
+          "MR000128",
+          "16/11/2026",
+          "14:15",
+          "19:15"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121873457@codex",
+      "summary": "CLINICAL PATHOLOGY (APPROACH TO DIAGNOSIS AND TREATMENT)",
+      "start": "2026-11-17T08:30:00+01:00",
+      "end": "2026-11-17T10:45:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000132\nIntegrated course code: MR000016\nIntegrated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: RIA FRANCESCO\nSource date: 17/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121873457",
+      "source_date": "17/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000132",
+        "codiceCorsoIntegrato": "MR000016",
+        "idLezione": 121776992,
+        "idCalendarioAula": 121873457,
+        "matchKey": [
+          "MR000132",
+          "17/11/2026",
+          "08:30",
+          "10:45"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121920325@codex",
+      "summary": "PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-11-17T10:45:00+01:00",
+      "end": "2026-11-17T12:15:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000125\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: MARINO MARIAPAOLA\nSource date: 17/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121920325",
+      "source_date": "17/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000125",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121776994,
+        "idCalendarioAula": 121920325,
+        "matchKey": [
+          "MR000125",
+          "17/11/2026",
+          "10:45",
+          "12:15"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121920329@codex",
+      "summary": "PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-11-18T08:30:00+01:00",
+      "end": "2026-11-18T10:45:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000125\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: MARINO MARIAPAOLA\nSource date: 18/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121920329",
+      "source_date": "18/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000125",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121776994,
+        "idCalendarioAula": 121920329,
+        "matchKey": [
+          "MR000125",
+          "18/11/2026",
+          "08:30",
+          "10:45"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121873419@codex",
+      "summary": "GENERAL PATHOLOGY (APPROACH TO DIAGNOSIS AND TREATMENT)",
+      "start": "2026-11-18T10:45:00+01:00",
+      "end": "2026-11-18T13:00:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000130\nIntegrated course code: MR000016\nIntegrated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: RINDI GUIDO\nSource date: 18/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121873419",
+      "source_date": "18/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000130",
+        "codiceCorsoIntegrato": "MR000016",
+        "idLezione": 121777008,
+        "idCalendarioAula": 121873419,
+        "matchKey": [
+          "MR000130",
+          "18/11/2026",
+          "10:45",
+          "13:00"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121873391@codex",
+      "summary": "CLINICAL GENETICS (APPROACH TO DIAGNOSIS AND TREATMENT)",
+      "start": "2026-11-19T08:30:00+01:00",
+      "end": "2026-11-19T10:45:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000134\nIntegrated course code: MR000016\nIntegrated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: MARANGI GIUSEPPE\nSource date: 19/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121873391",
+      "source_date": "19/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000134",
+        "codiceCorsoIntegrato": "MR000016",
+        "idLezione": 121777010,
+        "idCalendarioAula": 121873391,
+        "matchKey": [
+          "MR000134",
+          "19/11/2026",
+          "08:30",
+          "10:45"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121920064@codex",
+      "summary": "INTERNAL MEDICINE (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-11-19T10:45:00+01:00",
+      "end": "2026-11-19T12:15:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000126\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: GAMBASSI GIOVANNI\nSource date: 19/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121920064",
+      "source_date": "19/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000126",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121776996,
+        "idCalendarioAula": 121920064,
+        "matchKey": [
+          "MR000126",
+          "19/11/2026",
+          "10:45",
+          "12:15"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121921729@codex",
+      "summary": "INTERNAL MEDICINE (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-11-20T08:30:00+01:00",
+      "end": "2026-11-20T10:00:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000126\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: CARDILLO CARMINE\nSource date: 20/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121921729",
+      "source_date": "20/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000126",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121776997,
+        "idCalendarioAula": 121921729,
+        "matchKey": [
+          "MR000126",
+          "20/11/2026",
+          "08:30",
+          "10:00"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121873423@codex",
+      "summary": "GENERAL PATHOLOGY (APPROACH TO DIAGNOSIS AND TREATMENT)",
+      "start": "2026-11-20T10:00:00+01:00",
+      "end": "2026-11-20T10:45:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000130\nIntegrated course code: MR000016\nIntegrated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: RINDI GUIDO\nSource date: 20/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 00:45\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121873423",
+      "source_date": "20/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000130",
+        "codiceCorsoIntegrato": "MR000016",
+        "idLezione": 121777008,
+        "idCalendarioAula": 121873423,
+        "matchKey": [
+          "MR000130",
+          "20/11/2026",
+          "10:00",
+          "10:45"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121944812@codex",
+      "summary": "PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-11-20T10:45:00+01:00",
+      "end": "2026-11-20T13:00:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000125\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SERINI SIMONA\nSource date: 20/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121944812",
+      "source_date": "20/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000125",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121776995,
+        "idCalendarioAula": 121944812,
+        "matchKey": [
+          "MR000125",
+          "20/11/2026",
+          "10:45",
+          "13:00"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121921806@codex",
+      "summary": "FIRST AID (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-11-23T08:30:00+01:00",
+      "end": "2026-11-23T10:45:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000127\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: GRIECO DOMENICO LUCA\nSource date: 23/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121921806",
+      "source_date": "23/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000127",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121776999,
+        "idCalendarioAula": 121921806,
+        "matchKey": [
+          "MR000127",
+          "23/11/2026",
+          "08:30",
+          "10:45"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121840955@codex",
+      "summary": "THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS",
+      "start": "2026-11-23T10:45:00+01:00",
+      "end": "2026-11-23T13:00:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000319\nIntegrated course code: MR000044\nIntegrated course: THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS\nTeacher: CHOI HA NA\nSource date: 23/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121840955",
+      "source_date": "23/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000319",
+        "codiceCorsoIntegrato": "MR000044",
+        "idLezione": 121812664,
+        "idCalendarioAula": 121840955,
+        "matchKey": [
+          "MR000319",
+          "23/11/2026",
+          "10:45",
+          "13:00"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-122128263@codex",
+      "summary": "FIRST AID AND NURSING PRACTICE PROFESSIONAL TRAINING (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-11-23T14:15:00+01:00",
+      "end": "2026-11-23T19:15:00+01:00",
+      "location": "Policlinico - Gemelli Training Center",
+      "description": "Course code: MR000128\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: CESARE MANUELE\nSource date: 23/11/2026\nBuilding: Policlinico\nRoom: Gemelli Training Center\nDuration: 05:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "122128263",
+      "source_date": "23/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000128",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121777006,
+        "idCalendarioAula": 122128263,
+        "matchKey": [
+          "MR000128",
+          "23/11/2026",
+          "14:15",
+          "19:15"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121920976@codex",
+      "summary": "PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-11-24T10:45:00+01:00",
+      "end": "2026-11-24T12:15:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000125\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: PANI GIOVAMBATTISTA\nSource date: 24/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121920976",
+      "source_date": "24/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000125",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121777024,
+        "idCalendarioAula": 121920976,
+        "matchKey": [
+          "MR000125",
+          "24/11/2026",
+          "10:45",
+          "12:15"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121921858@codex",
+      "summary": "FIRST AID (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-11-25T09:20:00+01:00",
+      "end": "2026-11-25T10:50:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000127\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SCAPIGLIATI ANDREA\nSource date: 25/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121921858",
+      "source_date": "25/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000127",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121777001,
+        "idCalendarioAula": 121921858,
+        "matchKey": [
+          "MR000127",
+          "25/11/2026",
+          "09:20",
+          "10:50"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121920072@codex",
+      "summary": "INTERNAL MEDICINE (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-11-26T10:45:00+01:00",
+      "end": "2026-11-26T12:15:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000126\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: GAMBASSI GIOVANNI\nSource date: 26/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121920072",
+      "source_date": "26/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000126",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121776996,
+        "idCalendarioAula": 121920072,
+        "matchKey": [
+          "MR000126",
+          "26/11/2026",
+          "10:45",
+          "12:15"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121921733@codex",
+      "summary": "INTERNAL MEDICINE (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-11-27T08:30:00+01:00",
+      "end": "2026-11-27T10:00:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000126\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: CARDILLO CARMINE\nSource date: 27/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121921733",
+      "source_date": "27/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000126",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121776997,
+        "idCalendarioAula": 121921733,
+        "matchKey": [
+          "MR000126",
+          "27/11/2026",
+          "08:30",
+          "10:00"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121873395@codex",
+      "summary": "CLINICAL GENETICS (APPROACH TO DIAGNOSIS AND TREATMENT)",
+      "start": "2026-11-27T11:45:00+01:00",
+      "end": "2026-11-27T13:15:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000134\nIntegrated course code: MR000016\nIntegrated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: MARANGI GIUSEPPE\nSource date: 27/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121873395",
+      "source_date": "27/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000134",
+        "codiceCorsoIntegrato": "MR000016",
+        "idLezione": 121777010,
+        "idCalendarioAula": 121873395,
+        "matchKey": [
+          "MR000134",
+          "27/11/2026",
+          "11:45",
+          "13:15"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121920984@codex",
+      "summary": "PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-11-30T08:30:00+01:00",
+      "end": "2026-11-30T10:45:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000125\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: PANI GIOVAMBATTISTA\nSource date: 30/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121920984",
+      "source_date": "30/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000125",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121777024,
+        "idCalendarioAula": 121920984,
+        "matchKey": [
+          "MR000125",
+          "30/11/2026",
+          "08:30",
+          "10:45"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121840963@codex",
+      "summary": "THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS",
+      "start": "2026-11-30T10:45:00+01:00",
+      "end": "2026-11-30T13:00:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000319\nIntegrated course code: MR000044\nIntegrated course: THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS\nTeacher: CHOI HA NA\nSource date: 30/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121840963",
+      "source_date": "30/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000319",
+        "codiceCorsoIntegrato": "MR000044",
+        "idLezione": 121812664,
+        "idCalendarioAula": 121840963,
+        "matchKey": [
+          "MR000319",
+          "30/11/2026",
+          "10:45",
+          "13:00"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121920995@codex",
+      "summary": "PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-12-01T10:45:00+01:00",
+      "end": "2026-12-01T12:15:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000125\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: PANI GIOVAMBATTISTA\nSource date: 01/12/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121920995",
+      "source_date": "01/12/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000125",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121777024,
+        "idCalendarioAula": 121920995,
+        "matchKey": [
+          "MR000125",
+          "01/12/2026",
+          "10:45",
+          "12:15"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121921006@codex",
+      "summary": "PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-12-02T08:30:00+01:00",
+      "end": "2026-12-02T10:45:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000125\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: PANI GIOVAMBATTISTA\nSource date: 02/12/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121921006",
+      "source_date": "02/12/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000125",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121777024,
+        "idCalendarioAula": 121921006,
+        "matchKey": [
+          "MR000125",
+          "02/12/2026",
+          "08:30",
+          "10:45"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-122162418@codex",
+      "summary": "EMERGING TECHNOLOGIES IN MEDICINE",
+      "start": "2026-12-02T14:15:00+01:00",
+      "end": "2026-12-02T17:15:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: AS000009\nTeacher: CIASCA GABRIELE\nSource date: 02/12/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "122162418",
+      "source_date": "02/12/2026",
+      "metadata": {
+        "codiceInsegnamento": "AS000009",
+        "codiceCorsoIntegrato": null,
+        "idLezione": 122042955,
+        "idCalendarioAula": 122162418,
+        "matchKey": [
+          "AS000009",
+          "02/12/2026",
+          "14:15",
+          "17:15"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121921011@codex",
+      "summary": "PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-12-03T10:45:00+01:00",
+      "end": "2026-12-03T12:15:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000125\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: PANI GIOVAMBATTISTA\nSource date: 03/12/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121921011",
+      "source_date": "03/12/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000125",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121777024,
+        "idCalendarioAula": 121921011,
+        "matchKey": [
+          "MR000125",
+          "03/12/2026",
+          "10:45",
+          "12:15"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121921793@codex",
+      "summary": "FIRST AID (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-12-09T08:30:00+01:00",
+      "end": "2026-12-09T10:45:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000127\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: DE PASCALE GENNARO\nSource date: 09/12/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121921793",
+      "source_date": "09/12/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000127",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121776998,
+        "idCalendarioAula": 121921793,
+        "matchKey": [
+          "MR000127",
+          "09/12/2026",
+          "08:30",
+          "10:45"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121920084@codex",
+      "summary": "INTERNAL MEDICINE (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-12-10T10:45:00+01:00",
+      "end": "2026-12-10T12:15:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000126\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: GAMBASSI GIOVANNI\nSource date: 10/12/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121920084",
+      "source_date": "10/12/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000126",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121776996,
+        "idCalendarioAula": 121920084,
+        "matchKey": [
+          "MR000126",
+          "10/12/2026",
+          "10:45",
+          "12:15"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121921745@codex",
+      "summary": "INTERNAL MEDICINE (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-12-11T08:30:00+01:00",
+      "end": "2026-12-11T10:00:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000126\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: CARDILLO CARMINE\nSource date: 11/12/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121921745",
+      "source_date": "11/12/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000126",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121776997,
+        "idCalendarioAula": 121921745,
+        "matchKey": [
+          "MR000126",
+          "11/12/2026",
+          "08:30",
+          "10:00"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121942096@codex",
+      "summary": "GENERAL RADIODIAGNOSTICS (INCLUSIVE NM, RT) (APPROACH TO DIAGNOSIS AND TREATMENT)",
+      "start": "2026-12-11T12:30:00+01:00",
+      "end": "2026-12-11T13:15:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000137\nIntegrated course code: MR000016\nIntegrated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: LECCISOTTI LUCIA\nSource date: 11/12/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 00:45\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121942096",
+      "source_date": "11/12/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000137",
+        "codiceCorsoIntegrato": "MR000016",
+        "idLezione": 121777013,
+        "idCalendarioAula": 121942096,
+        "matchKey": [
+          "MR000137",
+          "11/12/2026",
+          "12:30",
+          "13:15"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-122162422@codex",
+      "summary": "EMERGING TECHNOLOGIES IN MEDICINE",
+      "start": "2026-12-11T14:15:00+01:00",
+      "end": "2026-12-11T17:15:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: AS000009\nTeacher: CIASCA GABRIELE\nSource date: 11/12/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "122162422",
+      "source_date": "11/12/2026",
+      "metadata": {
+        "codiceInsegnamento": "AS000009",
+        "codiceCorsoIntegrato": null,
+        "idLezione": 122042955,
+        "idCalendarioAula": 122162422,
+        "matchKey": [
+          "AS000009",
+          "11/12/2026",
+          "14:15",
+          "17:15"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121921025@codex",
+      "summary": "PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2027-01-07T10:45:00+01:00",
+      "end": "2027-01-07T12:15:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000125\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: PANI GIOVAMBATTISTA\nSource date: 07/01/2027\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121921025",
+      "source_date": "07/01/2027",
+      "metadata": {
+        "codiceInsegnamento": "MR000125",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121777024,
+        "idCalendarioAula": 121921025,
+        "matchKey": [
+          "MR000125",
+          "07/01/2027",
+          "10:45",
+          "12:15"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121921765@codex",
+      "summary": "INTERNAL MEDICINE (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2027-01-08T08:30:00+01:00",
+      "end": "2027-01-08T10:00:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000126\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: CARDILLO CARMINE\nSource date: 08/01/2027\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121921765",
+      "source_date": "08/01/2027",
+      "metadata": {
+        "codiceInsegnamento": "MR000126",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121776997,
+        "idCalendarioAula": 121921765,
+        "matchKey": [
+          "MR000126",
+          "08/01/2027",
+          "08:30",
+          "10:00"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121942092@codex",
+      "summary": "GENERAL RADIODIAGNOSTICS (INCLUSIVE NM, RT) (APPROACH TO DIAGNOSIS AND TREATMENT)",
+      "start": "2027-01-08T11:45:00+01:00",
+      "end": "2027-01-08T13:15:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000137\nIntegrated course code: MR000016\nIntegrated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: LECCISOTTI LUCIA\nSource date: 08/01/2027\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121942092",
+      "source_date": "08/01/2027",
+      "metadata": {
+        "codiceInsegnamento": "MR000137",
+        "codiceCorsoIntegrato": "MR000016",
+        "idLezione": 121777013,
+        "idCalendarioAula": 121942092,
+        "matchKey": [
+          "MR000137",
+          "08/01/2027",
+          "11:45",
+          "13:15"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-122162427@codex",
+      "summary": "EMERGING TECHNOLOGIES IN MEDICINE",
+      "start": "2027-01-08T14:15:00+01:00",
+      "end": "2027-01-08T17:15:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: AS000009\nTeacher: CIASCA GABRIELE\nSource date: 08/01/2027\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "122162427",
+      "source_date": "08/01/2027",
+      "metadata": {
+        "codiceInsegnamento": "AS000009",
+        "codiceCorsoIntegrato": null,
+        "idLezione": 122042955,
+        "idCalendarioAula": 122162427,
+        "matchKey": [
+          "AS000009",
+          "08/01/2027",
+          "14:15",
+          "17:15"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121921037@codex",
+      "summary": "PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2027-01-11T08:30:00+01:00",
+      "end": "2027-01-11T10:45:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000125\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: PANI GIOVAMBATTISTA\nSource date: 11/01/2027\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121921037",
+      "source_date": "11/01/2027",
+      "metadata": {
+        "codiceInsegnamento": "MR000125",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121777024,
+        "idCalendarioAula": 121921037,
+        "matchKey": [
+          "MR000125",
+          "11/01/2027",
+          "08:30",
+          "10:45"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121840970@codex",
+      "summary": "THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS",
+      "start": "2027-01-11T10:45:00+01:00",
+      "end": "2027-01-11T13:00:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000319\nIntegrated course code: MR000044\nIntegrated course: THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS\nTeacher: CHOI HA NA\nSource date: 11/01/2027\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121840970",
+      "source_date": "11/01/2027",
+      "metadata": {
+        "codiceInsegnamento": "MR000319",
+        "codiceCorsoIntegrato": "MR000044",
+        "idLezione": 121812664,
+        "idCalendarioAula": 121840970,
+        "matchKey": [
+          "MR000319",
+          "11/01/2027",
+          "10:45",
+          "13:00"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-122162432@codex",
+      "summary": "EMERGING TECHNOLOGIES IN MEDICINE",
+      "start": "2027-01-11T14:15:00+01:00",
+      "end": "2027-01-11T17:15:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: AS000009\nTeacher: CIASCA GABRIELE\nSource date: 11/01/2027\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "122162432",
+      "source_date": "11/01/2027",
+      "metadata": {
+        "codiceInsegnamento": "AS000009",
+        "codiceCorsoIntegrato": null,
+        "idLezione": 122042955,
+        "idCalendarioAula": 122162432,
+        "matchKey": [
+          "AS000009",
+          "11/01/2027",
+          "14:15",
+          "17:15"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121921052@codex",
+      "summary": "PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2027-01-12T10:45:00+01:00",
+      "end": "2027-01-12T12:15:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000125\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: PANI GIOVAMBATTISTA\nSource date: 12/01/2027\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121921052",
+      "source_date": "12/01/2027",
+      "metadata": {
+        "codiceInsegnamento": "MR000125",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121777024,
+        "idCalendarioAula": 121921052,
+        "matchKey": [
+          "MR000125",
+          "12/01/2027",
+          "10:45",
+          "12:15"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121921048@codex",
+      "summary": "PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2027-01-13T08:30:00+01:00",
+      "end": "2027-01-13T10:45:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000125\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: PANI GIOVAMBATTISTA\nSource date: 13/01/2027\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121921048",
+      "source_date": "13/01/2027",
+      "metadata": {
+        "codiceInsegnamento": "MR000125",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121777024,
+        "idCalendarioAula": 121921048,
+        "matchKey": [
+          "MR000125",
+          "13/01/2027",
+          "08:30",
+          "10:45"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-122162436@codex",
+      "summary": "EMERGING TECHNOLOGIES IN MEDICINE",
+      "start": "2027-01-13T14:15:00+01:00",
+      "end": "2027-01-13T17:15:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: AS000009\nTeacher: CIASCA GABRIELE\nSource date: 13/01/2027\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "122162436",
+      "source_date": "13/01/2027",
+      "metadata": {
+        "codiceInsegnamento": "AS000009",
+        "codiceCorsoIntegrato": null,
+        "idLezione": 122042955,
+        "idCalendarioAula": 122162436,
+        "matchKey": [
+          "AS000009",
+          "13/01/2027",
+          "14:15",
+          "17:15"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121920092@codex",
+      "summary": "INTERNAL MEDICINE (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2027-01-14T10:45:00+01:00",
+      "end": "2027-01-14T12:15:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000126\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: GAMBASSI GIOVANNI\nSource date: 14/01/2027\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121920092",
+      "source_date": "14/01/2027",
+      "metadata": {
+        "codiceInsegnamento": "MR000126",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121776996,
+        "idCalendarioAula": 121920092,
+        "matchKey": [
+          "MR000126",
+          "14/01/2027",
+          "10:45",
+          "12:15"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121921777@codex",
+      "summary": "FIRST AID (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2027-01-15T08:30:00+01:00",
+      "end": "2027-01-15T10:00:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000127\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: DI GRAVIO VALENTINA\nSource date: 15/01/2027\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.\n\nCalendar reliability note: cancelled after two consecutive valid upstream snapshots omitted this future event.",
+      "status": "CANCELLED",
+      "source_kind": "lesson",
+      "source_record_id": "121921777",
+      "source_date": "15/01/2027",
+      "metadata": {
+        "codiceInsegnamento": "MR000127",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121777003,
+        "idCalendarioAula": 121921777,
+        "matchKey": [
+          "MR000127",
+          "15/01/2027",
+          "08:30",
+          "10:00"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 2,
+      "last_modified_utc": "2026-10-27T08:32:54+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-122162441@codex",
+      "summary": "EMERGING TECHNOLOGIES IN MEDICINE",
+      "start": "2027-01-15T10:00:00+01:00",
+      "end": "2027-01-15T10:45:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: AS000009\nTeacher: CIASCA GABRIELE\nSource date: 15/01/2027\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 00:45\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "122162441",
+      "source_date": "15/01/2027",
+      "metadata": {
+        "codiceInsegnamento": "AS000009",
+        "codiceCorsoIntegrato": null,
+        "idLezione": 122042955,
+        "idCalendarioAula": 122162441,
+        "matchKey": [
+          "AS000009",
+          "15/01/2027",
+          "10:00",
+          "10:45"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121921086@codex",
+      "summary": "PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2027-01-18T08:30:00+01:00",
+      "end": "2027-01-18T10:00:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000125\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: PANI GIOVAMBATTISTA\nSource date: 18/01/2027\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121921086",
+      "source_date": "18/01/2027",
+      "metadata": {
+        "codiceInsegnamento": "MR000125",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121777024,
+        "idCalendarioAula": 121921086,
+        "matchKey": [
+          "MR000125",
+          "18/01/2027",
+          "08:30",
+          "10:00"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121840974@codex",
+      "summary": "THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS",
+      "start": "2027-01-18T10:45:00+01:00",
+      "end": "2027-01-18T13:00:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000319\nIntegrated course code: MR000044\nIntegrated course: THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS\nTeacher: CHOI HA NA\nSource date: 18/01/2027\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121840974",
+      "source_date": "18/01/2027",
+      "metadata": {
+        "codiceInsegnamento": "MR000319",
+        "codiceCorsoIntegrato": "MR000044",
+        "idLezione": 121812664,
+        "idCalendarioAula": 121840974,
+        "matchKey": [
+          "MR000319",
+          "18/01/2027",
+          "10:45",
+          "13:00"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121921097@codex",
+      "summary": "PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2027-01-19T10:45:00+01:00",
+      "end": "2027-01-19T12:15:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000125\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: PANI GIOVAMBATTISTA\nSource date: 19/01/2027\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121921097",
+      "source_date": "19/01/2027",
+      "metadata": {
+        "codiceInsegnamento": "MR000125",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121777024,
+        "idCalendarioAula": 121921097,
+        "matchKey": [
+          "MR000125",
+          "19/01/2027",
+          "10:45",
+          "12:15"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121921067@codex",
+      "summary": "PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2027-01-20T08:30:00+01:00",
+      "end": "2027-01-20T10:00:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000125\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: PANI GIOVAMBATTISTA\nSource date: 20/01/2027\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121921067",
+      "source_date": "20/01/2027",
+      "metadata": {
+        "codiceInsegnamento": "MR000125",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121777024,
+        "idCalendarioAula": 121921067,
+        "matchKey": [
+          "MR000125",
+          "20/01/2027",
+          "08:30",
+          "10:00"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121921104@codex",
+      "summary": "PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2027-01-21T08:30:00+01:00",
+      "end": "2027-01-21T10:00:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000125\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: PANI GIOVAMBATTISTA\nSource date: 21/01/2027\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "121921104",
+      "source_date": "21/01/2027",
+      "metadata": {
+        "codiceInsegnamento": "MR000125",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121777024,
+        "idCalendarioAula": 121921104,
+        "matchKey": [
+          "MR000125",
+          "21/01/2027",
+          "08:30",
+          "10:00"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-121921781@codex",
+      "summary": "FIRST AID (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2027-01-22T08:30:00+01:00",
+      "end": "2027-01-22T10:00:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000127\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: DI GRAVIO VALENTINA\nSource date: 22/01/2027\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.\n\nCalendar reliability note: cancelled after two consecutive valid upstream snapshots omitted this future event.",
+      "status": "CANCELLED",
+      "source_kind": "lesson",
+      "source_record_id": "121921781",
+      "source_date": "22/01/2027",
+      "metadata": {
+        "codiceInsegnamento": "MR000127",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121777003,
+        "idCalendarioAula": 121921781,
+        "matchKey": [
+          "MR000127",
+          "22/01/2027",
+          "08:30",
+          "10:00"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 2,
+      "last_modified_utc": "2026-10-27T08:32:54+00:00"
+    }
+  ]
+}

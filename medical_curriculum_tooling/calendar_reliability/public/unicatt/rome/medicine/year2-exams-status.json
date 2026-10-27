@@ -1,0 +1,1738 @@
+{
+  "feed_id": "year2-exams",
+  "calendar_name": "UCSC Rome Medicine Year 2 Exams",
+  "generated_at_utc": "2026-10-27T08:32:47+00:00",
+  "last_successful_fetch_at_utc": "2026-10-27T08:32:47+00:00",
+  "last_publication_at_utc": "2026-10-27T08:32:47+00:00",
+  "generated_age_seconds": 0,
+  "event_count": 85,
+  "cancelled_count": 10,
+  "tentative_count": 0,
+  "source_counts": {
+    "base_exams": 68
+  },
+  "source_payload": {
+    "codiceSede": "RM",
+    "annoAccademico": "2025",
+    "codiceFacolta": "75012",
+    "codiceCorsoDiLaurea": "0H0B",
+    "annoDiCorso": "2"
+  },
+  "source_urls": [
+    "https://secure.unicatt.it/didatticaweb2/ps/esami/"
+  ],
+  "source_snapshot_hash": "3ebfabe4a837b132daf000980be9930588fc2408b859e6cf70f3dd490275176d",
+  "last_published_source_snapshot_hash": "3ebfabe4a837b132daf000980be9930588fc2408b859e6cf70f3dd490275176d",
+  "content_hash": "462cec821ed022b8857c025bfd90e2eb89c6e339ea343f3d2ab22a5b256fd0d9",
+  "publication_mode": "github-pages-static",
+  "dynamic_refresh": "GitHub Actions poller; no Vercel Blob dependency",
+  "health": "healthy",
+  "healthy": true,
+  "stale": false,
+  "consecutive_failures": 0,
+  "last_error": null,
+  "alerts": [],
+  "retention_policy": "Entries are NOT erased as days pass. Past entries remain in place indefinitely for future audit. Corrections and cancellations retain event identity; no rolling date cutoff is permitted for this or any future station.",
+  "events": [
+    {
+      "uid": "unicatt-exam-occurrence-36693f6744a29b5109a5fec1d9bd318d105ac376@codex",
+      "summary": "MICROBE - HOST INTERACTION - APPELLO D'ESAME",
+      "start": "2026-01-26T09:00:00+01:00",
+      "end": "2026-01-26T12:00:00+01:00",
+      "location": "Giovanni XXIII - Laboratorio linguistico",
+      "description": "Course code: MR000009\nTeacher: HAAS TOBIAS LONGIN\nExam type: APPELLO D'ESAME\nSource date: 26/01/2026\nBuilding: Giovanni XXIII\nRoom: Laboratorio linguistico\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121044066",
+      "source_date": "26/01/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000009",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120454754,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-b53aa535c69484f1a91b2db7e57021f1f6f0b041@codex",
+      "summary": "FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY 2 (RESPIRATORY/DIGESTIVE/URINARY/REPRODUCTIVE) - APPELLO D'ESAME",
+      "start": "2026-01-28T09:00:00+01:00",
+      "end": "2026-01-28T12:00:00+01:00",
+      "location": "Istituti Biologici - San Camillo",
+      "description": "Course code: MR000008\nTeacher: SCICCHITANO BIANCA MARIA\nExam type: APPELLO D'ESAME\nSource date: 28/01/2026\nBuilding: Istituti Biologici\nRoom: San Camillo\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121016883",
+      "source_date": "28/01/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000008",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120454736,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-55c7825f9858b2d056beca5afe14975ea4cea3ac@codex",
+      "summary": "THEOLOGY 2: INTRODUCTION TO THEOLOGICAL ANTHROPOLOGY AND ECCLESIOLOGY - APPELLO D'ESAME",
+      "start": "2026-01-28T15:00:00+01:00",
+      "end": "2026-01-28T18:00:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000043\nTeacher: MERONI FABRIZIO\nExam type: APPELLO D'ESAME\nSource date: 28/01/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121018777",
+      "source_date": "28/01/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000043",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120657202,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-2ebcd77a24d29460b35b4931359b93d4e7260d0e@codex",
+      "summary": "ARTIFICIAL INTELLIGENCE IN MEDICAL APPLICATION - Exam",
+      "start": "2026-02-02T08:00:00+01:00",
+      "end": "2026-02-02T09:00:00+01:00",
+      "location": "",
+      "description": "Course code: A002758\nTeacher: MAULUCCI GIUSEPPE\nSource date: 02/02/2026\nDuration: 01:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "120686831",
+      "source_date": "02/02/2026",
+      "metadata": {
+        "codiceInsegnamento": "A002758",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120686831,
+        "examType": null
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-736970ee25451d89d502779927be8c01cd0a3f99@codex",
+      "summary": "FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY 3 (ENDOCRINE/NERVOUS SYSTEM) - APPELLO D'ESAME",
+      "start": "2026-02-02T09:00:00+01:00",
+      "end": "2026-02-02T12:00:00+01:00",
+      "location": "Istituti Biologici - San Camillo",
+      "description": "Course code: MR000011\nTeacher: GELOSO MARIA CONCETTA\nExam type: APPELLO D'ESAME\nSource date: 02/02/2026\nBuilding: Istituti Biologici\nRoom: San Camillo\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121016977",
+      "source_date": "02/02/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000011",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120454733,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-881b5e6e5fe8afd238ebc74b76d92d3ab447f049@codex",
+      "summary": "ITALIAN LANGUAGE II - APPELLO D'ESAME",
+      "start": "2026-02-04T09:00:00+01:00",
+      "end": "2026-02-04T15:00:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000007\nTeacher: GILARDONI SILVIA\nExam type: APPELLO D'ESAME\nSource date: 04/02/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 06:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121062714",
+      "source_date": "04/02/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000007",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120731872,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-ff52c6e0edb720677b013be3131052b57ea9ba57@codex",
+      "summary": "ITALIAN LANGUAGE II - APPELLO D'ESAME",
+      "start": "2026-02-04T09:00:00+01:00",
+      "end": "2026-02-04T15:00:00+01:00",
+      "location": "Giovanni XXIII - 5",
+      "description": "Course code: MR000007\nTeacher: GILARDONI SILVIA\nExam type: APPELLO D'ESAME\nSource date: 04/02/2026\nBuilding: Giovanni XXIII\nRoom: 5\nDuration: 06:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121062725",
+      "source_date": "04/02/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000007",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120731872,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-79b07d4496a23955ea496d8f453f4b78880a8456@codex",
+      "summary": "MICROBE - HOST INTERACTION - APPELLO D'ESAME",
+      "start": "2026-02-16T09:00:00+01:00",
+      "end": "2026-02-16T12:00:00+01:00",
+      "location": "Istituti Biologici - San Camillo",
+      "description": "Course code: MR000009\nTeacher: HAAS TOBIAS LONGIN\nExam type: APPELLO D'ESAME\nSource date: 16/02/2026\nBuilding: Istituti Biologici\nRoom: San Camillo\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121044069",
+      "source_date": "16/02/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000009",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120454754,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-0c975f43a23103b4d27fdf8299441f0956fb99ba@codex",
+      "summary": "FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY 3 (ENDOCRINE/NERVOUS SYSTEM) - APPELLO D'ESAME",
+      "start": "2026-02-19T09:00:00+01:00",
+      "end": "2026-02-19T12:00:00+01:00",
+      "location": "Istituti Biologici - San Camillo",
+      "description": "Course code: MR000011\nTeacher: GELOSO MARIA CONCETTA\nExam type: APPELLO D'ESAME\nSource date: 19/02/2026\nBuilding: Istituti Biologici\nRoom: San Camillo\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121016980",
+      "source_date": "19/02/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000011",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120454733,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-1a65e3682204d2bf96dc4840d6e4410a74fba03f@codex",
+      "summary": "THEOLOGY 2: INTRODUCTION TO THEOLOGICAL ANTHROPOLOGY AND ECCLESIOLOGY - APPELLO D'ESAME",
+      "start": "2026-02-23T09:00:00+01:00",
+      "end": "2026-02-23T12:00:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000043\nTeacher: MERONI FABRIZIO\nExam type: APPELLO D'ESAME\nSource date: 23/02/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121018789",
+      "source_date": "23/02/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000043",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120657202,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-66a9b1758c3829a4257ec9d262acdaecf9d7427c@codex",
+      "summary": "FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY 2 (RESPIRATORY/DIGESTIVE/URINARY/REPRODUCTIVE) - APPELLO D'ESAME",
+      "start": "2026-02-24T09:00:00+01:00",
+      "end": "2026-02-24T12:00:00+01:00",
+      "location": "Istituti Biologici - San Camillo",
+      "description": "Course code: MR000008\nTeacher: SCICCHITANO BIANCA MARIA\nExam type: APPELLO D'ESAME\nSource date: 24/02/2026\nBuilding: Istituti Biologici\nRoom: San Camillo\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121016892",
+      "source_date": "24/02/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000008",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120454736,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-442b1e5dd69fe80c0b0ef6d39701756180bfbf67@codex",
+      "summary": "ITALIAN LANGUAGE II - APPELLO D'ESAME",
+      "start": "2026-02-25T09:00:00+01:00",
+      "end": "2026-02-25T16:00:00+01:00",
+      "location": "Economia - 109",
+      "description": "Course code: MR000007\nTeacher: GILARDONI SILVIA\nExam type: APPELLO D'ESAME\nSource date: 25/02/2026\nBuilding: Economia\nRoom: 109\nDuration: 07:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121018877",
+      "source_date": "25/02/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000007",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120731872,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-6a2e37e1574e9148aad412ba69c88d3701a687d4@codex",
+      "summary": "ITALIAN LANGUAGE II - CODA D'ESAME",
+      "start": "2026-02-25T09:00:00+01:00",
+      "end": "2026-02-25T16:00:00+01:00",
+      "location": "Economia - 108",
+      "description": "Course code: MR000007\nTeacher: GILARDONI SILVIA\nExam type: CODA D'ESAME\nSource date: 25/02/2026\nBuilding: Economia\nRoom: 108\nDuration: 07:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121018884",
+      "source_date": "25/02/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000007",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120731872,
+        "examType": "CODA D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-827b5236c9780fdcfd976d64a5e1115256dfa6d9@codex",
+      "summary": "ITALIAN LANGUAGE II - APPELLO D'ESAME",
+      "start": "2026-03-30T09:00:00+02:00",
+      "end": "2026-03-30T16:00:00+02:00",
+      "location": "Economia - 109",
+      "description": "Course code: MR000007\nTeacher: GILARDONI SILVIA\nExam type: APPELLO D'ESAME\nSource date: 30/03/2026\nBuilding: Economia\nRoom: 109\nDuration: 07:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121018888",
+      "source_date": "30/03/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000007",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120731872,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-ac1581b27bd795ae403705da63bf0804f00c9c20@codex",
+      "summary": "ITALIAN LANGUAGE II - CODA D'ESAME",
+      "start": "2026-03-30T09:00:00+02:00",
+      "end": "2026-03-30T16:00:00+02:00",
+      "location": "Economia - 108",
+      "description": "Course code: MR000007\nTeacher: GILARDONI SILVIA\nExam type: CODA D'ESAME\nSource date: 30/03/2026\nBuilding: Economia\nRoom: 108\nDuration: 07:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121018893",
+      "source_date": "30/03/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000007",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120731872,
+        "examType": "CODA D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-e6028dea8ce01bb113ecba147f43b48617e9be8d@codex",
+      "summary": "THEOLOGY 2: INTRODUCTION TO THEOLOGICAL ANTHROPOLOGY AND ECCLESIOLOGY - APPELLO D'ESAME",
+      "start": "2026-03-31T09:00:00+02:00",
+      "end": "2026-03-31T12:00:00+02:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000043\nTeacher: MERONI FABRIZIO\nExam type: APPELLO D'ESAME\nSource date: 31/03/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121144339",
+      "source_date": "31/03/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000043",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120657202,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-23721250108c2dcdc3aeb08fc82c2a2cda899b29@codex",
+      "summary": "MICROBE - HOST INTERACTION - APPELLO D'ESAME",
+      "start": "2026-04-01T09:00:00+02:00",
+      "end": "2026-04-01T12:00:00+02:00",
+      "location": "Giovanni XXIII - Laboratorio informatica",
+      "description": "Course code: MR000009\nTeacher: HAAS TOBIAS LONGIN\nExam type: APPELLO D'ESAME\nSource date: 01/04/2026\nBuilding: Giovanni XXIII\nRoom: Laboratorio informatica\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121044072",
+      "source_date": "01/04/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000009",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120454754,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-1b15824b5403183c562dc917d4aeaa80b56d4971@codex",
+      "summary": "FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY 2 (RESPIRATORY/DIGESTIVE/URINARY/REPRODUCTIVE) - APPELLO D'ESAME",
+      "start": "2026-04-07T09:00:00+02:00",
+      "end": "2026-04-07T12:00:00+02:00",
+      "location": "Giovanni XXIII - Laboratorio informatica",
+      "description": "Retained from previous UCSC calendar feed.\nSource kind: exam\nSource record id: 121016904\nSource date: 07/04/2026\n\nCalendar persistence note: retained because the event is in the past and no longer appears in the upstream feed.\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121016904",
+      "source_date": "07/04/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000008",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120454736,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 2,
+      "last_modified_utc": "2026-10-27T08:32:16+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-5a902bb77502c4e7bd6f2877f97c1e8f156dcc26@codex",
+      "summary": "FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY 2 (RESPIRATORY/DIGESTIVE/URINARY/REPRODUCTIVE) - APPELLO D'ESAME",
+      "start": "2026-04-07T09:00:00+02:00",
+      "end": "2026-04-07T12:00:00+02:00",
+      "location": "Istituti Biologici - San Camillo",
+      "description": "Course code: MR000008\nTeacher: SCICCHITANO BIANCA MARIA\nExam type: APPELLO D'ESAME\nSource date: 07/04/2026\nBuilding: Istituti Biologici\nRoom: San Camillo\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121338310",
+      "source_date": "07/04/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000008",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120454736,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-b83d9818ac8ad4d7be6004d037b9282dc193b42d@codex",
+      "summary": "FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY 3 (ENDOCRINE/NERVOUS SYSTEM) - APPELLO D'ESAME",
+      "start": "2026-04-09T12:00:00+02:00",
+      "end": "2026-04-09T15:00:00+02:00",
+      "location": "Istituti Biologici - San Camillo",
+      "description": "Course code: MR000011\nTeacher: GELOSO MARIA CONCETTA\nExam type: APPELLO D'ESAME\nSource date: 09/04/2026\nBuilding: Istituti Biologici\nRoom: San Camillo\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121029304",
+      "source_date": "09/04/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000011",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120454733,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-791fc58f4e972c64fe2643959ca3318b8502ed80@codex",
+      "summary": "HISTORY OF MEDICINE AND ANTROPOLOGY - APPELLO D'ESAME",
+      "start": "2026-06-15T09:00:00+02:00",
+      "end": "2026-06-15T12:00:00+02:00",
+      "location": "Istituti Biologici - San Camillo",
+      "description": "Course code: MR000014\nTeacher: REFOLO PIETRO\nExam type: APPELLO D'ESAME\nSource date: 15/06/2026\nBuilding: Istituti Biologici\nRoom: San Camillo\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121018511",
+      "source_date": "15/06/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000014",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120297448,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-85f12b78f1d7fa338527bf90ceeb24fd05c3d47c@codex",
+      "summary": "MICROBE - HOST INTERACTION - APPELLO D'ESAME",
+      "start": "2026-06-16T09:00:00+02:00",
+      "end": "2026-06-16T12:00:00+02:00",
+      "location": "Giovanni XXIII - Laboratorio informatica",
+      "description": "Course code: MR000009\nTeacher: HAAS TOBIAS LONGIN\nExam type: APPELLO D'ESAME\nSource date: 16/06/2026\nBuilding: Giovanni XXIII\nRoom: Laboratorio informatica\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121044075",
+      "source_date": "16/06/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000009",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120454754,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-1585d66c5f5f08b461927e64d322cf4bd35bd963@codex",
+      "summary": "FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY 2 (RESPIRATORY/DIGESTIVE/URINARY/REPRODUCTIVE) - APPELLO D'ESAME",
+      "start": "2026-06-18T09:00:00+02:00",
+      "end": "2026-06-18T12:00:00+02:00",
+      "location": "Istituti Biologici - San Camillo",
+      "description": "Course code: MR000008\nTeacher: SCICCHITANO BIANCA MARIA\nExam type: APPELLO D'ESAME\nSource date: 18/06/2026\nBuilding: Istituti Biologici\nRoom: San Camillo\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121016914",
+      "source_date": "18/06/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000008",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120454736,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-487a088c7a09e1146ee42c2fd96345835cbe130e@codex",
+      "summary": "FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY 3 (ENDOCRINE/NERVOUS SYSTEM) - APPELLO D'ESAME",
+      "start": "2026-06-19T09:00:00+02:00",
+      "end": "2026-06-19T14:00:00+02:00",
+      "location": "Istituti Biologici - San Camillo",
+      "description": "Course code: MR000011\nTeacher: GELOSO MARIA CONCETTA\nExam type: APPELLO D'ESAME\nSource date: 19/06/2026\nBuilding: Istituti Biologici\nRoom: San Camillo\nDuration: 05:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121016989",
+      "source_date": "19/06/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000011",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120454733,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-09-07T09:17:51.092272+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-8135ec9d5e6a0c290a585e723d3dff4ef0a3bcf5@codex",
+      "summary": "FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY 3 (ENDOCRINE/NERVOUS SYSTEM) - APPELLO D'ESAME",
+      "start": "2026-06-19T09:00:00+02:00",
+      "end": "2026-06-19T12:00:00+02:00",
+      "location": "Istituti Biologici - San Camillo",
+      "description": "Course code: MR000011\nTeacher: GELOSO MARIA CONCETTA\nExam type: APPELLO D'ESAME\nSource date: 19/06/2026\nBuilding: Istituti Biologici\nRoom: San Camillo\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar persistence note: retained because the event is in the past and no longer appears in the upstream feed.\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121016989",
+      "source_date": "19/06/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000011",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120454733,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 3,
+      "last_modified_utc": "2026-10-27T08:32:16+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-29a27113d3aa4cb7fec11c3acd83221ed611b30c@codex",
+      "summary": "FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY 3 (ENDOCRINE/NERVOUS SYSTEM) - CODA D'ESAME",
+      "start": "2026-06-19T09:00:00+02:00",
+      "end": "2026-06-19T14:00:00+02:00",
+      "location": "Giovanni XXIII - Laboratorio linguistico",
+      "description": "Course code: MR000011\nTeacher: GELOSO MARIA CONCETTA\nExam type: CODA D'ESAME\nSource date: 19/06/2026\nBuilding: Giovanni XXIII\nRoom: Laboratorio linguistico\nDuration: 05:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121820572",
+      "source_date": "19/06/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000011",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120454733,
+        "examType": "CODA D'ESAME"
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-09-07T09:17:51.092272+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-9dbc8e16492dfb428d7374f53530d49d8e80d3b5@codex",
+      "summary": "THEOLOGY 2: INTRODUCTION TO THEOLOGICAL ANTHROPOLOGY AND ECCLESIOLOGY - APPELLO D'ESAME",
+      "start": "2026-06-22T09:00:00+02:00",
+      "end": "2026-06-22T12:00:00+02:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000043\nTeacher: MERONI FABRIZIO\nExam type: APPELLO D'ESAME\nSource date: 22/06/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121018800",
+      "source_date": "22/06/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000043",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120657202,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-1dedf419ddb10cfc5dfa8c77b66e815160cf7ec7@codex",
+      "summary": "ITALIAN LANGUAGE II - APPELLO D'ESAME",
+      "start": "2026-06-23T09:00:00+02:00",
+      "end": "2026-06-23T16:00:00+02:00",
+      "location": "Economia - 109",
+      "description": "Course code: MR000007\nTeacher: GILARDONI SILVIA\nExam type: APPELLO D'ESAME\nSource date: 23/06/2026\nBuilding: Economia\nRoom: 109\nDuration: 07:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121018898",
+      "source_date": "23/06/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000007",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120731872,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-4cbc0664200028dc3893e5cc9593a8ab39056da1@codex",
+      "summary": "ITALIAN LANGUAGE II - APPELLO D'ESAME",
+      "start": "2026-06-23T09:00:00+02:00",
+      "end": "2026-06-23T16:00:00+02:00",
+      "location": "Giovanni XXIII - Lazzati",
+      "description": "Course code: MR000007\nTeacher: GILARDONI SILVIA\nExam type: APPELLO D'ESAME\nSource date: 23/06/2026\nBuilding: Giovanni XXIII\nRoom: Lazzati\nDuration: 07:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121838118",
+      "source_date": "23/06/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000007",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120731872,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-09-07T09:17:51.092272+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-7975eb4d658185b4791185e56e572d535f08652c@codex",
+      "summary": "ITALIAN LANGUAGE II - CODA D'ESAME",
+      "start": "2026-06-23T09:00:00+02:00",
+      "end": "2026-06-23T16:00:00+02:00",
+      "location": "Economia - 105",
+      "description": "Course code: MR000007\nTeacher: GILARDONI SILVIA\nExam type: CODA D'ESAME\nSource date: 23/06/2026\nBuilding: Economia\nRoom: 105\nDuration: 07:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121018906",
+      "source_date": "23/06/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000007",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120731872,
+        "examType": "CODA D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-024115b0ae9c494226af7c6a49f45dbb8e8adac8@codex",
+      "summary": "ITALIAN LANGUAGE III - APPELLO D'ESAME",
+      "start": "2026-06-23T09:00:00+02:00",
+      "end": "2026-06-23T16:00:00+02:00",
+      "location": "Economia - 109",
+      "description": "Course code: MR000010\nTeacher: GILARDONI SILVIA\nExam type: APPELLO D'ESAME\nSource date: 23/06/2026\nBuilding: Economia\nRoom: 109\nDuration: 07:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121020131",
+      "source_date": "23/06/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000010",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120731880,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-5586ffe54aca0dad8a38ec6babc87d33a85d83e0@codex",
+      "summary": "ITALIAN LANGUAGE III - APPELLO D'ESAME",
+      "start": "2026-06-23T09:00:00+02:00",
+      "end": "2026-06-23T16:00:00+02:00",
+      "location": "Giovanni XXIII - Lazzati",
+      "description": "Course code: MR000010\nTeacher: GILARDONI SILVIA\nExam type: APPELLO D'ESAME\nSource date: 23/06/2026\nBuilding: Giovanni XXIII\nRoom: Lazzati\nDuration: 07:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121838121",
+      "source_date": "23/06/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000010",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120731880,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-09-07T09:17:51.092272+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-9e8d52664f3e8f6f5d04706d4d0acfa92a4035df@codex",
+      "summary": "ITALIAN LANGUAGE III - CODA D'ESAME",
+      "start": "2026-06-23T09:00:00+02:00",
+      "end": "2026-06-23T16:00:00+02:00",
+      "location": "Economia - 105",
+      "description": "Course code: MR000010\nTeacher: GILARDONI SILVIA\nExam type: CODA D'ESAME\nSource date: 23/06/2026\nBuilding: Economia\nRoom: 105\nDuration: 07:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121020135",
+      "source_date": "23/06/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000010",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120731880,
+        "examType": "CODA D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-0a8a73d0cfa5de325868edd7a5da58a913d8a697@codex",
+      "summary": "CELLULAR AND MOLECULAR PATHOLOGY - APPELLO D'ESAME",
+      "start": "2026-06-26T09:00:00+02:00",
+      "end": "2026-06-26T12:00:00+02:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000012\nTeacher: SERINI SIMONA\nExam type: APPELLO D'ESAME\nSource date: 26/06/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar persistence note: retained because the event is in the past and no longer appears in the upstream feed.\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121017044",
+      "source_date": "26/06/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000012",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120454758,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 3,
+      "last_modified_utc": "2026-10-27T08:32:16+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-e4a3942e058bad976cbd3ef48c87a1393ae2bcc3@codex",
+      "summary": "CELLULAR AND MOLECULAR PATHOLOGY - APPELLO D'ESAME",
+      "start": "2026-06-26T09:00:00+02:00",
+      "end": "2026-06-26T12:00:00+02:00",
+      "location": "Giovanni XXIII - Laboratorio linguistico",
+      "description": "Course code: MR000012\nTeacher: SERINI SIMONA\nExam type: APPELLO D'ESAME\nSource date: 26/06/2026\nBuilding: Giovanni XXIII\nRoom: Laboratorio linguistico\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121017044",
+      "source_date": "26/06/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000012",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120454758,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-09-07T09:17:51.092272+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-659ee90a7d803becc870d5c4018842ca695b0adb@codex",
+      "summary": "MICROBE - HOST INTERACTION - APPELLO D'ESAME",
+      "start": "2026-06-30T09:00:00+02:00",
+      "end": "2026-06-30T12:00:00+02:00",
+      "location": "Giovanni XXIII - Laboratorio informatica",
+      "description": "Course code: MR000009\nTeacher: HAAS TOBIAS LONGIN\nExam type: APPELLO D'ESAME\nSource date: 30/06/2026\nBuilding: Giovanni XXIII\nRoom: Laboratorio informatica\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121044078",
+      "source_date": "30/06/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000009",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120454754,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-4c67fce0e7fe623bed1869608a0a186bfa95fcd7@codex",
+      "summary": "EPIDEMIOLOGY AND BIOSTATISTICS - APPELLO D'ESAME",
+      "start": "2026-07-01T09:00:00+02:00",
+      "end": "2026-07-01T12:00:00+02:00",
+      "location": "Istituti Biologici - San Camillo",
+      "description": "Course code: MR000013\nTeacher: PEZZULLO ANGELO MARIA\nExam type: APPELLO D'ESAME\nSource date: 01/07/2026\nBuilding: Istituti Biologici\nRoom: San Camillo\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121017064",
+      "source_date": "01/07/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000013",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120255726,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-faf53cf4ea5e413708a74aac20e257cb39a4bf25@codex",
+      "summary": "EPIDEMIOLOGY AND BIOSTATISTICS - APPELLO D'ESAME",
+      "start": "2026-07-01T09:00:00+02:00",
+      "end": "2026-07-01T12:00:00+02:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Retained from previous UCSC calendar feed.\nSource kind: exam\nSource record id: 121017064\nSource date: 01/07/2026\n\nCalendar persistence note: future event disappeared from the latest upstream feed; retained as tentative pending the next successful snapshot.\n\nCalendar persistence note: future event disappeared from the upstream feed in repeated successful snapshots; retained as cancelled until reviewed or replaced.\n\nCalendar persistence note: retained because the event is in the past and no longer appears in the upstream feed.\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": "CANCELLED",
+      "source_kind": "exam",
+      "source_record_id": "121017064",
+      "source_date": "01/07/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000013",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120255726,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 4,
+      "last_modified_utc": "2026-10-27T08:32:16+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-1c9edfbb48737de572baff66d2a73aeeda27d1fd@codex",
+      "summary": "FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY 2 (RESPIRATORY/DIGESTIVE/URINARY/REPRODUCTIVE) - APPELLO D'ESAME",
+      "start": "2026-07-02T09:00:00+02:00",
+      "end": "2026-07-02T12:00:00+02:00",
+      "location": "Istituti Biologici - San Camillo",
+      "description": "Course code: MR000008\nTeacher: SCICCHITANO BIANCA MARIA\nExam type: APPELLO D'ESAME\nSource date: 02/07/2026\nBuilding: Istituti Biologici\nRoom: San Camillo\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121016926",
+      "source_date": "02/07/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000008",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120454736,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-693d43b415383d1a18060a4576fe18a86afdced2@codex",
+      "summary": "THEOLOGY 2: INTRODUCTION TO THEOLOGICAL ANTHROPOLOGY AND ECCLESIOLOGY - APPELLO D'ESAME",
+      "start": "2026-07-06T09:00:00+02:00",
+      "end": "2026-07-06T12:00:00+02:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000043\nTeacher: MERONI FABRIZIO\nExam type: APPELLO D'ESAME\nSource date: 06/07/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121018803",
+      "source_date": "06/07/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000043",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120657202,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-cb0866002454291d3340512fa7f2ee8afdae8aac@codex",
+      "summary": "HISTORY OF MEDICINE AND ANTROPOLOGY - APPELLO D'ESAME",
+      "start": "2026-07-07T09:00:00+02:00",
+      "end": "2026-07-07T12:00:00+02:00",
+      "location": "Istituti Biologici - San Camillo",
+      "description": "Course code: MR000014\nTeacher: REFOLO PIETRO\nExam type: APPELLO D'ESAME\nSource date: 07/07/2026\nBuilding: Istituti Biologici\nRoom: San Camillo\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121018518",
+      "source_date": "07/07/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000014",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120297448,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-836c5ee05cc83ec09b8d79b07560f237765b604a@codex",
+      "summary": "ITALIAN LANGUAGE II - APPELLO D'ESAME",
+      "start": "2026-07-07T09:00:00+02:00",
+      "end": "2026-07-07T16:00:00+02:00",
+      "location": "Economia - 109",
+      "description": "Course code: MR000007\nTeacher: GILARDONI SILVIA\nExam type: APPELLO D'ESAME\nSource date: 07/07/2026\nBuilding: Economia\nRoom: 109\nDuration: 07:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121018914",
+      "source_date": "07/07/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000007",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120731872,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-cd69e483b411736fb2d974d62c0e1a802b90da3b@codex",
+      "summary": "ITALIAN LANGUAGE II - CODA D'ESAME",
+      "start": "2026-07-07T09:00:00+02:00",
+      "end": "2026-07-07T16:00:00+02:00",
+      "location": "Economia - 105",
+      "description": "Course code: MR000007\nTeacher: GILARDONI SILVIA\nExam type: CODA D'ESAME\nSource date: 07/07/2026\nBuilding: Economia\nRoom: 105\nDuration: 07:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121018920",
+      "source_date": "07/07/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000007",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120731872,
+        "examType": "CODA D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-c1992aa0d6246f7971aa2e1e2b13c0416bca9a3e@codex",
+      "summary": "ITALIAN LANGUAGE III - APPELLO D'ESAME",
+      "start": "2026-07-07T09:00:00+02:00",
+      "end": "2026-07-07T16:00:00+02:00",
+      "location": "Economia - 109",
+      "description": "Course code: MR000010\nTeacher: GILARDONI SILVIA\nExam type: APPELLO D'ESAME\nSource date: 07/07/2026\nBuilding: Economia\nRoom: 109\nDuration: 07:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121020139",
+      "source_date": "07/07/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000010",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120731880,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-df967722b8c1af64a6191a06fb57679519e9a338@codex",
+      "summary": "ITALIAN LANGUAGE III - CODA D'ESAME",
+      "start": "2026-07-07T09:00:00+02:00",
+      "end": "2026-07-07T16:00:00+02:00",
+      "location": "Economia - 105",
+      "description": "Course code: MR000010\nTeacher: GILARDONI SILVIA\nExam type: CODA D'ESAME\nSource date: 07/07/2026\nBuilding: Economia\nRoom: 105\nDuration: 07:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121020144",
+      "source_date": "07/07/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000010",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120731880,
+        "examType": "CODA D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-0f29c034b727816484f3fceb615aef3a077ae37b@codex",
+      "summary": "CELLULAR AND MOLECULAR PATHOLOGY - APPELLO D'ESAME",
+      "start": "2026-07-10T09:00:00+02:00",
+      "end": "2026-07-10T12:00:00+02:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000012\nTeacher: SERINI SIMONA\nExam type: APPELLO D'ESAME\nSource date: 10/07/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar persistence note: retained because the event is in the past and no longer appears in the upstream feed.\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121017050",
+      "source_date": "10/07/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000012",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120454758,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 3,
+      "last_modified_utc": "2026-10-27T08:32:16+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-cabef341a07ecc3b94e11e24a4e060ec8eb670de@codex",
+      "summary": "CELLULAR AND MOLECULAR PATHOLOGY - APPELLO D'ESAME",
+      "start": "2026-07-10T12:00:00+02:00",
+      "end": "2026-07-10T14:00:00+02:00",
+      "location": "Istituti Biologici - San Camillo",
+      "description": "Course code: MR000012\nTeacher: SERINI SIMONA\nExam type: APPELLO D'ESAME\nSource date: 10/07/2026\nBuilding: Istituti Biologici\nRoom: San Camillo\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121870339",
+      "source_date": "10/07/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000012",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120454758,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-09-07T09:17:51.092272+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-64036fc238f1566a21a968e6448ef4145bcbb9dc@codex",
+      "summary": "EPIDEMIOLOGY AND BIOSTATISTICS - APPELLO D'ESAME",
+      "start": "2026-07-16T09:00:00+02:00",
+      "end": "2026-07-16T12:00:00+02:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Retained from previous UCSC calendar feed.\nSource kind: exam\nSource record id: 121017067\nSource date: 16/07/2026\n\nCalendar persistence note: future event disappeared from the latest upstream feed; retained as tentative pending the next successful snapshot.\n\nCalendar persistence note: future event disappeared from the upstream feed in repeated successful snapshots; retained as cancelled until reviewed or replaced.\n\nCalendar persistence note: retained because the event is in the past and no longer appears in the upstream feed.\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": "CANCELLED",
+      "source_kind": "exam",
+      "source_record_id": "121017067",
+      "source_date": "16/07/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000013",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120255726,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 4,
+      "last_modified_utc": "2026-10-27T08:32:16+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-d9ac953b2bde6a2197dbc1f678ae0f01bda7e550@codex",
+      "summary": "EPIDEMIOLOGY AND BIOSTATISTICS - APPELLO D'ESAME",
+      "start": "2026-07-16T09:00:00+02:00",
+      "end": "2026-07-16T12:00:00+02:00",
+      "location": "Istituti Biologici - San Camillo",
+      "description": "Course code: MR000013\nTeacher: PEZZULLO ANGELO MARIA\nExam type: APPELLO D'ESAME\nSource date: 16/07/2026\nBuilding: Istituti Biologici\nRoom: San Camillo\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121017067",
+      "source_date": "16/07/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000013",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120255726,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-dac9e5243817b56ae445e782f5c9615c018e3e46@codex",
+      "summary": "FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY 3 (ENDOCRINE/NERVOUS SYSTEM) - APPELLO D'ESAME",
+      "start": "2026-07-17T09:00:00+02:00",
+      "end": "2026-07-17T12:00:00+02:00",
+      "location": "Istituti Biologici - San Camillo",
+      "description": "Course code: MR000011\nTeacher: GELOSO MARIA CONCETTA\nExam type: APPELLO D'ESAME\nSource date: 17/07/2026\nBuilding: Istituti Biologici\nRoom: San Camillo\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar persistence note: retained because the event is in the past and no longer appears in the upstream feed.\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121016992",
+      "source_date": "17/07/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000011",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120454733,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 3,
+      "last_modified_utc": "2026-10-27T08:32:16+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-f0590c8589a719e61dc7a53deb91816951e0aa22@codex",
+      "summary": "FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY 3 (ENDOCRINE/NERVOUS SYSTEM) - APPELLO D'ESAME",
+      "start": "2026-07-17T11:30:00+02:00",
+      "end": "2026-07-17T14:30:00+02:00",
+      "location": "Giovanni XXIII - 1",
+      "description": "Course code: MR000011\nTeacher: GELOSO MARIA CONCETTA\nExam type: APPELLO D'ESAME\nSource date: 17/07/2026\nBuilding: Giovanni XXIII\nRoom: 1\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121838466",
+      "source_date": "17/07/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000011",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120454733,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-09-07T09:17:51.092272+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-54b4a0993fd996c0f6e14c82d04dde0e8a81c5ac@codex",
+      "summary": "HISTORY OF MEDICINE AND ANTROPOLOGY - APPELLO D'ESAME",
+      "start": "2026-08-31T09:00:00+02:00",
+      "end": "2026-08-31T12:00:00+02:00",
+      "location": "Giovanni XXIII - Laboratorio linguistico",
+      "description": "Course code: MR000014\nTeacher: REFOLO PIETRO\nExam type: APPELLO D'ESAME\nSource date: 31/08/2026\nBuilding: Giovanni XXIII\nRoom: Laboratorio linguistico\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121018521",
+      "source_date": "31/08/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000014",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120297448,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-3a3eecf8391158acec7413d5dbf0fd69d05a4a3e@codex",
+      "summary": "MICROBE - HOST INTERACTION - APPELLO D'ESAME",
+      "start": "2026-08-31T09:00:00+02:00",
+      "end": "2026-08-31T12:00:00+02:00",
+      "location": "Istituti Biologici - San Camillo",
+      "description": "Course code: MR000009\nTeacher: HAAS TOBIAS LONGIN\nExam type: APPELLO D'ESAME\nSource date: 31/08/2026\nBuilding: Istituti Biologici\nRoom: San Camillo\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121044081",
+      "source_date": "31/08/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000009",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120454754,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-3ee7f8e80e3460b6827ecfb65a5a5041fbd68e5a@codex",
+      "summary": "FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY 2 (RESPIRATORY/DIGESTIVE/URINARY/REPRODUCTIVE) - PRE ESAME",
+      "start": "2026-08-31T14:30:00+02:00",
+      "end": "2026-08-31T18:30:00+02:00",
+      "location": "Istituti Biologici - Pasteur",
+      "description": "Course code: MR000008\nTeacher: SCICCHITANO BIANCA MARIA\nExam type: PRE ESAME\nSource date: 31/08/2026\nBuilding: Istituti Biologici\nRoom: Pasteur\nDuration: 04:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121895653",
+      "source_date": "31/08/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000008",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120454736,
+        "examType": "PRE ESAME"
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-09-07T09:17:51.092272+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-8d9bb0d1b394c72a57006ae90127ae3dd189980f@codex",
+      "summary": "EPIDEMIOLOGY AND BIOSTATISTICS - APPELLO D'ESAME",
+      "start": "2026-09-01T09:00:00+02:00",
+      "end": "2026-09-01T12:00:00+02:00",
+      "location": "Istituti Biologici - San Camillo",
+      "description": "Course code: MR000013\nTeacher: PEZZULLO ANGELO MARIA\nExam type: APPELLO D'ESAME\nSource date: 01/09/2026\nBuilding: Istituti Biologici\nRoom: San Camillo\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121017272",
+      "source_date": "01/09/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000013",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120255726,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-09-07T09:17:51.092272+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-c80f1fe8715984141a258c67f036edbc49380ac0@codex",
+      "summary": "EPIDEMIOLOGY AND BIOSTATISTICS - APPELLO D'ESAME",
+      "start": "2026-09-01T09:00:00+02:00",
+      "end": "2026-09-01T12:00:00+02:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000013\nTeacher: PEZZULLO ANGELO MARIA\nExam type: APPELLO D'ESAME\nSource date: 01/09/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar persistence note: retained because the event is in the past and no longer appears in the upstream feed.\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121017272",
+      "source_date": "01/09/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000013",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120255726,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 3,
+      "last_modified_utc": "2026-10-27T08:32:16+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-85b2e18ad8335f6cc750e038065e22916dae7e01@codex",
+      "summary": "FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY 2 (RESPIRATORY/DIGESTIVE/URINARY/REPRODUCTIVE) - APPELLO D'ESAME",
+      "start": "2026-09-03T11:00:00+02:00",
+      "end": "2026-09-03T14:00:00+02:00",
+      "location": "Istituti Biologici - San Camillo",
+      "description": "Course code: MR000008\nTeacher: SCICCHITANO BIANCA MARIA\nExam type: APPELLO D'ESAME\nSource date: 03/09/2026\nBuilding: Istituti Biologici\nRoom: San Camillo\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121044870",
+      "source_date": "03/09/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000008",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120454736,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-d6219ddd50af05d55f628232017b00b21ac181e8@codex",
+      "summary": "FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY 3 (ENDOCRINE/NERVOUS SYSTEM) - APPELLO D'ESAME",
+      "start": "2026-09-04T09:00:00+02:00",
+      "end": "2026-09-04T12:00:00+02:00",
+      "location": "Istituti Biologici - San Camillo",
+      "description": "Course code: MR000011\nTeacher: GELOSO MARIA CONCETTA\nExam type: APPELLO D'ESAME\nSource date: 04/09/2026\nBuilding: Istituti Biologici\nRoom: San Camillo\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121016995",
+      "source_date": "04/09/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000011",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120454733,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-361a63652c559abce0ef0755ddf9f891d73c4e8a@codex",
+      "summary": "THEOLOGY 2: INTRODUCTION TO THEOLOGICAL ANTHROPOLOGY AND ECCLESIOLOGY - APPELLO D'ESAME",
+      "start": "2026-09-04T14:00:00+02:00",
+      "end": "2026-09-04T17:00:00+02:00",
+      "location": "Giovanni XXIII - 4",
+      "description": "Course code: MR000043\nTeacher: MERONI FABRIZIO\nExam type: APPELLO D'ESAME\nSource date: 04/09/2026\nBuilding: Giovanni XXIII\nRoom: 4\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121807779",
+      "source_date": "04/09/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000043",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120657202,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-09-07T09:17:51.092272+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-cb873aed5865b1dc808fd0d5c68bebc0186686aa@codex",
+      "summary": "THEOLOGY 2: INTRODUCTION TO THEOLOGICAL ANTHROPOLOGY AND ECCLESIOLOGY - APPELLO D'ESAME",
+      "start": "2026-09-07T09:00:00+02:00",
+      "end": "2026-09-07T12:00:00+02:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000043\nTeacher: MERONI FABRIZIO\nExam type: APPELLO D'ESAME\nSource date: 07/09/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar persistence note: future event disappeared from the latest upstream feed; retained as tentative pending the next successful snapshot.\n\nCalendar persistence note: future event disappeared from the upstream feed in repeated successful snapshots; retained as cancelled until reviewed or replaced.\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": "CANCELLED",
+      "source_kind": "exam",
+      "source_record_id": "121018810",
+      "source_date": "07/09/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000043",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120657202,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 4,
+      "last_modified_utc": "2026-10-27T08:32:16+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-854cb751bb1710f0aea3e9e1f3e2e8a084fcad65@codex",
+      "summary": "ITALIAN LANGUAGE II - APPELLO D'ESAME",
+      "start": "2026-09-08T09:00:00+02:00",
+      "end": "2026-09-08T16:00:00+02:00",
+      "location": "Economia - 109",
+      "description": "Course code: MR000007\nTeacher: GILARDONI SILVIA\nExam type: APPELLO D'ESAME\nSource date: 08/09/2026\nBuilding: Economia\nRoom: 109\nDuration: 07:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121018924",
+      "source_date": "08/09/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000007",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120731872,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-4a519ef7334863d48c2af19fb85a460ef0dd540e@codex",
+      "summary": "ITALIAN LANGUAGE II - CODA D'ESAME",
+      "start": "2026-09-08T09:00:00+02:00",
+      "end": "2026-09-08T16:00:00+02:00",
+      "location": "Economia - 102",
+      "description": "Course code: MR000007\nTeacher: GILARDONI SILVIA\nExam type: CODA D'ESAME\nSource date: 08/09/2026\nBuilding: Economia\nRoom: 102\nDuration: 07:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121018932",
+      "source_date": "08/09/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000007",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120731872,
+        "examType": "CODA D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-e2b06ca28bf50b17a957b78802c0ba616460427c@codex",
+      "summary": "ITALIAN LANGUAGE III - APPELLO D'ESAME",
+      "start": "2026-09-08T09:00:00+02:00",
+      "end": "2026-09-08T16:00:00+02:00",
+      "location": "Economia - 109",
+      "description": "Course code: MR000010\nTeacher: GILARDONI SILVIA\nExam type: APPELLO D'ESAME\nSource date: 08/09/2026\nBuilding: Economia\nRoom: 109\nDuration: 07:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121020147",
+      "source_date": "08/09/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000010",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120731880,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-efef1c9e7cca07de40bc721b823ebd59caff0d12@codex",
+      "summary": "ITALIAN LANGUAGE III - CODA D'ESAME",
+      "start": "2026-09-08T09:00:00+02:00",
+      "end": "2026-09-08T16:00:00+02:00",
+      "location": "Economia - 102",
+      "description": "Course code: MR000010\nTeacher: GILARDONI SILVIA\nExam type: CODA D'ESAME\nSource date: 08/09/2026\nBuilding: Economia\nRoom: 102\nDuration: 07:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121020150",
+      "source_date": "08/09/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000010",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120731880,
+        "examType": "CODA D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-c7a6af98841aac7efebe7d09a7e94abba9f506e1@codex",
+      "summary": "CELLULAR AND MOLECULAR PATHOLOGY - APPELLO D'ESAME",
+      "start": "2026-09-11T09:00:00+02:00",
+      "end": "2026-09-11T12:00:00+02:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000012\nTeacher: SERINI SIMONA\nExam type: APPELLO D'ESAME\nSource date: 11/09/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar persistence note: future event disappeared from the latest upstream feed; retained as tentative pending the next successful snapshot.\n\nCalendar persistence note: future event disappeared from the upstream feed in repeated successful snapshots; retained as cancelled until reviewed or replaced.\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": "CANCELLED",
+      "source_kind": "exam",
+      "source_record_id": "121017054",
+      "source_date": "11/09/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000012",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120454758,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 4,
+      "last_modified_utc": "2026-10-27T08:32:16+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-5f9245fde528074b12442a8a1f041bcd6d912fc2@codex",
+      "summary": "CELLULAR AND MOLECULAR PATHOLOGY - APPELLO D'ESAME",
+      "start": "2026-09-11T12:00:00+02:00",
+      "end": "2026-09-11T14:00:00+02:00",
+      "location": "Istituti Biologici - San Camillo",
+      "description": "Course code: MR000012\nTeacher: SERINI SIMONA\nExam type: APPELLO D'ESAME\nSource date: 11/09/2026\nBuilding: Istituti Biologici\nRoom: San Camillo\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121870343",
+      "source_date": "11/09/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000012",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120454758,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-09-07T09:17:51.092272+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-93528f3f2039bd3d3d9e1d8a27dd11b9e8815908@codex",
+      "summary": "FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY 2 (RESPIRATORY/DIGESTIVE/URINARY/REPRODUCTIVE) - PRE ESAME",
+      "start": "2026-09-14T09:00:00+02:00",
+      "end": "2026-09-14T18:00:00+02:00",
+      "location": "Istituti Biologici - Pasteur",
+      "description": "Course code: MR000008\nTeacher: SCICCHITANO BIANCA MARIA\nExam type: PRE ESAME\nSource date: 14/09/2026\nBuilding: Istituti Biologici\nRoom: Pasteur\nDuration: 09:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121895664",
+      "source_date": "14/09/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000008",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120454736,
+        "examType": "PRE ESAME"
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-09-07T09:17:51.092272+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-59654c3858c78f47db40e0545747c242caae52b0@codex",
+      "summary": "HISTORY OF MEDICINE AND ANTROPOLOGY - APPELLO D'ESAME",
+      "start": "2026-09-14T09:00:00+02:00",
+      "end": "2026-09-14T12:00:00+02:00",
+      "location": "Giovanni XXIII - Laboratorio linguistico",
+      "description": "Course code: MR000014\nTeacher: REFOLO PIETRO\nExam type: APPELLO D'ESAME\nSource date: 14/09/2026\nBuilding: Giovanni XXIII\nRoom: Laboratorio linguistico\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar persistence note: future event disappeared from the latest upstream feed; retained as tentative pending the next successful snapshot.\n\nCalendar persistence note: future event disappeared from the upstream feed in repeated successful snapshots; retained as cancelled until reviewed or replaced.\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": "CANCELLED",
+      "source_kind": "exam",
+      "source_record_id": "121018744",
+      "source_date": "14/09/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000014",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120297448,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 4,
+      "last_modified_utc": "2026-10-27T08:32:16+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-f10a132e13cd8d6536c5ceb53e8ba42b3858145c@codex",
+      "summary": "HISTORY OF MEDICINE AND ANTROPOLOGY - APPELLO D'ESAME",
+      "start": "2026-09-14T14:00:00+02:00",
+      "end": "2026-09-14T16:00:00+02:00",
+      "location": "Giovanni XXIII - Laboratorio linguistico",
+      "description": "Course code: MR000014\nTeacher: REFOLO PIETRO\nExam type: APPELLO D'ESAME\nSource date: 14/09/2026\nBuilding: Giovanni XXIII\nRoom: Laboratorio linguistico\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121847290",
+      "source_date": "14/09/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000014",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120297448,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-09-07T09:17:51.092272+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-712598b5a401900036891aac4146bd2deb7c4b5c@codex",
+      "summary": "MICROBE - HOST INTERACTION - APPELLO D'ESAME",
+      "start": "2026-09-15T09:00:00+02:00",
+      "end": "2026-09-15T12:00:00+02:00",
+      "location": "Istituti Biologici - San Camillo",
+      "description": "Course code: MR000009\nTeacher: HAAS TOBIAS LONGIN\nExam type: APPELLO D'ESAME\nSource date: 15/09/2026\nBuilding: Istituti Biologici\nRoom: San Camillo\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121044087",
+      "source_date": "15/09/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000009",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120454754,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-b11d6ac95055b0e4ddd839f7c448ccf2e0f2f819@codex",
+      "summary": "FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY 2 (RESPIRATORY/DIGESTIVE/URINARY/REPRODUCTIVE) - APPELLO D'ESAME",
+      "start": "2026-09-17T09:00:00+02:00",
+      "end": "2026-09-17T12:00:00+02:00",
+      "location": "Giovanni XXIII - Laboratorio linguistico",
+      "description": "Course code: MR000008\nTeacher: SCICCHITANO BIANCA MARIA\nExam type: APPELLO D'ESAME\nSource date: 17/09/2026\nBuilding: Giovanni XXIII\nRoom: Laboratorio linguistico\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121016940",
+      "source_date": "17/09/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000008",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120454736,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-6100f99961087765dcfc1e837e5e44ad50703515@codex",
+      "summary": "THEOLOGY 2: INTRODUCTION TO THEOLOGICAL ANTHROPOLOGY AND ECCLESIOLOGY - APPELLO D'ESAME",
+      "start": "2026-09-18T09:00:00+02:00",
+      "end": "2026-09-18T12:00:00+02:00",
+      "location": "Giovanni XXIII - 5",
+      "description": "Course code: MR000043\nTeacher: MERONI FABRIZIO\nExam type: APPELLO D'ESAME\nSource date: 18/09/2026\nBuilding: Giovanni XXIII\nRoom: 5\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121807766",
+      "source_date": "18/09/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000043",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120657202,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-09-07T09:17:51.092272+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-d4a732e8e7015edb2a1f4c516fc6841dcec3e40e@codex",
+      "summary": "THEOLOGY 2: INTRODUCTION TO THEOLOGICAL ANTHROPOLOGY AND ECCLESIOLOGY - APPELLO D'ESAME",
+      "start": "2026-09-21T09:00:00+02:00",
+      "end": "2026-09-21T12:00:00+02:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000043\nTeacher: MERONI FABRIZIO\nExam type: APPELLO D'ESAME\nSource date: 21/09/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar persistence note: future event disappeared from the latest upstream feed; retained as tentative pending the next successful snapshot.\n\nCalendar persistence note: future event disappeared from the upstream feed in repeated successful snapshots; retained as cancelled until reviewed or replaced.\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": "CANCELLED",
+      "source_kind": "exam",
+      "source_record_id": "121018818",
+      "source_date": "21/09/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000043",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120657202,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 4,
+      "last_modified_utc": "2026-10-27T08:32:16+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-4462fec715eac486a85f1de25dacfb4022291877@codex",
+      "summary": "ITALIAN LANGUAGE II - APPELLO D'ESAME",
+      "start": "2026-09-22T09:00:00+02:00",
+      "end": "2026-09-22T16:00:00+02:00",
+      "location": "Economia - 109",
+      "description": "Course code: MR000007\nTeacher: GILARDONI SILVIA\nExam type: APPELLO D'ESAME\nSource date: 22/09/2026\nBuilding: Economia\nRoom: 109\nDuration: 07:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121018938",
+      "source_date": "22/09/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000007",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120731872,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-06332ec584f4c670e10eb06457d12201f403a125@codex",
+      "summary": "ITALIAN LANGUAGE II - CODA D'ESAME",
+      "start": "2026-09-22T09:00:00+02:00",
+      "end": "2026-09-22T16:00:00+02:00",
+      "location": "Economia - 207",
+      "description": "Course code: MR000007\nTeacher: GILARDONI SILVIA\nExam type: CODA D'ESAME\nSource date: 22/09/2026\nBuilding: Economia\nRoom: 207\nDuration: 07:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121018944",
+      "source_date": "22/09/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000007",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120731872,
+        "examType": "CODA D'ESAME"
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-27T08:32:16+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-883b77113a61665bbbef9c123bd3c586d75af3dd@codex",
+      "summary": "ITALIAN LANGUAGE II - CODA D'ESAME",
+      "start": "2026-09-22T09:00:00+02:00",
+      "end": "2026-09-22T16:00:00+02:00",
+      "location": "Economia - 102",
+      "description": "Course code: MR000007\nTeacher: GILARDONI SILVIA\nExam type: CODA D'ESAME\nSource date: 22/09/2026\nBuilding: Economia\nRoom: 102\nDuration: 07:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar persistence note: future event disappeared from the latest upstream feed; retained as tentative pending the next successful snapshot.\n\nCalendar persistence note: future event disappeared from the upstream feed in repeated successful snapshots; retained as cancelled until reviewed or replaced.\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": "CANCELLED",
+      "source_kind": "exam",
+      "source_record_id": "121018944",
+      "source_date": "22/09/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000007",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120731872,
+        "examType": "CODA D'ESAME"
+      },
+      "sequence": 4,
+      "last_modified_utc": "2026-10-27T08:32:16+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-e55a05dfd72c9fb9e21b721ed7fc18441071091c@codex",
+      "summary": "ITALIAN LANGUAGE II - CODA D'ESAME",
+      "start": "2026-09-22T09:00:00+02:00",
+      "end": "2026-09-22T16:00:00+02:00",
+      "location": "Economia - 101",
+      "description": "Course code: MR000007\nTeacher: GILARDONI SILVIA\nExam type: CODA D'ESAME\nSource date: 22/09/2026\nBuilding: Economia\nRoom: 101\nDuration: 07:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121018944",
+      "source_date": "22/09/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000007",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120731872,
+        "examType": "CODA D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-10-27T08:32:16+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-cebb5c16b77d1fcc5d7e74477bdf04722dbcf20d@codex",
+      "summary": "ITALIAN LANGUAGE III - APPELLO D'ESAME",
+      "start": "2026-09-22T09:00:00+02:00",
+      "end": "2026-09-22T16:00:00+02:00",
+      "location": "Economia - 109",
+      "description": "Course code: MR000010\nTeacher: GILARDONI SILVIA\nExam type: APPELLO D'ESAME\nSource date: 22/09/2026\nBuilding: Economia\nRoom: 109\nDuration: 07:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121020168",
+      "source_date": "22/09/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000010",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120731880,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-98fc9fbc207c1ea566af85e28fc887a25e034bfc@codex",
+      "summary": "ITALIAN LANGUAGE III - CODA D'ESAME",
+      "start": "2026-09-22T09:00:00+02:00",
+      "end": "2026-09-22T16:00:00+02:00",
+      "location": "Economia - 102",
+      "description": "Course code: MR000010\nTeacher: GILARDONI SILVIA\nExam type: CODA D'ESAME\nSource date: 22/09/2026\nBuilding: Economia\nRoom: 102\nDuration: 07:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar persistence note: future event disappeared from the latest upstream feed; retained as tentative pending the next successful snapshot.\n\nCalendar persistence note: future event disappeared from the upstream feed in repeated successful snapshots; retained as cancelled until reviewed or replaced.\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": "CANCELLED",
+      "source_kind": "exam",
+      "source_record_id": "121020187",
+      "source_date": "22/09/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000010",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120731880,
+        "examType": "CODA D'ESAME"
+      },
+      "sequence": 4,
+      "last_modified_utc": "2026-10-27T08:32:16+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-b6b8e1f1741c69b3481427cba7760911810a1048@codex",
+      "summary": "ITALIAN LANGUAGE III - CODA D'ESAME",
+      "start": "2026-09-22T09:00:00+02:00",
+      "end": "2026-09-22T16:00:00+02:00",
+      "location": "Economia - 14",
+      "description": "Course code: MR000010\nTeacher: GILARDONI SILVIA\nExam type: CODA D'ESAME\nSource date: 22/09/2026\nBuilding: Economia\nRoom: 14\nDuration: 07:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121020187",
+      "source_date": "22/09/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000010",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120731880,
+        "examType": "CODA D'ESAME"
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-09-07T09:17:51.092272+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-58f05f783b38039f3fe47f1938fb395bd60eb584@codex",
+      "summary": "EPIDEMIOLOGY AND BIOSTATISTICS - APPELLO D'ESAME",
+      "start": "2026-09-24T09:00:00+02:00",
+      "end": "2026-09-24T12:00:00+02:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000013\nTeacher: PEZZULLO ANGELO MARIA\nExam type: APPELLO D'ESAME\nSource date: 24/09/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar persistence note: future event disappeared from the latest upstream feed; retained as tentative pending the next successful snapshot.\n\nCalendar persistence note: future event disappeared from the upstream feed in repeated successful snapshots; retained as cancelled until reviewed or replaced.\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": "CANCELLED",
+      "source_kind": "exam",
+      "source_record_id": "121017934",
+      "source_date": "24/09/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000013",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120255726,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 4,
+      "last_modified_utc": "2026-10-27T08:32:16+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-d6fb76f9fd2c7ad67c694db3999b7c691e9d310b@codex",
+      "summary": "EPIDEMIOLOGY AND BIOSTATISTICS - APPELLO D'ESAME",
+      "start": "2026-09-24T10:00:00+02:00",
+      "end": "2026-09-24T13:00:00+02:00",
+      "location": "Giovanni XXIII - Laboratorio linguistico",
+      "description": "Course code: MR000013\nTeacher: PEZZULLO ANGELO MARIA\nExam type: APPELLO D'ESAME\nSource date: 24/09/2026\nBuilding: Giovanni XXIII\nRoom: Laboratorio linguistico\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121961646",
+      "source_date": "24/09/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000013",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120255726,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-09-07T09:17:51.092272+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-59b64a326d9e18fe45311afd4c9123403ad38607@codex",
+      "summary": "FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY 3 (ENDOCRINE/NERVOUS SYSTEM) - APPELLO D'ESAME",
+      "start": "2026-09-25T08:00:00+02:00",
+      "end": "2026-09-25T11:00:00+02:00",
+      "location": "Istituti Biologici - San Camillo",
+      "description": "Course code: MR000011\nTeacher: GELOSO MARIA CONCETTA\nExam type: APPELLO D'ESAME\nSource date: 25/09/2026\nBuilding: Istituti Biologici\nRoom: San Camillo\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121075250",
+      "source_date": "25/09/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000011",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120454733,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-05-17T15:49:24.185488+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-e6fad90d6bd35c56b817c1ccf45b05e83ff73c18@codex",
+      "summary": "CELLULAR AND MOLECULAR PATHOLOGY - APPELLO D'ESAME",
+      "start": "2026-09-25T09:00:00+02:00",
+      "end": "2026-09-25T12:00:00+02:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000012\nTeacher: SERINI SIMONA\nExam type: APPELLO D'ESAME\nSource date: 25/09/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar persistence note: future event disappeared from the latest upstream feed; retained as tentative pending the next successful snapshot.\n\nCalendar persistence note: future event disappeared from the upstream feed in repeated successful snapshots; retained as cancelled until reviewed or replaced.\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
+      "status": "CANCELLED",
+      "source_kind": "exam",
+      "source_record_id": "121017057",
+      "source_date": "25/09/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000012",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120454758,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 4,
+      "last_modified_utc": "2026-10-27T08:32:16+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-a3f8be531fa1b089251c5bbb5b414d82fc51fc17@codex",
+      "summary": "CELLULAR AND MOLECULAR PATHOLOGY - APPELLO D'ESAME",
+      "start": "2026-09-25T16:00:00+02:00",
+      "end": "2026-09-25T18:30:00+02:00",
+      "location": "Giovanni XXIII - Laboratorio linguistico",
+      "description": "Course code: MR000012\nTeacher: SERINI SIMONA\nExam type: APPELLO D'ESAME\nSource date: 25/09/2026\nBuilding: Giovanni XXIII\nRoom: Laboratorio linguistico\nDuration: 02:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "121870357",
+      "source_date": "25/09/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000012",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120454758,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-09-07T09:17:51.092272+00:00"
+    }
+  ]
+}

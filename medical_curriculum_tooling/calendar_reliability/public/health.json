@@ -1,0 +1,83 @@
+{
+  "ok": true,
+  "observed_at_utc": "2026-10-27T08:32:57+00:00",
+  "results": [
+    {
+      "feed_id": "year2-lessons",
+      "ok": true,
+      "health": "healthy",
+      "event_count": 264,
+      "alerts": []
+    },
+    {
+      "feed_id": "year2-exams",
+      "ok": true,
+      "health": "healthy",
+      "event_count": 85,
+      "alerts": []
+    },
+    {
+      "feed_id": "year1-exams",
+      "ok": true,
+      "health": "healthy",
+      "event_count": 95,
+      "alerts": []
+    },
+    {
+      "feed_id": "year1-lessons",
+      "ok": true,
+      "health": "healthy",
+      "event_count": 0,
+      "alerts": []
+    },
+    {
+      "feed_id": "year3-lessons",
+      "ok": true,
+      "health": "healthy",
+      "event_count": 129,
+      "alerts": [
+        {
+          "type": "confirmed_cancellation",
+          "uid": "unicatt-lesson-occurrence-121921777@codex",
+          "summary": "FIRST AID (MECHANISMS AND MANIFESTATIONS OF DISEASES)"
+        },
+        {
+          "type": "confirmed_cancellation",
+          "uid": "unicatt-lesson-occurrence-121921781@codex",
+          "summary": "FIRST AID (MECHANISMS AND MANIFESTATIONS OF DISEASES)"
+        },
+        {
+          "type": "confirmed_cancellation",
+          "uid": "unicatt-lesson-occurrence-121871194@codex",
+          "summary": "GENERAL PHARMACOLOGY (APPROACH TO DIAGNOSIS AND TREATMENT)"
+        },
+        {
+          "type": "confirmed_cancellation",
+          "uid": "unicatt-lesson-occurrence-121921854@codex",
+          "summary": "FIRST AID (MECHANISMS AND MANIFESTATIONS OF DISEASES)"
+        }
+      ]
+    },
+    {
+      "feed_id": "year3-exams",
+      "ok": true,
+      "health": "healthy",
+      "event_count": 0,
+      "alerts": []
+    },
+    {
+      "feed_id": "italy-holidays",
+      "ok": true,
+      "health": "healthy",
+      "event_count": 89,
+      "alerts": []
+    },
+    {
+      "feed_id": "tartu-y1-lessons",
+      "ok": true,
+      "health": "healthy",
+      "event_count": 58,
+      "alerts": []
+    }
+  ]
+}

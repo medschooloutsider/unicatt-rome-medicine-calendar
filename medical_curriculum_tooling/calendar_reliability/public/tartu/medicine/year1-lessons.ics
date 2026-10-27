@@ -1,0 +1,1213 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Codex Automation//UCSC Unicatt Calendar Broadcast//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:University of Tartu Medicine Year 1 Lessons
+X-WR-CALDESC:Historical University of Tartu English Medicine Year 1 timet
+ able station built from dated official OIS and course timetable evidence
+ . Entries are NOT erased as days pass. Past entries remain in place inde
+ finitely for future audit. Corrections and cancellations retain event id
+ entity\; no rolling date cutoff is permitted for this or any future stat
+ ion.
+X-WR-TIMEZONE:Europe/Tallinn
+BEGIN:VTIMEZONE
+TZID:Europe/Tallinn
+X-LIC-LOCATION:Europe/Tallinn
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0300
+TZNAME:EEST
+DTSTART:19700329T030000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0200
+TZNAME:EET
+DTSTART:19701025T040000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:tartu-y1-biology-autumn-lecture-01-2024-09-05@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20240905
+DTEND;VALUE=DATE:20240906
+SUMMARY:[Tartu Y1] Biology Part 1 - Lecture 1: Molecular and cellular bio
+ logy\; cells and nucleic acids
+LOCATION:
+DESCRIPTION:University of Tartu Medicine Year 1\, Biology Part 1 (ARMP.01
+ .029). Date recovered\; source does not state a clock time. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biophysics-lecture-01-2024-09-09@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Tallinn:20240909T111500
+SUMMARY:[Tartu Y1] Biophysics - Lecture 1: Introduction\, measurement\, f
+ unctions
+LOCATION:Biomedicum
+DESCRIPTION:University of Tartu Medicine Year 1\, Biophysics (ARFS.01.023
+ ). Start time 11:15\; end time is not stated in the source. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biology-autumn-lecture-02-2024-09-12@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20240912
+DTEND;VALUE=DATE:20240913
+SUMMARY:[Tartu Y1] Biology Part 1 - Lecture 2: DNA replication and transc
+ ription
+LOCATION:
+DESCRIPTION:University of Tartu Medicine Year 1\, Biology Part 1 (ARMP.01
+ .029). Date recovered\; source does not state a clock time. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biophysics-lecture-02-2024-09-16@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Tallinn:20240916T111500
+SUMMARY:[Tartu Y1] Biophysics - Lecture 2: Cardio-respiratory biophysics
+LOCATION:Biomedicum
+DESCRIPTION:University of Tartu Medicine Year 1\, Biophysics (ARFS.01.023
+ ). Start time 11:15\; end time is not stated in the source. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biology-autumn-lecture-03-2024-09-19@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20240919
+DTEND;VALUE=DATE:20240920
+SUMMARY:[Tartu Y1] Biology Part 1 - Lecture 3: Protein translation and pr
+ otein structures
+LOCATION:
+DESCRIPTION:University of Tartu Medicine Year 1\, Biology Part 1 (ARMP.01
+ .029). Date recovered\; source does not state a clock time. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biophysics-lecture-03-2024-09-23@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Tallinn:20240923T111500
+SUMMARY:[Tartu Y1] Biophysics - Lecture 3: Derivatives\, integrals\, stat
+ es and flow
+LOCATION:Biomedicum
+DESCRIPTION:University of Tartu Medicine Year 1\, Biophysics (ARFS.01.023
+ ). Start time 11:15\; end time is not stated in the source. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biology-autumn-lecture-04-2024-09-26@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20240926
+DTEND;VALUE=DATE:20240927
+SUMMARY:[Tartu Y1] Biology Part 1 - Lecture 4: Genes and gene expression
+LOCATION:
+DESCRIPTION:University of Tartu Medicine Year 1\, Biology Part 1 (ARMP.01
+ .029). Date recovered\; source does not state a clock time. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biophysics-lecture-04-2024-09-30@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Tallinn:20240930T111500
+SUMMARY:[Tartu Y1] Biophysics - Lecture 4: Mechanics\, oscillations and w
+ aves
+LOCATION:Biomedicum
+DESCRIPTION:University of Tartu Medicine Year 1\, Biophysics (ARFS.01.023
+ ). Start time 11:15\; end time is not stated in the source. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biology-autumn-lecture-05-2024-10-03@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20241003
+DTEND;VALUE=DATE:20241004
+SUMMARY:[Tartu Y1] Biology Part 1 - Lecture 5: Human genome and applicati
+ ons in medicine
+LOCATION:
+DESCRIPTION:University of Tartu Medicine Year 1\, Biology Part 1 (ARMP.01
+ .029). Date recovered\; source does not state a clock time. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biophysics-lecture-05-2024-10-07@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Tallinn:20241007T111500
+SUMMARY:[Tartu Y1] Biophysics - Lecture 5: Oscillations\, waves and elect
+ ric phenomena
+LOCATION:Biomedicum
+DESCRIPTION:University of Tartu Medicine Year 1\, Biophysics (ARFS.01.023
+ ). Start time 11:15\; end time is not stated in the source. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biophysics-lecture-06-2024-10-14@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Tallinn:20241014T111500
+SUMMARY:[Tartu Y1] Biophysics - Lecture 6: Magnetic field\, AC and bioele
+ ctromagnetism
+LOCATION:Biomedicum
+DESCRIPTION:University of Tartu Medicine Year 1\, Biophysics (ARFS.01.023
+ ). Start time 11:15\; end time is not stated in the source. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biology-autumn-lecture-06-2024-10-16@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20241016
+DTEND;VALUE=DATE:20241017
+SUMMARY:[Tartu Y1] Biology Part 1 - Lecture 6: Monogenic and polygenic in
+ heritance
+LOCATION:
+DESCRIPTION:University of Tartu Medicine Year 1\, Biology Part 1 (ARMP.01
+ .029). Date recovered\; source does not state a clock time. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biology-autumn-lecture-07-2024-10-17@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20241017
+DTEND;VALUE=DATE:20241018
+SUMMARY:[Tartu Y1] Biology Part 1 - Lecture 7: Human chromosomes
+LOCATION:
+DESCRIPTION:University of Tartu Medicine Year 1\, Biology Part 1 (ARMP.01
+ .029). Date recovered\; source does not state a clock time. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biophysics-lecture-07-2024-10-21@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Tallinn:20241021T111500
+SUMMARY:[Tartu Y1] Biophysics - Lecture 7: Optics
+LOCATION:Biomedicum
+DESCRIPTION:University of Tartu Medicine Year 1\, Biophysics (ARFS.01.023
+ ). Start time 11:15\; end time is not stated in the source. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biology-autumn-lecture-08-2024-10-24@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20241024
+DTEND;VALUE=DATE:20241025
+SUMMARY:[Tartu Y1] Biology Part 1 - Lecture 8: Plasma membrane and transp
+ ort
+LOCATION:
+DESCRIPTION:University of Tartu Medicine Year 1\, Biology Part 1 (ARMP.01
+ .029). Date recovered\; source does not state a clock time. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biophysics-lecture-08-2024-10-28@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Tallinn:20241028T111500
+SUMMARY:[Tartu Y1] Biophysics - Lecture 8: Exponential functions and radi
+ oactivity
+LOCATION:Biomedicum
+DESCRIPTION:University of Tartu Medicine Year 1\, Biophysics (ARFS.01.023
+ ). Start time 11:15\; end time is not stated in the source. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biology-autumn-lecture-09-2024-10-31@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20241031
+DTEND;VALUE=DATE:20241101
+SUMMARY:[Tartu Y1] Biology Part 1 - Lecture 9: Cell compartmentalization 
+ and intracellular transport
+LOCATION:
+DESCRIPTION:University of Tartu Medicine Year 1\, Biology Part 1 (ARMP.01
+ .029). Date recovered\; source does not state a clock time. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biophysics-lecture-09-2024-11-04@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Tallinn:20241104T111500
+SUMMARY:[Tartu Y1] Biophysics - Lecture 9: Transport in biological membra
+ nes
+LOCATION:Biomedicum
+DESCRIPTION:University of Tartu Medicine Year 1\, Biophysics (ARFS.01.023
+ ). Start time 11:15\; end time is not stated in the source. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biology-autumn-lecture-10-2024-11-07@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20241107
+DTEND;VALUE=DATE:20241108
+SUMMARY:[Tartu Y1] Biology Part 1 - Lecture 10: Mitochondria\, energy and
+  cytoskeleton
+LOCATION:
+DESCRIPTION:University of Tartu Medicine Year 1\, Biology Part 1 (ARMP.01
+ .029). Date recovered\; source does not state a clock time. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biophysics-lecture-10-2024-11-11@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Tallinn:20241111T111500
+SUMMARY:[Tartu Y1] Biophysics - Lecture 10: Resting and action potential
+LOCATION:Biomedicum
+DESCRIPTION:University of Tartu Medicine Year 1\, Biophysics (ARFS.01.023
+ ). Start time 11:15\; end time is not stated in the source. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-medical-chemistry-practical-01-2024-11-13@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20241113
+DTEND;VALUE=DATE:20241114
+SUMMARY:[Tartu Y1] Medical Chemistry - Practical: Determination of the bu
+ ffer capacity
+LOCATION:
+DESCRIPTION:University of Tartu Medicine Year 1\, Medical Chemistry (LOKT
+ .00.009). Date recovered\; source does not state a clock time. Local off
+ icial OIS course-version and timetable documents\, cross-checked against
+  the official Tartu faculty timetable PDFs\; see the LM41 crosswalk repo
+ rt for paths and hashes.\n\nEntries are NOT erased as days pass. Past en
+ tries remain in place indefinitely for future audit. Corrections and can
+ cellations retain event identity\; no rolling date cutoff is permitted f
+ or this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biology-autumn-lecture-11-2024-11-14@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20241114
+DTEND;VALUE=DATE:20241115
+SUMMARY:[Tartu Y1] Biology Part 1 - Lecture 11: Cell junctions\, adhesion
+  and extracellular matrix
+LOCATION:
+DESCRIPTION:University of Tartu Medicine Year 1\, Biology Part 1 (ARMP.01
+ .029). Date recovered\; source does not state a clock time. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biophysics-lecture-11-2024-11-18@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Tallinn:20241118T111500
+SUMMARY:[Tartu Y1] Biophysics - Lecture 11: Skeleton and muscles
+LOCATION:Biomedicum
+DESCRIPTION:University of Tartu Medicine Year 1\, Biophysics (ARFS.01.023
+ ). Start time 11:15\; end time is not stated in the source. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-medical-chemistry-practical-02-2024-11-20@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20241120
+DTEND;VALUE=DATE:20241121
+SUMMARY:[Tartu Y1] Medical Chemistry - Practical: Determination of the ra
+ te constant
+LOCATION:
+DESCRIPTION:University of Tartu Medicine Year 1\, Medical Chemistry (LOKT
+ .00.009). Date recovered\; source does not state a clock time. Local off
+ icial OIS course-version and timetable documents\, cross-checked against
+  the official Tartu faculty timetable PDFs\; see the LM41 crosswalk repo
+ rt for paths and hashes.\n\nEntries are NOT erased as days pass. Past en
+ tries remain in place indefinitely for future audit. Corrections and can
+ cellations retain event identity\; no rolling date cutoff is permitted f
+ or this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biology-autumn-lecture-12-2024-11-21@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20241121
+DTEND;VALUE=DATE:20241122
+SUMMARY:[Tartu Y1] Biology Part 1 - Lecture 12: Proliferation\, cell cycl
+ e and apoptosis
+LOCATION:
+DESCRIPTION:University of Tartu Medicine Year 1\, Biology Part 1 (ARMP.01
+ .029). Date recovered\; source does not state a clock time. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biophysics-lecture-12-2024-11-25@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Tallinn:20241125T111500
+SUMMARY:[Tartu Y1] Biophysics - Lecture 12: Information
+LOCATION:Biomedicum
+DESCRIPTION:University of Tartu Medicine Year 1\, Biophysics (ARFS.01.023
+ ). Start time 11:15\; end time is not stated in the source. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-medical-chemistry-practical-03-2024-11-27@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20241127
+DTEND;VALUE=DATE:20241128
+SUMMARY:[Tartu Y1] Medical Chemistry - Practical: Determination of the cr
+ itical coagulation of the sol
+LOCATION:
+DESCRIPTION:University of Tartu Medicine Year 1\, Medical Chemistry (LOKT
+ .00.009). Date recovered\; source does not state a clock time. Local off
+ icial OIS course-version and timetable documents\, cross-checked against
+  the official Tartu faculty timetable PDFs\; see the LM41 crosswalk repo
+ rt for paths and hashes.\n\nEntries are NOT erased as days pass. Past en
+ tries remain in place indefinitely for future audit. Corrections and can
+ cellations retain event identity\; no rolling date cutoff is permitted f
+ or this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biology-autumn-lecture-13-2024-11-28@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20241128
+DTEND;VALUE=DATE:20241129
+SUMMARY:[Tartu Y1] Biology Part 1 - Lecture 13: Signaling and transductio
+ n
+LOCATION:
+DESCRIPTION:University of Tartu Medicine Year 1\, Biology Part 1 (ARMP.01
+ .029). Date recovered\; source does not state a clock time. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biophysics-lecture-13-2024-12-02@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Tallinn:20241202T111500
+SUMMARY:[Tartu Y1] Biophysics - Lecture 13: Sensory systems\, vision and 
+ hearing
+LOCATION:Biomedicum
+DESCRIPTION:University of Tartu Medicine Year 1\, Biophysics (ARFS.01.023
+ ). Start time 11:15\; end time is not stated in the source. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-medical-chemistry-practical-04-2024-12-04@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20241204
+DTEND;VALUE=DATE:20241205
+SUMMARY:[Tartu Y1] Medical Chemistry - Practical: Study of adsorption of 
+ a dye on activated carbon
+LOCATION:
+DESCRIPTION:University of Tartu Medicine Year 1\, Medical Chemistry (LOKT
+ .00.009). Date recovered\; source does not state a clock time. Local off
+ icial OIS course-version and timetable documents\, cross-checked against
+  the official Tartu faculty timetable PDFs\; see the LM41 crosswalk repo
+ rt for paths and hashes.\n\nEntries are NOT erased as days pass. Past en
+ tries remain in place indefinitely for future audit. Corrections and can
+ cellations retain event identity\; no rolling date cutoff is permitted f
+ or this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biology-autumn-lecture-14-2024-12-05@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20241205
+DTEND;VALUE=DATE:20241206
+SUMMARY:[Tartu Y1] Biology Part 1 - Lecture 14: Oncogenes\, tumor suppres
+ sors and cancer
+LOCATION:
+DESCRIPTION:University of Tartu Medicine Year 1\, Biology Part 1 (ARMP.01
+ .029). Date recovered\; source does not state a clock time. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biophysics-lecture-14-2024-12-09@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Tallinn:20241209T111500
+SUMMARY:[Tartu Y1] Biophysics - Lecture 14: Control\, body functioning an
+ d homeostasis
+LOCATION:Biomedicum
+DESCRIPTION:University of Tartu Medicine Year 1\, Biophysics (ARFS.01.023
+ ). Start time 11:15\; end time is not stated in the source. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biology-autumn-lecture-15-2024-12-12@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20241212
+DTEND;VALUE=DATE:20241213
+SUMMARY:[Tartu Y1] Biology Part 1 - Lecture 15: Molecular and cell biolog
+ y methods\; summary
+LOCATION:
+DESCRIPTION:University of Tartu Medicine Year 1\, Biology Part 1 (ARMP.01
+ .029). Date recovered\; source does not state a clock time. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biology-spring-seminar-01-2025-02-18@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20250218
+DTEND;VALUE=DATE:20250219
+SUMMARY:[Tartu Y1] Biology Part 2 - Seminar: Protozoa
+LOCATION:
+DESCRIPTION:University of Tartu Medicine Year 1\, Biology Part 2 (ARMP.01
+ .029). Date recovered\; source does not state a clock time. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biology-spring-seminar-02-2025-02-19@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20250219
+DTEND;VALUE=DATE:20250220
+SUMMARY:[Tartu Y1] Biology Part 2 - Seminar: Toxoplasmosis and cryptospor
+ idiosis
+LOCATION:
+DESCRIPTION:University of Tartu Medicine Year 1\, Biology Part 2 (ARMP.01
+ .029). Date recovered\; source does not state a clock time. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biology-spring-seminar-03-2025-02-25@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20250225
+DTEND;VALUE=DATE:20250226
+SUMMARY:[Tartu Y1] Biology Part 2 - Seminar: Plasmodium\, malaria\, Babes
+ ia and Balantidium
+LOCATION:
+DESCRIPTION:University of Tartu Medicine Year 1\, Biology Part 2 (ARMP.01
+ .029). Date recovered\; source does not state a clock time. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biology-spring-seminar-04-2025-03-05@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20250305
+DTEND;VALUE=DATE:20250306
+SUMMARY:[Tartu Y1] Biology Part 2 - Seminar: Helminths introduction and f
+ lukes
+LOCATION:
+DESCRIPTION:University of Tartu Medicine Year 1\, Biology Part 2 (ARMP.01
+ .029). Date recovered\; source does not state a clock time. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biology-spring-seminar-05-2025-03-11@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20250311
+DTEND;VALUE=DATE:20250312
+SUMMARY:[Tartu Y1] Biology Part 2 - Seminar: Tapeworms
+LOCATION:
+DESCRIPTION:University of Tartu Medicine Year 1\, Biology Part 2 (ARMP.01
+ .029). Date recovered\; source does not state a clock time. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biology-spring-seminar-06-2025-03-12@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20250312
+DTEND;VALUE=DATE:20250313
+SUMMARY:[Tartu Y1] Biology Part 2 - Seminar: Nematodes
+LOCATION:
+DESCRIPTION:University of Tartu Medicine Year 1\, Biology Part 2 (ARMP.01
+ .029). Date recovered\; source does not state a clock time. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biology-spring-lecture-01-2025-03-18@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20250318
+DTEND;VALUE=DATE:20250319
+SUMMARY:[Tartu Y1] Biology Part 2 - Lecture: Environment and ecology
+LOCATION:
+DESCRIPTION:University of Tartu Medicine Year 1\, Biology Part 2 (ARMP.01
+ .029). Date recovered\; source does not state a clock time. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biology-spring-seminar-07-2025-03-18@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20250318
+DTEND;VALUE=DATE:20250319
+SUMMARY:[Tartu Y1] Biology Part 2 - Seminar: Arthropods\, vectors\, ticks
+  and mites
+LOCATION:
+DESCRIPTION:University of Tartu Medicine Year 1\, Biology Part 2 (ARMP.01
+ .029). Date recovered\; source does not state a clock time. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biology-spring-lecture-02-2025-03-25@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20250325
+DTEND;VALUE=DATE:20250326
+SUMMARY:[Tartu Y1] Biology Part 2 - Lecture: Ecology and environment
+LOCATION:
+DESCRIPTION:University of Tartu Medicine Year 1\, Biology Part 2 (ARMP.01
+ .029). Date recovered\; source does not state a clock time. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biology-spring-seminar-08-2025-03-25@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20250325
+DTEND;VALUE=DATE:20250326
+SUMMARY:[Tartu Y1] Biology Part 2 - Seminar: Insects\, vectors and parasi
+ tic disease prevention
+LOCATION:
+DESCRIPTION:University of Tartu Medicine Year 1\, Biology Part 2 (ARMP.01
+ .029). Date recovered\; source does not state a clock time. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biology-spring-lecture-03-2025-04-01@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:2
+DTSTART;VALUE=DATE:20250401
+DTEND;VALUE=DATE:20250402
+SUMMARY:[Tartu Y1] Biology Part 2 - Lecture: Evolutionary biology 1
+LOCATION:
+DESCRIPTION:University of Tartu Medicine Year 1\, Biology Part 2 (ARMP.01
+ .029). Date recovered\; source does not state a clock time. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biology-spring-lecture-04-2025-04-08@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:2
+DTSTART;VALUE=DATE:20250408
+DTEND;VALUE=DATE:20250409
+SUMMARY:[Tartu Y1] Biology Part 2 - Lecture: Evolutionary biology 2
+LOCATION:
+DESCRIPTION:University of Tartu Medicine Year 1\, Biology Part 2 (ARMP.01
+ .029). Date recovered\; source does not state a clock time. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biology-spring-seminar-09-2025-04-08@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:2
+DTSTART;VALUE=DATE:20250408
+DTEND;VALUE=DATE:20250409
+SUMMARY:[Tartu Y1] Biology Part 2 - Seminar: Training for microscopic sli
+ de examination
+LOCATION:
+DESCRIPTION:University of Tartu Medicine Year 1\, Biology Part 2 (ARMP.01
+ .029). Date recovered\; source does not state a clock time. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biology-spring-lecture-05-2025-04-15@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:2
+DTSTART;VALUE=DATE:20250415
+DTEND;VALUE=DATE:20250416
+SUMMARY:[Tartu Y1] Biology Part 2 - Lecture: Developmental biology 1
+LOCATION:
+DESCRIPTION:University of Tartu Medicine Year 1\, Biology Part 2 (ARMP.01
+ .029). Date recovered\; source does not state a clock time. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biology-spring-seminar-10-2025-04-15@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:2
+DTSTART;VALUE=DATE:20250415
+DTEND;VALUE=DATE:20250416
+SUMMARY:[Tartu Y1] Biology Part 2 - Seminar: Microscopic slide examinatio
+ n\, protozoa
+LOCATION:
+DESCRIPTION:University of Tartu Medicine Year 1\, Biology Part 2 (ARMP.01
+ .029). Date recovered\; source does not state a clock time. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biology-spring-lecture-06-2025-04-22@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:2
+DTSTART;VALUE=DATE:20250422
+DTEND;VALUE=DATE:20250423
+SUMMARY:[Tartu Y1] Biology Part 2 - Lecture: Developmental biology 2
+LOCATION:
+DESCRIPTION:University of Tartu Medicine Year 1\, Biology Part 2 (ARMP.01
+ .029). Date recovered\; source does not state a clock time. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biology-spring-practical-01-2025-04-22@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:2
+DTSTART;VALUE=DATE:20250422
+DTEND;VALUE=DATE:20250423
+SUMMARY:[Tartu Y1] Biology Part 2 - Practical: Developmental biology
+LOCATION:
+DESCRIPTION:University of Tartu Medicine Year 1\, Biology Part 2 (ARMP.01
+ .029). Date recovered\; source does not state a clock time. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biology-spring-lecture-07-2025-04-29@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:2
+DTSTART;VALUE=DATE:20250429
+DTEND;VALUE=DATE:20250430
+SUMMARY:[Tartu Y1] Biology Part 2 - Lecture: Developmental biology 3 and 
+ stem cells
+LOCATION:
+DESCRIPTION:University of Tartu Medicine Year 1\, Biology Part 2 (ARMP.01
+ .029). Date recovered\; source does not state a clock time. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biology-spring-practical-02-2025-04-29@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:2
+DTSTART;VALUE=DATE:20250429
+DTEND;VALUE=DATE:20250430
+SUMMARY:[Tartu Y1] Biology Part 2 - Practical: Developmental biology
+LOCATION:
+DESCRIPTION:University of Tartu Medicine Year 1\, Biology Part 2 (ARMP.01
+ .029). Date recovered\; source does not state a clock time. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biology-spring-lecture-08-2025-05-06@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:2
+DTSTART;VALUE=DATE:20250506
+DTEND;VALUE=DATE:20250507
+SUMMARY:[Tartu Y1] Biology Part 2 - Lecture: Developmental disorders
+LOCATION:
+DESCRIPTION:University of Tartu Medicine Year 1\, Biology Part 2 (ARMP.01
+ .029). Date recovered\; source does not state a clock time. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biology-spring-practical-03-2025-05-06@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:2
+DTSTART;VALUE=DATE:20250506
+DTEND;VALUE=DATE:20250507
+SUMMARY:[Tartu Y1] Biology Part 2 - Practical: Developmental biology
+LOCATION:
+DESCRIPTION:University of Tartu Medicine Year 1\, Biology Part 2 (ARMP.01
+ .029). Date recovered\; source does not state a clock time. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biology-spring-practical-04-2025-05-09@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:2
+DTSTART;VALUE=DATE:20250509
+DTEND;VALUE=DATE:20250510
+SUMMARY:[Tartu Y1] Biology Part 2 - Practical: Developmental biology
+LOCATION:
+DESCRIPTION:University of Tartu Medicine Year 1\, Biology Part 2 (ARMP.01
+ .029). Date recovered\; source does not state a clock time. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biology-spring-lecture-09-2025-05-13@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:2
+DTSTART;VALUE=DATE:20250513
+DTEND;VALUE=DATE:20250514
+SUMMARY:[Tartu Y1] Biology Part 2 - Lecture: Ageing
+LOCATION:
+DESCRIPTION:University of Tartu Medicine Year 1\, Biology Part 2 (ARMP.01
+ .029). Date recovered\; source does not state a clock time. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biology-spring-lecture-10-2025-05-20@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:2
+DTSTART;VALUE=DATE:20250520
+DTEND;VALUE=DATE:20250521
+SUMMARY:[Tartu Y1] Biology Part 2 - Lecture: Fertility\, infertility and 
+ reproductive medicine
+LOCATION:
+DESCRIPTION:University of Tartu Medicine Year 1\, Biology Part 2 (ARMP.01
+ .029). Date recovered\; source does not state a clock time. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tartu-y1-biology-spring-practical-05-2025-05-20@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083226Z
+SEQUENCE:2
+DTSTART;VALUE=DATE:20250520
+DTEND;VALUE=DATE:20250521
+SUMMARY:[Tartu Y1] Biology Part 2 - Practical: Developmental biology
+LOCATION:
+DESCRIPTION:University of Tartu Medicine Year 1\, Biology Part 2 (ARMP.01
+ .029). Date recovered\; source does not state a clock time. Local offici
+ al OIS course-version and timetable documents\, cross-checked against th
+ e official Tartu faculty timetable PDFs\; see the LM41 crosswalk report 
+ for paths and hashes.\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

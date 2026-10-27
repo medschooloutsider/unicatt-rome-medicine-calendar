@@ -1,0 +1,2792 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Codex Automation//UCSC Unicatt Calendar Broadcast//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:UCSC Rome Medicine Year 3 Lessons
+X-WR-CALDESC:2024-2030 cohort\; academic year 2026-2027. Official publish
+ ed timetable\; empty means no dates currently published\, not no teachin
+ g or exams. Entries are NOT erased as days pass. Past entries remain in 
+ place indefinitely for future audit. Corrections and cancellations retai
+ n event identity\; no rolling date cutoff is permitted for this or any f
+ uture station.
+X-WR-TIMEZONE:Europe/Rome
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+X-LIC-LOCATION:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121920261@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260925T083000
+DTEND;TZID=Europe/Rome:20260925T091500
+SUMMARY:PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 5
+DESCRIPTION:Course code: MR000125\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: MARIN
+ O MARIAPAOLA\nSource date: 25/09/2026\nBuilding: Giovanni XXIII\nRoom: 5
+ \nDuration: 00:45\nSource: https://secure.unicatt.it/didatticaweb2/ps/le
+ zioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\nSuspend
+ ed: no\nExercise: no\n\nCalendar reliability note: retained because the 
+ event is past and absent from the upstream snapshot.\n\nEntries are NOT 
+ erased as days pass. Past entries remain in place indefinitely for futur
+ e audit. Corrections and cancellations retain event identity\; no rollin
+ g date cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121920893@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260928T091500
+DTEND;TZID=Europe/Rome:20260928T104500
+SUMMARY:PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - Lazzati
+DESCRIPTION:Course code: MR000125\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: PANI 
+ GIOVAMBATTISTA\nSource date: 28/09/2026\nBuilding: Giovanni XXIII\nRoom:
+  Lazzati\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticawe
+ b2/ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\
+ nSuspended: no\nExercise: no\n\nCalendar reliability note: retained beca
+ use the event is past and absent from the upstream snapshot.\n\nEntries 
+ are NOT erased as days pass. Past entries remain in place indefinitely f
+ or future audit. Corrections and cancellations retain event identity\; n
+ o rolling date cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121840852@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260928T104500
+DTEND;TZID=Europe/Rome:20260928T130000
+SUMMARY:THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS
+LOCATION:Giovanni XXIII - Lazzati
+DESCRIPTION:Course code: MR000319\nIntegrated course code: MR000044\nInte
+ grated course: THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS\n
+ Teacher: CHOI HA NA\nSource date: 28/09/2026\nBuilding: Giovanni XXIII\n
+ Room: Lazzati\nDuration: 02:15\nSource: https://secure.unicatt.it/didatt
+ icaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson
+ : no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained
+  because the event is past and absent from the upstream snapshot.\n\nEnt
+ ries are NOT erased as days pass. Past entries remain in place indefinit
+ ely for future audit. Corrections and cancellations retain event identit
+ y\; no rolling date cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121920352@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260929T104500
+DTEND;TZID=Europe/Rome:20260929T121500
+SUMMARY:PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - Lazzati
+DESCRIPTION:Course code: MR000125\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SERIN
+ I SIMONA\nSource date: 29/09/2026\nBuilding: Giovanni XXIII\nRoom: Lazza
+ ti\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/
+ lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\nSuspe
+ nded: no\nExercise: no\n\nCalendar reliability note: retained because th
+ e event is past and absent from the upstream snapshot.\n\nEntries are NO
+ T erased as days pass. Past entries remain in place indefinitely for fut
+ ure audit. Corrections and cancellations retain event identity\; no roll
+ ing date cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121921818@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260929T141500
+DTEND;TZID=Europe/Rome:20260929T171500
+SUMMARY:FIRST AID (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 5
+DESCRIPTION:Course code: MR000127\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SOAVE
+  PAOLO MAURIZIO\nSource date: 29/09/2026\nBuilding: Giovanni XXIII\nRoom
+ : 5\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps
+ /lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\nSusp
+ ended: no\nExercise: no\n\nCalendar reliability note: retained because t
+ he event is past and absent from the upstream snapshot.\n\nEntries are N
+ OT erased as days pass. Past entries remain in place indefinitely for fu
+ ture audit. Corrections and cancellations retain event identity\; no rol
+ ling date cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121920901@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260930T083000
+DTEND;TZID=Europe/Rome:20260930T104500
+SUMMARY:PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - Bausola
+DESCRIPTION:Course code: MR000125\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: PANI 
+ GIOVAMBATTISTA\nSource date: 30/09/2026\nBuilding: Giovanni XXIII\nRoom:
+  Bausola\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticawe
+ b2/ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\
+ nSuspended: no\nExercise: no\n\nCalendar reliability note: retained beca
+ use the event is past and absent from the upstream snapshot.\n\nEntries 
+ are NOT erased as days pass. Past entries remain in place indefinitely f
+ or future audit. Corrections and cancellations retain event identity\; n
+ o rolling date cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121871460@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20260930T104500
+DTEND;TZID=Europe/Rome:20260930T130000
+SUMMARY:LABORATORY DIAGNOSTIC (APPROACH TO DIAGNOSIS AND TREATMENT)
+LOCATION:Giovanni XXIII - Bausola
+DESCRIPTION:Course code: MR000129\nIntegrated course code: MR000016\nInte
+ grated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: CORASOLLA C
+ ARREGARI VICTOR\nSource date: 30/09/2026\nBuilding: Giovanni XXIII\nRoom
+ : Bausola\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaw
+ eb2/ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no
+ \nSuspended: no\nExercise: no\n\nCalendar reliability note: retained bec
+ ause the event is past and absent from the upstream snapshot.\n\nEntries
+  are NOT erased as days pass. Past entries remain in place indefinitely 
+ for future audit. Corrections and cancellations retain event identity\; 
+ no rolling date cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121871132@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20261001T083000
+DTEND;TZID=Europe/Rome:20261001T104500
+SUMMARY:GENERAL PHARMACOLOGY (APPROACH TO DIAGNOSIS AND TREATMENT)
+LOCATION:Giovanni XXIII - Lazzati
+DESCRIPTION:Course code: MR000135\nIntegrated course code: MR000016\nInte
+ grated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: MORES NADIA
+ \nSource date: 01/10/2026\nBuilding: Giovanni XXIII\nRoom: Lazzati\nDura
+ tion: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/
+ \nSource kind: lesson\nRoom change: yes\nExtra lesson: no\nSuspended: no
+ \nExercise: no\n\nCalendar reliability note: retained because the event 
+ is past and absent from the upstream snapshot.\n\nEntries are NOT erased
+  as days pass. Past entries remain in place indefinitely for future audi
+ t. Corrections and cancellations retain event identity\; no rolling date
+  cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121920906@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20261001T104500
+DTEND;TZID=Europe/Rome:20261001T121500
+SUMMARY:PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - Lazzati
+DESCRIPTION:Course code: MR000125\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: PANI 
+ GIOVAMBATTISTA\nSource date: 01/10/2026\nBuilding: Giovanni XXIII\nRoom:
+  Lazzati\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticawe
+ b2/ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\
+ nSuspended: no\nExercise: no\n\nCalendar reliability note: retained beca
+ use the event is past and absent from the upstream snapshot.\n\nEntries 
+ are NOT erased as days pass. Past entries remain in place indefinitely f
+ or future audit. Corrections and cancellations retain event identity\; n
+ o rolling date cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121871465@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20261002T100000
+DTEND;TZID=Europe/Rome:20261002T130000
+SUMMARY:LABORATORY DIAGNOSTIC (APPROACH TO DIAGNOSIS AND TREATMENT)
+LOCATION:Giovanni XXIII - Bausola
+DESCRIPTION:Course code: MR000129\nIntegrated course code: MR000016\nInte
+ grated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: CORASOLLA C
+ ARREGARI VICTOR\nSource date: 02/10/2026\nBuilding: Giovanni XXIII\nRoom
+ : Bausola\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaw
+ eb2/ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no
+ \nSuspended: no\nExercise: no\n\nCalendar reliability note: retained bec
+ ause the event is past and absent from the upstream snapshot.\n\nEntries
+  are NOT erased as days pass. Past entries remain in place indefinitely 
+ for future audit. Corrections and cancellations retain event identity\; 
+ no rolling date cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121920914@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20261005T083000
+DTEND;TZID=Europe/Rome:20261005T100000
+SUMMARY:PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - Lazzati
+DESCRIPTION:Course code: MR000125\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: PANI 
+ GIOVAMBATTISTA\nSource date: 05/10/2026\nBuilding: Giovanni XXIII\nRoom:
+  Lazzati\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticawe
+ b2/ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\
+ nSuspended: no\nExercise: no\n\nCalendar reliability note: retained beca
+ use the event is past and absent from the upstream snapshot.\n\nEntries 
+ are NOT erased as days pass. Past entries remain in place indefinitely f
+ or future audit. Corrections and cancellations retain event identity\; n
+ o rolling date cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121920359@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20261005T100000
+DTEND;TZID=Europe/Rome:20261005T104500
+SUMMARY:PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - Lazzati
+DESCRIPTION:Course code: MR000125\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SERIN
+ I SIMONA\nSource date: 05/10/2026\nBuilding: Giovanni XXIII\nRoom: Lazza
+ ti\nDuration: 00:45\nSource: https://secure.unicatt.it/didatticaweb2/ps/
+ lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\nSuspe
+ nded: no\nExercise: no\n\nCalendar reliability note: retained because th
+ e event is past and absent from the upstream snapshot.\n\nEntries are NO
+ T erased as days pass. Past entries remain in place indefinitely for fut
+ ure audit. Corrections and cancellations retain event identity\; no roll
+ ing date cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121840864@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20261005T104500
+DTEND;TZID=Europe/Rome:20261005T130000
+SUMMARY:THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS
+LOCATION:Giovanni XXIII - Lazzati
+DESCRIPTION:Course code: MR000319\nIntegrated course code: MR000044\nInte
+ grated course: THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS\n
+ Teacher: CHOI HA NA\nSource date: 05/10/2026\nBuilding: Giovanni XXIII\n
+ Room: Lazzati\nDuration: 02:15\nSource: https://secure.unicatt.it/didatt
+ icaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson
+ : no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained
+  because the event is past and absent from the upstream snapshot.\n\nEnt
+ ries are NOT erased as days pass. Past entries remain in place indefinit
+ ely for future audit. Corrections and cancellations retain event identit
+ y\; no rolling date cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121871470@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20261006T083000
+DTEND;TZID=Europe/Rome:20261006T104500
+SUMMARY:LABORATORY DIAGNOSTIC (APPROACH TO DIAGNOSIS AND TREATMENT)
+LOCATION:Giovanni XXIII - Lazzati
+DESCRIPTION:Course code: MR000129\nIntegrated course code: MR000016\nInte
+ grated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: CORASOLLA C
+ ARREGARI VICTOR\nSource date: 06/10/2026\nBuilding: Giovanni XXIII\nRoom
+ : Lazzati\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaw
+ eb2/ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no
+ \nSuspended: no\nExercise: no\n\nCalendar reliability note: retained bec
+ ause the event is past and absent from the upstream snapshot.\n\nEntries
+  are NOT erased as days pass. Past entries remain in place indefinitely 
+ for future audit. Corrections and cancellations retain event identity\; 
+ no rolling date cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121920276@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20261006T104500
+DTEND;TZID=Europe/Rome:20261006T121500
+SUMMARY:PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - Lazzati
+DESCRIPTION:Course code: MR000125\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: MARIN
+ O MARIAPAOLA\nSource date: 06/10/2026\nBuilding: Giovanni XXIII\nRoom: L
+ azzati\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2
+ /ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\nS
+ uspended: no\nExercise: no\n\nCalendar reliability note: retained becaus
+ e the event is past and absent from the upstream snapshot.\n\nEntries ar
+ e NOT erased as days pass. Past entries remain in place indefinitely for
+  future audit. Corrections and cancellations retain event identity\; no 
+ rolling date cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121920283@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20261007T083000
+DTEND;TZID=Europe/Rome:20261007T104500
+SUMMARY:PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - Lazzati
+DESCRIPTION:Course code: MR000125\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: MARIN
+ O MARIAPAOLA\nSource date: 07/10/2026\nBuilding: Giovanni XXIII\nRoom: L
+ azzati\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2
+ /ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\nS
+ uspended: no\nExercise: no\n\nCalendar reliability note: retained becaus
+ e the event is past and absent from the upstream snapshot.\n\nEntries ar
+ e NOT erased as days pass. Past entries remain in place indefinitely for
+  future audit. Corrections and cancellations retain event identity\; no 
+ rolling date cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121871474@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20261007T104500
+DTEND;TZID=Europe/Rome:20261007T130000
+SUMMARY:LABORATORY DIAGNOSTIC (APPROACH TO DIAGNOSIS AND TREATMENT)
+LOCATION:Giovanni XXIII - Lazzati
+DESCRIPTION:Course code: MR000129\nIntegrated course code: MR000016\nInte
+ grated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: CORASOLLA C
+ ARREGARI VICTOR\nSource date: 07/10/2026\nBuilding: Giovanni XXIII\nRoom
+ : Lazzati\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaw
+ eb2/ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no
+ \nSuspended: no\nExercise: no\n\nCalendar reliability note: retained bec
+ ause the event is past and absent from the upstream snapshot.\n\nEntries
+  are NOT erased as days pass. Past entries remain in place indefinitely 
+ for future audit. Corrections and cancellations retain event identity\; 
+ no rolling date cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121871453@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20261008T091500
+DTEND;TZID=Europe/Rome:20261008T104500
+SUMMARY:GENERAL RADIODIAGNOSTICS (INCLUSIVE NM\, RT) (APPROACH TO DIAGNOS
+ IS AND TREATMENT)
+LOCATION:Giovanni XXIII - Lazzati
+DESCRIPTION:Course code: MR000137\nIntegrated course code: MR000016\nInte
+ grated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: CELLINI FRA
+ NCESCO\nSource date: 08/10/2026\nBuilding: Giovanni XXIII\nRoom: Lazzati
+ \nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/le
+ zioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\nSuspend
+ ed: no\nExercise: no\n\nCalendar reliability note: retained because the 
+ event is past and absent from the upstream snapshot.\n\nEntries are NOT 
+ erased as days pass. Past entries remain in place indefinitely for futur
+ e audit. Corrections and cancellations retain event identity\; no rollin
+ g date cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121919996@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20261008T104500
+DTEND;TZID=Europe/Rome:20261008T121500
+SUMMARY:INTERNAL MEDICINE (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - Lazzati
+DESCRIPTION:Course code: MR000126\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: GAMBA
+ SSI GIOVANNI\nSource date: 08/10/2026\nBuilding: Giovanni XXIII\nRoom: L
+ azzati\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2
+ /ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\nS
+ uspended: no\nExercise: no\n\nCalendar reliability note: retained becaus
+ e the event is past and absent from the upstream snapshot.\n\nEntries ar
+ e NOT erased as days pass. Past entries remain in place indefinitely for
+  future audit. Corrections and cancellations retain event identity\; no 
+ rolling date cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121921844@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20261009T083000
+DTEND;TZID=Europe/Rome:20261009T100000
+SUMMARY:FIRST AID (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - Lazzati
+DESCRIPTION:Course code: MR000127\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: CUTUL
+ I SALVATORE LUCIO\nSource date: 09/10/2026\nBuilding: Giovanni XXIII\nRo
+ om: Lazzati\nDuration: 01:30\nSource: https://secure.unicatt.it/didattic
+ aweb2/ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: 
+ no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained b
+ ecause the event is past and absent from the upstream snapshot.\n\nEntri
+ es are NOT erased as days pass. Past entries remain in place indefinitel
+ y for future audit. Corrections and cancellations retain event identity\
+ ; no rolling date cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121871137@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20261009T100000
+DTEND;TZID=Europe/Rome:20261009T113000
+SUMMARY:GENERAL PHARMACOLOGY (APPROACH TO DIAGNOSIS AND TREATMENT)
+LOCATION:Giovanni XXIII - Lazzati
+DESCRIPTION:Course code: MR000135\nIntegrated course code: MR000016\nInte
+ grated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: MORES NADIA
+ \nSource date: 09/10/2026\nBuilding: Giovanni XXIII\nRoom: Lazzati\nDura
+ tion: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/
+ \nSource kind: lesson\nRoom change: yes\nExtra lesson: no\nSuspended: no
+ \nExercise: no\n\nCalendar reliability note: retained because the event 
+ is past and absent from the upstream snapshot.\n\nEntries are NOT erased
+  as days pass. Past entries remain in place indefinitely for future audi
+ t. Corrections and cancellations retain event identity\; no rolling date
+  cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121920366@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20261012T083000
+DTEND;TZID=Europe/Rome:20261012T104500
+SUMMARY:PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - Lazzati
+DESCRIPTION:Course code: MR000125\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SERIN
+ I SIMONA\nSource date: 12/10/2026\nBuilding: Giovanni XXIII\nRoom: Lazza
+ ti\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/
+ lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\nSuspe
+ nded: no\nExercise: no\n\nCalendar reliability note: retained because th
+ e event is past and absent from the upstream snapshot.\n\nEntries are NO
+ T erased as days pass. Past entries remain in place indefinitely for fut
+ ure audit. Corrections and cancellations retain event identity\; no roll
+ ing date cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121840872@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20261012T104500
+DTEND;TZID=Europe/Rome:20261012T130000
+SUMMARY:THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS
+LOCATION:Giovanni XXIII - Lazzati
+DESCRIPTION:Course code: MR000319\nIntegrated course code: MR000044\nInte
+ grated course: THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS\n
+ Teacher: CHOI HA NA\nSource date: 12/10/2026\nBuilding: Giovanni XXIII\n
+ Room: Lazzati\nDuration: 02:15\nSource: https://secure.unicatt.it/didatt
+ icaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson
+ : no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained
+  because the event is past and absent from the upstream snapshot.\n\nEnt
+ ries are NOT erased as days pass. Past entries remain in place indefinit
+ ely for future audit. Corrections and cancellations retain event identit
+ y\; no rolling date cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121942076@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20261013T083000
+DTEND;TZID=Europe/Rome:20261013T104500
+SUMMARY:MOLECULAR DIAGNOSTICS (APPROACH TO DIAGNOSIS AND TREATMENT)
+LOCATION:Giovanni XXIII - Lazzati
+DESCRIPTION:Course code: MR000133\nIntegrated course code: MR000016\nInte
+ grated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: CORASOLLA C
+ ARREGARI VICTOR\nSource date: 13/10/2026\nBuilding: Giovanni XXIII\nRoom
+ : Lazzati\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaw
+ eb2/ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no
+ \nSuspended: no\nExercise: no\n\nCalendar reliability note: retained bec
+ ause the event is past and absent from the upstream snapshot.\n\nEntries
+  are NOT erased as days pass. Past entries remain in place indefinitely 
+ for future audit. Corrections and cancellations retain event identity\; 
+ no rolling date cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121920370@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20261013T104500
+DTEND;TZID=Europe/Rome:20261013T121500
+SUMMARY:PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - Lazzati
+DESCRIPTION:Course code: MR000125\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SERIN
+ I SIMONA\nSource date: 13/10/2026\nBuilding: Giovanni XXIII\nRoom: Lazza
+ ti\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/
+ lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\nSuspe
+ nded: no\nExercise: no\n\nCalendar reliability note: retained because th
+ e event is past and absent from the upstream snapshot.\n\nEntries are NO
+ T erased as days pass. Past entries remain in place indefinitely for fut
+ ure audit. Corrections and cancellations retain event identity\; no roll
+ ing date cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121942080@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20261014T104500
+DTEND;TZID=Europe/Rome:20261014T130000
+SUMMARY:MOLECULAR DIAGNOSTICS (APPROACH TO DIAGNOSIS AND TREATMENT)
+LOCATION:Giovanni XXIII - Lazzati
+DESCRIPTION:Course code: MR000133\nIntegrated course code: MR000016\nInte
+ grated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: CORASOLLA C
+ ARREGARI VICTOR\nSource date: 14/10/2026\nBuilding: Giovanni XXIII\nRoom
+ : Lazzati\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaw
+ eb2/ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no
+ \nSuspended: no\nExercise: no\n\nCalendar reliability note: retained bec
+ ause the event is past and absent from the upstream snapshot.\n\nEntries
+  are NOT erased as days pass. Past entries remain in place indefinitely 
+ for future audit. Corrections and cancellations retain event identity\; 
+ no rolling date cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121873145@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20261015T083000
+DTEND;TZID=Europe/Rome:20261015T104500
+SUMMARY:CLINICAL PHYSICS (APPROACH TO DIAGNOSIS AND TREATMENT)
+LOCATION:Giovanni XXIII - Lazzati
+DESCRIPTION:Course code: MR000136\nIntegrated course code: MR000016\nInte
+ grated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: CIASCA GABR
+ IELE\nSource date: 15/10/2026\nBuilding: Giovanni XXIII\nRoom: Lazzati\n
+ Duration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezi
+ oni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\nSuspended
+ : no\nExercise: no\n\nCalendar reliability note: retained because the ev
+ ent is past and absent from the upstream snapshot.\n\nEntries are NOT er
+ ased as days pass. Past entries remain in place indefinitely for future 
+ audit. Corrections and cancellations retain event identity\; no rolling 
+ date cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121920922@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20261015T104500
+DTEND;TZID=Europe/Rome:20261015T121500
+SUMMARY:PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - Lazzati
+DESCRIPTION:Course code: MR000125\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: PANI 
+ GIOVAMBATTISTA\nSource date: 15/10/2026\nBuilding: Giovanni XXIII\nRoom:
+  Lazzati\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticawe
+ b2/ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\
+ nSuspended: no\nExercise: no\n\nCalendar reliability note: retained beca
+ use the event is past and absent from the upstream snapshot.\n\nEntries 
+ are NOT erased as days pass. Past entries remain in place indefinitely f
+ or future audit. Corrections and cancellations retain event identity\; n
+ o rolling date cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121921849@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20261016T083000
+DTEND;TZID=Europe/Rome:20261016T100000
+SUMMARY:FIRST AID (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - Lazzati
+DESCRIPTION:Course code: MR000127\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: CUTUL
+ I SALVATORE LUCIO\nSource date: 16/10/2026\nBuilding: Giovanni XXIII\nRo
+ om: Lazzati\nDuration: 01:30\nSource: https://secure.unicatt.it/didattic
+ aweb2/ps/lezioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: 
+ no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained b
+ ecause the event is past and absent from the upstream snapshot.\n\nEntri
+ es are NOT erased as days pass. Past entries remain in place indefinitel
+ y for future audit. Corrections and cancellations retain event identity\
+ ; no rolling date cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121873341@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20261016T100000
+DTEND;TZID=Europe/Rome:20261016T113000
+SUMMARY:CLINICAL GENETICS (APPROACH TO DIAGNOSIS AND TREATMENT)
+LOCATION:Giovanni XXIII - Lazzati
+DESCRIPTION:Course code: MR000134\nIntegrated course code: MR000016\nInte
+ grated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: MARANGI GIU
+ SEPPE\nSource date: 16/10/2026\nBuilding: Giovanni XXIII\nRoom: Lazzati\
+ nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lez
+ ioni/\nSource kind: lesson\nRoom change: yes\nExtra lesson: no\nSuspende
+ d: no\nExercise: no\n\nCalendar reliability note: retained because the e
+ vent is past and absent from the upstream snapshot.\n\nEntries are NOT e
+ rased as days pass. Past entries remain in place indefinitely for future
+  audit. Corrections and cancellations retain event identity\; no rolling
+  date cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121871174@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20261016T114500
+DTEND;TZID=Europe/Rome:20261016T131500
+SUMMARY:GENERAL PHARMACOLOGY (APPROACH TO DIAGNOSIS AND TREATMENT)
+LOCATION:Giovanni XXIII - Lazzati
+DESCRIPTION:Course code: MR000135\nIntegrated course code: MR000016\nInte
+ grated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: MORES NADIA
+ \nSource date: 16/10/2026\nBuilding: Giovanni XXIII\nRoom: Lazzati\nDura
+ tion: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/
+ \nSource kind: lesson\nRoom change: yes\nExtra lesson: no\nSuspended: no
+ \nExercise: no\n\nCalendar reliability note: retained because the event 
+ is past and absent from the upstream snapshot.\n\nEntries are NOT erased
+  as days pass. Past entries remain in place indefinitely for future audi
+ t. Corrections and cancellations retain event identity\; no rolling date
+  cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121840880@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20261019T104500
+DTEND;TZID=Europe/Rome:20261019T130000
+SUMMARY:THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000319\nIntegrated course code: MR000044\nInte
+ grated course: THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS\n
+ Teacher: CHOI HA NA\nSource date: 19/10/2026\nBuilding: Giovanni XXIII\n
+ Room: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb
+ 2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nS
+ uspended: no\nExercise: no\n\nCalendar reliability note: retained becaus
+ e the event is past and absent from the upstream snapshot.\n\nEntries ar
+ e NOT erased as days pass. Past entries remain in place indefinitely for
+  future audit. Corrections and cancellations retain event identity\; no 
+ rolling date cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121942084@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20261020T083000
+DTEND;TZID=Europe/Rome:20261020T104500
+SUMMARY:MOLECULAR DIAGNOSTICS (APPROACH TO DIAGNOSIS AND TREATMENT)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000133\nIntegrated course code: MR000016\nInte
+ grated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: CORASOLLA C
+ ARREGARI VICTOR\nSource date: 20/10/2026\nBuilding: Giovanni XXIII\nRoom
+ : 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps
+ /lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspe
+ nded: no\nExercise: no\n\nCalendar reliability note: retained because th
+ e event is past and absent from the upstream snapshot.\n\nEntries are NO
+ T erased as days pass. Past entries remain in place indefinitely for fut
+ ure audit. Corrections and cancellations retain event identity\; no roll
+ ing date cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121920287@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20261020T104500
+DTEND;TZID=Europe/Rome:20261020T121500
+SUMMARY:PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000125\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: MARIN
+ O MARIAPAOLA\nSource date: 20/10/2026\nBuilding: Giovanni XXIII\nRoom: 2
+ \nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/le
+ zioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspende
+ d: no\nExercise: no\n\nCalendar reliability note: retained because the e
+ vent is past and absent from the upstream snapshot.\n\nEntries are NOT e
+ rased as days pass. Past entries remain in place indefinitely for future
+  audit. Corrections and cancellations retain event identity\; no rolling
+  date cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121920927@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20261021T083000
+DTEND;TZID=Europe/Rome:20261021T104500
+SUMMARY:PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000125\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: PANI 
+ GIOVAMBATTISTA\nSource date: 21/10/2026\nBuilding: Giovanni XXIII\nRoom:
+  2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/
+ lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspen
+ ded: no\nExercise: no\n\nCalendar reliability note: retained because the
+  event is past and absent from the upstream snapshot.\n\nEntries are NOT
+  erased as days pass. Past entries remain in place indefinitely for futu
+ re audit. Corrections and cancellations retain event identity\; no rolli
+ ng date cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121873153@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20261021T104500
+DTEND;TZID=Europe/Rome:20261021T130000
+SUMMARY:CLINICAL PHYSICS (APPROACH TO DIAGNOSIS AND TREATMENT)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000136\nIntegrated course code: MR000016\nInte
+ grated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: CIASCA GABR
+ IELE\nSource date: 21/10/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDurati
+ on: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\n
+ Source kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nE
+ xercise: no\n\nCalendar reliability note: retained because the event is 
+ past and absent from the upstream snapshot.\n\nEntries are NOT erased as
+  days pass. Past entries remain in place indefinitely for future audit. 
+ Corrections and cancellations retain event identity\; no rolling date cu
+ toff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121873353@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20261022T083000
+DTEND;TZID=Europe/Rome:20261022T104500
+SUMMARY:CLINICAL GENETICS (APPROACH TO DIAGNOSIS AND TREATMENT)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000134\nIntegrated course code: MR000016\nInte
+ grated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: MARANGI GIU
+ SEPPE\nSource date: 22/10/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDurat
+ ion: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\
+ nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\n
+ Exercise: no\n\nCalendar reliability note: retained because the event is
+  past and absent from the upstream snapshot.\n\nEntries are NOT erased a
+ s days pass. Past entries remain in place indefinitely for future audit.
+  Corrections and cancellations retain event identity\; no rolling date c
+ utoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121920291@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20261022T104500
+DTEND;TZID=Europe/Rome:20261022T121500
+SUMMARY:PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000125\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: MARIN
+ O MARIAPAOLA\nSource date: 22/10/2026\nBuilding: Giovanni XXIII\nRoom: 2
+ \nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/le
+ zioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspende
+ d: no\nExercise: no\n\nCalendar reliability note: retained because the e
+ vent is past and absent from the upstream snapshot.\n\nEntries are NOT e
+ rased as days pass. Past entries remain in place indefinitely for future
+  audit. Corrections and cancellations retain event identity\; no rolling
+  date cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121921717@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20261023T083000
+DTEND;TZID=Europe/Rome:20261023T100000
+SUMMARY:INTERNAL MEDICINE (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000126\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: CARDI
+ LLO CARMINE\nSource date: 23/10/2026\nBuilding: Giovanni XXIII\nRoom: 2\
+ nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lez
+ ioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended
+ : no\nExercise: no\n\nCalendar reliability note: retained because the ev
+ ent is past and absent from the upstream snapshot.\n\nEntries are NOT er
+ ased as days pass. Past entries remain in place indefinitely for future 
+ audit. Corrections and cancellations retain event identity\; no rolling 
+ date cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121942088@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20261023T100000
+DTEND;TZID=Europe/Rome:20261023T130000
+SUMMARY:MOLECULAR DIAGNOSTICS (APPROACH TO DIAGNOSIS AND TREATMENT)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000133\nIntegrated course code: MR000016\nInte
+ grated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: CORASOLLA C
+ ARREGARI VICTOR\nSource date: 23/10/2026\nBuilding: Giovanni XXIII\nRoom
+ : 2\nDuration: 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps
+ /lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspe
+ nded: no\nExercise: no\n\nCalendar reliability note: retained because th
+ e event is past and absent from the upstream snapshot.\n\nEntries are NO
+ T erased as days pass. Past entries remain in place indefinitely for fut
+ ure audit. Corrections and cancellations retain event identity\; no roll
+ ing date cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121920385@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20261026T083000
+DTEND;TZID=Europe/Rome:20261026T104500
+SUMMARY:PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000125\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SERIN
+ I SIMONA\nSource date: 26/10/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDu
+ ration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezion
+ i/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: n
+ o\nExercise: no\n\nCalendar reliability note: retained because the event
+  is past and absent from the upstream snapshot.\n\nEntries are NOT erase
+ d as days pass. Past entries remain in place indefinitely for future aud
+ it. Corrections and cancellations retain event identity\; no rolling dat
+ e cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121840888@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Rome:20261026T104500
+DTEND;TZID=Europe/Rome:20261026T130000
+SUMMARY:THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000319\nIntegrated course code: MR000044\nInte
+ grated course: THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS\n
+ Teacher: CHOI HA NA\nSource date: 26/10/2026\nBuilding: Giovanni XXIII\n
+ Room: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb
+ 2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nS
+ uspended: no\nExercise: no\n\nCalendar reliability note: retained becaus
+ e the event is past and absent from the upstream snapshot.\n\nEntries ar
+ e NOT erased as days pass. Past entries remain in place indefinitely for
+  future audit. Corrections and cancellations retain event identity\; no 
+ rolling date cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121871194@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083254Z
+SEQUENCE:2
+DTSTART;TZID=Europe/Rome:20261027T083000
+DTEND;TZID=Europe/Rome:20261027T104500
+SUMMARY:GENERAL PHARMACOLOGY (APPROACH TO DIAGNOSIS AND TREATMENT)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000135\nIntegrated course code: MR000016\nInte
+ grated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: MORES NADIA
+ \nSource date: 27/10/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 
+ 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSour
+ ce kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExerc
+ ise: no\n\nCalendar reliability note: tentative because one valid upstre
+ am snapshot omitted this future event\; awaiting confirmation.\n\nCalend
+ ar reliability note: cancelled after two consecutive valid upstream snap
+ shots omitted this future event.\n\nEntries are NOT erased as days pass.
+  Past entries remain in place indefinitely for future audit. Corrections
+  and cancellations retain event identity\; no rolling date cutoff is per
+ mitted for this or any future station.
+STATUS:CANCELLED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121920393@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261027T104500
+DTEND;TZID=Europe/Rome:20261027T121500
+SUMMARY:PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000125\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SERIN
+ I SIMONA\nSource date: 27/10/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDu
+ ration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezion
+ i/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: n
+ o\nExercise: no\n\nEntries are NOT erased as days pass. Past entries rem
+ ain in place indefinitely for future audit. Corrections and cancellation
+ s retain event identity\; no rolling date cutoff is permitted for this o
+ r any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121920295@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261028T083000
+DTEND;TZID=Europe/Rome:20261028T104500
+SUMMARY:PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000125\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: MARIN
+ O MARIAPAOLA\nSource date: 28/10/2026\nBuilding: Giovanni XXIII\nRoom: 2
+ \nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/le
+ zioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspende
+ d: no\nExercise: no\n\nEntries are NOT erased as days pass. Past entries
+  remain in place indefinitely for future audit. Corrections and cancella
+ tions retain event identity\; no rolling date cutoff is permitted for th
+ is or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121873157@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261028T104500
+DTEND;TZID=Europe/Rome:20261028T130000
+SUMMARY:CLINICAL PHYSICS (APPROACH TO DIAGNOSIS AND TREATMENT)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000136\nIntegrated course code: MR000016\nInte
+ grated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: CIASCA GABR
+ IELE\nSource date: 28/10/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDurati
+ on: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\n
+ Source kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nE
+ xercise: no\n\nEntries are NOT erased as days pass. Past entries remain 
+ in place indefinitely for future audit. Corrections and cancellations re
+ tain event identity\; no rolling date cutoff is permitted for this or an
+ y future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121873365@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261029T083000
+DTEND;TZID=Europe/Rome:20261029T104500
+SUMMARY:CLINICAL GENETICS (APPROACH TO DIAGNOSIS AND TREATMENT)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000134\nIntegrated course code: MR000016\nInte
+ grated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: MARANGI GIU
+ SEPPE\nSource date: 29/10/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDurat
+ ion: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\
+ nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\n
+ Exercise: no\n\nEntries are NOT erased as days pass. Past entries remain
+  in place indefinitely for future audit. Corrections and cancellations r
+ etain event identity\; no rolling date cutoff is permitted for this or a
+ ny future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121920958@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261029T104500
+DTEND;TZID=Europe/Rome:20261029T121500
+SUMMARY:PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000125\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: PANI 
+ GIOVAMBATTISTA\nSource date: 29/10/2026\nBuilding: Giovanni XXIII\nRoom:
+  2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/
+ lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspen
+ ded: no\nExercise: no\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-122162622@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261029T140000
+DTEND;TZID=Europe/Rome:20261029T161500
+SUMMARY:GENERAL PHARMACOLOGY (APPROACH TO DIAGNOSIS AND TREATMENT)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000135\nIntegrated course code: MR000016\nInte
+ grated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: MORES NADIA
+ \nSource date: 29/10/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 
+ 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSour
+ ce kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExerc
+ ise: no\n\nEntries are NOT erased as days pass. Past entries remain in p
+ lace indefinitely for future audit. Corrections and cancellations retain
+  event identity\; no rolling date cutoff is permitted for this or any fu
+ ture station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121921854@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083254Z
+SEQUENCE:2
+DTSTART;TZID=Europe/Rome:20261030T083000
+DTEND;TZID=Europe/Rome:20261030T100000
+SUMMARY:FIRST AID (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000127\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SCAPI
+ GLIATI ANDREA\nSource date: 30/10/2026\nBuilding: Giovanni XXIII\nRoom: 
+ 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/l
+ ezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspend
+ ed: no\nExercise: no\n\nCalendar reliability note: tentative because one
+  valid upstream snapshot omitted this future event\; awaiting confirmati
+ on.\n\nCalendar reliability note: cancelled after two consecutive valid 
+ upstream snapshots omitted this future event.\n\nEntries are NOT erased 
+ as days pass. Past entries remain in place indefinitely for future audit
+ . Corrections and cancellations retain event identity\; no rolling date 
+ cutoff is permitted for this or any future station.
+STATUS:CANCELLED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121871198@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261030T100000
+DTEND;TZID=Europe/Rome:20261030T113000
+SUMMARY:GENERAL PHARMACOLOGY (APPROACH TO DIAGNOSIS AND TREATMENT)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000135\nIntegrated course code: MR000016\nInte
+ grated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: MORES NADIA
+ \nSource date: 30/10/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 
+ 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSour
+ ce kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExerc
+ ise: no\n\nEntries are NOT erased as days pass. Past entries remain in p
+ lace indefinitely for future audit. Corrections and cancellations retain
+  event identity\; no rolling date cutoff is permitted for this or any fu
+ ture station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121920965@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261102T083000
+DTEND;TZID=Europe/Rome:20261102T104500
+SUMMARY:PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000125\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: PANI 
+ GIOVAMBATTISTA\nSource date: 02/11/2026\nBuilding: Giovanni XXIII\nRoom:
+  2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/
+ lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspen
+ ded: no\nExercise: no\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121840900@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261102T104500
+DTEND;TZID=Europe/Rome:20261102T130000
+SUMMARY:THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000319\nIntegrated course code: MR000044\nInte
+ grated course: THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS\n
+ Teacher: CHOI HA NA\nSource date: 02/11/2026\nBuilding: Giovanni XXIII\n
+ Room: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb
+ 2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nS
+ uspended: no\nExercise: no\n\nEntries are NOT erased as days pass. Past 
+ entries remain in place indefinitely for future audit. Corrections and c
+ ancellations retain event identity\; no rolling date cutoff is permitted
+  for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121873402@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261103T083000
+DTEND;TZID=Europe/Rome:20261103T104500
+SUMMARY:GENERAL PATHOLOGY (APPROACH TO DIAGNOSIS AND TREATMENT)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000130\nIntegrated course code: MR000016\nInte
+ grated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: RINDI GUIDO
+ \nSource date: 03/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 
+ 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSour
+ ce kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExerc
+ ise: no\n\nEntries are NOT erased as days pass. Past entries remain in p
+ lace indefinitely for future audit. Corrections and cancellations retain
+  event identity\; no rolling date cutoff is permitted for this or any fu
+ ture station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121920306@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261103T104500
+DTEND;TZID=Europe/Rome:20261103T121500
+SUMMARY:PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000125\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: MARIN
+ O MARIAPAOLA\nSource date: 03/11/2026\nBuilding: Giovanni XXIII\nRoom: 2
+ \nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/le
+ zioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspende
+ d: no\nExercise: no\n\nEntries are NOT erased as days pass. Past entries
+  remain in place indefinitely for future audit. Corrections and cancella
+ tions retain event identity\; no rolling date cutoff is permitted for th
+ is or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-122054081@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261103T141500
+DTEND;TZID=Europe/Rome:20261103T191500
+SUMMARY:FIRST AID AND NURSING PRACTICE PROFESSIONAL TRAINING (MECHANISMS 
+ AND MANIFESTATIONS OF DISEASES)
+LOCATION:Policlinico - Gemelli Training Center
+DESCRIPTION:Course code: MR000128\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: CESAR
+ E MANUELE\nSource date: 03/11/2026\nBuilding: Policlinico\nRoom: Gemelli
+  Training Center\nDuration: 05:00\nSource: https://secure.unicatt.it/did
+ atticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra less
+ on: no\nSuspended: no\nExercise: no\n\nEntries are NOT erased as days pa
+ ss. Past entries remain in place indefinitely for future audit. Correcti
+ ons and cancellations retain event identity\; no rolling date cutoff is 
+ permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-122054170@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261103T141500
+DTEND;TZID=Europe/Rome:20261103T191500
+SUMMARY:FIRST AID AND NURSING PRACTICE PROFESSIONAL TRAINING (MECHANISMS 
+ AND MANIFESTATIONS OF DISEASES)
+LOCATION:Policlinico - Gemelli Training Center
+DESCRIPTION:Course code: MR000128\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SCAPI
+ GLIATI ANDREA\nSource date: 03/11/2026\nBuilding: Policlinico\nRoom: Gem
+ elli Training Center\nDuration: 05:00\nSource: https://secure.unicatt.it
+ /didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra 
+ lesson: no\nSuspended: no\nExercise: no\n\nEntries are NOT erased as day
+ s pass. Past entries remain in place indefinitely for future audit. Corr
+ ections and cancellations retain event identity\; no rolling date cutoff
+  is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121920317@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261104T083000
+DTEND;TZID=Europe/Rome:20261104T104500
+SUMMARY:PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000125\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: MARIN
+ O MARIAPAOLA\nSource date: 04/11/2026\nBuilding: Giovanni XXIII\nRoom: 2
+ \nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/le
+ zioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspende
+ d: no\nExercise: no\n\nEntries are NOT erased as days pass. Past entries
+  remain in place indefinitely for future audit. Corrections and cancella
+ tions retain event identity\; no rolling date cutoff is permitted for th
+ is or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121873407@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261104T104500
+DTEND;TZID=Europe/Rome:20261104T130000
+SUMMARY:GENERAL PATHOLOGY (APPROACH TO DIAGNOSIS AND TREATMENT)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000130\nIntegrated course code: MR000016\nInte
+ grated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: RINDI GUIDO
+ \nSource date: 04/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 
+ 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSour
+ ce kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExerc
+ ise: no\n\nEntries are NOT erased as days pass. Past entries remain in p
+ lace indefinitely for future audit. Corrections and cancellations retain
+  event identity\; no rolling date cutoff is permitted for this or any fu
+ ture station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121873373@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261105T083000
+DTEND;TZID=Europe/Rome:20261105T104500
+SUMMARY:CLINICAL GENETICS (APPROACH TO DIAGNOSIS AND TREATMENT)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000134\nIntegrated course code: MR000016\nInte
+ grated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: MARANGI GIU
+ SEPPE\nSource date: 05/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDurat
+ ion: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\
+ nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\n
+ Exercise: no\n\nEntries are NOT erased as days pass. Past entries remain
+  in place indefinitely for future audit. Corrections and cancellations r
+ etain event identity\; no rolling date cutoff is permitted for this or a
+ ny future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121920041@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261105T104500
+DTEND;TZID=Europe/Rome:20261105T121500
+SUMMARY:INTERNAL MEDICINE (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000126\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: GAMBA
+ SSI GIOVANNI\nSource date: 05/11/2026\nBuilding: Giovanni XXIII\nRoom: 2
+ \nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/le
+ zioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspende
+ d: no\nExercise: no\n\nEntries are NOT erased as days pass. Past entries
+  remain in place indefinitely for future audit. Corrections and cancella
+ tions retain event identity\; no rolling date cutoff is permitted for th
+ is or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121921725@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261106T083000
+DTEND;TZID=Europe/Rome:20261106T100000
+SUMMARY:INTERNAL MEDICINE (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000126\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: CARDI
+ LLO CARMINE\nSource date: 06/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\
+ nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lez
+ ioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended
+ : no\nExercise: no\n\nEntries are NOT erased as days pass. Past entries 
+ remain in place indefinitely for future audit. Corrections and cancellat
+ ions retain event identity\; no rolling date cutoff is permitted for thi
+ s or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121873149@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261106T100000
+DTEND;TZID=Europe/Rome:20261106T104500
+SUMMARY:CLINICAL PHYSICS (APPROACH TO DIAGNOSIS AND TREATMENT)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000136\nIntegrated course code: MR000016\nInte
+ grated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: CIASCA GABR
+ IELE\nSource date: 06/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDurati
+ on: 00:45\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\n
+ Source kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nE
+ xercise: no\n\nEntries are NOT erased as days pass. Past entries remain 
+ in place indefinitely for future audit. Corrections and cancellations re
+ tain event identity\; no rolling date cutoff is permitted for this or an
+ y future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121873411@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261106T104500
+DTEND;TZID=Europe/Rome:20261106T130000
+SUMMARY:GENERAL PATHOLOGY (APPROACH TO DIAGNOSIS AND TREATMENT)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000130\nIntegrated course code: MR000016\nInte
+ grated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: RINDI GUIDO
+ \nSource date: 06/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 
+ 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSour
+ ce kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExerc
+ ise: no\n\nEntries are NOT erased as days pass. Past entries remain in p
+ lace indefinitely for future audit. Corrections and cancellations retain
+  event identity\; no rolling date cutoff is permitted for this or any fu
+ ture station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121920401@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261109T083000
+DTEND;TZID=Europe/Rome:20261109T104500
+SUMMARY:PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000125\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SERIN
+ I SIMONA\nSource date: 09/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDu
+ ration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezion
+ i/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: n
+ o\nExercise: no\n\nEntries are NOT erased as days pass. Past entries rem
+ ain in place indefinitely for future audit. Corrections and cancellation
+ s retain event identity\; no rolling date cutoff is permitted for this o
+ r any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121840912@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261109T104500
+DTEND;TZID=Europe/Rome:20261109T130000
+SUMMARY:THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000319\nIntegrated course code: MR000044\nInte
+ grated course: THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS\n
+ Teacher: CHOI HA NA\nSource date: 09/11/2026\nBuilding: Giovanni XXIII\n
+ Room: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb
+ 2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nS
+ uspended: no\nExercise: no\n\nEntries are NOT erased as days pass. Past 
+ entries remain in place indefinitely for future audit. Corrections and c
+ ancellations retain event identity\; no rolling date cutoff is permitted
+  for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-122054089@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261109T141500
+DTEND;TZID=Europe/Rome:20261109T191500
+SUMMARY:FIRST AID AND NURSING PRACTICE PROFESSIONAL TRAINING (MECHANISMS 
+ AND MANIFESTATIONS OF DISEASES)
+LOCATION:Policlinico - Gemelli Training Center
+DESCRIPTION:Course code: MR000128\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: CESAR
+ E MANUELE\nSource date: 09/11/2026\nBuilding: Policlinico\nRoom: Gemelli
+  Training Center\nDuration: 05:00\nSource: https://secure.unicatt.it/did
+ atticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra less
+ on: no\nSuspended: no\nExercise: no\n\nEntries are NOT erased as days pa
+ ss. Past entries remain in place indefinitely for future audit. Correcti
+ ons and cancellations retain event identity\; no rolling date cutoff is 
+ permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-122054182@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261109T141500
+DTEND;TZID=Europe/Rome:20261109T191500
+SUMMARY:FIRST AID AND NURSING PRACTICE PROFESSIONAL TRAINING (MECHANISMS 
+ AND MANIFESTATIONS OF DISEASES)
+LOCATION:Policlinico - Gemelli Training Center
+DESCRIPTION:Course code: MR000128\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SCAPI
+ GLIATI ANDREA\nSource date: 09/11/2026\nBuilding: Policlinico\nRoom: Gem
+ elli Training Center\nDuration: 05:00\nSource: https://secure.unicatt.it
+ /didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra 
+ lesson: no\nSuspended: no\nExercise: no\n\nEntries are NOT erased as day
+ s pass. Past entries remain in place indefinitely for future audit. Corr
+ ections and cancellations retain event identity\; no rolling date cutoff
+  is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121873435@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261110T083000
+DTEND;TZID=Europe/Rome:20261110T104500
+SUMMARY:CLINICAL PATHOLOGY (APPROACH TO DIAGNOSIS AND TREATMENT)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000132\nIntegrated course code: MR000016\nInte
+ grated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: RIA FRANCES
+ CO\nSource date: 10/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration
+ : 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSo
+ urce kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExe
+ rcise: no\n\nEntries are NOT erased as days pass. Past entries remain in
+  place indefinitely for future audit. Corrections and cancellations reta
+ in event identity\; no rolling date cutoff is permitted for this or any 
+ future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121920416@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261110T104500
+DTEND;TZID=Europe/Rome:20261110T121500
+SUMMARY:PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000125\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SERIN
+ I SIMONA\nSource date: 10/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDu
+ ration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezion
+ i/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: n
+ o\nExercise: no\n\nEntries are NOT erased as days pass. Past entries rem
+ ain in place indefinitely for future audit. Corrections and cancellation
+ s retain event identity\; no rolling date cutoff is permitted for this o
+ r any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121920420@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261111T083000
+DTEND;TZID=Europe/Rome:20261111T100000
+SUMMARY:PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000125\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SERIN
+ I SIMONA\nSource date: 11/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDu
+ ration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezion
+ i/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: n
+ o\nExercise: no\n\nEntries are NOT erased as days pass. Past entries rem
+ ain in place indefinitely for future audit. Corrections and cancellation
+ s retain event identity\; no rolling date cutoff is permitted for this o
+ r any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121920053@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261111T100000
+DTEND;TZID=Europe/Rome:20261111T104500
+SUMMARY:INTERNAL MEDICINE (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000126\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: GAMBA
+ SSI GIOVANNI\nSource date: 11/11/2026\nBuilding: Giovanni XXIII\nRoom: 2
+ \nDuration: 00:45\nSource: https://secure.unicatt.it/didatticaweb2/ps/le
+ zioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspende
+ d: no\nExercise: no\n\nEntries are NOT erased as days pass. Past entries
+  remain in place indefinitely for future audit. Corrections and cancella
+ tions retain event identity\; no rolling date cutoff is permitted for th
+ is or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121873449@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261111T104500
+DTEND;TZID=Europe/Rome:20261111T130000
+SUMMARY:CLINICAL PATHOLOGY (APPROACH TO DIAGNOSIS AND TREATMENT)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000132\nIntegrated course code: MR000016\nInte
+ grated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: RIA FRANCES
+ CO\nSource date: 11/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration
+ : 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSo
+ urce kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExe
+ rcise: no\n\nEntries are NOT erased as days pass. Past entries remain in
+  place indefinitely for future audit. Corrections and cancellations reta
+ in event identity\; no rolling date cutoff is permitted for this or any 
+ future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121873387@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261112T083000
+DTEND;TZID=Europe/Rome:20261112T104500
+SUMMARY:CLINICAL GENETICS (APPROACH TO DIAGNOSIS AND TREATMENT)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000134\nIntegrated course code: MR000016\nInte
+ grated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: MARANGI GIU
+ SEPPE\nSource date: 12/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDurat
+ ion: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\
+ nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\n
+ Exercise: no\n\nEntries are NOT erased as days pass. Past entries remain
+  in place indefinitely for future audit. Corrections and cancellations r
+ etain event identity\; no rolling date cutoff is permitted for this or a
+ ny future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121920321@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261112T104500
+DTEND;TZID=Europe/Rome:20261112T121500
+SUMMARY:PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000125\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: MARIN
+ O MARIAPAOLA\nSource date: 12/11/2026\nBuilding: Giovanni XXIII\nRoom: 2
+ \nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/le
+ zioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspende
+ d: no\nExercise: no\n\nEntries are NOT erased as days pass. Past entries
+  remain in place indefinitely for future audit. Corrections and cancella
+ tions retain event identity\; no rolling date cutoff is permitted for th
+ is or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-122162638@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261112T140000
+DTEND;TZID=Europe/Rome:20261112T161500
+SUMMARY:GENERAL PHARMACOLOGY (APPROACH TO DIAGNOSIS AND TREATMENT)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000135\nIntegrated course code: MR000016\nInte
+ grated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: MORES NADIA
+ \nSource date: 12/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 
+ 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSour
+ ce kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExerc
+ ise: no\n\nEntries are NOT erased as days pass. Past entries remain in p
+ lace indefinitely for future audit. Corrections and cancellations retain
+  event identity\; no rolling date cutoff is permitted for this or any fu
+ ture station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121921789@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261113T083000
+DTEND;TZID=Europe/Rome:20261113T100000
+SUMMARY:FIRST AID (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000127\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: DE PA
+ SCALE GENNARO\nSource date: 13/11/2026\nBuilding: Giovanni XXIII\nRoom: 
+ 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/l
+ ezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspend
+ ed: no\nExercise: no\n\nEntries are NOT erased as days pass. Past entrie
+ s remain in place indefinitely for future audit. Corrections and cancell
+ ations retain event identity\; no rolling date cutoff is permitted for t
+ his or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121873453@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261113T100000
+DTEND;TZID=Europe/Rome:20261113T130000
+SUMMARY:CLINICAL PATHOLOGY (APPROACH TO DIAGNOSIS AND TREATMENT)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000132\nIntegrated course code: MR000016\nInte
+ grated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: RIA FRANCES
+ CO\nSource date: 13/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration
+ : 03:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSo
+ urce kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExe
+ rcise: no\n\nEntries are NOT erased as days pass. Past entries remain in
+  place indefinitely for future audit. Corrections and cancellations reta
+ in event identity\; no rolling date cutoff is permitted for this or any 
+ future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121920431@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261116T083000
+DTEND;TZID=Europe/Rome:20261116T100000
+SUMMARY:PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000125\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SERIN
+ I SIMONA\nSource date: 16/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDu
+ ration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezion
+ i/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: n
+ o\nExercise: no\n\nEntries are NOT erased as days pass. Past entries rem
+ ain in place indefinitely for future audit. Corrections and cancellation
+ s retain event identity\; no rolling date cutoff is permitted for this o
+ r any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121921802@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261116T100000
+DTEND;TZID=Europe/Rome:20261116T104500
+SUMMARY:FIRST AID (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000127\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: GRIEC
+ O DOMENICO LUCA\nSource date: 16/11/2026\nBuilding: Giovanni XXIII\nRoom
+ : 2\nDuration: 00:45\nSource: https://secure.unicatt.it/didatticaweb2/ps
+ /lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspe
+ nded: no\nExercise: no\n\nEntries are NOT erased as days pass. Past entr
+ ies remain in place indefinitely for future audit. Corrections and cance
+ llations retain event identity\; no rolling date cutoff is permitted for
+  this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121840943@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261116T104500
+DTEND;TZID=Europe/Rome:20261116T130000
+SUMMARY:THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000319\nIntegrated course code: MR000044\nInte
+ grated course: THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS\n
+ Teacher: CHOI HA NA\nSource date: 16/11/2026\nBuilding: Giovanni XXIII\n
+ Room: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb
+ 2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nS
+ uspended: no\nExercise: no\n\nEntries are NOT erased as days pass. Past 
+ entries remain in place indefinitely for future audit. Corrections and c
+ ancellations retain event identity\; no rolling date cutoff is permitted
+  for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-122054178@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261116T141500
+DTEND;TZID=Europe/Rome:20261116T191500
+SUMMARY:FIRST AID AND NURSING PRACTICE PROFESSIONAL TRAINING (MECHANISMS 
+ AND MANIFESTATIONS OF DISEASES)
+LOCATION:Policlinico - Gemelli Training Center
+DESCRIPTION:Course code: MR000128\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SCAPI
+ GLIATI ANDREA\nSource date: 16/11/2026\nBuilding: Policlinico\nRoom: Gem
+ elli Training Center\nDuration: 05:00\nSource: https://secure.unicatt.it
+ /didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra 
+ lesson: no\nSuspended: no\nExercise: no\n\nEntries are NOT erased as day
+ s pass. Past entries remain in place indefinitely for future audit. Corr
+ ections and cancellations retain event identity\; no rolling date cutoff
+  is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121873457@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261117T083000
+DTEND;TZID=Europe/Rome:20261117T104500
+SUMMARY:CLINICAL PATHOLOGY (APPROACH TO DIAGNOSIS AND TREATMENT)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000132\nIntegrated course code: MR000016\nInte
+ grated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: RIA FRANCES
+ CO\nSource date: 17/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration
+ : 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSo
+ urce kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExe
+ rcise: no\n\nEntries are NOT erased as days pass. Past entries remain in
+  place indefinitely for future audit. Corrections and cancellations reta
+ in event identity\; no rolling date cutoff is permitted for this or any 
+ future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121920325@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261117T104500
+DTEND;TZID=Europe/Rome:20261117T121500
+SUMMARY:PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000125\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: MARIN
+ O MARIAPAOLA\nSource date: 17/11/2026\nBuilding: Giovanni XXIII\nRoom: 2
+ \nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/le
+ zioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspende
+ d: no\nExercise: no\n\nEntries are NOT erased as days pass. Past entries
+  remain in place indefinitely for future audit. Corrections and cancella
+ tions retain event identity\; no rolling date cutoff is permitted for th
+ is or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121920329@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261118T083000
+DTEND;TZID=Europe/Rome:20261118T104500
+SUMMARY:PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000125\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: MARIN
+ O MARIAPAOLA\nSource date: 18/11/2026\nBuilding: Giovanni XXIII\nRoom: 2
+ \nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/le
+ zioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspende
+ d: no\nExercise: no\n\nEntries are NOT erased as days pass. Past entries
+  remain in place indefinitely for future audit. Corrections and cancella
+ tions retain event identity\; no rolling date cutoff is permitted for th
+ is or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121873419@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261118T104500
+DTEND;TZID=Europe/Rome:20261118T130000
+SUMMARY:GENERAL PATHOLOGY (APPROACH TO DIAGNOSIS AND TREATMENT)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000130\nIntegrated course code: MR000016\nInte
+ grated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: RINDI GUIDO
+ \nSource date: 18/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 
+ 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSour
+ ce kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExerc
+ ise: no\n\nEntries are NOT erased as days pass. Past entries remain in p
+ lace indefinitely for future audit. Corrections and cancellations retain
+  event identity\; no rolling date cutoff is permitted for this or any fu
+ ture station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121873391@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261119T083000
+DTEND;TZID=Europe/Rome:20261119T104500
+SUMMARY:CLINICAL GENETICS (APPROACH TO DIAGNOSIS AND TREATMENT)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000134\nIntegrated course code: MR000016\nInte
+ grated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: MARANGI GIU
+ SEPPE\nSource date: 19/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDurat
+ ion: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\
+ nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\n
+ Exercise: no\n\nEntries are NOT erased as days pass. Past entries remain
+  in place indefinitely for future audit. Corrections and cancellations r
+ etain event identity\; no rolling date cutoff is permitted for this or a
+ ny future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121920064@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261119T104500
+DTEND;TZID=Europe/Rome:20261119T121500
+SUMMARY:INTERNAL MEDICINE (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000126\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: GAMBA
+ SSI GIOVANNI\nSource date: 19/11/2026\nBuilding: Giovanni XXIII\nRoom: 2
+ \nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/le
+ zioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspende
+ d: no\nExercise: no\n\nEntries are NOT erased as days pass. Past entries
+  remain in place indefinitely for future audit. Corrections and cancella
+ tions retain event identity\; no rolling date cutoff is permitted for th
+ is or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121921729@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261120T083000
+DTEND;TZID=Europe/Rome:20261120T100000
+SUMMARY:INTERNAL MEDICINE (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000126\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: CARDI
+ LLO CARMINE\nSource date: 20/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\
+ nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lez
+ ioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended
+ : no\nExercise: no\n\nEntries are NOT erased as days pass. Past entries 
+ remain in place indefinitely for future audit. Corrections and cancellat
+ ions retain event identity\; no rolling date cutoff is permitted for thi
+ s or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121873423@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261120T100000
+DTEND;TZID=Europe/Rome:20261120T104500
+SUMMARY:GENERAL PATHOLOGY (APPROACH TO DIAGNOSIS AND TREATMENT)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000130\nIntegrated course code: MR000016\nInte
+ grated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: RINDI GUIDO
+ \nSource date: 20/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 
+ 00:45\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSour
+ ce kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExerc
+ ise: no\n\nEntries are NOT erased as days pass. Past entries remain in p
+ lace indefinitely for future audit. Corrections and cancellations retain
+  event identity\; no rolling date cutoff is permitted for this or any fu
+ ture station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121944812@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261120T104500
+DTEND;TZID=Europe/Rome:20261120T130000
+SUMMARY:PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000125\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SERIN
+ I SIMONA\nSource date: 20/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDu
+ ration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezion
+ i/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: n
+ o\nExercise: no\n\nEntries are NOT erased as days pass. Past entries rem
+ ain in place indefinitely for future audit. Corrections and cancellation
+ s retain event identity\; no rolling date cutoff is permitted for this o
+ r any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121921806@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261123T083000
+DTEND;TZID=Europe/Rome:20261123T104500
+SUMMARY:FIRST AID (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000127\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: GRIEC
+ O DOMENICO LUCA\nSource date: 23/11/2026\nBuilding: Giovanni XXIII\nRoom
+ : 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps
+ /lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspe
+ nded: no\nExercise: no\n\nEntries are NOT erased as days pass. Past entr
+ ies remain in place indefinitely for future audit. Corrections and cance
+ llations retain event identity\; no rolling date cutoff is permitted for
+  this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121840955@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261123T104500
+DTEND;TZID=Europe/Rome:20261123T130000
+SUMMARY:THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000319\nIntegrated course code: MR000044\nInte
+ grated course: THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS\n
+ Teacher: CHOI HA NA\nSource date: 23/11/2026\nBuilding: Giovanni XXIII\n
+ Room: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb
+ 2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nS
+ uspended: no\nExercise: no\n\nEntries are NOT erased as days pass. Past 
+ entries remain in place indefinitely for future audit. Corrections and c
+ ancellations retain event identity\; no rolling date cutoff is permitted
+  for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-122128263@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261123T141500
+DTEND;TZID=Europe/Rome:20261123T191500
+SUMMARY:FIRST AID AND NURSING PRACTICE PROFESSIONAL TRAINING (MECHANISMS 
+ AND MANIFESTATIONS OF DISEASES)
+LOCATION:Policlinico - Gemelli Training Center
+DESCRIPTION:Course code: MR000128\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: CESAR
+ E MANUELE\nSource date: 23/11/2026\nBuilding: Policlinico\nRoom: Gemelli
+  Training Center\nDuration: 05:00\nSource: https://secure.unicatt.it/did
+ atticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra less
+ on: no\nSuspended: no\nExercise: no\n\nEntries are NOT erased as days pa
+ ss. Past entries remain in place indefinitely for future audit. Correcti
+ ons and cancellations retain event identity\; no rolling date cutoff is 
+ permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121920976@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261124T104500
+DTEND;TZID=Europe/Rome:20261124T121500
+SUMMARY:PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000125\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: PANI 
+ GIOVAMBATTISTA\nSource date: 24/11/2026\nBuilding: Giovanni XXIII\nRoom:
+  2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/
+ lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspen
+ ded: no\nExercise: no\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121921858@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261125T092000
+DTEND;TZID=Europe/Rome:20261125T105000
+SUMMARY:FIRST AID (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000127\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SCAPI
+ GLIATI ANDREA\nSource date: 25/11/2026\nBuilding: Giovanni XXIII\nRoom: 
+ 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/l
+ ezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspend
+ ed: no\nExercise: no\n\nEntries are NOT erased as days pass. Past entrie
+ s remain in place indefinitely for future audit. Corrections and cancell
+ ations retain event identity\; no rolling date cutoff is permitted for t
+ his or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121920072@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261126T104500
+DTEND;TZID=Europe/Rome:20261126T121500
+SUMMARY:INTERNAL MEDICINE (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000126\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: GAMBA
+ SSI GIOVANNI\nSource date: 26/11/2026\nBuilding: Giovanni XXIII\nRoom: 2
+ \nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/le
+ zioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspende
+ d: no\nExercise: no\n\nEntries are NOT erased as days pass. Past entries
+  remain in place indefinitely for future audit. Corrections and cancella
+ tions retain event identity\; no rolling date cutoff is permitted for th
+ is or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121921733@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261127T083000
+DTEND;TZID=Europe/Rome:20261127T100000
+SUMMARY:INTERNAL MEDICINE (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000126\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: CARDI
+ LLO CARMINE\nSource date: 27/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\
+ nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lez
+ ioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended
+ : no\nExercise: no\n\nEntries are NOT erased as days pass. Past entries 
+ remain in place indefinitely for future audit. Corrections and cancellat
+ ions retain event identity\; no rolling date cutoff is permitted for thi
+ s or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121873395@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261127T114500
+DTEND;TZID=Europe/Rome:20261127T131500
+SUMMARY:CLINICAL GENETICS (APPROACH TO DIAGNOSIS AND TREATMENT)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000134\nIntegrated course code: MR000016\nInte
+ grated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: MARANGI GIU
+ SEPPE\nSource date: 27/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDurat
+ ion: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\
+ nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\n
+ Exercise: no\n\nEntries are NOT erased as days pass. Past entries remain
+  in place indefinitely for future audit. Corrections and cancellations r
+ etain event identity\; no rolling date cutoff is permitted for this or a
+ ny future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121920984@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261130T083000
+DTEND;TZID=Europe/Rome:20261130T104500
+SUMMARY:PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000125\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: PANI 
+ GIOVAMBATTISTA\nSource date: 30/11/2026\nBuilding: Giovanni XXIII\nRoom:
+  2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/
+ lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspen
+ ded: no\nExercise: no\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121840963@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261130T104500
+DTEND;TZID=Europe/Rome:20261130T130000
+SUMMARY:THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000319\nIntegrated course code: MR000044\nInte
+ grated course: THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS\n
+ Teacher: CHOI HA NA\nSource date: 30/11/2026\nBuilding: Giovanni XXIII\n
+ Room: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb
+ 2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nS
+ uspended: no\nExercise: no\n\nEntries are NOT erased as days pass. Past 
+ entries remain in place indefinitely for future audit. Corrections and c
+ ancellations retain event identity\; no rolling date cutoff is permitted
+  for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121920995@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261201T104500
+DTEND;TZID=Europe/Rome:20261201T121500
+SUMMARY:PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000125\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: PANI 
+ GIOVAMBATTISTA\nSource date: 01/12/2026\nBuilding: Giovanni XXIII\nRoom:
+  2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/
+ lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspen
+ ded: no\nExercise: no\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121921006@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261202T083000
+DTEND;TZID=Europe/Rome:20261202T104500
+SUMMARY:PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000125\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: PANI 
+ GIOVAMBATTISTA\nSource date: 02/12/2026\nBuilding: Giovanni XXIII\nRoom:
+  2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/
+ lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspen
+ ded: no\nExercise: no\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-122162418@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261202T141500
+DTEND;TZID=Europe/Rome:20261202T171500
+SUMMARY:EMERGING TECHNOLOGIES IN MEDICINE
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: AS000009\nTeacher: CIASCA GABRIELE\nSource date:
+  02/12/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 03:00\nSource:
+  https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesso
+ n\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no\n\nEnt
+ ries are NOT erased as days pass. Past entries remain in place indefinit
+ ely for future audit. Corrections and cancellations retain event identit
+ y\; no rolling date cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121921011@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261203T104500
+DTEND;TZID=Europe/Rome:20261203T121500
+SUMMARY:PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000125\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: PANI 
+ GIOVAMBATTISTA\nSource date: 03/12/2026\nBuilding: Giovanni XXIII\nRoom:
+  2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/
+ lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspen
+ ded: no\nExercise: no\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121921793@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261209T083000
+DTEND;TZID=Europe/Rome:20261209T104500
+SUMMARY:FIRST AID (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000127\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: DE PA
+ SCALE GENNARO\nSource date: 09/12/2026\nBuilding: Giovanni XXIII\nRoom: 
+ 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/l
+ ezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspend
+ ed: no\nExercise: no\n\nEntries are NOT erased as days pass. Past entrie
+ s remain in place indefinitely for future audit. Corrections and cancell
+ ations retain event identity\; no rolling date cutoff is permitted for t
+ his or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121920084@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261210T104500
+DTEND;TZID=Europe/Rome:20261210T121500
+SUMMARY:INTERNAL MEDICINE (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000126\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: GAMBA
+ SSI GIOVANNI\nSource date: 10/12/2026\nBuilding: Giovanni XXIII\nRoom: 2
+ \nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/le
+ zioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspende
+ d: no\nExercise: no\n\nEntries are NOT erased as days pass. Past entries
+  remain in place indefinitely for future audit. Corrections and cancella
+ tions retain event identity\; no rolling date cutoff is permitted for th
+ is or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121921745@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261211T083000
+DTEND;TZID=Europe/Rome:20261211T100000
+SUMMARY:INTERNAL MEDICINE (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000126\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: CARDI
+ LLO CARMINE\nSource date: 11/12/2026\nBuilding: Giovanni XXIII\nRoom: 2\
+ nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lez
+ ioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended
+ : no\nExercise: no\n\nEntries are NOT erased as days pass. Past entries 
+ remain in place indefinitely for future audit. Corrections and cancellat
+ ions retain event identity\; no rolling date cutoff is permitted for thi
+ s or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121942096@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261211T123000
+DTEND;TZID=Europe/Rome:20261211T131500
+SUMMARY:GENERAL RADIODIAGNOSTICS (INCLUSIVE NM\, RT) (APPROACH TO DIAGNOS
+ IS AND TREATMENT)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000137\nIntegrated course code: MR000016\nInte
+ grated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: LECCISOTTI 
+ LUCIA\nSource date: 11/12/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDurat
+ ion: 00:45\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\
+ nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\n
+ Exercise: no\n\nEntries are NOT erased as days pass. Past entries remain
+  in place indefinitely for future audit. Corrections and cancellations r
+ etain event identity\; no rolling date cutoff is permitted for this or a
+ ny future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-122162422@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20261211T141500
+DTEND;TZID=Europe/Rome:20261211T171500
+SUMMARY:EMERGING TECHNOLOGIES IN MEDICINE
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: AS000009\nTeacher: CIASCA GABRIELE\nSource date:
+  11/12/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 03:00\nSource:
+  https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesso
+ n\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no\n\nEnt
+ ries are NOT erased as days pass. Past entries remain in place indefinit
+ ely for future audit. Corrections and cancellations retain event identit
+ y\; no rolling date cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121921025@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20270107T104500
+DTEND;TZID=Europe/Rome:20270107T121500
+SUMMARY:PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000125\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: PANI 
+ GIOVAMBATTISTA\nSource date: 07/01/2027\nBuilding: Giovanni XXIII\nRoom:
+  2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/
+ lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspen
+ ded: no\nExercise: no\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121921765@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20270108T083000
+DTEND;TZID=Europe/Rome:20270108T100000
+SUMMARY:INTERNAL MEDICINE (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000126\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: CARDI
+ LLO CARMINE\nSource date: 08/01/2027\nBuilding: Giovanni XXIII\nRoom: 2\
+ nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lez
+ ioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended
+ : no\nExercise: no\n\nEntries are NOT erased as days pass. Past entries 
+ remain in place indefinitely for future audit. Corrections and cancellat
+ ions retain event identity\; no rolling date cutoff is permitted for thi
+ s or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121942092@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20270108T114500
+DTEND;TZID=Europe/Rome:20270108T131500
+SUMMARY:GENERAL RADIODIAGNOSTICS (INCLUSIVE NM\, RT) (APPROACH TO DIAGNOS
+ IS AND TREATMENT)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000137\nIntegrated course code: MR000016\nInte
+ grated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: LECCISOTTI 
+ LUCIA\nSource date: 08/01/2027\nBuilding: Giovanni XXIII\nRoom: 2\nDurat
+ ion: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\
+ nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\n
+ Exercise: no\n\nEntries are NOT erased as days pass. Past entries remain
+  in place indefinitely for future audit. Corrections and cancellations r
+ etain event identity\; no rolling date cutoff is permitted for this or a
+ ny future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-122162427@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20270108T141500
+DTEND;TZID=Europe/Rome:20270108T171500
+SUMMARY:EMERGING TECHNOLOGIES IN MEDICINE
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: AS000009\nTeacher: CIASCA GABRIELE\nSource date:
+  08/01/2027\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 03:00\nSource:
+  https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesso
+ n\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no\n\nEnt
+ ries are NOT erased as days pass. Past entries remain in place indefinit
+ ely for future audit. Corrections and cancellations retain event identit
+ y\; no rolling date cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121921037@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20270111T083000
+DTEND;TZID=Europe/Rome:20270111T104500
+SUMMARY:PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000125\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: PANI 
+ GIOVAMBATTISTA\nSource date: 11/01/2027\nBuilding: Giovanni XXIII\nRoom:
+  2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/
+ lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspen
+ ded: no\nExercise: no\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121840970@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20270111T104500
+DTEND;TZID=Europe/Rome:20270111T130000
+SUMMARY:THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000319\nIntegrated course code: MR000044\nInte
+ grated course: THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS\n
+ Teacher: CHOI HA NA\nSource date: 11/01/2027\nBuilding: Giovanni XXIII\n
+ Room: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb
+ 2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nS
+ uspended: no\nExercise: no\n\nEntries are NOT erased as days pass. Past 
+ entries remain in place indefinitely for future audit. Corrections and c
+ ancellations retain event identity\; no rolling date cutoff is permitted
+  for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-122162432@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20270111T141500
+DTEND;TZID=Europe/Rome:20270111T171500
+SUMMARY:EMERGING TECHNOLOGIES IN MEDICINE
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: AS000009\nTeacher: CIASCA GABRIELE\nSource date:
+  11/01/2027\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 03:00\nSource:
+  https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesso
+ n\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no\n\nEnt
+ ries are NOT erased as days pass. Past entries remain in place indefinit
+ ely for future audit. Corrections and cancellations retain event identit
+ y\; no rolling date cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121921052@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20270112T104500
+DTEND;TZID=Europe/Rome:20270112T121500
+SUMMARY:PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000125\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: PANI 
+ GIOVAMBATTISTA\nSource date: 12/01/2027\nBuilding: Giovanni XXIII\nRoom:
+  2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/
+ lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspen
+ ded: no\nExercise: no\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121921048@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20270113T083000
+DTEND;TZID=Europe/Rome:20270113T104500
+SUMMARY:PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000125\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: PANI 
+ GIOVAMBATTISTA\nSource date: 13/01/2027\nBuilding: Giovanni XXIII\nRoom:
+  2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/
+ lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspen
+ ded: no\nExercise: no\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-122162436@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20270113T141500
+DTEND;TZID=Europe/Rome:20270113T171500
+SUMMARY:EMERGING TECHNOLOGIES IN MEDICINE
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: AS000009\nTeacher: CIASCA GABRIELE\nSource date:
+  13/01/2027\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 03:00\nSource:
+  https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesso
+ n\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no\n\nEnt
+ ries are NOT erased as days pass. Past entries remain in place indefinit
+ ely for future audit. Corrections and cancellations retain event identit
+ y\; no rolling date cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121920092@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20270114T104500
+DTEND;TZID=Europe/Rome:20270114T121500
+SUMMARY:INTERNAL MEDICINE (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000126\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: GAMBA
+ SSI GIOVANNI\nSource date: 14/01/2027\nBuilding: Giovanni XXIII\nRoom: 2
+ \nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/le
+ zioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspende
+ d: no\nExercise: no\n\nEntries are NOT erased as days pass. Past entries
+  remain in place indefinitely for future audit. Corrections and cancella
+ tions retain event identity\; no rolling date cutoff is permitted for th
+ is or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121921777@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083254Z
+SEQUENCE:2
+DTSTART;TZID=Europe/Rome:20270115T083000
+DTEND;TZID=Europe/Rome:20270115T100000
+SUMMARY:FIRST AID (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000127\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: DI GR
+ AVIO VALENTINA\nSource date: 15/01/2027\nBuilding: Giovanni XXIII\nRoom:
+  2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/
+ lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspen
+ ded: no\nExercise: no\n\nCalendar reliability note: tentative because on
+ e valid upstream snapshot omitted this future event\; awaiting confirmat
+ ion.\n\nCalendar reliability note: cancelled after two consecutive valid
+  upstream snapshots omitted this future event.\n\nEntries are NOT erased
+  as days pass. Past entries remain in place indefinitely for future audi
+ t. Corrections and cancellations retain event identity\; no rolling date
+  cutoff is permitted for this or any future station.
+STATUS:CANCELLED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-122162441@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20270115T100000
+DTEND;TZID=Europe/Rome:20270115T104500
+SUMMARY:EMERGING TECHNOLOGIES IN MEDICINE
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: AS000009\nTeacher: CIASCA GABRIELE\nSource date:
+  15/01/2027\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 00:45\nSource:
+  https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesso
+ n\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no\n\nEnt
+ ries are NOT erased as days pass. Past entries remain in place indefinit
+ ely for future audit. Corrections and cancellations retain event identit
+ y\; no rolling date cutoff is permitted for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121921086@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20270118T083000
+DTEND;TZID=Europe/Rome:20270118T100000
+SUMMARY:PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000125\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: PANI 
+ GIOVAMBATTISTA\nSource date: 18/01/2027\nBuilding: Giovanni XXIII\nRoom:
+  2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/
+ lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspen
+ ded: no\nExercise: no\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121840974@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20270118T104500
+DTEND;TZID=Europe/Rome:20270118T130000
+SUMMARY:THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000319\nIntegrated course code: MR000044\nInte
+ grated course: THEOLOGY 3: INTRODUCTION TO ETHICS AND CHRISTIAN ETHICS\n
+ Teacher: CHOI HA NA\nSource date: 18/01/2027\nBuilding: Giovanni XXIII\n
+ Room: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb
+ 2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nS
+ uspended: no\nExercise: no\n\nEntries are NOT erased as days pass. Past 
+ entries remain in place indefinitely for future audit. Corrections and c
+ ancellations retain event identity\; no rolling date cutoff is permitted
+  for this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121921097@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20270119T104500
+DTEND;TZID=Europe/Rome:20270119T121500
+SUMMARY:PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000125\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: PANI 
+ GIOVAMBATTISTA\nSource date: 19/01/2027\nBuilding: Giovanni XXIII\nRoom:
+  2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/
+ lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspen
+ ded: no\nExercise: no\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121921067@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20270120T083000
+DTEND;TZID=Europe/Rome:20270120T100000
+SUMMARY:PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000125\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: PANI 
+ GIOVAMBATTISTA\nSource date: 20/01/2027\nBuilding: Giovanni XXIII\nRoom:
+  2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/
+ lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspen
+ ded: no\nExercise: no\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121921104@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083223Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Rome:20270121T083000
+DTEND;TZID=Europe/Rome:20270121T100000
+SUMMARY:PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000125\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: PANI 
+ GIOVAMBATTISTA\nSource date: 21/01/2027\nBuilding: Giovanni XXIII\nRoom:
+  2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/
+ lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspen
+ ded: no\nExercise: no\n\nEntries are NOT erased as days pass. Past entri
+ es remain in place indefinitely for future audit. Corrections and cancel
+ lations retain event identity\; no rolling date cutoff is permitted for 
+ this or any future station.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:unicatt-lesson-occurrence-121921781@codex
+DTSTAMP:20261027T083257Z
+LAST-MODIFIED:20261027T083254Z
+SEQUENCE:2
+DTSTART;TZID=Europe/Rome:20270122T083000
+DTEND;TZID=Europe/Rome:20270122T100000
+SUMMARY:FIRST AID (MECHANISMS AND MANIFESTATIONS OF DISEASES)
+LOCATION:Giovanni XXIII - 2
+DESCRIPTION:Course code: MR000127\nIntegrated course code: MR000015\nInte
+ grated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: DI GR
+ AVIO VALENTINA\nSource date: 22/01/2027\nBuilding: Giovanni XXIII\nRoom:
+  2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/
+ lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspen
+ ded: no\nExercise: no\n\nCalendar reliability note: tentative because on
+ e valid upstream snapshot omitted this future event\; awaiting confirmat
+ ion.\n\nCalendar reliability note: cancelled after two consecutive valid
+  upstream snapshots omitted this future event.\n\nEntries are NOT erased
+  as days pass. Past entries remain in place indefinitely for future audi
+ t. Corrections and cancellations retain event identity\; no rolling date
+  cutoff is permitted for this or any future station.
+STATUS:CANCELLED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
