@@ -1,9 +1,9 @@
 {
   "feed_id": "year3-lessons",
   "calendar_name": "UCSC Rome Medicine Year 3 Lessons",
-  "generated_at_utc": "2026-10-27T08:32:54+00:00",
-  "last_successful_fetch_at_utc": "2026-10-27T08:32:54+00:00",
-  "last_publication_at_utc": "2026-10-27T08:32:54+00:00",
+  "generated_at_utc": "2026-10-27T08:46:45+00:00",
+  "last_successful_fetch_at_utc": "2026-10-27T08:46:45+00:00",
+  "last_publication_at_utc": "2026-10-27T08:46:45+00:00",
   "generated_age_seconds": 0,
   "event_count": 129,
   "cancelled_count": 4,
@@ -30,7 +30,7 @@
   ],
   "source_snapshot_hash": "8c71d3e9d0eca979a7a96a42b1af0d4afcb93758c05d9ba704bf25c8b4d73ec7",
   "last_published_source_snapshot_hash": "8c71d3e9d0eca979a7a96a42b1af0d4afcb93758c05d9ba704bf25c8b4d73ec7",
-  "content_hash": "3e12723568c577af2e009b72d64d0c67622495de56826049130da3081c7ac4e1",
+  "content_hash": "ef82832f00c1991da5b0e4ed757bac3a034d4ea29715108f6871e5218feddcfa",
   "publication_mode": "github-pages-static",
   "dynamic_refresh": "GitHub Actions poller; no Vercel Blob dependency",
   "health": "healthy",
@@ -38,28 +38,7 @@
   "stale": false,
   "consecutive_failures": 0,
   "last_error": null,
-  "alerts": [
-    {
-      "type": "confirmed_cancellation",
-      "uid": "unicatt-lesson-occurrence-121921777@codex",
-      "summary": "FIRST AID (MECHANISMS AND MANIFESTATIONS OF DISEASES)"
-    },
-    {
-      "type": "confirmed_cancellation",
-      "uid": "unicatt-lesson-occurrence-121921781@codex",
-      "summary": "FIRST AID (MECHANISMS AND MANIFESTATIONS OF DISEASES)"
-    },
-    {
-      "type": "confirmed_cancellation",
-      "uid": "unicatt-lesson-occurrence-121871194@codex",
-      "summary": "GENERAL PHARMACOLOGY (APPROACH TO DIAGNOSIS AND TREATMENT)"
-    },
-    {
-      "type": "confirmed_cancellation",
-      "uid": "unicatt-lesson-occurrence-121921854@codex",
-      "summary": "FIRST AID (MECHANISMS AND MANIFESTATIONS OF DISEASES)"
-    }
-  ],
+  "alerts": [],
   "retention_policy": "Entries are NOT erased as days pass. Past entries remain in place indefinitely for future audit. Corrections and cancellations retain event identity; no rolling date cutoff is permitted for this or any future station.",
   "events": [
     {
