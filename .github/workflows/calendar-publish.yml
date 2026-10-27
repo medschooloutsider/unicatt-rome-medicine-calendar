@@ -24,7 +24,7 @@ jobs:
           CALENDAR_ALERT_TELEGRAM_BOT_TOKEN: ${{ secrets.CALENDAR_ALERT_TELEGRAM_BOT_TOKEN }}
           CALENDAR_ALERT_TELEGRAM_CHAT_ID: ${{ secrets.CALENDAR_ALERT_TELEGRAM_CHAT_ID }}
         run: |
-          python3 -m medical_curriculum_tooling.calendar_reliability.pipeline run --root . --public public --state state --bootstrap public --no-alerts
+          python3 -m medical_curriculum_tooling.calendar_reliability.pipeline run --root . --public public --state state --bootstrap public
           python3 -m medical_curriculum_tooling.calendar_reliability.pipeline verify --root . --public public --state state
           python3 -m medical_curriculum_tooling.calendar_reliability.pipeline watchdog --root . --public public --state state
       - name: Upload GitHub Pages artifact
