@@ -1,0 +1,37 @@
+name: Monitor UCSC calendar publication
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/15 * * * *"
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  sentinel:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify public feeds
+        id: verify
+        run: python3 medical_curriculum_tooling/calendar_reliability/check_public_calendar.py
+      - name: Open the durable alert issue
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          issue_number="$(gh issue list --state open --search '[Calendar Alert] UCSC publication' --json number --jq '.[0].number // empty')"
+          if [ -z "$issue_number" ]; then
+            gh issue create --title "[Calendar Alert] UCSC publication" --body "The independent public-feed sentinel failed. Inspect the failed workflow run and the JSON diagnostics in its logs. Keep this issue open until a successful sentinel run confirms recovery."
+          fi
+      - name: Close the durable alert issue after recovery
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          issue_number="$(gh issue list --state open --search '[Calendar Alert] UCSC publication' --json number --jq '.[0].number // empty')"
+          if [ -n "$issue_number" ]; then
+            gh issue close "$issue_number" --comment "Independent sentinel recovered: public feed health, freshness, hashes, and UID parity passed."
+          fi
