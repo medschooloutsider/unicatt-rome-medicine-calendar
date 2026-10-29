@@ -27,6 +27,7 @@ SCHEMA_VERSION = 1
 MAX_SENT_RECEIPTS = 500
 DEFAULT_RETRIES = 3
 DEFAULT_RECEIPT = Path("alerts/telegram-delivery.json")
+DEFAULT_API_BASE = "https://api.telegram.org"
 
 
 def utc_now() -> datetime:
@@ -137,9 +138,10 @@ def _post_message(
     message: str,
     *,
     opener: Callable[..., Any] = urlopen,
+    api_base: str = DEFAULT_API_BASE,
 ) -> int:
     request = Request(
-        f"https://api.telegram.org/bot{token}/sendMessage",
+        f"{api_base.rstrip('/')}/bot{token}/sendMessage",
         data=urlencode(
             {
                 "chat_id": chat_id,
@@ -154,6 +156,7 @@ def _post_message(
         with opener(request, timeout=20) as response:
             payload = json.loads(response.read().decode("utf-8"))
     except HTTPError as exc:
+        exc.close()
         raise RuntimeError(f"telegram_http_{exc.code}") from exc
     except (URLError, TimeoutError, OSError) as exc:
         raise RuntimeError(f"telegram_transport_{type(exc).__name__}") from exc
@@ -177,6 +180,7 @@ def notify_alert(
     opener: Callable[..., Any] = urlopen,
     sleep: Callable[[float], None] = time.sleep,
     retries: int = DEFAULT_RETRIES,
+    api_base: str = DEFAULT_API_BASE,
 ) -> dict[str, Any]:
     """Deliver one event, deduplicating successful fingerprints."""
     event = dict(event)
@@ -203,7 +207,7 @@ def notify_alert(
     last_error = "telegram_delivery_failed"
     for attempt in range(1, attempts + 1):
         try:
-            message_id = _post_message(token, chat_id, message, opener=opener)
+            message_id = _post_message(token, chat_id, message, opener=opener, api_base=api_base)
             ledger.setdefault("sent", {})[fingerprint] = {
                 "sent_at_utc": iso(utc_now()),
                 "message_id": message_id,
