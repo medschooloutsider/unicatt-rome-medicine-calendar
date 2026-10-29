@@ -3,7 +3,8 @@ name: Monitor UCSC calendar publication
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/15 * * * *"
+    # Run between publisher slots so freshness failures are noticed promptly.
+    - cron: "12,27,42,57 * * * *"
 
 permissions:
   contents: read
@@ -12,6 +13,7 @@ permissions:
 jobs:
   sentinel:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
       - name: Verify public feeds
