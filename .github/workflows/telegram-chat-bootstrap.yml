@@ -1,0 +1,21 @@
+name: Bootstrap UCSC Telegram chat binding
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Find the private chat that started the bot
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.CALENDAR_ALERT_TELEGRAM_BOT_TOKEN }}
+        run: |
+          set -euo pipefail
+          response="$(curl --fail --silent --show-error --max-time 20 "https://api.telegram.org/bot${TELEGRAM_TOKEN}/getUpdates?limit=100")"
+          chat_id="$(printf '%s' "$response" | python3 -c 'import json, sys; data=json.load(sys.stdin); ids=[str(message["chat"]["id"]) for update in data.get("result", []) for message in [update.get("message", {})] if message.get("text") == "/start" and message.get("chat", {}).get("type") == "private"]; print(ids[-1] if ids else "")')"
+          test -n "$chat_id"
+          printf 'CHAT_ID=%s\n' "$chat_id"
