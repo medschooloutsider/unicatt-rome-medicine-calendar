@@ -48,6 +48,21 @@ The old Vercel URL remains a rollback copy until the new URL has passed the
 side-by-side check. The Apple Calendar subscription is not changed by this
 bundle.
 
+## Telegram setup and proof
+
+Create a private BotFather bot, send it `/start` once, and add the resulting
+`CALENDAR_ALERT_TELEGRAM_BOT_TOKEN` and `CALENDAR_ALERT_TELEGRAM_CHAT_ID` as
+GitHub repository secrets. Never commit either value. The publisher and
+sentinel notify only on notable transitions; successful fingerprints are
+deduplicated in `alerts/telegram-delivery.json`. The weekly
+`calendar-telegram-canary.yml` sends a fingerprinted heartbeat and opens a
+durable GitHub issue if the secrets are missing or the Bot API rejects delivery.
+
+The live canary is intentionally fail-closed until both secrets exist. A
+successful setup proof requires a Bot API `ok=true` response with a
+`message_id`, a visible heartbeat in the target chat, a synthetic failure and
+recovery drill, duplicate suppression, and a negative invalid-token test.
+
 ## Local proof
 
 Run the focused suite from the LM41 hub root (stdlib only; no pytest install is required):
