@@ -1,0 +1,13 @@
+{
+  "failures": {
+    "heartbeat-2026-W44": {
+      "feed_id": "all",
+      "observed_at_utc": "2026-10-29T16:49:10+00:00",
+      "status": "not_configured",
+      "type": "heartbeat"
+    }
+  },
+  "sent": {},
+  "updated_at_utc": "2026-10-29T16:49:10+00:00",
+  "version": 1
+}
