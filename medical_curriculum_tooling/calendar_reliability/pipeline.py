@@ -36,6 +36,11 @@ try:
 except ModuleNotFoundError:  # Standalone publication bundle execution.
     import unicatt_calendar_broadcast as source  # type: ignore[no-redef]
 
+try:
+    from .telegram_notifier import notify_alert
+except ImportError:  # Standalone publication bundle execution.
+    from telegram_notifier import notify_alert  # type: ignore[no-redef]
+
 
 STATE_VERSION = 1
 DEFAULT_MAX_SOURCE_AGE_SECONDS = 30 * 60
@@ -516,23 +521,13 @@ def record_alert(paths: PipelinePaths, feed_id: str, alert: dict[str, Any], now:
     digest = sha256_text(canonical_json(payload))[:16]
     atomic_write_json(paths.alerts / f"{iso(now).replace(':', '').replace('+00:00', 'Z')}-{feed_id}-{digest}.json", payload)
     atomic_write_json(paths.alerts / "latest.json", payload)
-    token = os.environ.get("CALENDAR_ALERT_TELEGRAM_BOT_TOKEN")
-    chat_id = os.environ.get("CALENDAR_ALERT_TELEGRAM_CHAT_ID")
-    if token and chat_id:
-        message = f"UCSC calendar alert [{feed_id}] {alert.get('type')}: {alert.get('summary', alert.get('message', ''))}"
-        try:
-            request = Request(
-                f"https://api.telegram.org/bot{token}/sendMessage",
-                data=urlencode({"chat_id": chat_id, "text": message}).encode("utf-8"),
-                headers={"Content-Type": "application/x-www-form-urlencoded"},
-                method="POST",
-            )
-            with urlopen(request, timeout=10):
-                pass
-        except Exception:
-            # Alerts must not make a valid calendar publication fail. The JSON
-            # alert remains the durable, provider-free receipt.
-            pass
+    try:
+        notify_alert(payload, paths.alerts / "telegram-delivery.json")
+    except Exception as exc:  # noqa: BLE001 - alerts must never break publication.
+        atomic_write_json(
+            paths.alerts / "telegram-notifier-error.json",
+            {"observed_at_utc": iso(now), "type": type(exc).__name__, "message": str(exc)},
+        )
     if os.environ.get("CALENDAR_ENABLE_NATIVE_ALERTS") == "1" and platform.system() == "Darwin":
         message = f"UCSC calendar alert [{feed_id}] {alert.get('type')}: {alert.get('summary', alert.get('message', ''))}"
         try:
