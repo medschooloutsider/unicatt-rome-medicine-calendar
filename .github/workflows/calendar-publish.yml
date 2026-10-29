@@ -3,7 +3,8 @@ name: Publish UCSC calendar feeds
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/15 * * * *"
+    # Offset from the top of the hour to reduce GitHub scheduler contention.
+    - cron: "7,22,37,52 * * * *"
 
 permissions:
   contents: write
@@ -17,6 +18,7 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
       - name: Poll, publish, and verify
@@ -41,6 +43,7 @@ jobs:
   deploy-pages:
     needs: publish
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     permissions:
       pages: write
       id-token: write
