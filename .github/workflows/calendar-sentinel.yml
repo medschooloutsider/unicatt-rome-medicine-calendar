@@ -3,37 +3,73 @@ name: Monitor UCSC calendar publication
 on:
   workflow_dispatch:
   schedule:
-    # Run between publisher slots so freshness failures are noticed promptly.
     - cron: "12,27,42,57 * * * *"
 
 permissions:
-  contents: read
+  contents: write
   issues: write
+
+concurrency:
+  group: ucsc-calendar-state
+  cancel-in-progress: false
 
 jobs:
   sentinel:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
       - name: Verify public feeds
         id: verify
-        run: python3 medical_curriculum_tooling/calendar_reliability/check_public_calendar.py
-      - name: Open the durable alert issue
-        if: failure()
+        continue-on-error: true
+        run: |
+          set +e
+          python3 medical_curriculum_tooling/calendar_reliability/check_public_calendar.py > sentinel-result.json
+          exit_code=$?
+          cat sentinel-result.json
+          echo "exit_code=$exit_code" >> "$GITHUB_OUTPUT"
+          if [ "$exit_code" -eq 0 ]; then echo "ok=true" >> "$GITHUB_OUTPUT"; else echo "ok=false" >> "$GITHUB_OUTPUT"; fi
+          exit 0
+      - name: Open and notify the durable alert issue
+        if: steps.verify.outputs.ok != 'true'
         env:
           GH_TOKEN: ${{ github.token }}
+          CALENDAR_ALERT_TELEGRAM_BOT_TOKEN: ${{ secrets.CALENDAR_ALERT_TELEGRAM_BOT_TOKEN }}
+          CALENDAR_ALERT_TELEGRAM_CHAT_ID: ${{ secrets.CALENDAR_ALERT_TELEGRAM_CHAT_ID }}
         run: |
+          set +e
           issue_number="$(gh issue list --state open --search '[Calendar Alert] UCSC publication' --json number --jq '.[0].number // empty')"
+          created=0
           if [ -z "$issue_number" ]; then
-            gh issue create --title "[Calendar Alert] UCSC publication" --body "The independent public-feed sentinel failed. Inspect the failed workflow run and the JSON diagnostics in its logs. Keep this issue open until a successful sentinel run confirms recovery."
+            issue_number="$(gh issue create --title "[Calendar Alert] UCSC publication" --body "The independent public-feed sentinel failed. Inspect workflow run $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID and its JSON diagnostics. Keep this issue open until a successful sentinel run confirms recovery." --json number --jq '.number')"
+            created=1
           fi
+          result="$(python3 -m medical_curriculum_tooling.calendar_reliability.telegram_notifier --event-type watchdog_failure --feed-id all --summary "Public calendar sentinel failed" --message "Inspect GitHub issue #$issue_number and workflow run $GITHUB_RUN_ID." --fingerprint "sentinel-issue-$issue_number" --receipt alerts/telegram-delivery.json)"
+          status="$(printf '%s' "$result" | python3 -c 'import json,sys; print(json.load(sys.stdin).get("status", "unknown"))')"
+          if [ "$created" -eq 1 ] || [ "$status" = "failed" ] || [ "$status" = "not_configured" ]; then gh issue comment "$issue_number" --body "Telegram delivery status: `$status`. The issue remains the durable fallback." >/dev/null; fi
+          printf '%s\n' "$result"
       - name: Close the durable alert issue after recovery
-        if: success()
+        if: steps.verify.outputs.ok == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
+          CALENDAR_ALERT_TELEGRAM_BOT_TOKEN: ${{ secrets.CALENDAR_ALERT_TELEGRAM_BOT_TOKEN }}
+          CALENDAR_ALERT_TELEGRAM_CHAT_ID: ${{ secrets.CALENDAR_ALERT_TELEGRAM_CHAT_ID }}
         run: |
+          set +e
           issue_number="$(gh issue list --state open --search '[Calendar Alert] UCSC publication' --json number --jq '.[0].number // empty')"
           if [ -n "$issue_number" ]; then
-            gh issue close "$issue_number" --comment "Independent sentinel recovered: public feed health, freshness, hashes, and UID parity passed."
+            result="$(python3 -m medical_curriculum_tooling.calendar_reliability.telegram_notifier --event-type publication_recovered --feed-id all --summary "Public calendar recovered" --message "Public feed health, freshness, hashes, and UID parity passed." --fingerprint "sentinel-issue-$issue_number-recovered" --receipt alerts/telegram-delivery.json)"
+            status="$(printf '%s' "$result" | python3 -c 'import json,sys; print(json.load(sys.stdin).get("status", "unknown"))')"
+            printf '%s\n' "$result"
+            if [ "$status" = "sent" ] || [ "$status" = "duplicate" ] || [ "$status" = "not_configured" ]; then gh issue close "$issue_number" --comment "Independent sentinel recovered: public feed health, freshness, hashes, and UID parity passed. Telegram delivery status: `$status`." >/dev/null; else gh issue comment "$issue_number" --body "Public feeds recovered, but Telegram recovery delivery failed; leaving this issue open for retry." >/dev/null; fi
           fi
+      - name: Commit Telegram delivery receipt
+        if: always()
+        run: |
+          git config user.name "calendar-pipeline[bot]"
+          git config user.email "calendar-pipeline[bot]@users.noreply.github.com"
+          git add alerts
+          git diff --cached --quiet || git commit -m "Record UCSC calendar alert delivery"
+          git push
+      - name: Preserve sentinel failure state
+        if: steps.verify.outputs.ok != 'true'
+        run: exit 1
