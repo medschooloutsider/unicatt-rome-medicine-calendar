@@ -1,0 +1,56 @@
+name: Verify UCSC Telegram alert delivery
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 6 * * 1"
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: ucsc-calendar-state
+  cancel-in-progress: false
+
+jobs:
+  canary:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Send weekly Telegram heartbeat
+        env:
+          CALENDAR_ALERT_TELEGRAM_BOT_TOKEN: ${{ secrets.CALENDAR_ALERT_TELEGRAM_BOT_TOKEN }}
+          CALENDAR_ALERT_TELEGRAM_CHAT_ID: ${{ secrets.CALENDAR_ALERT_TELEGRAM_CHAT_ID }}
+        run: |
+          week="$(date -u +%G-W%V)"
+          python3 -m medical_curriculum_tooling.calendar_reliability.telegram_notifier \
+            --event-type heartbeat \
+            --feed-id all \
+            --summary "Weekly Telegram delivery heartbeat" \
+            --message "Telegram Bot API accepted the UCSC calendar monitor heartbeat." \
+            --fingerprint "heartbeat-$week" \
+            --receipt alerts/telegram-delivery.json \
+            --require-config
+      - name: Close Telegram alert issue after recovery
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          issue_number="$(gh issue list --state open --search '[Calendar Alert] Telegram delivery' --json number --jq '.[0].number // empty')"
+          if [ -n "$issue_number" ]; then gh issue close "$issue_number" --comment "Telegram heartbeat recovered and was accepted by the Bot API." >/dev/null; fi
+      - name: Commit Telegram delivery receipt
+        if: always()
+        run: |
+          git config user.name "calendar-pipeline[bot]"
+          git config user.email "calendar-pipeline[bot]@users.noreply.github.com"
+          git add alerts
+          git diff --cached --quiet || git commit -m "Record UCSC Telegram heartbeat"
+          git push
+      - name: Open Telegram delivery issue on failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          issue_number="$(gh issue list --state open --search '[Calendar Alert] Telegram delivery' --json number --jq '.[0].number // empty')"
+          if [ -z "$issue_number" ]; then gh issue create --title "[Calendar Alert] Telegram delivery" --body "The weekly Telegram heartbeat failed. Check workflow run $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID and the alert delivery receipt." >/dev/null; fi
