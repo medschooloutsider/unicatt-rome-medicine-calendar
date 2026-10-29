@@ -21,6 +21,8 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
+      - name: Run reliability tests
+        run: python3 -m unittest discover -s medical_curriculum_tooling/calendar_reliability/tests -p 'test_*.py' -v
       - name: Poll, publish, and verify
         env:
           CALENDAR_ALERT_TELEGRAM_BOT_TOKEN: ${{ secrets.CALENDAR_ALERT_TELEGRAM_BOT_TOKEN }}
