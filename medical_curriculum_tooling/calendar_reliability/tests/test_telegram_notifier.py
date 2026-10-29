@@ -5,7 +5,9 @@ from __future__ import annotations
 import json
 import tempfile
 import unittest
+from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
+from threading import Thread
 
 from medical_curriculum_tooling.calendar_reliability import telegram_notifier
 
@@ -91,6 +93,50 @@ class TelegramNotifierTests(unittest.TestCase):
                 chat_id="",
             )
             self.assertEqual(result["status"], "not_configured")
+
+    def test_real_local_http_transport_retries_and_records_message_id(self):
+        class Handler(BaseHTTPRequestHandler):
+            attempts = 0
+            bodies = []
+
+            def do_POST(self):  # noqa: N802 - stdlib handler API.
+                Handler.attempts += 1
+                length = int(self.headers.get("Content-Length", "0"))
+                Handler.bodies.append(self.rfile.read(length).decode("utf-8"))
+                if Handler.attempts == 1:
+                    self.send_response(500)
+                    payload = {"ok": False, "error_code": 500}
+                else:
+                    self.send_response(200)
+                    payload = {"ok": True, "result": {"message_id": 77}}
+                self.send_header("Content-Type", "application/json")
+                self.end_headers()
+                self.wfile.write(json.dumps(payload).encode("utf-8"))
+
+            def log_message(self, *_args):
+                return
+
+        server = ThreadingHTTPServer(("127.0.0.1", 0), Handler)
+        thread = Thread(target=server.serve_forever, daemon=True)
+        thread.start()
+        try:
+            with tempfile.TemporaryDirectory() as directory:
+                result = telegram_notifier.notify_alert(
+                    {"type": "heartbeat", "feed_id": "all", "fingerprint": "http-transport-test"},
+                    Path(directory) / "ledger.json",
+                    token="token",
+                    chat_id="123",
+                    sleep=lambda _seconds: None,
+                    api_base=f"http://127.0.0.1:{server.server_port}",
+                )
+                self.assertEqual(result["status"], "sent")
+                self.assertEqual(result["message_id"], 77)
+                self.assertEqual(Handler.attempts, 2)
+                self.assertTrue(any("chat_id=123" in body for body in Handler.bodies))
+        finally:
+            server.shutdown()
+            server.server_close()
+            thread.join(timeout=2)
 
 
 if __name__ == "__main__":
