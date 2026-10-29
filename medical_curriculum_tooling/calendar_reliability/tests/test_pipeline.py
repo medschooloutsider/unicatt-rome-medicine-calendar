@@ -4,10 +4,12 @@ from __future__ import annotations
 
 import copy
 import json
+import os
 import tempfile
 import unittest
 from datetime import UTC, datetime, timedelta
 from pathlib import Path
+from unittest import mock
 
 from medical_curriculum_tooling import unicatt_calendar_broadcast as source
 from medical_curriculum_tooling.calendar_reliability import pipeline
@@ -58,6 +60,98 @@ def run(temp: Path, rows: list[dict] | Exception, now: datetime = NOW):
 
 
 class CalendarPipelineTests(unittest.TestCase):
+    def test_remote_watchdog_accepts_matching_hosted_publication(self):
+      with tempfile.TemporaryDirectory() as directory:
+        paths, result = run(Path(directory), [lesson("keep", "01/11/2026")])
+        self.assertTrue(result["ok"])
+        ics_path, status_path = pipeline.feed_public_paths(paths, "year3-lessons")
+        payloads = {
+            "https://example.test/unicatt/rome/medicine/year3-lessons-status.json": status_path.read_bytes(),
+            "https://example.test/unicatt/rome/medicine/year3-lessons.ics": ics_path.read_bytes(),
+        }
+
+        class Response:
+            def __init__(self, body: bytes):
+                self.body = body
+            def __enter__(self):
+                return self
+            def __exit__(self, *_args):
+                return False
+            def read(self):
+                return self.body
+
+        def opener(request, timeout):
+            self.assertEqual(timeout, 20)
+            return Response(payloads[request.full_url])
+
+        checked = pipeline.remote_watchdog(
+            "https://example.test",
+            now=NOW,
+            max_publication_age_seconds=3600,
+            feed_ids=["year3-lessons"],
+            opener=opener,
+            sync_paths=paths,
+        )
+        self.assertTrue(checked["ok"])
+        self.assertEqual(checked["feeds"]["year3-lessons"]["event_count"], 1)
+        self.assertEqual(ics_path.read_bytes(), payloads["https://example.test/unicatt/rome/medicine/year3-lessons.ics"])
+
+    def test_remote_watchdog_rejects_status_ics_uid_mismatch(self):
+      with tempfile.TemporaryDirectory() as directory:
+        paths, result = run(Path(directory), [lesson("keep", "01/11/2026")])
+        self.assertTrue(result["ok"])
+        ics_path, status_path = pipeline.feed_public_paths(paths, "year3-lessons")
+        status = json.loads(status_path.read_text(encoding="utf-8"))
+        status["events"] = []
+        payloads = {
+            "https://example.test/unicatt/rome/medicine/year3-lessons-status.json": json.dumps(status).encode(),
+            "https://example.test/unicatt/rome/medicine/year3-lessons.ics": ics_path.read_bytes(),
+        }
+
+        class Response:
+            def __init__(self, body: bytes):
+                self.body = body
+            def __enter__(self):
+                return self
+            def __exit__(self, *_args):
+                return False
+            def read(self):
+                return self.body
+
+        def opener(request, timeout):
+            return Response(payloads[request.full_url])
+
+        checked = pipeline.remote_watchdog(
+            "https://example.test",
+            now=NOW,
+            max_publication_age_seconds=3600,
+            feed_ids=["year3-lessons"],
+            opener=opener,
+        )
+        self.assertFalse(checked["ok"])
+        self.assertIn("year3-lessons: hosted status/ICS UID mismatch", checked["failures"])
+
+    def test_atomic_write_skips_identical_text(self):
+      with tempfile.TemporaryDirectory() as directory:
+        path = Path(directory) / "unchanged.txt"
+        path.write_bytes(b"same\n")
+        before = path.stat()
+        with mock.patch.object(pipeline.os, "replace") as replace:
+            pipeline.atomic_write_text(path, "same\n")
+        self.assertFalse(replace.called)
+        self.assertEqual(path.read_bytes(), b"same\n")
+        self.assertEqual(path.stat().st_ino, before.st_ino)
+        self.assertEqual([item.name for item in Path(directory).iterdir()], ["unchanged.txt"])
+
+    def test_atomic_write_replaces_changed_text(self):
+      with tempfile.TemporaryDirectory() as directory:
+        path = Path(directory) / "changed.txt"
+        path.write_bytes(b"old\n")
+        with mock.patch.object(pipeline.os, "replace", wraps=os.replace) as replace:
+            pipeline.atomic_write_text(path, "new\n")
+        self.assertTrue(replace.called)
+        self.assertEqual(path.read_bytes(), b"new\n")
+
     def test_success_publishes_primary_and_backup_with_matching_hashes(self):
       with tempfile.TemporaryDirectory() as directory:
         paths, result = run(Path(directory), [lesson("keep", "01/11/2026"), lesson("drop", "02/11/2026")])
@@ -70,6 +164,32 @@ class CalendarPipelineTests(unittest.TestCase):
         self.assertTrue(status["healthy"])
         self.assertEqual(status["event_count"], 2)
         self.assertEqual(status["content_hash"], pipeline.sha256_text(primary_ics.read_bytes().decode("utf-8")))
+
+    def test_publication_and_aggregate_freshness_leases_are_written(self):
+      with tempfile.TemporaryDirectory() as directory:
+        root = Path(directory)
+        paths = pipeline.PipelinePaths.from_root(root, backup=root / "backup")
+        result = pipeline.run_all(
+            paths,
+            feeds=["year3-lessons"],
+            now=NOW,
+            fetcher=fetcher_for([lesson("keep", "01/11/2026")]),
+            enable_alerts=False,
+        )
+        self.assertTrue(result["ok"])
+        _, status_path = pipeline.feed_public_paths(paths, "year3-lessons")
+        status = json.loads(status_path.read_text(encoding="utf-8"))
+        health = json.loads((paths.public / "health.json").read_text(encoding="utf-8"))
+        self.assertEqual(status["freshness_lease"]["issued_at_utc"], NOW.isoformat())
+        self.assertEqual(
+            status["freshness_lease"]["max_age_seconds"],
+            pipeline.DEFAULT_MAX_PUBLICATION_AGE_SECONDS,
+        )
+        self.assertEqual(
+            health["freshness_lease"]["expires_at_utc"],
+            status["freshness_lease"]["expires_at_utc"],
+        )
+        self.assertEqual(health["freshness_lease"]["feed_count"], 1)
 
     def test_one_valid_missing_snapshot_is_tentative_then_second_is_cancelled(self):
       with tempfile.TemporaryDirectory() as directory:
