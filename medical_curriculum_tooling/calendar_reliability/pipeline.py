@@ -40,6 +40,7 @@ except ModuleNotFoundError:  # Standalone publication bundle execution.
 STATE_VERSION = 1
 DEFAULT_MAX_SOURCE_AGE_SECONDS = 30 * 60
 DEFAULT_MAX_PUBLICATION_AGE_SECONDS = 45 * 60
+DEFAULT_PUBLIC_BASE_URL = "https://medschooloutsider.github.io/unicatt-rome-medicine-calendar"
 ALERT_DIRNAME = "alerts"
 STATE_DIRNAME = "state"
 PUBLIC_DIRNAME = "public"
@@ -98,6 +99,12 @@ def sha256_text(value: str) -> str:
 
 def atomic_write_text(path: Path, text: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
+    encoded = text.encode("utf-8")
+    try:
+        if path.read_bytes() == encoded:
+            return
+    except FileNotFoundError:
+        pass
     fd, temporary_name = tempfile.mkstemp(prefix=f".{path.name}.", dir=path.parent)
     temporary = Path(temporary_name)
     try:
@@ -441,12 +448,27 @@ def status_payload(
             age = max(0, int((now - datetime.fromisoformat(str(last_success))).total_seconds()))
         except ValueError:
             age = None
+    last_publication = state.get("last_publication_at_utc")
+    lease_expires = None
+    if last_publication:
+        try:
+            lease_expires = iso(
+                datetime.fromisoformat(str(last_publication))
+                + timedelta(seconds=DEFAULT_MAX_PUBLICATION_AGE_SECONDS)
+            )
+        except ValueError:
+            lease_expires = None
     return {
         "feed_id": feed_id,
         "calendar_name": source.FEED_SPECS[feed_id].calendar_name,
         "generated_at_utc": iso(now),
         "last_successful_fetch_at_utc": last_success,
         "last_publication_at_utc": state.get("last_publication_at_utc"),
+        "freshness_lease": {
+            "max_age_seconds": DEFAULT_MAX_PUBLICATION_AGE_SECONDS,
+            "issued_at_utc": last_publication,
+            "expires_at_utc": lease_expires,
+        },
         "generated_age_seconds": age,
         "event_count": len(rows),
         "cancelled_count": sum(1 for row in rows if row.get("status") == "CANCELLED"),
@@ -595,7 +617,14 @@ def run_feed(
         )
         publish_files(paths, feed_id, published.ics_text, status)
         state["last_publication_at_utc"] = iso(observed_dt)
-        status["last_publication_at_utc"] = iso(observed_dt)
+        status = status_payload(
+            feed_id,
+            state,
+            now=observed_dt,
+            source_counts=published.source_counts,
+            source_urls=published.source_urls,
+            source_payload=published.source_payload,
+        )
         for target_root in publication_targets(paths):
             ics_path = target_root / source.FEED_SPECS[feed_id].route_path.lstrip("/")
             atomic_write_json(ics_path.with_name(ics_path.name.replace(".ics", "-status.json")), status)
@@ -627,8 +656,26 @@ def run_all(
     fetcher: Callable[[str, dict[str, str]], Any] | None = None,
     enable_alerts: bool = True,
 ) -> dict[str, Any]:
-    results = [run_feed(feed_id, paths, now=now, fetcher=fetcher, enable_alerts=enable_alerts) for feed_id in feeds]
-    payload = {"ok": all(result["ok"] for result in results), "observed_at_utc": iso(now or utc_now()), "results": results}
+    selected_feeds = tuple(feeds)
+    results = [run_feed(feed_id, paths, now=now, fetcher=fetcher, enable_alerts=enable_alerts) for feed_id in selected_feeds]
+    observed = now or utc_now()
+    leases: list[str] = []
+    for feed_id in selected_feeds:
+        _, status_path = feed_public_paths(paths, feed_id)
+        status = read_json(status_path) or {}
+        expires = ((status.get("freshness_lease") or {}).get("expires_at_utc"))
+        if isinstance(expires, str):
+            leases.append(expires)
+    payload = {
+        "ok": all(result["ok"] for result in results),
+        "observed_at_utc": iso(observed),
+        "freshness_lease": {
+            "max_age_seconds": DEFAULT_MAX_PUBLICATION_AGE_SECONDS,
+            "expires_at_utc": min(leases) if leases else None,
+            "feed_count": len(selected_feeds),
+        },
+        "results": results,
+    }
     atomic_write_json(paths.public / "health.json", payload)
     return payload
 
@@ -663,6 +710,101 @@ def verify_publication(paths: PipelinePaths, feed_ids: Iterable[str] = FEED_IDS)
         if sorted(uids) != sorted(status_uids):
             errors.append(f"status/ICS UID mismatch: {feed_id}")
     return {"ok": not errors, "checked_feeds": checked, "errors": errors}
+
+
+def unfold_ics_lines(text: str) -> list[str]:
+    lines: list[str] = []
+    for line in text.splitlines():
+        if line.startswith((" ", "\t")) and lines:
+            lines[-1] += line[1:]
+        else:
+            lines.append(line)
+    return lines
+
+
+def remote_watchdog(
+    base_url: str = DEFAULT_PUBLIC_BASE_URL,
+    *,
+    now: datetime | None = None,
+    max_publication_age_seconds: int = DEFAULT_MAX_PUBLICATION_AGE_SECONDS,
+    feed_ids: Iterable[str] = FEED_IDS,
+    opener: Callable[..., Any] = urlopen,
+    sync_paths: PipelinePaths | None = None,
+) -> dict[str, Any]:
+    """Verify the hosted publication that Apple Calendar actually consumes."""
+    observed = now or utc_now()
+    base = base_url.rstrip("/")
+    selected_feeds = tuple(feed_ids)
+    failures: list[str] = []
+    details: dict[str, Any] = {}
+    remote_payloads: dict[str, tuple[dict[str, Any], str]] = {}
+
+    def fetch(url: str) -> bytes:
+        request = Request(url, headers={"Accept": "application/json, text/calendar", "User-Agent": "unicatt-calendar-backstop/1.0"})
+        with opener(request, timeout=20) as response:
+            return response.read()
+
+    for feed_id in feed_ids:
+        spec = source.FEED_SPECS[feed_id]
+        route = spec.route_path.lstrip("/")
+        status_url = f"{base}/{route.replace('.ics', '-status.json')}"
+        ics_url = f"{base}/{route}"
+        feed_details: dict[str, Any] = {"status_url": status_url, "ics_url": ics_url}
+        try:
+            status = json.loads(fetch(status_url).decode("utf-8"))
+            ics_text = fetch(ics_url).decode("utf-8")
+            remote_payloads[feed_id] = (status, ics_text)
+            generated = status.get("last_publication_at_utc") or status.get("generated_at_utc")
+            age_seconds = None
+            if generated:
+                age_seconds = int((observed - datetime.fromisoformat(str(generated))).total_seconds())
+            uids = [line[4:] for line in unfold_ics_lines(ics_text) if line.startswith("UID:")]
+            status_uids = [str(row.get("uid")) for row in status.get("events", []) if isinstance(row, dict) and row.get("uid")]
+            feed_details.update(
+                {
+                    "generated_at_utc": generated,
+                    "publication_age_seconds": age_seconds,
+                    "healthy": status.get("healthy"),
+                    "stale": status.get("stale"),
+                    "last_error": status.get("last_error"),
+                    "event_count": len(uids),
+                }
+            )
+            if status.get("healthy") is not True or status.get("stale") is True or status.get("last_error"):
+                failures.append(f"{feed_id}: hosted status unhealthy")
+            if age_seconds is None or age_seconds < 0 or age_seconds > max_publication_age_seconds:
+                failures.append(f"{feed_id}: hosted publication freshness")
+            if status.get("content_hash") != sha256_text(ics_text):
+                failures.append(f"{feed_id}: hosted content hash mismatch")
+            if len(uids) != len(set(uids)):
+                failures.append(f"{feed_id}: hosted duplicate UID")
+            if sorted(uids) != sorted(status_uids):
+                failures.append(f"{feed_id}: hosted status/ICS UID mismatch")
+        except Exception as exc:
+            feed_details["error"] = f"{type(exc).__name__}: {exc}"
+            failures.append(f"{feed_id}: hosted probe failed")
+        details[feed_id] = feed_details
+
+    if not failures and sync_paths is not None:
+        try:
+            for feed_id in selected_feeds:
+                status, ics_text = remote_payloads[feed_id]
+                publish_files(sync_paths, feed_id, ics_text, status)
+                recovered = state_from_status_payload(feed_id, status)
+                if recovered is not None:
+                    recovered["last_alerts"] = [{"type": "remote_publication_sync"}]
+                    save_state(sync_paths, recovered)
+            atomic_write_json(sync_paths.public / "remote-watchdog.json", {"ok": True, "checked_at_utc": iso(observed), "base_url": base, "feeds": list(selected_feeds)})
+        except Exception as exc:
+            failures.append(f"local remote mirror failed: {type(exc).__name__}: {exc}")
+
+    return {
+        "ok": not failures,
+        "checked_at_utc": iso(observed),
+        "base_url": base,
+        "failures": failures,
+        "feeds": details,
+    }
 
 
 def watchdog(
@@ -706,13 +848,16 @@ def watchdog(
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("command", choices=("run", "watchdog", "verify"), nargs="?", default="run")
+    parser.add_argument("command", choices=("run", "watchdog", "verify", "remote-watchdog"), nargs="?", default="run")
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parent)
     parser.add_argument("--public", type=Path)
     parser.add_argument("--state", type=Path)
     parser.add_argument("--bootstrap", type=Path)
     parser.add_argument("--backup", type=Path)
     parser.add_argument("--feed", action="append", dest="feeds")
+    parser.add_argument("--remote-base", default=DEFAULT_PUBLIC_BASE_URL)
+    parser.add_argument("--max-publication-age-seconds", type=int, default=DEFAULT_MAX_PUBLICATION_AGE_SECONDS)
+    parser.add_argument("--sync-local", action="store_true")
     parser.add_argument("--no-alerts", action="store_true")
     return parser.parse_args()
 
@@ -725,6 +870,13 @@ def main() -> int:
         payload = run_all(paths, feeds=feeds, enable_alerts=not args.no_alerts)
     elif args.command == "watchdog":
         payload = watchdog(paths, feed_ids=feeds)
+    elif args.command == "remote-watchdog":
+        payload = remote_watchdog(
+            args.remote_base,
+            feed_ids=feeds,
+            max_publication_age_seconds=args.max_publication_age_seconds,
+            sync_paths=paths if args.sync_local else None,
+        )
     else:
         payload = verify_publication(paths, feeds)
     print(json.dumps(payload, ensure_ascii=False, indent=2))
