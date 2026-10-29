@@ -17,16 +17,23 @@ ledger and health receipts alongside them.
 - Past events are never erased.
 - Every successful poll records the source snapshot hash, publication hash,
   last successful fetch, last publication, and event ledger.
-- The optional Telegram hook is best-effort only. JSON alert receipts are the
-  durable alert path; notifications cannot make a good publication fail.
+- If a state JSON is empty or corrupt, the next run reconstructs it from the
+  last verified public status before polling, so one transient filesystem
+  failure cannot suppress the publication.
+- Telegram delivery is an optional, secret-safe alert layer. Successful
+  fingerprints are deduplicated in `alerts/telegram-delivery.json`; transient
+  failures retry and are recorded without invalidating a good publication.
+  The sentinel uses the durable GitHub issue as its fallback and the weekly
+  canary proves that the Bot API accepts a heartbeat.
 
 ## Repository layout for cutover
 
 The destination GitHub repository must contain this module plus the existing
 normalizer files `medical_curriculum_tooling/unicatt_calendar_broadcast.py`
 and `medical_curriculum_tooling/tartu_y1_station_source.py`. Serve `public/`
-with GitHub Pages. Do not commit Telegram tokens; add them as repository
-secrets if desired. Public repositories use GitHub-hosted standard runners and
+with GitHub Pages. Do not commit Telegram tokens; add
+`CALENDAR_ALERT_TELEGRAM_BOT_TOKEN` and `CALENDAR_ALERT_TELEGRAM_CHAT_ID` as
+repository secrets. Public repositories use GitHub-hosted standard runners and
 GitHub Pages under GitHub Free within GitHub's documented limits.
 
 The workflow is stored here as a handoff template. In the destination
@@ -34,6 +41,9 @@ repository it must live at the repository-root path
 `.github/workflows/calendar-publish.yml`; the workflow commands already use
 the repository root and the `medical_curriculum_tooling` module path.
 
+The deployed replacement repository is
+`https://github.com/medschooloutsider/unicatt-rome-medicine-calendar` with
+Pages at `https://medschooloutsider.github.io/unicatt-rome-medicine-calendar/`.
 The old Vercel URL remains a rollback copy until the new URL has passed the
 side-by-side check. The Apple Calendar subscription is not changed by this
 bundle.
