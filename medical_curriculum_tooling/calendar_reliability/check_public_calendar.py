@@ -45,6 +45,23 @@ def check(base_url: str, max_age_seconds: int) -> dict[str, object]:
     failures: list[str] = []
     feeds: dict[str, object] = {}
     base = base_url.rstrip("/")
+    health_url = f"{base}/health.json"
+    try:
+        health = json.loads(fetch(health_url).decode("utf-8"))
+        if not isinstance(health, dict):
+            raise ValueError("health.json is not an object")
+        lease = health.get("freshness_lease")
+        expires_at = lease.get("expires_at_utc") if isinstance(lease, dict) else None
+        lease_expired = False
+        if expires_at:
+            lease_expired = datetime.fromisoformat(str(expires_at)) < observed
+        if health.get("ok") is not True:
+            failures.append("health.json: aggregate status is not ok")
+        if not expires_at or lease_expired:
+            failures.append("health.json: freshness lease expired or missing")
+    except Exception as exc:
+        health = {"error": f"{type(exc).__name__}: {exc}"}
+        failures.append(f"health.json: probe failed: {type(exc).__name__}: {exc}")
     for route in FEED_ROUTES:
         status_url = f"{base}/{route}-status.json"
         ics_url = f"{base}/{route}.ics"
@@ -70,7 +87,14 @@ def check(base_url: str, max_age_seconds: int) -> dict[str, object]:
         except Exception as exc:
             failures.append(f"{route}: probe failed: {type(exc).__name__}: {exc}")
             feeds[route] = {"error": f"{type(exc).__name__}: {exc}"}
-    return {"ok": not failures, "checked_at_utc": observed.isoformat(), "base_url": base, "failures": failures, "feeds": feeds}
+    return {
+        "ok": not failures,
+        "checked_at_utc": observed.isoformat(),
+        "base_url": base,
+        "failures": failures,
+        "health": health,
+        "feeds": feeds,
+    }
 
 
 def main() -> int:
