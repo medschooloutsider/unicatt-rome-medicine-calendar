@@ -1,6 +1,18 @@
 {
   "failures": {},
   "sent": {
+    "calendar-277798fe8dcc4abfc2da8601": {
+      "feed_id": "year3-lessons",
+      "message_id": 5,
+      "sent_at_utc": "2026-10-30T10:50:16+00:00",
+      "type": "possible_cancellation"
+    },
+    "calendar-292fddd54b11701f261ceb09": {
+      "feed_id": "year3-lessons",
+      "message_id": 6,
+      "sent_at_utc": "2026-10-30T10:50:16+00:00",
+      "type": "possible_cancellation"
+    },
     "heartbeat-2026-W44": {
       "feed_id": "all",
       "message_id": 3,
@@ -8,6 +20,6 @@
       "type": "heartbeat"
     }
   },
-  "updated_at_utc": "2026-10-29T17:20:54+00:00",
+  "updated_at_utc": "2026-10-30T10:50:16+00:00",
   "version": 1
 }

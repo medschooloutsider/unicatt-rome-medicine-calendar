@@ -1,20 +1,20 @@
 {
   "feed_id": "year3-lessons",
   "calendar_name": "UCSC Rome Medicine Year 3 Lessons",
-  "generated_at_utc": "2026-10-30T09:58:04+00:00",
-  "last_successful_fetch_at_utc": "2026-10-30T09:58:04+00:00",
-  "last_publication_at_utc": "2026-10-30T09:58:04+00:00",
+  "generated_at_utc": "2026-10-30T10:50:12+00:00",
+  "last_successful_fetch_at_utc": "2026-10-30T10:50:12+00:00",
+  "last_publication_at_utc": "2026-10-30T10:50:12+00:00",
   "freshness_lease": {
     "max_age_seconds": 2700,
-    "issued_at_utc": "2026-10-30T09:58:04+00:00",
-    "expires_at_utc": "2026-10-30T10:43:04+00:00"
+    "issued_at_utc": "2026-10-30T10:50:12+00:00",
+    "expires_at_utc": "2026-10-30T11:35:12+00:00"
   },
   "generated_age_seconds": 0,
-  "event_count": 129,
+  "event_count": 132,
   "cancelled_count": 4,
-  "tentative_count": 0,
+  "tentative_count": 2,
   "source_counts": {
-    "base_lessons": 77,
+    "base_lessons": 78,
     "room_changes": 8,
     "extra_lessons": 0,
     "suspensions": 1,
@@ -33,9 +33,9 @@
     "https://secure.unicatt.it/didatticaweb2/lezionistraordinarie/",
     "https://secure.unicatt.it/didatticaweb2/sospensioni/"
   ],
-  "source_snapshot_hash": "aba6c6780ecfd3005e87479bbbcbd0ebf29073272b40f9056015fc3bb1b4bbbb",
-  "last_published_source_snapshot_hash": "aba6c6780ecfd3005e87479bbbcbd0ebf29073272b40f9056015fc3bb1b4bbbb",
-  "content_hash": "4fe27dc3041284890150edb244e9c4c9eeb39264c5818ef828855eaf89f42b89",
+  "source_snapshot_hash": "4b5eca8daab4f8ad818de3246d1d52e49b99146793c46d37996d11625a0f344a",
+  "last_published_source_snapshot_hash": "4b5eca8daab4f8ad818de3246d1d52e49b99146793c46d37996d11625a0f344a",
+  "content_hash": "8d06887602cd0034496a4bf5e442607de2d0bcca46bb51e18eeb31387a8719f6",
   "publication_mode": "github-pages-static",
   "dynamic_refresh": "GitHub Actions poller; no Vercel Blob dependency",
   "health": "healthy",
@@ -43,7 +43,18 @@
   "stale": false,
   "consecutive_failures": 0,
   "last_error": null,
-  "alerts": [],
+  "alerts": [
+    {
+      "type": "possible_cancellation",
+      "uid": "unicatt-lesson-occurrence-122054170@codex",
+      "summary": "FIRST AID AND NURSING PRACTICE PROFESSIONAL TRAINING (MECHANISMS AND MANIFESTATIONS OF DISEASES)"
+    },
+    {
+      "type": "possible_cancellation",
+      "uid": "unicatt-lesson-occurrence-122054182@codex",
+      "summary": "FIRST AID AND NURSING PRACTICE PROFESSIONAL TRAINING (MECHANISMS AND MANIFESTATIONS OF DISEASES)"
+    }
+  ],
   "retention_policy": "Entries are NOT erased as days pass. Past entries remain in place indefinitely for future audit. Corrections and cancellations retain event identity; no rolling date cutoff is permitted for this or any future station.",
   "events": [
     {
@@ -1788,8 +1799,8 @@
       "start": "2026-11-03T14:15:00+01:00",
       "end": "2026-11-03T19:15:00+01:00",
       "location": "Policlinico - Gemelli Training Center",
-      "description": "Course code: MR000128\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SCAPIGLIATI ANDREA\nSource date: 03/11/2026\nBuilding: Policlinico\nRoom: Gemelli Training Center\nDuration: 05:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
-      "status": null,
+      "description": "Course code: MR000128\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SCAPIGLIATI ANDREA\nSource date: 03/11/2026\nBuilding: Policlinico\nRoom: Gemelli Training Center\nDuration: 05:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
+      "status": "TENTATIVE",
       "source_kind": "lesson",
       "source_record_id": "122054170",
       "source_date": "03/11/2026",
@@ -1810,8 +1821,8 @@
           "suspension": false
         }
       },
-      "sequence": 0,
-      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+      "sequence": 1,
+      "last_modified_utc": "2026-10-30T10:50:12+00:00"
     },
     {
       "uid": "unicatt-lesson-occurrence-121920317@codex",
@@ -2129,8 +2140,8 @@
       "start": "2026-11-09T14:15:00+01:00",
       "end": "2026-11-09T19:15:00+01:00",
       "location": "Policlinico - Gemelli Training Center",
-      "description": "Course code: MR000128\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SCAPIGLIATI ANDREA\nSource date: 09/11/2026\nBuilding: Policlinico\nRoom: Gemelli Training Center\nDuration: 05:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
-      "status": null,
+      "description": "Course code: MR000128\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SCAPIGLIATI ANDREA\nSource date: 09/11/2026\nBuilding: Policlinico\nRoom: Gemelli Training Center\nDuration: 05:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
+      "status": "TENTATIVE",
       "source_kind": "lesson",
       "source_record_id": "122054182",
       "source_date": "09/11/2026",
@@ -2151,8 +2162,8 @@
           "suspension": false
         }
       },
-      "sequence": 0,
-      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+      "sequence": 1,
+      "last_modified_utc": "2026-10-30T10:50:12+00:00"
     },
     {
       "uid": "unicatt-lesson-occurrence-121873435@codex",
@@ -2401,6 +2412,37 @@
       },
       "sequence": 0,
       "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-122177465@codex",
+      "summary": "FIRST AID (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-11-12T16:15:00+01:00",
+      "end": "2026-11-12T17:45:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000127\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SCAPIGLIATI ANDREA\nSource date: 12/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "122177465",
+      "source_date": "12/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000127",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121777001,
+        "idCalendarioAula": 122177465,
+        "matchKey": [
+          "MR000127",
+          "12/11/2026",
+          "16:15",
+          "17:45"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-30T10:50:12+00:00"
     },
     {
       "uid": "unicatt-lesson-occurrence-121921789@codex",
@@ -2961,6 +3003,37 @@
       "last_modified_utc": "2026-10-27T08:32:23+00:00"
     },
     {
+      "uid": "unicatt-lesson-occurrence-122177473@codex",
+      "summary": "FIRST AID AND NURSING PRACTICE PROFESSIONAL TRAINING (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-11-23T14:15:00+01:00",
+      "end": "2026-11-23T19:15:00+01:00",
+      "location": "Policlinico - Gemelli Training Center",
+      "description": "Course code: MR000128\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SCAPIGLIATI ANDREA\nSource date: 23/11/2026\nBuilding: Policlinico\nRoom: Gemelli Training Center\nDuration: 05:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "122177473",
+      "source_date": "23/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000128",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121777004,
+        "idCalendarioAula": 122177473,
+        "matchKey": [
+          "MR000128",
+          "23/11/2026",
+          "14:15",
+          "19:15"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-30T10:50:12+00:00"
+    },
+    {
       "uid": "unicatt-lesson-occurrence-121920976@codex",
       "summary": "PATOPHYSIOLOGY (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
       "start": "2026-11-24T10:45:00+01:00",
@@ -2994,10 +3067,10 @@
     {
       "uid": "unicatt-lesson-occurrence-121921858@codex",
       "summary": "FIRST AID (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
-      "start": "2026-11-25T09:20:00+01:00",
-      "end": "2026-11-25T10:50:00+01:00",
+      "start": "2026-11-25T11:00:00+01:00",
+      "end": "2026-11-25T13:15:00+01:00",
       "location": "Giovanni XXIII - 2",
-      "description": "Course code: MR000127\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SCAPIGLIATI ANDREA\nSource date: 25/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "description": "Course code: MR000127\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SCAPIGLIATI ANDREA\nSource date: 25/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
       "status": null,
       "source_kind": "lesson",
       "source_record_id": "121921858",
@@ -3010,8 +3083,8 @@
         "matchKey": [
           "MR000127",
           "25/11/2026",
-          "09:20",
-          "10:50"
+          "11:00",
+          "13:15"
         ],
         "flags": {
           "room_change": false,
@@ -3019,8 +3092,8 @@
           "suspension": false
         }
       },
-      "sequence": 0,
-      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+      "sequence": 1,
+      "last_modified_utc": "2026-10-30T10:50:12+00:00"
     },
     {
       "uid": "unicatt-lesson-occurrence-121920072@codex",
@@ -3300,6 +3373,37 @@
       },
       "sequence": 0,
       "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-122177497@codex",
+      "summary": "FIRST AID AND NURSING PRACTICE PROFESSIONAL TRAINING (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-12-03T14:15:00+01:00",
+      "end": "2026-12-03T19:15:00+01:00",
+      "location": "Policlinico - Gemelli Training Center",
+      "description": "Course code: MR000128\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SCAPIGLIATI ANDREA\nSource date: 03/12/2026\nBuilding: Policlinico\nRoom: Gemelli Training Center\nDuration: 05:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "122177497",
+      "source_date": "03/12/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000128",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121777004,
+        "idCalendarioAula": 122177497,
+        "matchKey": [
+          "MR000128",
+          "03/12/2026",
+          "14:15",
+          "19:15"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-10-30T10:50:12+00:00"
     },
     {
       "uid": "unicatt-lesson-occurrence-121921793@codex",

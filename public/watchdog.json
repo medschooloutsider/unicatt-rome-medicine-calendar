@@ -1,53 +1,53 @@
 {
   "ok": true,
-  "checked_at_utc": "2026-10-30T09:58:08+00:00",
+  "checked_at_utc": "2026-10-30T10:50:17+00:00",
   "failures": [],
   "feeds": {
     "year2-lessons": {
+      "source_age_seconds": 20,
+      "publication_age_seconds": 20,
+      "health": "healthy",
+      "last_error": null
+    },
+    "year2-exams": {
       "source_age_seconds": 15,
       "publication_age_seconds": 15,
       "health": "healthy",
       "last_error": null
     },
-    "year2-exams": {
-      "source_age_seconds": 11,
-      "publication_age_seconds": 11,
+    "year1-exams": {
+      "source_age_seconds": 13,
+      "publication_age_seconds": 13,
       "health": "healthy",
       "last_error": null
     },
-    "year1-exams": {
+    "year1-lessons": {
       "source_age_seconds": 10,
       "publication_age_seconds": 10,
       "health": "healthy",
       "last_error": null
     },
-    "year1-lessons": {
-      "source_age_seconds": 7,
-      "publication_age_seconds": 7,
-      "health": "healthy",
-      "last_error": null
-    },
     "year3-lessons": {
-      "source_age_seconds": 4,
-      "publication_age_seconds": 4,
+      "source_age_seconds": 5,
+      "publication_age_seconds": 5,
       "health": "healthy",
       "last_error": null
     },
     "year3-exams": {
-      "source_age_seconds": 0,
-      "publication_age_seconds": 0,
+      "source_age_seconds": 1,
+      "publication_age_seconds": 1,
       "health": "healthy",
       "last_error": null
     },
     "italy-holidays": {
-      "source_age_seconds": 0,
-      "publication_age_seconds": 0,
+      "source_age_seconds": 1,
+      "publication_age_seconds": 1,
       "health": "healthy",
       "last_error": null
     },
     "tartu-y1-lessons": {
-      "source_age_seconds": 0,
-      "publication_age_seconds": 0,
+      "source_age_seconds": 1,
+      "publication_age_seconds": 1,
       "health": "healthy",
       "last_error": null
     }
