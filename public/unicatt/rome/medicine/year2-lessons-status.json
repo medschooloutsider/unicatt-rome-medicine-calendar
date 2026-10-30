@@ -1,13 +1,13 @@
 {
   "feed_id": "year2-lessons",
   "calendar_name": "UCSC Rome Medicine Year 2 Lessons",
-  "generated_at_utc": "2026-10-29T22:57:54+00:00",
-  "last_successful_fetch_at_utc": "2026-10-29T22:57:54+00:00",
-  "last_publication_at_utc": "2026-10-29T22:57:54+00:00",
+  "generated_at_utc": "2026-10-30T02:33:27+00:00",
+  "last_successful_fetch_at_utc": "2026-10-30T02:33:27+00:00",
+  "last_publication_at_utc": "2026-10-30T02:33:27+00:00",
   "freshness_lease": {
     "max_age_seconds": 2700,
-    "issued_at_utc": "2026-10-29T22:57:54+00:00",
-    "expires_at_utc": "2026-10-29T23:42:54+00:00"
+    "issued_at_utc": "2026-10-30T02:33:27+00:00",
+    "expires_at_utc": "2026-10-30T03:18:27+00:00"
   },
   "generated_age_seconds": 0,
   "event_count": 264,
@@ -35,7 +35,7 @@
   ],
   "source_snapshot_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
   "last_published_source_snapshot_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-  "content_hash": "bc0d48ef8b71fbae6ed2f422a8388410aa393a0694930c1fb69674320f4e4a8c",
+  "content_hash": "e6f0e68bf92e8a3c2475d3a5f97fbf9962f28fe5634fd37e5b204c0ce562d096",
   "publication_mode": "github-pages-static",
   "dynamic_refresh": "GitHub Actions poller; no Vercel Blob dependency",
   "health": "healthy",
