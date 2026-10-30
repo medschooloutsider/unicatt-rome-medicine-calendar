@@ -224,6 +224,31 @@ class CalendarPipelineTests(unittest.TestCase):
         self.assertEqual(dropped["status"], "CANCELLED")
         self.assertIn("two consecutive valid upstream snapshots", dropped["description"])
 
+    def test_source_uid_replacement_is_an_update_not_a_cancellation(self):
+      with tempfile.TemporaryDirectory() as directory:
+        root = Path(directory)
+        original = lesson("old", "03/11/2026")
+        replacement = copy.deepcopy(original)
+        replacement["idCalendarioAula"] = "new"
+        replacement["idLezione"] = "lesson-new"
+        paths, first = run(root, [original])
+        self.assertTrue(first["ok"])
+
+        second = pipeline.run_feed(
+            "year3-lessons",
+            paths,
+            now=NOW + timedelta(minutes=15),
+            fetcher=fetcher_for([replacement]),
+            enable_alerts=False,
+        )
+        self.assertTrue(second["ok"])
+        self.assertEqual({item["type"] for item in second["alerts"]}, {"event_updated"})
+        status_path = pipeline.feed_public_paths(paths, "year3-lessons")[1]
+        status = json.loads(status_path.read_text(encoding="utf-8"))
+        self.assertEqual([row["uid"] for row in status["events"]], ["unicatt-lesson-occurrence-old@codex"])
+        self.assertNotEqual(status["events"][0]["metadata"]["replaced_source_uid"], status["events"][0]["uid"])
+        self.assertEqual(status["events"][0]["status"], None)
+
     def test_explicit_suspension_cancels_immediately(self):
       with tempfile.TemporaryDirectory() as directory:
         paths, result = run(Path(directory), [lesson("cancel", "01/11/2026", suspended=True), lesson("keep", "02/11/2026")])

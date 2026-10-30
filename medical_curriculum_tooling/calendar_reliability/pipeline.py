@@ -354,6 +354,97 @@ def change_record(
     }
 
 
+def _event_logical_key(row: dict[str, Any]) -> tuple[str, str, str, str, str]:
+    """Identify a schedule occurrence without depending on its source UID."""
+    metadata = row.get("metadata") if isinstance(row.get("metadata"), dict) else {}
+    match_key = metadata.get("matchKey")
+    if isinstance(match_key, list) and len(match_key) >= 4:
+        return (
+            str(match_key[0]).strip().casefold(),
+            str(match_key[1]).strip(),
+            str(match_key[2]).strip(),
+            str(match_key[3]).strip(),
+            str(row.get("location") or "").strip().casefold(),
+        )
+    return (
+        " ".join(str(row.get("summary") or "").split()).casefold(),
+        str(row.get("start") or "").strip(),
+        str(row.get("end") or "").strip(),
+        str(row.get("location") or "").strip().casefold(),
+        str(row.get("source_kind") or "").strip().casefold(),
+    )
+
+
+def _replacement_pairs(
+    prior_ledger: dict[str, Any],
+    fresh_rows: dict[str, dict[str, Any]],
+    observed_dt: datetime,
+) -> dict[str, str]:
+    """Find one-to-one UID churn that represents the same scheduled event."""
+    candidates_by_key: dict[tuple[str, str, str, str, str], list[str]] = {}
+    for uid, row in fresh_rows.items():
+        if uid not in prior_ledger:
+            candidates_by_key.setdefault(_event_logical_key(row), []).append(uid)
+
+    pairs: dict[str, str] = {}
+    for old_uid, previous in prior_ledger.items():
+        if old_uid in fresh_rows or not isinstance(previous, dict):
+            continue
+        old_event = previous.get("event")
+        if not isinstance(old_event, dict) or previous.get("retention_state") == "explicitly_cancelled":
+            continue
+        try:
+            if parse_event_end(old_event) <= observed_dt:
+                continue
+        except (KeyError, TypeError, ValueError):
+            continue
+        candidates = candidates_by_key.get(_event_logical_key(old_event), [])
+        if len(candidates) == 1:
+            pairs[old_uid] = candidates[0]
+    return pairs
+
+
+def group_alerts(feed_id: str, alerts: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Group same-title occurrence changes into one user-facing alert."""
+    grouped: dict[tuple[str, str, str], dict[str, Any]] = {}
+    for alert in alerts:
+        alert_type = str(alert.get("type") or "calendar_alert")
+        summary = " ".join(str(alert.get("summary") or "").split()).casefold()
+        if alert_type in {
+            "explicit_cancellation",
+            "confirmed_cancellation",
+            "possible_cancellation",
+            "cancellation_reversed",
+            "event_updated",
+        }:
+            key = (alert_type, summary, feed_id)
+        else:
+            key = (alert_type, str(alert.get("message") or alert.get("summary") or ""), str(alert.get("uid") or ""))
+        current = grouped.get(key)
+        if current is None:
+            current = dict(alert)
+            current["feed_id"] = feed_id
+            current["events"] = []
+            grouped[key] = current
+        event = alert.get("event")
+        if isinstance(event, dict):
+            current["events"].append(dict(event))
+        previous_event = alert.get("previous_event")
+        if isinstance(previous_event, dict):
+            current.setdefault("previous_events", []).append(dict(previous_event))
+        if not current.get("summary") and alert.get("summary"):
+            current["summary"] = alert["summary"]
+    result: list[dict[str, Any]] = []
+    for alert in grouped.values():
+        if not alert["events"]:
+            alert.pop("events", None)
+        elif len(alert["events"]) == 1:
+            alert["event"] = alert["events"][0]
+            alert.pop("events", None)
+        result.append(alert)
+    return result
+
+
 def apply_snapshot(
     feed_id: str,
     state: dict[str, Any],
@@ -365,12 +456,16 @@ def apply_snapshot(
     prior_ledger = state.get("ledger") if isinstance(state.get("ledger"), dict) else {}
     ledger: dict[str, dict[str, Any]] = {}
     alerts: list[dict[str, Any]] = []
+    replacement_pairs = _replacement_pairs(prior_ledger, fresh_rows, observed_dt)
+    replacement_new_uids = set(replacement_pairs.values())
 
     for uid, row in fresh_rows.items():
+        if uid in replacement_new_uids:
+            continue
         previous = prior_ledger.get(uid) if isinstance(prior_ledger.get(uid), dict) else None
         previous_event = previous.get("event", {}) if previous else {}
         if row.get("status") == "CANCELLED" and previous_event.get("status") != "CANCELLED":
-            alerts.append({"type": "explicit_cancellation", "uid": uid, "summary": row.get("summary", "")})
+            alerts.append({"type": "explicit_cancellation", "uid": uid, "summary": row.get("summary", ""), "event": dict(row)})
             retention_state = "explicitly_cancelled"
         else:
             retention_state = "present_in_latest_snapshot"
@@ -380,6 +475,25 @@ def apply_snapshot(
         if uid in fresh_rows or not isinstance(previous, dict) or not isinstance(previous.get("event"), dict):
             continue
         retained = dict(previous["event"])
+        replacement_uid = replacement_pairs.get(uid)
+        if replacement_uid:
+            replacement_event = dict(fresh_rows[replacement_uid])
+            replacement_event["uid"] = uid
+            replacement_metadata = replacement_event.get("metadata") if isinstance(replacement_event.get("metadata"), dict) else {}
+            replacement_metadata = dict(replacement_metadata)
+            replacement_metadata["replaced_source_uid"] = replacement_uid
+            replacement_event["metadata"] = replacement_metadata
+            ledger[uid] = change_record(previous, replacement_event, observed, present=True, retention_state="updated_source_uid")
+            alerts.append(
+                {
+                    "type": "event_updated",
+                    "uid": uid,
+                    "summary": replacement_event.get("summary", ""),
+                    "event": replacement_event,
+                    "previous_event": retained,
+                }
+            )
+            continue
         missing_successes = int(previous.get("missing_successes") or 0) + 1
         is_past = parse_event_end(retained) <= observed_dt
         if is_past:
@@ -397,7 +511,15 @@ def apply_snapshot(
             )
             retention_state = "cancelled_after_repeated_missing"
             if old_status != "CANCELLED":
-                alerts.append({"type": "confirmed_cancellation", "uid": uid, "summary": retained.get("summary", "")})
+                alerts.append(
+                    {
+                        "type": "confirmed_cancellation",
+                        "uid": uid,
+                        "summary": retained.get("summary", ""),
+                        "event": dict(retained),
+                        "reason": "two consecutive valid upstream snapshots omitted this future event",
+                    }
+                )
         else:
             retained["status"] = "TENTATIVE"
             retained["description"] = append_note(
@@ -405,7 +527,15 @@ def apply_snapshot(
                 "tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
             )
             retention_state = "tentative_after_first_missing"
-            alerts.append({"type": "possible_cancellation", "uid": uid, "summary": retained.get("summary", "")})
+            alerts.append(
+                {
+                    "type": "possible_cancellation",
+                    "uid": uid,
+                    "summary": retained.get("summary", ""),
+                    "event": dict(retained),
+                    "reason": "one valid upstream snapshot omitted this future event; awaiting confirmation",
+                }
+            )
         ledger[uid] = change_record(
             previous,
             retained,
@@ -517,7 +647,8 @@ def publish_files(paths: PipelinePaths, feed_id: str, ics_text: str, status: dic
 
 
 def record_alert(paths: PipelinePaths, feed_id: str, alert: dict[str, Any], now: datetime) -> None:
-    payload = {"feed_id": feed_id, "observed_at_utc": iso(now), **alert}
+    timezone_id = source.FEED_SPECS.get(feed_id, source.FEED_SPECS.get("year2-lessons")).timezone_id
+    payload = {"feed_id": feed_id, "timezone_id": timezone_id, "observed_at_utc": iso(now), **alert}
     digest = sha256_text(canonical_json(payload))[:16]
     atomic_write_json(paths.alerts / f"{iso(now).replace(':', '').replace('+00:00', 'Z')}-{feed_id}-{digest}.json", payload)
     atomic_write_json(paths.alerts / "latest.json", payload)
@@ -624,7 +755,7 @@ def run_feed(
             ics_path = target_root / source.FEED_SPECS[feed_id].route_path.lstrip("/")
             atomic_write_json(ics_path.with_name(ics_path.name.replace(".ics", "-status.json")), status)
         save_state(paths, state)
-        for alert in alerts:
+        for alert in group_alerts(feed_id, alerts):
             if enable_alerts:
                 record_alert(paths, feed_id, alert, observed_dt)
         return {"feed_id": feed_id, "ok": True, "health": "healthy", "event_count": published.event_count, "alerts": alerts}

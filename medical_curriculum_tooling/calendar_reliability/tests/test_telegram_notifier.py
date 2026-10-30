@@ -27,6 +27,85 @@ class Response:
 
 
 class TelegramNotifierTests(unittest.TestCase):
+    def test_human_cancellation_message_has_schedule_details_not_machine_fields(self):
+        message = telegram_notifier.render_message(
+            {
+                "type": "confirmed_cancellation",
+                "feed_id": "year3-lessons",
+                "summary": "FIRST AID AND NURSING PRACTICE PROFESSIONAL TRAINING (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+                "timezone_id": "Europe/Rome",
+                "event": {
+                    "uid": "unicatt-lesson-occurrence-122054170@codex",
+                    "summary": "FIRST AID AND NURSING PRACTICE PROFESSIONAL TRAINING (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+                    "start": "2026-11-03T14:15:00+01:00",
+                    "end": "2026-11-03T19:15:00+01:00",
+                    "location": "Policlinico - Gemelli Training Center",
+                    "description": "Teacher: SCAPIGLIATI ANDREA\nSource date: 03/11/2026",
+                    "status": "CANCELLED",
+                },
+            },
+            "internal-fingerprint",
+        )
+        self.assertIn("cancellation confirmed", message)
+        self.assertIn("Tuesday 03 November 2026, 14:15-19:15 (Europe/Rome)", message)
+        self.assertIn("Policlinico - Gemelli Training Center", message)
+        self.assertIn("Teacher: Scapigliati Andrea", message)
+        self.assertNotIn("UID:", message)
+        self.assertNotIn("Fingerprint:", message)
+        self.assertNotIn("Observed:", message)
+
+    def test_grouped_occurrences_are_one_human_message(self):
+        message = telegram_notifier.render_message(
+            {
+                "type": "confirmed_cancellation",
+                "feed_id": "year3-lessons",
+                "summary": "FIRST AID (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+                "timezone_id": "Europe/Rome",
+                "events": [
+                    {
+                        "summary": "FIRST AID (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+                        "start": "2026-11-03T14:15:00+01:00",
+                        "end": "2026-11-03T19:15:00+01:00",
+                        "location": "Policlinico - Gemelli Training Center",
+                    },
+                    {
+                        "summary": "FIRST AID (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+                        "start": "2026-11-09T14:15:00+01:00",
+                        "end": "2026-11-09T19:15:00+01:00",
+                        "location": "Policlinico - Gemelli Training Center",
+                    },
+                ],
+            },
+            "internal-fingerprint",
+        )
+        self.assertIn("Occurrences: 2", message)
+        self.assertIn("Tuesday 03 November 2026", message)
+        self.assertIn("Monday 09 November 2026", message)
+
+    def test_provisional_cancellation_is_suppressed(self):
+        def opener(*_args, **_kwargs):
+            raise AssertionError("provisional cancellation must not reach Telegram")
+
+        with tempfile.TemporaryDirectory() as directory:
+            result = telegram_notifier.notify_alert(
+                {
+                    "type": "possible_cancellation",
+                    "feed_id": "year3-lessons",
+                    "summary": "Test class",
+                    "event": {
+                        "summary": "Test class",
+                        "start": "2026-11-03T14:15:00+01:00",
+                        "end": "2026-11-03T19:15:00+01:00",
+                    },
+                },
+                Path(directory) / "ledger.json",
+                token="token",
+                chat_id="123",
+                opener=opener,
+            )
+            self.assertEqual(result["status"], "suppressed_provisional")
+            self.assertFalse((Path(directory) / "ledger.json").exists())
+
     def test_success_is_recorded_and_duplicate_is_suppressed(self):
         calls = []
 

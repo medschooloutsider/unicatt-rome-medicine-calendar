@@ -13,6 +13,7 @@ import argparse
 import hashlib
 import json
 import os
+import re
 import tempfile
 import time
 from datetime import UTC, datetime
@@ -21,6 +22,7 @@ from typing import Any, Callable
 from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
+from zoneinfo import ZoneInfo
 
 
 SCHEMA_VERSION = 1
@@ -28,6 +30,7 @@ MAX_SENT_RECEIPTS = 500
 DEFAULT_RETRIES = 3
 DEFAULT_RECEIPT = Path("alerts/telegram-delivery.json")
 DEFAULT_API_BASE = "https://api.telegram.org"
+PROVISIONAL_ALERT_TYPES = {"possible_cancellation"}
 
 
 def utc_now() -> datetime:
@@ -47,12 +50,30 @@ def alert_fingerprint(event: dict[str, Any]) -> str:
     explicit = event.get("fingerprint")
     if explicit:
         return str(explicit)
+    occurrences = event.get("events")
+    if not isinstance(occurrences, list):
+        occurrence = event.get("event")
+        occurrences = [occurrence] if isinstance(occurrence, dict) else []
+    occurrence_identity = []
+    for occurrence in occurrences:
+        if isinstance(occurrence, dict):
+            occurrence_identity.append(
+                {
+                    "uid": occurrence.get("uid"),
+                    "summary": occurrence.get("summary"),
+                    "start": occurrence.get("start"),
+                    "end": occurrence.get("end"),
+                    "location": occurrence.get("location"),
+                    "status": occurrence.get("status"),
+                }
+            )
     identity = {
         "feed_id": event.get("feed_id", "all"),
         "type": event.get("type", "calendar_alert"),
         "uid": event.get("uid"),
         "summary": event.get("summary"),
         "message": event.get("message"),
+        "occurrences": occurrence_identity,
     }
     digest = hashlib.sha256(canonical_json(identity).encode("utf-8")).hexdigest()[:24]
     return f"calendar-{digest}"
@@ -63,34 +84,133 @@ def _safe_text(value: Any, limit: int = 1200) -> str:
     return text[:limit]
 
 
+def _human_text(value: Any, limit: int = 1200) -> str:
+    text = _safe_text(value, limit)
+    if text and text == text.upper() and any(character.isalpha() for character in text):
+        text = text.title()
+    return text
+
+
+def _feed_label(value: Any) -> str:
+    text = _safe_text(value, 200).replace("-", " ")
+    return text.title() if text else "All feeds"
+
+
+def _event_occurrences(event: dict[str, Any]) -> list[dict[str, Any]]:
+    occurrences = event.get("events")
+    if isinstance(occurrences, list):
+        return [item for item in occurrences if isinstance(item, dict)]
+    occurrence = event.get("event")
+    if isinstance(occurrence, dict):
+        return [occurrence]
+    if event.get("start") or event.get("end") or event.get("location"):
+        return [event]
+    return []
+
+
+def _description_fields(description: Any) -> dict[str, str]:
+    fields: dict[str, str] = {}
+    for line in _safe_text(description, 4000).splitlines():
+        if ":" not in line:
+            continue
+        label, value = line.split(":", 1)
+        label = label.strip().lower()
+        value = value.strip()
+        if label and value and label not in fields:
+            fields[label] = value
+    return fields
+
+
+def _parse_datetime(value: Any, timezone_id: str) -> datetime | None:
+    if not value:
+        return None
+    try:
+        parsed = datetime.fromisoformat(str(value))
+    except ValueError:
+        return None
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=ZoneInfo(timezone_id))
+    try:
+        return parsed.astimezone(ZoneInfo(timezone_id))
+    except Exception:  # noqa: BLE001 - formatting must remain nonfatal.
+        return parsed
+
+
+def _format_occurrence(occurrence: dict[str, Any], timezone_id: str) -> list[str]:
+    start = _parse_datetime(occurrence.get("start"), timezone_id)
+    end = _parse_datetime(occurrence.get("end"), timezone_id)
+    metadata = occurrence.get("metadata") if isinstance(occurrence.get("metadata"), dict) else {}
+    all_day = bool(metadata.get("all_day"))
+    if start and end and not all_day:
+        when = f"{start.strftime('%A %d %B %Y')}, {start.strftime('%H:%M')}-{end.strftime('%H:%M')} ({timezone_id})"
+    elif start:
+        when = f"{start.strftime('%A %d %B %Y')} (all day, {timezone_id})"
+    else:
+        when = "Date/time not provided by the source"
+    location = _human_text(occurrence.get("location")) or "Location not provided by the source"
+    fields = _description_fields(occurrence.get("description"))
+    lines = [f"When: {when}", f"Where: {location}"]
+    if fields.get("teacher"):
+        lines.append(f"Teacher: {_human_text(fields['teacher'])}")
+    return lines
+
+
+def _event_title(summary: Any) -> tuple[str, str | None]:
+    text = _human_text(summary, 1200) or "UCSC calendar event"
+    match = re.match(r"^(.*?)\s*\(([^()]*)\)\s*$", text)
+    if match:
+        return match.group(1).strip(), match.group(2).strip()
+    return text, None
+
+
 def render_message(event: dict[str, Any], fingerprint: str) -> str:
-    type_labels = {
-        "explicit_cancellation": "CANCELLATION CONFIRMED",
-        "confirmed_cancellation": "CANCELLATION CONFIRMED",
-        "possible_cancellation": "POSSIBLE CHANGE",
-        "cancellation_reversed": "CANCELLATION REVERSED",
-        "pipeline_failure": "PUBLISHER FAILURE",
-        "watchdog_failure": "CALENDAR WATCHDOG FAILURE",
-        "publication_stale": "PUBLICATION STALE",
-        "publication_recovered": "PUBLICATION RECOVERED",
-        "integrity_mismatch": "INTEGRITY MISMATCH",
-        "native_mismatch": "NATIVE CALENDAR MISMATCH",
-        "heartbeat": "DELIVERY HEARTBEAT",
-    }
     alert_type = str(event.get("type", "calendar_alert"))
-    lines = [
-        f"UCSC Calendar | {type_labels.get(alert_type, alert_type.upper())}",
-        f"Feed: {_safe_text(event.get('feed_id', 'all'), 200)}",
-    ]
-    if event.get("summary"):
-        lines.append(f"Summary: {_safe_text(event['summary'])}")
-    if event.get("uid"):
-        lines.append(f"UID: {_safe_text(event['uid'], 300)}")
-    if event.get("message"):
-        lines.append(f"Details: {_safe_text(event['message'])}")
-    if event.get("observed_at_utc"):
-        lines.append(f"Observed: {_safe_text(event['observed_at_utc'], 80)}")
-    lines.append(f"Fingerprint: {fingerprint}")
+    timezone_id = _safe_text(event.get("timezone_id") or "Europe/Rome", 80)
+    occurrences = _event_occurrences(event)
+    summaries = [item.get("summary") for item in occurrences if item.get("summary")]
+    summary = event.get("summary") or (summaries[0] if summaries else None)
+    title, course = _event_title(summary)
+    labels = {
+        "explicit_cancellation": "📅 UCSC calendar update — cancellation confirmed",
+        "confirmed_cancellation": "📅 UCSC calendar update — cancellation confirmed",
+        "cancellation_reversed": "📅 UCSC calendar update — event restored",
+        "event_updated": "📅 UCSC calendar update — details changed",
+        "pipeline_failure": "⚠️ UCSC calendar problem — publication failed",
+        "watchdog_failure": "⚠️ UCSC calendar problem — integrity check failed",
+        "publication_stale": "⚠️ UCSC calendar problem — publication is stale",
+        "publication_recovered": "✅ UCSC calendar recovered",
+        "integrity_mismatch": "⚠️ UCSC calendar problem — integrity mismatch",
+        "native_mismatch": "⚠️ UCSC calendar problem — Mac calendar mismatch",
+        "heartbeat": "✅ UCSC calendar monitor check",
+    }
+    lines = [labels.get(alert_type, f"UCSC calendar update — {_human_text(alert_type).lower()}")]
+    if title:
+        lines.append(f"Event: {title}")
+    if course:
+        lines.append(f"Course: {course}")
+    lines.append(f"Feed: {_feed_label(event.get('feed_id', 'all'))}")
+    if len(occurrences) > 1:
+        lines.append(f"Occurrences: {len(occurrences)}")
+    for index, occurrence in enumerate(occurrences):
+        if len(occurrences) > 1:
+            lines.append(f"Occurrence {index + 1}:")
+        lines.extend(_format_occurrence(occurrence, timezone_id))
+    if alert_type == "explicit_cancellation":
+        lines.append("Reason: The official source explicitly marked this event suspended.")
+        lines.append("Action: Treat this event as cancelled and do not travel for it.")
+    elif alert_type == "confirmed_cancellation":
+        lines.append("Reason: The event was absent from two consecutive valid official snapshots.")
+        lines.append("Action: Treat this event as cancelled and check the live timetable if needed.")
+    elif alert_type == "cancellation_reversed":
+        lines.append("Reason: The event reappeared in the official source.")
+        lines.append("Action: Use the restored calendar details.")
+    elif alert_type == "event_updated":
+        lines.append("Reason: The source identifier changed, but the event matched the previous schedule.")
+        lines.append("Action: Use the details shown in the current calendar entry.")
+    elif alert_type == "heartbeat":
+        lines.append("Telegram delivery is working; this is a monitor check, not a class change.")
+    elif event.get("message"):
+        lines.append(f"Details: {_human_text(event['message'])}")
     return "\n".join(lines)[:4000]
 
 
@@ -186,6 +306,8 @@ def notify_alert(
     event = dict(event)
     observed = event.setdefault("observed_at_utc", iso(utc_now()))
     fingerprint = alert_fingerprint(event)
+    if event.get("type") in PROVISIONAL_ALERT_TYPES:
+        return {"status": "suppressed_provisional", "fingerprint": fingerprint}
     ledger = load_ledger(receipt_path)
     if fingerprint in ledger.get("sent", {}):
         return {"status": "duplicate", "fingerprint": fingerprint}
