@@ -1,20 +1,20 @@
 {
   "feed_id": "year3-lessons",
   "calendar_name": "UCSC Rome Medicine Year 3 Lessons",
-  "generated_at_utc": "2026-10-31T07:57:02+00:00",
-  "last_successful_fetch_at_utc": "2026-10-31T07:57:02+00:00",
-  "last_publication_at_utc": "2026-10-31T07:57:02+00:00",
+  "generated_at_utc": "2026-10-31T08:45:08+00:00",
+  "last_successful_fetch_at_utc": "2026-10-31T08:45:08+00:00",
+  "last_publication_at_utc": "2026-10-31T08:45:08+00:00",
   "freshness_lease": {
     "max_age_seconds": 2700,
-    "issued_at_utc": "2026-10-31T07:57:02+00:00",
-    "expires_at_utc": "2026-10-31T08:42:02+00:00"
+    "issued_at_utc": "2026-10-31T08:45:08+00:00",
+    "expires_at_utc": "2026-10-31T09:30:08+00:00"
   },
   "generated_age_seconds": 0,
   "event_count": 132,
   "cancelled_count": 6,
   "tentative_count": 0,
   "source_counts": {
-    "base_lessons": 78,
+    "base_lessons": 77,
     "room_changes": 8,
     "extra_lessons": 0,
     "suspensions": 0,
@@ -33,9 +33,9 @@
     "https://secure.unicatt.it/didatticaweb2/lezionistraordinarie/",
     "https://secure.unicatt.it/didatticaweb2/sospensioni/"
   ],
-  "source_snapshot_hash": "4b5eca8daab4f8ad818de3246d1d52e49b99146793c46d37996d11625a0f344a",
-  "last_published_source_snapshot_hash": "4b5eca8daab4f8ad818de3246d1d52e49b99146793c46d37996d11625a0f344a",
-  "content_hash": "ca032505d0e553b594b1c1112b5360eac1b99ebb811cc09af427b2ebe6d1f742",
+  "source_snapshot_hash": "f8ad1bbe8ea946442253be231981f3afd62ed31248b9fab6197892bd193dfc5e",
+  "last_published_source_snapshot_hash": "f8ad1bbe8ea946442253be231981f3afd62ed31248b9fab6197892bd193dfc5e",
+  "content_hash": "2ad22cb7faadf5a8569b374683dba5d8c9d82dbcb6ee132d2fafccad3de9eea5",
   "publication_mode": "github-pages-static",
   "dynamic_refresh": "GitHub Actions poller; no Vercel Blob dependency",
   "health": "healthy",
@@ -1602,7 +1602,7 @@
       "start": "2026-10-30T10:00:00+01:00",
       "end": "2026-10-30T11:30:00+01:00",
       "location": "Giovanni XXIII - 2",
-      "description": "Course code: MR000135\nIntegrated course code: MR000016\nIntegrated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: MORES NADIA\nSource date: 30/10/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "description": "Course code: MR000135\nIntegrated course code: MR000016\nIntegrated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: MORES NADIA\nSource date: 30/10/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
       "status": null,
       "source_kind": "lesson",
       "source_record_id": "121871198",
@@ -1624,8 +1624,8 @@
           "suspension": false
         }
       },
-      "sequence": 0,
-      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+      "sequence": 1,
+      "last_modified_utc": "2026-10-31T08:45:08+00:00"
     },
     {
       "uid": "unicatt-lesson-occurrence-121920965@codex",
