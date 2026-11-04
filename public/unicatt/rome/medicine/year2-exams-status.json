@@ -1,20 +1,20 @@
 {
   "feed_id": "year2-exams",
   "calendar_name": "UCSC Rome Medicine Year 2 Exams",
-  "generated_at_utc": "2026-11-04T16:14:48+00:00",
-  "last_successful_fetch_at_utc": "2026-11-04T16:14:48+00:00",
-  "last_publication_at_utc": "2026-11-04T16:14:48+00:00",
+  "generated_at_utc": "2026-11-04T17:06:02+00:00",
+  "last_successful_fetch_at_utc": "2026-11-04T17:06:02+00:00",
+  "last_publication_at_utc": "2026-11-04T17:06:02+00:00",
   "freshness_lease": {
     "max_age_seconds": 2700,
-    "issued_at_utc": "2026-11-04T16:14:48+00:00",
-    "expires_at_utc": "2026-11-04T16:59:48+00:00"
+    "issued_at_utc": "2026-11-04T17:06:02+00:00",
+    "expires_at_utc": "2026-11-04T17:51:02+00:00"
   },
   "generated_age_seconds": 0,
   "event_count": 88,
   "cancelled_count": 10,
-  "tentative_count": 0,
+  "tentative_count": 3,
   "source_counts": {
-    "base_exams": 71
+    "base_exams": 68
   },
   "source_payload": {
     "codiceSede": "RM",
@@ -26,9 +26,9 @@
   "source_urls": [
     "https://secure.unicatt.it/didatticaweb2/ps/esami/"
   ],
-  "source_snapshot_hash": "52fb2f54b6f57f47eba01c6ecce7c2e7d47496a5229250c5b1b8732d773c4752",
-  "last_published_source_snapshot_hash": "52fb2f54b6f57f47eba01c6ecce7c2e7d47496a5229250c5b1b8732d773c4752",
-  "content_hash": "1dc411b020d0ba6ce83f5a7e4b18a7d19ecf9aba3d3006f1aaa1a06df5ad24b4",
+  "source_snapshot_hash": "3ebfabe4a837b132daf000980be9930588fc2408b859e6cf70f3dd490275176d",
+  "last_published_source_snapshot_hash": "3ebfabe4a837b132daf000980be9930588fc2408b859e6cf70f3dd490275176d",
+  "content_hash": "12a333f2fbf919268778ad817f4ae19024b84b1c1a934d0e2a4a1f08480d26ec",
   "publication_mode": "github-pages-static",
   "dynamic_refresh": "GitHub Actions poller; no Vercel Blob dependency",
   "health": "healthy",
@@ -36,7 +36,86 @@
   "stale": false,
   "consecutive_failures": 0,
   "last_error": null,
-  "alerts": [],
+  "alerts": [
+    {
+      "type": "possible_cancellation",
+      "uid": "unicatt-exam-occurrence-c8b71fc12f78615bd3d54e8d109d27fbae7acdc3@codex",
+      "summary": "EPIDEMIOLOGY AND BIOSTATISTICS - APPELLO D'ESAME",
+      "event": {
+        "uid": "unicatt-exam-occurrence-c8b71fc12f78615bd3d54e8d109d27fbae7acdc3@codex",
+        "summary": "EPIDEMIOLOGY AND BIOSTATISTICS - APPELLO D'ESAME",
+        "start": "2026-12-14T14:00:00+01:00",
+        "end": "2026-12-14T16:00:00+01:00",
+        "location": "Giovanni XXIII - Laboratorio linguistico",
+        "description": "Course code: MR000013\nTeacher: PEZZULLO ANGELO MARIA\nExam type: APPELLO D'ESAME\nSource date: 14/12/2026\nBuilding: Giovanni XXIII\nRoom: Laboratorio linguistico\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
+        "status": "TENTATIVE",
+        "source_kind": "exam",
+        "source_record_id": "122192526",
+        "source_date": "14/12/2026",
+        "metadata": {
+          "codiceInsegnamento": "MR000013",
+          "codiceCorsoIntegrato": null,
+          "idEsame": 120255726,
+          "examType": "APPELLO D'ESAME"
+        },
+        "sequence": 0,
+        "last_modified_utc": "2026-11-04T13:33:21+00:00"
+      },
+      "reason": "one valid upstream snapshot omitted this future event; awaiting confirmation"
+    },
+    {
+      "type": "possible_cancellation",
+      "uid": "unicatt-exam-occurrence-909745ee9fde31390913170c5f3bce18035c42ee@codex",
+      "summary": "THEOLOGY 2: INTRODUCTION TO THEOLOGICAL ANTHROPOLOGY AND ECCLESIOLOGY - APPELLO D'ESAME",
+      "event": {
+        "uid": "unicatt-exam-occurrence-909745ee9fde31390913170c5f3bce18035c42ee@codex",
+        "summary": "THEOLOGY 2: INTRODUCTION TO THEOLOGICAL ANTHROPOLOGY AND ECCLESIOLOGY - APPELLO D'ESAME",
+        "start": "2026-12-15T09:00:00+01:00",
+        "end": "2026-12-15T11:00:00+01:00",
+        "location": "Giovanni XXIII - 6",
+        "description": "Course code: MR000043\nTeacher: MERONI FABRIZIO\nExam type: APPELLO D'ESAME\nSource date: 15/12/2026\nBuilding: Giovanni XXIII\nRoom: 6\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
+        "status": "TENTATIVE",
+        "source_kind": "exam",
+        "source_record_id": "122192435",
+        "source_date": "15/12/2026",
+        "metadata": {
+          "codiceInsegnamento": "MR000043",
+          "codiceCorsoIntegrato": null,
+          "idEsame": 120657202,
+          "examType": "APPELLO D'ESAME"
+        },
+        "sequence": 0,
+        "last_modified_utc": "2026-11-04T13:33:21+00:00"
+      },
+      "reason": "one valid upstream snapshot omitted this future event; awaiting confirmation"
+    },
+    {
+      "type": "possible_cancellation",
+      "uid": "unicatt-exam-occurrence-a94490b1e8db6f44f01c0cd35b546834cef6085b@codex",
+      "summary": "HISTORY OF MEDICINE AND ANTROPOLOGY - APPELLO D'ESAME",
+      "event": {
+        "uid": "unicatt-exam-occurrence-a94490b1e8db6f44f01c0cd35b546834cef6085b@codex",
+        "summary": "HISTORY OF MEDICINE AND ANTROPOLOGY - APPELLO D'ESAME",
+        "start": "2026-12-21T14:00:00+01:00",
+        "end": "2026-12-21T16:00:00+01:00",
+        "location": "Giovanni XXIII - Laboratorio linguistico",
+        "description": "Course code: MR000014\nTeacher: REFOLO PIETRO\nExam type: APPELLO D'ESAME\nSource date: 21/12/2026\nBuilding: Giovanni XXIII\nRoom: Laboratorio linguistico\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
+        "status": "TENTATIVE",
+        "source_kind": "exam",
+        "source_record_id": "122192506",
+        "source_date": "21/12/2026",
+        "metadata": {
+          "codiceInsegnamento": "MR000014",
+          "codiceCorsoIntegrato": null,
+          "idEsame": 120297448,
+          "examType": "APPELLO D'ESAME"
+        },
+        "sequence": 0,
+        "last_modified_utc": "2026-11-04T13:33:21+00:00"
+      },
+      "reason": "one valid upstream snapshot omitted this future event; awaiting confirmation"
+    }
+  ],
   "retention_policy": "Entries are NOT erased as days pass. Past entries remain in place indefinitely for future audit. Corrections and cancellations retain event identity; no rolling date cutoff is permitted for this or any future station.",
   "events": [
     {
@@ -1745,8 +1824,8 @@
       "start": "2026-12-14T14:00:00+01:00",
       "end": "2026-12-14T16:00:00+01:00",
       "location": "Giovanni XXIII - Laboratorio linguistico",
-      "description": "Course code: MR000013\nTeacher: PEZZULLO ANGELO MARIA\nExam type: APPELLO D'ESAME\nSource date: 14/12/2026\nBuilding: Giovanni XXIII\nRoom: Laboratorio linguistico\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
-      "status": null,
+      "description": "Course code: MR000013\nTeacher: PEZZULLO ANGELO MARIA\nExam type: APPELLO D'ESAME\nSource date: 14/12/2026\nBuilding: Giovanni XXIII\nRoom: Laboratorio linguistico\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
+      "status": "TENTATIVE",
       "source_kind": "exam",
       "source_record_id": "122192526",
       "source_date": "14/12/2026",
@@ -1756,8 +1835,8 @@
         "idEsame": 120255726,
         "examType": "APPELLO D'ESAME"
       },
-      "sequence": 0,
-      "last_modified_utc": "2026-11-04T13:33:21+00:00"
+      "sequence": 1,
+      "last_modified_utc": "2026-11-04T17:06:02+00:00"
     },
     {
       "uid": "unicatt-exam-occurrence-909745ee9fde31390913170c5f3bce18035c42ee@codex",
@@ -1765,8 +1844,8 @@
       "start": "2026-12-15T09:00:00+01:00",
       "end": "2026-12-15T11:00:00+01:00",
       "location": "Giovanni XXIII - 6",
-      "description": "Course code: MR000043\nTeacher: MERONI FABRIZIO\nExam type: APPELLO D'ESAME\nSource date: 15/12/2026\nBuilding: Giovanni XXIII\nRoom: 6\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
-      "status": null,
+      "description": "Course code: MR000043\nTeacher: MERONI FABRIZIO\nExam type: APPELLO D'ESAME\nSource date: 15/12/2026\nBuilding: Giovanni XXIII\nRoom: 6\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
+      "status": "TENTATIVE",
       "source_kind": "exam",
       "source_record_id": "122192435",
       "source_date": "15/12/2026",
@@ -1776,8 +1855,8 @@
         "idEsame": 120657202,
         "examType": "APPELLO D'ESAME"
       },
-      "sequence": 0,
-      "last_modified_utc": "2026-11-04T13:33:21+00:00"
+      "sequence": 1,
+      "last_modified_utc": "2026-11-04T17:06:02+00:00"
     },
     {
       "uid": "unicatt-exam-occurrence-a94490b1e8db6f44f01c0cd35b546834cef6085b@codex",
@@ -1785,8 +1864,8 @@
       "start": "2026-12-21T14:00:00+01:00",
       "end": "2026-12-21T16:00:00+01:00",
       "location": "Giovanni XXIII - Laboratorio linguistico",
-      "description": "Course code: MR000014\nTeacher: REFOLO PIETRO\nExam type: APPELLO D'ESAME\nSource date: 21/12/2026\nBuilding: Giovanni XXIII\nRoom: Laboratorio linguistico\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
-      "status": null,
+      "description": "Course code: MR000014\nTeacher: REFOLO PIETRO\nExam type: APPELLO D'ESAME\nSource date: 21/12/2026\nBuilding: Giovanni XXIII\nRoom: Laboratorio linguistico\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
+      "status": "TENTATIVE",
       "source_kind": "exam",
       "source_record_id": "122192506",
       "source_date": "21/12/2026",
@@ -1796,8 +1875,8 @@
         "idEsame": 120297448,
         "examType": "APPELLO D'ESAME"
       },
-      "sequence": 0,
-      "last_modified_utc": "2026-11-04T13:33:21+00:00"
+      "sequence": 1,
+      "last_modified_utc": "2026-11-04T17:06:02+00:00"
     }
   ]
 }
