@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "observed_at_utc": "2026-11-04T22:41:17+00:00",
+  "observed_at_utc": "2026-11-04T23:28:35+00:00",
   "freshness_lease": {
     "max_age_seconds": 2700,
-    "expires_at_utc": "2026-11-04T23:25:57+00:00",
+    "expires_at_utc": "2026-11-05T00:13:22+00:00",
     "feed_count": 8
   },
   "results": [
