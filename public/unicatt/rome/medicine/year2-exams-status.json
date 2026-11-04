@@ -1,20 +1,20 @@
 {
   "feed_id": "year2-exams",
   "calendar_name": "UCSC Rome Medicine Year 2 Exams",
-  "generated_at_utc": "2026-11-04T13:04:20+00:00",
-  "last_successful_fetch_at_utc": "2026-11-04T13:04:20+00:00",
-  "last_publication_at_utc": "2026-11-04T13:04:20+00:00",
+  "generated_at_utc": "2026-11-04T13:33:21+00:00",
+  "last_successful_fetch_at_utc": "2026-11-04T13:33:21+00:00",
+  "last_publication_at_utc": "2026-11-04T13:33:21+00:00",
   "freshness_lease": {
     "max_age_seconds": 2700,
-    "issued_at_utc": "2026-11-04T13:04:20+00:00",
-    "expires_at_utc": "2026-11-04T13:49:20+00:00"
+    "issued_at_utc": "2026-11-04T13:33:21+00:00",
+    "expires_at_utc": "2026-11-04T14:18:21+00:00"
   },
   "generated_age_seconds": 0,
-  "event_count": 85,
+  "event_count": 88,
   "cancelled_count": 10,
   "tentative_count": 0,
   "source_counts": {
-    "base_exams": 68
+    "base_exams": 71
   },
   "source_payload": {
     "codiceSede": "RM",
@@ -26,9 +26,9 @@
   "source_urls": [
     "https://secure.unicatt.it/didatticaweb2/ps/esami/"
   ],
-  "source_snapshot_hash": "3ebfabe4a837b132daf000980be9930588fc2408b859e6cf70f3dd490275176d",
-  "last_published_source_snapshot_hash": "3ebfabe4a837b132daf000980be9930588fc2408b859e6cf70f3dd490275176d",
-  "content_hash": "941611fd10c4146b5633eab030b10048ff82fd50d3a3ab1403691654956feeb3",
+  "source_snapshot_hash": "52fb2f54b6f57f47eba01c6ecce7c2e7d47496a5229250c5b1b8732d773c4752",
+  "last_published_source_snapshot_hash": "52fb2f54b6f57f47eba01c6ecce7c2e7d47496a5229250c5b1b8732d773c4752",
+  "content_hash": "973594c7306290d76f0940d5e0597bf2c2e783caf8a73c79fde699d7ec8a4ca1",
   "publication_mode": "github-pages-static",
   "dynamic_refresh": "GitHub Actions poller; no Vercel Blob dependency",
   "health": "healthy",
@@ -1738,6 +1738,66 @@
       },
       "sequence": 0,
       "last_modified_utc": "2026-09-07T09:17:51.092272+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-c8b71fc12f78615bd3d54e8d109d27fbae7acdc3@codex",
+      "summary": "EPIDEMIOLOGY AND BIOSTATISTICS - APPELLO D'ESAME",
+      "start": "2026-12-14T14:00:00+01:00",
+      "end": "2026-12-14T16:00:00+01:00",
+      "location": "Giovanni XXIII - Laboratorio linguistico",
+      "description": "Course code: MR000013\nTeacher: PEZZULLO ANGELO MARIA\nExam type: APPELLO D'ESAME\nSource date: 14/12/2026\nBuilding: Giovanni XXIII\nRoom: Laboratorio linguistico\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "122192526",
+      "source_date": "14/12/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000013",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120255726,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-11-04T13:33:21+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-909745ee9fde31390913170c5f3bce18035c42ee@codex",
+      "summary": "THEOLOGY 2: INTRODUCTION TO THEOLOGICAL ANTHROPOLOGY AND ECCLESIOLOGY - APPELLO D'ESAME",
+      "start": "2026-12-15T09:00:00+01:00",
+      "end": "2026-12-15T11:00:00+01:00",
+      "location": "Giovanni XXIII - 6",
+      "description": "Course code: MR000043\nTeacher: MERONI FABRIZIO\nExam type: APPELLO D'ESAME\nSource date: 15/12/2026\nBuilding: Giovanni XXIII\nRoom: 6\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "122192435",
+      "source_date": "15/12/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000043",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120657202,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-11-04T13:33:21+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-a94490b1e8db6f44f01c0cd35b546834cef6085b@codex",
+      "summary": "HISTORY OF MEDICINE AND ANTROPOLOGY - APPELLO D'ESAME",
+      "start": "2026-12-21T14:00:00+01:00",
+      "end": "2026-12-21T16:00:00+01:00",
+      "location": "Giovanni XXIII - Laboratorio linguistico",
+      "description": "Course code: MR000014\nTeacher: REFOLO PIETRO\nExam type: APPELLO D'ESAME\nSource date: 21/12/2026\nBuilding: Giovanni XXIII\nRoom: Laboratorio linguistico\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "122192506",
+      "source_date": "21/12/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000014",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120297448,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-11-04T13:33:21+00:00"
     }
   ]
 }
