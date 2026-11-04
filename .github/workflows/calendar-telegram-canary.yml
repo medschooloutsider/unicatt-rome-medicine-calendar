@@ -46,7 +46,18 @@ jobs:
           git config user.email "calendar-pipeline[bot]@users.noreply.github.com"
           git add alerts
           git diff --cached --quiet || git commit -m "Record UCSC Telegram heartbeat"
-          git push
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              exit 0
+            fi
+            if [ "$attempt" -eq 5 ]; then
+              echo "git push failed after 5 attempts" >&2
+              exit 1
+            fi
+            delay=$((attempt * 10))
+            echo "git push failed; retrying in ${delay}s (attempt $((attempt + 1))/5)" >&2
+            sleep "$delay"
+          done
       - name: Open Telegram delivery issue on failure
         if: failure()
         env:

@@ -6,6 +6,7 @@ on:
     - cron: "12,27,42,57 * * * *"
 
 permissions:
+  actions: write
   contents: write
   issues: write
 
@@ -28,6 +29,8 @@ jobs:
           cat sentinel-result.json
           echo "exit_code=$exit_code" >> "$GITHUB_OUTPUT"
           if [ "$exit_code" -eq 0 ]; then echo "ok=true" >> "$GITHUB_OUTPUT"; else echo "ok=false" >> "$GITHUB_OUTPUT"; fi
+          stale_only="$(python3 -c 'import json,sys; failures=json.load(open(sys.argv[1], encoding="utf-8")).get("failures", []); allowed=("health.json: freshness lease expired or missing",); print("true" if failures and all((f in allowed or f.endswith(": publication age")) for f in failures) else "false")' sentinel-result.json)"
+          echo "stale_only=$stale_only" >> "$GITHUB_OUTPUT"
           exit 0
       - name: Open and notify the durable alert issue
         if: steps.verify.outputs.ok != 'true'
@@ -51,6 +54,41 @@ jobs:
           status="$(printf '%s' "$result" | python3 -c 'import json,sys; print(json.load(sys.stdin).get("status", "unknown"))')"
           if [ -n "$issue_number" ] && { [ "$created" -eq 1 ] || [ "$status" = "failed" ] || [ "$status" = "not_configured" ]; }; then gh issue comment "$issue_number" --body "Telegram delivery status: ${status}. The issue remains the durable fallback." >/dev/null; fi
           printf '%s\n' "$result"
+      - name: Dispatch bounded hosted recovery for stale publication
+        id: recover
+        if: steps.verify.outputs.stale_only == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          repo="$GITHUB_REPOSITORY"
+          now_epoch="$(date -u +%s)"
+          last_dispatch="$(gh run list --repo "$repo" --workflow calendar-publish.yml --event workflow_dispatch --limit 1 --json createdAt --jq '.[0].createdAt // empty')"
+          if [ -n "$last_dispatch" ]; then
+            last_epoch="$(python3 -c 'import datetime,sys; print(int(datetime.datetime.fromisoformat(sys.argv[1].replace("Z", "+00:00")).timestamp()))' "$last_dispatch")"
+            age=$((now_epoch - last_epoch))
+            if [ "$age" -lt 1800 ]; then
+              echo "Hosted publisher cooldown is active (${age}s since last dispatch)."
+              issue_number="$(gh issue list --repo "$repo" --state open --search '[Calendar Alert] UCSC publication' --json number --jq '.[0].number // empty')"
+              if [ -n "$issue_number" ]; then
+                gh issue comment "$issue_number" --repo "$repo" --body "Hosted recovery not re-dispatched: publisher cooldown is active (${age}s since the last hosted dispatch)." >/dev/null
+              fi
+              echo "dispatched=false" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+          fi
+          active="$(gh run list --repo "$repo" --workflow calendar-publish.yml --limit 20 --json status --jq '[.[] | select(.status == "queued" or .status == "in_progress")] | length')"
+          if [ "$active" -gt 0 ]; then
+            echo "A hosted publisher is already queued or running; not dispatching another."
+            echo "dispatched=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          gh workflow run calendar-publish.yml --repo "$repo" --ref main -f recovery_reason="sentinel-stale-publication"
+          issue_number="$(gh issue list --repo "$repo" --state open --search '[Calendar Alert] UCSC publication' --json number --jq '.[0].number // empty')"
+          if [ -n "$issue_number" ]; then
+            gh issue comment "$issue_number" --repo "$repo" --body "Hosted recovery publisher dispatched by sentinel. The issue remains open until a later sentinel proves fresh public publication." >/dev/null
+          fi
+          echo "dispatched=true" >> "$GITHUB_OUTPUT"
       - name: Close the durable alert issue after recovery
         if: steps.verify.outputs.ok == 'true'
         env:
@@ -73,7 +111,18 @@ jobs:
           git config user.email "calendar-pipeline[bot]@users.noreply.github.com"
           git add alerts
           git diff --cached --quiet || git commit -m "Record UCSC calendar alert delivery"
-          git push
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              exit 0
+            fi
+            if [ "$attempt" -eq 5 ]; then
+              echo "git push failed after 5 attempts" >&2
+              exit 1
+            fi
+            delay=$((attempt * 10))
+            echo "git push failed; retrying in ${delay}s (attempt $((attempt + 1))/5)" >&2
+            sleep "$delay"
+          done
       - name: Preserve sentinel failure state
         if: steps.verify.outputs.ok != 'true'
         run: exit 1
