@@ -1,13 +1,13 @@
 {
   "feed_id": "italy-holidays",
   "calendar_name": "Italy Holidays",
-  "generated_at_utc": "2026-11-05T14:03:50+00:00",
-  "last_successful_fetch_at_utc": "2026-11-05T14:03:50+00:00",
-  "last_publication_at_utc": "2026-11-05T14:03:50+00:00",
+  "generated_at_utc": "2026-11-05T15:01:50+00:00",
+  "last_successful_fetch_at_utc": "2026-11-05T15:01:50+00:00",
+  "last_publication_at_utc": "2026-11-05T15:01:50+00:00",
   "freshness_lease": {
     "max_age_seconds": 2700,
-    "issued_at_utc": "2026-11-05T14:03:50+00:00",
-    "expires_at_utc": "2026-11-05T14:48:50+00:00"
+    "issued_at_utc": "2026-11-05T15:01:50+00:00",
+    "expires_at_utc": "2026-11-05T15:46:50+00:00"
   },
   "generated_age_seconds": 0,
   "event_count": 89,
@@ -23,7 +23,7 @@
   ],
   "source_snapshot_hash": "e00cc54ec303a3a4811e18a35a175927ee1d82819022a82dfbcbab8909375d91",
   "last_published_source_snapshot_hash": "e00cc54ec303a3a4811e18a35a175927ee1d82819022a82dfbcbab8909375d91",
-  "content_hash": "09ddba5a16af6ce0de41a2d9a44b61af34b76dc72bd8be4da699932a0029c66f",
+  "content_hash": "ae5a2e9e9f169c93b07947d4bc7c95a99b6fad213034df5d0347521b8f8c3d4c",
   "publication_mode": "github-pages-static",
   "dynamic_refresh": "GitHub Actions poller; no Vercel Blob dependency",
   "health": "healthy",
