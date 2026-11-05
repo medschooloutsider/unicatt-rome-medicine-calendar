@@ -1,66 +1,17 @@
 {
   "ok": true,
-  "observed_at_utc": "2026-11-05T15:50:43+00:00",
+  "observed_at_utc": "2026-11-05T16:26:53+00:00",
   "freshness_lease": {
     "max_age_seconds": 2700,
-    "expires_at_utc": "2026-11-05T16:35:22+00:00",
-    "feed_count": 8
+    "expires_at_utc": "2026-11-05T17:11:50+00:00",
+    "feed_count": 1
   },
   "results": [
-    {
-      "feed_id": "year2-lessons",
-      "ok": true,
-      "health": "healthy",
-      "event_count": 264,
-      "alerts": []
-    },
-    {
-      "feed_id": "year2-exams",
-      "ok": true,
-      "health": "healthy",
-      "event_count": 90,
-      "alerts": []
-    },
-    {
-      "feed_id": "year1-exams",
-      "ok": true,
-      "health": "healthy",
-      "event_count": 95,
-      "alerts": []
-    },
-    {
-      "feed_id": "year1-lessons",
-      "ok": true,
-      "health": "healthy",
-      "event_count": 0,
-      "alerts": []
-    },
     {
       "feed_id": "year3-lessons",
       "ok": true,
       "health": "healthy",
       "event_count": 132,
-      "alerts": []
-    },
-    {
-      "feed_id": "year3-exams",
-      "ok": true,
-      "health": "healthy",
-      "event_count": 0,
-      "alerts": []
-    },
-    {
-      "feed_id": "italy-holidays",
-      "ok": true,
-      "health": "healthy",
-      "event_count": 89,
-      "alerts": []
-    },
-    {
-      "feed_id": "tartu-y1-lessons",
-      "ok": true,
-      "health": "healthy",
-      "event_count": 58,
       "alerts": []
     }
   ]

@@ -50,6 +50,7 @@ ALERT_DIRNAME = "alerts"
 STATE_DIRNAME = "state"
 PUBLIC_DIRNAME = "public"
 FEED_IDS = tuple(source.FEED_SPECS.keys())
+CORRECTIONS_FILENAME = "calendar_corrections.json"
 
 
 class UnsafeSnapshotError(RuntimeError):
@@ -320,6 +321,182 @@ def append_note(description: str, note: str) -> str:
     if marker in description:
         return description
     return f"{description}\n\n{marker}" if description else marker
+
+
+def load_source_corrections(root: Path) -> list[dict[str, Any]]:
+    """Load durable, source-owned corrections without exposing private source text."""
+    path = root / CORRECTIONS_FILENAME
+    if not path.exists():
+        return []
+    payload = read_json(path)
+    if not isinstance(payload, dict):
+        raise UnsafeSnapshotError(f"{CORRECTIONS_FILENAME} must be a JSON object")
+    records = payload.get("corrections")
+    if not isinstance(records, list):
+        raise UnsafeSnapshotError(f"{CORRECTIONS_FILENAME} corrections must be a list")
+    result: list[dict[str, Any]] = []
+    for record in records:
+        if not isinstance(record, dict):
+            raise UnsafeSnapshotError(f"{CORRECTIONS_FILENAME} contains a non-object correction")
+        feed_id = str(record.get("feed_id") or "").strip()
+        uid = str(record.get("uid") or "").strip()
+        status = str(record.get("status") or "").strip().upper()
+        if feed_id not in source.FEED_SPECS or not uid or status != "CANCELLED":
+            raise UnsafeSnapshotError(f"invalid correction in {CORRECTIONS_FILENAME}: {record!r}")
+        result.append(dict(record))
+    return result
+
+
+def corrections_for_feed(root: Path, feed_id: str) -> list[dict[str, Any]]:
+    return [item for item in load_source_corrections(root) if item.get("feed_id") == feed_id]
+
+
+def decorate_event_row_with_correction(
+    row: dict[str, Any],
+    correction: dict[str, Any],
+) -> dict[str, Any]:
+    decorated = dict(row)
+    decorated["status"] = "CANCELLED"
+    metadata = decorated.get("metadata") if isinstance(decorated.get("metadata"), dict) else {}
+    metadata = dict(metadata)
+    metadata["source_correction"] = {
+        "status": "CANCELLED",
+        "source_kind": str(correction.get("source_kind") or "external_authoritative_notice"),
+        "source_reference": str(correction.get("source_reference") or "") or None,
+        "observed_at": str(correction.get("observed_at") or "") or None,
+    }
+    decorated["metadata"] = metadata
+    reason = str(correction.get("reason") or "event cancelled by an authoritative external notice.").strip()
+    observed_label = str(correction.get("observed_at") or "").strip()
+    note = f"External correction: {reason}"
+    if observed_label:
+        note += f" Correction observed: {observed_label}."
+    decorated["description"] = append_note(str(decorated.get("description") or ""), note)
+    return decorated
+
+
+def apply_source_corrections_to_fresh(
+    feed_id: str,
+    paths: PipelinePaths,
+    fresh: source.FeedArtifact,
+) -> source.FeedArtifact:
+    corrections = corrections_for_feed(paths.root, feed_id)
+    if not corrections:
+        return fresh
+    by_uid = {str(item["uid"]): item for item in corrections}
+    rows: list[dict[str, Any]] = []
+    matched = 0
+    for row in fresh.events:
+        current = dict(row)
+        correction = by_uid.get(str(current.get("uid")))
+        if correction is not None:
+            current = decorate_event_row_with_correction(current, correction)
+            matched += 1
+        rows.append(current)
+    if not matched:
+        return fresh
+    events = [source.event_from_status_row(row) for row in rows]
+    events.sort(key=lambda event: (event.start, event.summary, event.uid))
+    content = source.render_ics(
+        source.FEED_SPECS[feed_id].calendar_name,
+        source.FEED_SPECS[feed_id].description,
+        events,
+        timezone_id=source.FEED_SPECS[feed_id].timezone_id,
+    )
+    source_counts = dict(fresh.source_counts)
+    source_counts["authoritative_corrections"] = matched
+    return source.build_artifact(
+        source.FEED_SPECS[feed_id],
+        events,
+        content,
+        datetime.fromisoformat(fresh.generated_at_utc),
+        source_counts,
+        list(fresh.source_urls),
+        fresh.cache_mode,
+    )
+
+
+def apply_source_corrections(
+    feed_id: str,
+    paths: PipelinePaths,
+    published: source.FeedArtifact,
+    ledger: dict[str, dict[str, Any]],
+    alerts: list[dict[str, Any]],
+    observed_dt: datetime,
+) -> tuple[source.FeedArtifact, dict[str, dict[str, Any]], list[dict[str, Any]]]:
+    """Apply explicit external corrections to the owning event UID.
+
+    Corrections are applied after upstream snapshot reconciliation so a later
+    upstream refresh cannot erase an authenticated instructor/admin update.
+    The event remains one canonical occurrence with its original UID.
+    """
+    corrections = corrections_for_feed(paths.root, feed_id)
+    if not corrections:
+        return published, ledger, alerts
+
+    by_uid = {str(item["uid"]): item for item in corrections}
+    changed = 0
+    for uid, correction in by_uid.items():
+        record = ledger.get(uid)
+        if not isinstance(record, dict) or not isinstance(record.get("event"), dict):
+            raise UnsafeSnapshotError(f"correction UID is absent from {feed_id}: {uid}")
+        row = dict(record["event"])
+        decorated = decorate_event_row_with_correction(row, correction)
+        if decorated == row:
+            continue
+        previous_status = row.get("status")
+        row = decorated
+        reason = str(correction.get("reason") or "event cancelled by an authoritative external notice.").strip()
+        ledger[uid] = change_record(
+            record,
+            row,
+            iso(observed_dt),
+            present=True,
+            retention_state="explicitly_cancelled",
+        )
+        if previous_status != "CANCELLED":
+            alerts.append(
+                {
+                    "type": "explicit_cancellation",
+                    "uid": uid,
+                    "summary": row.get("summary", ""),
+                    "event": dict(row),
+                    "reason": reason,
+                    "source_correction": True,
+                }
+            )
+        changed += 1
+
+    events = [
+        source.event_from_status_row(record["event"])
+        for record in ledger.values()
+        if isinstance(record, dict) and isinstance(record.get("event"), dict)
+    ]
+    events.sort(key=lambda event: (event.start, event.summary, event.uid))
+    content = source.render_ics(
+        source.FEED_SPECS[feed_id].calendar_name,
+        source.FEED_SPECS[feed_id].description,
+        events,
+        timezone_id=source.FEED_SPECS[feed_id].timezone_id,
+    )
+    source_counts = dict(published.source_counts)
+    source_counts["authoritative_corrections"] = max(
+        int(source_counts.get("authoritative_corrections") or 0),
+        changed,
+    )
+    return (
+        source.build_artifact(
+            source.FEED_SPECS[feed_id],
+            events,
+            content,
+            observed_dt,
+            source_counts,
+            list(published.source_urls),
+            published.cache_mode,
+        ),
+        ledger,
+        alerts,
+    )
 
 
 def change_record(
@@ -710,7 +887,16 @@ def run_feed(
                 raise UnsafeSnapshotError(
                     "valid source response contained zero events while future durable history exists"
                 )
+        fresh = apply_source_corrections_to_fresh(feed_id, paths, fresh)
         published, ledger, alerts = apply_snapshot(feed_id, state, fresh, observed_dt)
+        published, ledger, alerts = apply_source_corrections(
+            feed_id,
+            paths,
+            published,
+            ledger,
+            alerts,
+            observed_dt,
+        )
         snapshot_hash = source_event_hash(fresh.events)
         state = dict(state)
         state.update(

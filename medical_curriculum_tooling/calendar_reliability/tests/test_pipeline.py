@@ -258,6 +258,51 @@ class CalendarPipelineTests(unittest.TestCase):
         cancelled = next(row for row in status["events"] if row["uid"].endswith("cancel@codex"))
         self.assertEqual(cancelled["status"], "CANCELLED")
 
+    def test_authoritative_correction_preserves_uid_and_does_not_create_overlay(self):
+      with tempfile.TemporaryDirectory() as directory:
+        root = Path(directory)
+        correction = {
+            "version": 1,
+            "corrections": [{
+                "feed_id": "year3-lessons",
+                "uid": "unicatt-lesson-occurrence-cancel@codex",
+                "status": "CANCELLED",
+                "reason": "instructor-reported no class on 11 November 2026.",
+                "source_kind": "authenticated_mail",
+                "source_reference": "professional-class-update-2026-11-05",
+                "observed_at": "2026-11-05T16:18:00+01:00",
+            }],
+        }
+        (root / pipeline.CORRECTIONS_FILENAME).write_text(json.dumps(correction), encoding="utf-8")
+        paths, result = run(root, [lesson("cancel", "11/11/2026"), lesson("keep", "12/11/2026")])
+        self.assertTrue(result["ok"])
+        self.assertEqual({item["type"] for item in result["alerts"]}, {"explicit_cancellation"})
+        status_path = pipeline.feed_public_paths(paths, "year3-lessons")[1]
+        status = json.loads(status_path.read_text(encoding="utf-8"))
+        rows = [row for row in status["events"] if row["uid"].endswith("cancel@codex")]
+        self.assertEqual(len(rows), 1)
+        self.assertEqual(rows[0]["status"], "CANCELLED")
+        self.assertEqual(status["source_counts"]["authoritative_corrections"], 1)
+        self.assertEqual(rows[0]["start"], "2026-11-11T08:30:00+01:00")
+        self.assertIn("External correction", rows[0]["description"])
+        self.assertEqual(rows[0]["metadata"]["source_correction"]["source_kind"], "authenticated_mail")
+        ics = pipeline.feed_public_paths(paths, "year3-lessons")[0].read_text(encoding="utf-8")
+        self.assertEqual(ics.count("UID:unicatt-lesson-occurrence-cancel@codex"), 1)
+        self.assertIn("STATUS:CANCELLED", ics)
+        second = pipeline.run_feed(
+            "year3-lessons",
+            paths,
+            now=NOW + timedelta(minutes=15),
+            fetcher=fetcher_for([lesson("cancel", "11/11/2026"), lesson("keep", "12/11/2026")]),
+            enable_alerts=False,
+        )
+        self.assertTrue(second["ok"])
+        self.assertEqual(second["alerts"], [])
+        second_status = json.loads(status_path.read_text(encoding="utf-8"))
+        second_row = next(row for row in second_status["events"] if row["uid"].endswith("cancel@codex"))
+        self.assertEqual(second_row["sequence"], rows[0]["sequence"])
+        self.assertEqual(second_status["source_counts"]["authoritative_corrections"], 1)
+
     def test_source_failure_keeps_old_ics_and_marks_health_degraded(self):
       with tempfile.TemporaryDirectory() as directory:
         root = Path(directory)

@@ -22,6 +22,12 @@ ledger and health receipts alongside them.
   failure cannot erase or suppress the publication.
 - The optional Telegram hook is best-effort only. JSON alert receipts are the
   durable alert path; notifications cannot make a good publication fail.
+- Authoritative external corrections are recorded in `calendar_corrections.json`.
+  Each correction is keyed by the owning feed and stable event UID. The
+  pipeline applies it after snapshot/ledger reconciliation, preserves the
+  original occurrence and UID, publishes `STATUS:CANCELLED`, and never creates
+  a same-slot writable overlay or a title-prefixed pseudo-event. The registry
+  stores only concise provenance, not private source messages.
 
 ## Repository layout for cutover
 

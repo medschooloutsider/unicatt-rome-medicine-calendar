@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "corrections": [
+    {
+      "feed_id": "year3-lessons",
+      "uid": "unicatt-lesson-occurrence-121920053@codex",
+      "status": "CANCELLED",
+      "reason": "instructor-reported no class on 11 November 2026.",
+      "source_kind": "authenticated_mail",
+      "source_reference": "professional-class-update-2026-11-05",
+      "observed_at": "2026-11-05T16:18:00+01:00"
+    }
+  ]
+}
