@@ -1,120 +1,61 @@
 {
   "ok": true,
-  "observed_at_utc": "2026-11-05T16:24:38+00:00",
+  "observed_at_utc": "2026-11-05T16:29:02+00:00",
   "freshness_lease": {
     "max_age_seconds": 2700,
-    "expires_at_utc": "2026-11-05T17:09:26+00:00",
-    "feed_count": 8
+    "expires_at_utc": "2026-11-05T17:13:59+00:00",
+    "feed_count": 1
   },
   "results": [
-    {
-      "feed_id": "year2-lessons",
-      "ok": true,
-      "health": "healthy",
-      "event_count": 264,
-      "alerts": []
-    },
-    {
-      "feed_id": "year2-exams",
-      "ok": true,
-      "health": "healthy",
-      "event_count": 90,
-      "alerts": [
-        {
-          "type": "possible_cancellation",
-          "uid": "unicatt-exam-8d4d16cca6b69ec2f5aeb606b3edf45d5dfacd64@codex",
-          "summary": "FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY 3 (ENDOCRINE/NERVOUS SYSTEM) - Exam",
-          "event": {
-            "uid": "unicatt-exam-8d4d16cca6b69ec2f5aeb606b3edf45d5dfacd64@codex",
-            "summary": "FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY 3 (ENDOCRINE/NERVOUS SYSTEM) - Exam",
-            "start": "2026-12-16T09:00:00+01:00",
-            "end": "2026-12-16T11:00:00+01:00",
-            "location": "",
-            "description": "Course code: MR000011\nTeacher: GELOSO MARIA CONCETTA\nSource date: 16/12/2026\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
-            "status": "TENTATIVE",
-            "source_kind": "exam",
-            "source_record_id": "120454733",
-            "source_date": "16/12/2026",
-            "metadata": {
-              "codiceInsegnamento": "MR000011",
-              "codiceCorsoIntegrato": null,
-              "idEsame": 120454733,
-              "examType": null
-            },
-            "sequence": 0,
-            "last_modified_utc": "2026-11-05T15:50:30+00:00"
-          },
-          "reason": "one valid upstream snapshot omitted this future event; awaiting confirmation"
-        },
-        {
-          "type": "possible_cancellation",
-          "uid": "unicatt-exam-occurrence-c71220560722addf0a0470970daaf60ef7895c64@codex",
-          "summary": "CELLULAR AND MOLECULAR PATHOLOGY - APPELLO D'ESAME",
-          "event": {
-            "uid": "unicatt-exam-occurrence-c71220560722addf0a0470970daaf60ef7895c64@codex",
-            "summary": "CELLULAR AND MOLECULAR PATHOLOGY - APPELLO D'ESAME",
-            "start": "2026-12-18T09:00:00+01:00",
-            "end": "2026-12-18T11:00:00+01:00",
-            "location": "Giovanni XXIII - Laboratorio linguistico",
-            "description": "Course code: MR000012\nTeacher: SERINI SIMONA\nExam type: APPELLO D'ESAME\nSource date: 18/12/2026\nBuilding: Giovanni XXIII\nRoom: Laboratorio linguistico\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
-            "status": "TENTATIVE",
-            "source_kind": "exam",
-            "source_record_id": "122197080",
-            "source_date": "18/12/2026",
-            "metadata": {
-              "codiceInsegnamento": "MR000012",
-              "codiceCorsoIntegrato": null,
-              "idEsame": 120454758,
-              "examType": "APPELLO D'ESAME"
-            },
-            "sequence": 0,
-            "last_modified_utc": "2026-11-05T15:50:30+00:00"
-          },
-          "reason": "one valid upstream snapshot omitted this future event; awaiting confirmation"
-        }
-      ]
-    },
-    {
-      "feed_id": "year1-exams",
-      "ok": true,
-      "health": "healthy",
-      "event_count": 95,
-      "alerts": []
-    },
-    {
-      "feed_id": "year1-lessons",
-      "ok": true,
-      "health": "healthy",
-      "event_count": 0,
-      "alerts": []
-    },
     {
       "feed_id": "year3-lessons",
       "ok": true,
       "health": "healthy",
       "event_count": 132,
-      "alerts": []
-    },
-    {
-      "feed_id": "year3-exams",
-      "ok": true,
-      "health": "healthy",
-      "event_count": 0,
-      "alerts": []
-    },
-    {
-      "feed_id": "italy-holidays",
-      "ok": true,
-      "health": "healthy",
-      "event_count": 89,
-      "alerts": []
-    },
-    {
-      "feed_id": "tartu-y1-lessons",
-      "ok": true,
-      "health": "healthy",
-      "event_count": 58,
-      "alerts": []
+      "alerts": [
+        {
+          "type": "explicit_cancellation",
+          "uid": "unicatt-lesson-occurrence-121920053@codex",
+          "summary": "INTERNAL MEDICINE (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+          "event": {
+            "uid": "unicatt-lesson-occurrence-121920053@codex",
+            "summary": "INTERNAL MEDICINE (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+            "start": "2026-11-11T10:00:00+01:00",
+            "end": "2026-11-11T10:45:00+01:00",
+            "location": "Giovanni XXIII - 2",
+            "description": "Course code: MR000126\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: GAMBASSI GIOVANNI\nSource date: 11/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 00:45\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: External correction: instructor-reported no class on 11 November 2026. Correction observed: 2026-11-05T16:18:00+01:00.",
+            "status": "CANCELLED",
+            "source_kind": "lesson",
+            "source_record_id": "121920053",
+            "source_date": "11/11/2026",
+            "metadata": {
+              "codiceInsegnamento": "MR000126",
+              "codiceCorsoIntegrato": "MR000015",
+              "idLezione": 121776996,
+              "idCalendarioAula": 121920053,
+              "matchKey": [
+                "MR000126",
+                "11/11/2026",
+                "10:00",
+                "10:45"
+              ],
+              "flags": {
+                "room_change": false,
+                "extra_lesson": false,
+                "suspension": false
+              },
+              "source_correction": {
+                "status": "CANCELLED",
+                "source_kind": "authenticated_mail",
+                "source_reference": "professional-class-update-2026-11-05",
+                "observed_at": "2026-11-05T16:18:00+01:00"
+              }
+            },
+            "sequence": 0,
+            "last_modified_utc": null
+          }
+        }
+      ]
     }
   ]
 }

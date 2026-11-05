@@ -1,24 +1,25 @@
 {
   "feed_id": "year3-lessons",
   "calendar_name": "UCSC Rome Medicine Year 3 Lessons",
-  "generated_at_utc": "2026-11-05T16:24:34+00:00",
-  "last_successful_fetch_at_utc": "2026-11-05T16:24:34+00:00",
-  "last_publication_at_utc": "2026-11-05T16:24:34+00:00",
+  "generated_at_utc": "2026-11-05T16:28:59+00:00",
+  "last_successful_fetch_at_utc": "2026-11-05T16:28:59+00:00",
+  "last_publication_at_utc": "2026-11-05T16:28:59+00:00",
   "freshness_lease": {
     "max_age_seconds": 2700,
-    "issued_at_utc": "2026-11-05T16:24:34+00:00",
-    "expires_at_utc": "2026-11-05T17:09:34+00:00"
+    "issued_at_utc": "2026-11-05T16:28:59+00:00",
+    "expires_at_utc": "2026-11-05T17:13:59+00:00"
   },
   "generated_age_seconds": 0,
   "event_count": 132,
-  "cancelled_count": 6,
+  "cancelled_count": 7,
   "tentative_count": 0,
   "source_counts": {
     "base_lessons": 70,
     "room_changes": 8,
     "extra_lessons": 0,
     "suspensions": 0,
-    "merge_notes": 8
+    "merge_notes": 8,
+    "authoritative_corrections": 1
   },
   "source_payload": {
     "codiceSede": "RM",
@@ -33,9 +34,9 @@
     "https://secure.unicatt.it/didatticaweb2/lezionistraordinarie/",
     "https://secure.unicatt.it/didatticaweb2/sospensioni/"
   ],
-  "source_snapshot_hash": "4974c21d37ac69897c11e096ab1807228784ae8e352099bf0af7cb83f48eb9d3",
-  "last_published_source_snapshot_hash": "4974c21d37ac69897c11e096ab1807228784ae8e352099bf0af7cb83f48eb9d3",
-  "content_hash": "7f0da021ef88161a8133989574d8953c2c2f9047cc87ff5ca61b55f8bebaec96",
+  "source_snapshot_hash": "aa26013a8f08a896821c13ba35d158dc9b8cd1715fd0176a4084fa8d4fd99ff0",
+  "last_published_source_snapshot_hash": "aa26013a8f08a896821c13ba35d158dc9b8cd1715fd0176a4084fa8d4fd99ff0",
+  "content_hash": "74e1c9f2f25ffb512cb6c6a874721b98964eed62841909bc54218fd619901af7",
   "publication_mode": "github-pages-static",
   "dynamic_refresh": "GitHub Actions poller; no Vercel Blob dependency",
   "health": "healthy",
@@ -43,7 +44,50 @@
   "stale": false,
   "consecutive_failures": 0,
   "last_error": null,
-  "alerts": [],
+  "alerts": [
+    {
+      "type": "explicit_cancellation",
+      "uid": "unicatt-lesson-occurrence-121920053@codex",
+      "summary": "INTERNAL MEDICINE (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "event": {
+        "uid": "unicatt-lesson-occurrence-121920053@codex",
+        "summary": "INTERNAL MEDICINE (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+        "start": "2026-11-11T10:00:00+01:00",
+        "end": "2026-11-11T10:45:00+01:00",
+        "location": "Giovanni XXIII - 2",
+        "description": "Course code: MR000126\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: GAMBASSI GIOVANNI\nSource date: 11/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 00:45\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: External correction: instructor-reported no class on 11 November 2026. Correction observed: 2026-11-05T16:18:00+01:00.",
+        "status": "CANCELLED",
+        "source_kind": "lesson",
+        "source_record_id": "121920053",
+        "source_date": "11/11/2026",
+        "metadata": {
+          "codiceInsegnamento": "MR000126",
+          "codiceCorsoIntegrato": "MR000015",
+          "idLezione": 121776996,
+          "idCalendarioAula": 121920053,
+          "matchKey": [
+            "MR000126",
+            "11/11/2026",
+            "10:00",
+            "10:45"
+          ],
+          "flags": {
+            "room_change": false,
+            "extra_lesson": false,
+            "suspension": false
+          },
+          "source_correction": {
+            "status": "CANCELLED",
+            "source_kind": "authenticated_mail",
+            "source_reference": "professional-class-update-2026-11-05",
+            "observed_at": "2026-11-05T16:18:00+01:00"
+          }
+        },
+        "sequence": 0,
+        "last_modified_utc": null
+      }
+    }
+  ],
   "retention_policy": "Entries are NOT erased as days pass. Past entries remain in place indefinitely for future audit. Corrections and cancellations retain event identity; no rolling date cutoff is permitted for this or any future station.",
   "events": [
     {
@@ -2253,8 +2297,8 @@
       "start": "2026-11-11T10:00:00+01:00",
       "end": "2026-11-11T10:45:00+01:00",
       "location": "Giovanni XXIII - 2",
-      "description": "Course code: MR000126\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: GAMBASSI GIOVANNI\nSource date: 11/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 00:45\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
-      "status": null,
+      "description": "Course code: MR000126\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: GAMBASSI GIOVANNI\nSource date: 11/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 00:45\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: External correction: instructor-reported no class on 11 November 2026. Correction observed: 2026-11-05T16:18:00+01:00.",
+      "status": "CANCELLED",
       "source_kind": "lesson",
       "source_record_id": "121920053",
       "source_date": "11/11/2026",
@@ -2273,10 +2317,16 @@
           "room_change": false,
           "extra_lesson": false,
           "suspension": false
+        },
+        "source_correction": {
+          "status": "CANCELLED",
+          "source_kind": "authenticated_mail",
+          "source_reference": "professional-class-update-2026-11-05",
+          "observed_at": "2026-11-05T16:18:00+01:00"
         }
       },
-      "sequence": 0,
-      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+      "sequence": 1,
+      "last_modified_utc": "2026-11-05T16:28:59+00:00"
     },
     {
       "uid": "unicatt-lesson-occurrence-121873449@codex",
