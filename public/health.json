@@ -1,61 +1,67 @@
 {
   "ok": true,
-  "observed_at_utc": "2026-11-05T16:29:02+00:00",
+  "observed_at_utc": "2026-11-05T16:30:16+00:00",
   "freshness_lease": {
     "max_age_seconds": 2700,
-    "expires_at_utc": "2026-11-05T17:13:59+00:00",
-    "feed_count": 1
+    "expires_at_utc": "2026-11-05T17:15:03+00:00",
+    "feed_count": 8
   },
   "results": [
+    {
+      "feed_id": "year2-lessons",
+      "ok": true,
+      "health": "healthy",
+      "event_count": 264,
+      "alerts": []
+    },
+    {
+      "feed_id": "year2-exams",
+      "ok": true,
+      "health": "healthy",
+      "event_count": 90,
+      "alerts": []
+    },
+    {
+      "feed_id": "year1-exams",
+      "ok": true,
+      "health": "healthy",
+      "event_count": 95,
+      "alerts": []
+    },
+    {
+      "feed_id": "year1-lessons",
+      "ok": true,
+      "health": "healthy",
+      "event_count": 0,
+      "alerts": []
+    },
     {
       "feed_id": "year3-lessons",
       "ok": true,
       "health": "healthy",
       "event_count": 132,
-      "alerts": [
-        {
-          "type": "explicit_cancellation",
-          "uid": "unicatt-lesson-occurrence-121920053@codex",
-          "summary": "INTERNAL MEDICINE (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
-          "event": {
-            "uid": "unicatt-lesson-occurrence-121920053@codex",
-            "summary": "INTERNAL MEDICINE (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
-            "start": "2026-11-11T10:00:00+01:00",
-            "end": "2026-11-11T10:45:00+01:00",
-            "location": "Giovanni XXIII - 2",
-            "description": "Course code: MR000126\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: GAMBASSI GIOVANNI\nSource date: 11/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 00:45\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: External correction: instructor-reported no class on 11 November 2026. Correction observed: 2026-11-05T16:18:00+01:00.",
-            "status": "CANCELLED",
-            "source_kind": "lesson",
-            "source_record_id": "121920053",
-            "source_date": "11/11/2026",
-            "metadata": {
-              "codiceInsegnamento": "MR000126",
-              "codiceCorsoIntegrato": "MR000015",
-              "idLezione": 121776996,
-              "idCalendarioAula": 121920053,
-              "matchKey": [
-                "MR000126",
-                "11/11/2026",
-                "10:00",
-                "10:45"
-              ],
-              "flags": {
-                "room_change": false,
-                "extra_lesson": false,
-                "suspension": false
-              },
-              "source_correction": {
-                "status": "CANCELLED",
-                "source_kind": "authenticated_mail",
-                "source_reference": "professional-class-update-2026-11-05",
-                "observed_at": "2026-11-05T16:18:00+01:00"
-              }
-            },
-            "sequence": 0,
-            "last_modified_utc": null
-          }
-        }
-      ]
+      "alerts": []
+    },
+    {
+      "feed_id": "year3-exams",
+      "ok": true,
+      "health": "healthy",
+      "event_count": 0,
+      "alerts": []
+    },
+    {
+      "feed_id": "italy-holidays",
+      "ok": true,
+      "health": "healthy",
+      "event_count": 89,
+      "alerts": []
+    },
+    {
+      "feed_id": "tartu-y1-lessons",
+      "ok": true,
+      "health": "healthy",
+      "event_count": 58,
+      "alerts": []
     }
   ]
 }
