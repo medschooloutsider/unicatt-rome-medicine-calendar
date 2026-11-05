@@ -1,7 +1,7 @@
 {
   "feed_id": "year2-exams",
   "timezone_id": "Europe/Rome",
-  "observed_at_utc": "2026-11-05T16:24:30+00:00",
+  "observed_at_utc": "2026-11-05T16:47:15+00:00",
   "type": "possible_cancellation",
   "uid": "unicatt-exam-occurrence-c71220560722addf0a0470970daaf60ef7895c64@codex",
   "summary": "CELLULAR AND MOLECULAR PATHOLOGY - APPELLO D'ESAME",
@@ -22,8 +22,8 @@
       "idEsame": 120454758,
       "examType": "APPELLO D'ESAME"
     },
-    "sequence": 0,
-    "last_modified_utc": "2026-11-05T15:50:30+00:00"
+    "sequence": 2,
+    "last_modified_utc": "2026-11-05T16:30:07+00:00"
   },
   "reason": "one valid upstream snapshot omitted this future event; awaiting confirmation"
 }

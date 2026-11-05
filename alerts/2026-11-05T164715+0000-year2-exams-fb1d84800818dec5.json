@@ -1,0 +1,29 @@
+{
+  "feed_id": "year2-exams",
+  "timezone_id": "Europe/Rome",
+  "observed_at_utc": "2026-11-05T16:47:15+00:00",
+  "type": "possible_cancellation",
+  "uid": "unicatt-exam-8d4d16cca6b69ec2f5aeb606b3edf45d5dfacd64@codex",
+  "summary": "FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY 3 (ENDOCRINE/NERVOUS SYSTEM) - Exam",
+  "event": {
+    "uid": "unicatt-exam-8d4d16cca6b69ec2f5aeb606b3edf45d5dfacd64@codex",
+    "summary": "FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY 3 (ENDOCRINE/NERVOUS SYSTEM) - Exam",
+    "start": "2026-12-16T09:00:00+01:00",
+    "end": "2026-12-16T11:00:00+01:00",
+    "location": "",
+    "description": "Course code: MR000011\nTeacher: GELOSO MARIA CONCETTA\nSource date: 16/12/2026\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
+    "status": "TENTATIVE",
+    "source_kind": "exam",
+    "source_record_id": "120454733",
+    "source_date": "16/12/2026",
+    "metadata": {
+      "codiceInsegnamento": "MR000011",
+      "codiceCorsoIntegrato": null,
+      "idEsame": 120454733,
+      "examType": null
+    },
+    "sequence": 2,
+    "last_modified_utc": "2026-11-05T16:30:07+00:00"
+  },
+  "reason": "one valid upstream snapshot omitted this future event; awaiting confirmation"
+}
