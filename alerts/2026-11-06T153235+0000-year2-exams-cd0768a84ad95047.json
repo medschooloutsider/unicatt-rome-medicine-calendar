@@ -1,0 +1,71 @@
+{
+  "feed_id": "year2-exams",
+  "timezone_id": "Europe/Rome",
+  "observed_at_utc": "2026-11-06T15:32:35+00:00",
+  "type": "confirmed_cancellation",
+  "uid": "unicatt-exam-occurrence-e8830a7db04a16f8e0b53dbb4579b222b73c9304@codex",
+  "summary": "ITALIAN LANGUAGE II - APPELLO D'ESAME",
+  "event": {
+    "uid": "unicatt-exam-occurrence-e8830a7db04a16f8e0b53dbb4579b222b73c9304@codex",
+    "summary": "ITALIAN LANGUAGE II - APPELLO D'ESAME",
+    "start": "2026-12-14T09:30:00+01:00",
+    "end": "2026-12-14T13:30:00+01:00",
+    "location": "Economia - 108",
+    "description": "Course code: MR000007\nTeacher: GILARDONI SILVIA\nExam type: APPELLO D'ESAME\nSource date: 14/12/2026\nBuilding: Economia\nRoom: 108\nDuration: 04:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.\n\nCalendar reliability note: cancelled after two consecutive valid upstream snapshots omitted this future event.",
+    "status": "CANCELLED",
+    "source_kind": "exam",
+    "source_record_id": "122200735",
+    "source_date": "14/12/2026",
+    "metadata": {
+      "codiceInsegnamento": "MR000007",
+      "codiceCorsoIntegrato": null,
+      "idEsame": 120731872,
+      "examType": "APPELLO D'ESAME"
+    },
+    "sequence": 1,
+    "last_modified_utc": "2026-11-06T14:43:15+00:00"
+  },
+  "reason": "two consecutive valid upstream snapshots omitted this future event",
+  "events": [
+    {
+      "uid": "unicatt-exam-occurrence-e8830a7db04a16f8e0b53dbb4579b222b73c9304@codex",
+      "summary": "ITALIAN LANGUAGE II - APPELLO D'ESAME",
+      "start": "2026-12-14T09:30:00+01:00",
+      "end": "2026-12-14T13:30:00+01:00",
+      "location": "Economia - 108",
+      "description": "Course code: MR000007\nTeacher: GILARDONI SILVIA\nExam type: APPELLO D'ESAME\nSource date: 14/12/2026\nBuilding: Economia\nRoom: 108\nDuration: 04:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.\n\nCalendar reliability note: cancelled after two consecutive valid upstream snapshots omitted this future event.",
+      "status": "CANCELLED",
+      "source_kind": "exam",
+      "source_record_id": "122200735",
+      "source_date": "14/12/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000007",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120731872,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-11-06T14:43:15+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-30a62b3c58a210a5ea247fd02fb6437adc1240ad@codex",
+      "summary": "ITALIAN LANGUAGE II - APPELLO D'ESAME",
+      "start": "2026-12-14T09:30:00+01:00",
+      "end": "2026-12-14T13:30:00+01:00",
+      "location": "Economia - 109",
+      "description": "Course code: MR000007\nTeacher: GILARDONI SILVIA\nExam type: APPELLO D'ESAME\nSource date: 14/12/2026\nBuilding: Economia\nRoom: 109\nDuration: 04:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.\n\nCalendar reliability note: cancelled after two consecutive valid upstream snapshots omitted this future event.",
+      "status": "CANCELLED",
+      "source_kind": "exam",
+      "source_record_id": "122200740",
+      "source_date": "14/12/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000007",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120731872,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 1,
+      "last_modified_utc": "2026-11-06T14:43:15+00:00"
+    }
+  ]
+}

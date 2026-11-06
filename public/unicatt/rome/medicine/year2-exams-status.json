@@ -1,18 +1,18 @@
 {
   "feed_id": "year2-exams",
   "calendar_name": "UCSC Rome Medicine Year 2 Exams",
-  "generated_at_utc": "2026-11-06T14:43:15+00:00",
-  "last_successful_fetch_at_utc": "2026-11-06T14:43:15+00:00",
-  "last_publication_at_utc": "2026-11-06T14:43:15+00:00",
+  "generated_at_utc": "2026-11-06T15:32:27+00:00",
+  "last_successful_fetch_at_utc": "2026-11-06T15:32:27+00:00",
+  "last_publication_at_utc": "2026-11-06T15:32:27+00:00",
   "freshness_lease": {
     "max_age_seconds": 2700,
-    "issued_at_utc": "2026-11-06T14:43:15+00:00",
-    "expires_at_utc": "2026-11-06T15:28:15+00:00"
+    "issued_at_utc": "2026-11-06T15:32:27+00:00",
+    "expires_at_utc": "2026-11-06T16:17:27+00:00"
   },
   "generated_age_seconds": 0,
   "event_count": 94,
-  "cancelled_count": 10,
-  "tentative_count": 4,
+  "cancelled_count": 14,
+  "tentative_count": 0,
   "source_counts": {
     "base_exams": 73
   },
@@ -28,7 +28,7 @@
   ],
   "source_snapshot_hash": "15aa2fbd8a5b57ab1c7e1cfcab224bd6cb4a0ab7c1440ba41fa154afd9fdb846",
   "last_published_source_snapshot_hash": "15aa2fbd8a5b57ab1c7e1cfcab224bd6cb4a0ab7c1440ba41fa154afd9fdb846",
-  "content_hash": "3c7f1b4d709f9bfd3e5fc2477324e5678d373b5ffa2b770aee0a8dd5b7e01d59",
+  "content_hash": "cd35564c7a3997bc793e8b119d108e34fdc916de6b4d941149fb9cdaefdab593",
   "publication_mode": "github-pages-static",
   "dynamic_refresh": "GitHub Actions poller; no Vercel Blob dependency",
   "health": "healthy",
@@ -38,7 +38,7 @@
   "last_error": null,
   "alerts": [
     {
-      "type": "possible_cancellation",
+      "type": "confirmed_cancellation",
       "uid": "unicatt-exam-occurrence-e8830a7db04a16f8e0b53dbb4579b222b73c9304@codex",
       "summary": "ITALIAN LANGUAGE II - APPELLO D'ESAME",
       "event": {
@@ -47,8 +47,8 @@
         "start": "2026-12-14T09:30:00+01:00",
         "end": "2026-12-14T13:30:00+01:00",
         "location": "Economia - 108",
-        "description": "Course code: MR000007\nTeacher: GILARDONI SILVIA\nExam type: APPELLO D'ESAME\nSource date: 14/12/2026\nBuilding: Economia\nRoom: 108\nDuration: 04:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
-        "status": "TENTATIVE",
+        "description": "Course code: MR000007\nTeacher: GILARDONI SILVIA\nExam type: APPELLO D'ESAME\nSource date: 14/12/2026\nBuilding: Economia\nRoom: 108\nDuration: 04:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.\n\nCalendar reliability note: cancelled after two consecutive valid upstream snapshots omitted this future event.",
+        "status": "CANCELLED",
         "source_kind": "exam",
         "source_record_id": "122200735",
         "source_date": "14/12/2026",
@@ -58,13 +58,13 @@
           "idEsame": 120731872,
           "examType": "APPELLO D'ESAME"
         },
-        "sequence": 0,
-        "last_modified_utc": "2026-11-06T13:55:22+00:00"
+        "sequence": 1,
+        "last_modified_utc": "2026-11-06T14:43:15+00:00"
       },
-      "reason": "one valid upstream snapshot omitted this future event; awaiting confirmation"
+      "reason": "two consecutive valid upstream snapshots omitted this future event"
     },
     {
-      "type": "possible_cancellation",
+      "type": "confirmed_cancellation",
       "uid": "unicatt-exam-occurrence-30a62b3c58a210a5ea247fd02fb6437adc1240ad@codex",
       "summary": "ITALIAN LANGUAGE II - APPELLO D'ESAME",
       "event": {
@@ -73,8 +73,8 @@
         "start": "2026-12-14T09:30:00+01:00",
         "end": "2026-12-14T13:30:00+01:00",
         "location": "Economia - 109",
-        "description": "Course code: MR000007\nTeacher: GILARDONI SILVIA\nExam type: APPELLO D'ESAME\nSource date: 14/12/2026\nBuilding: Economia\nRoom: 109\nDuration: 04:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
-        "status": "TENTATIVE",
+        "description": "Course code: MR000007\nTeacher: GILARDONI SILVIA\nExam type: APPELLO D'ESAME\nSource date: 14/12/2026\nBuilding: Economia\nRoom: 109\nDuration: 04:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.\n\nCalendar reliability note: cancelled after two consecutive valid upstream snapshots omitted this future event.",
+        "status": "CANCELLED",
         "source_kind": "exam",
         "source_record_id": "122200740",
         "source_date": "14/12/2026",
@@ -84,13 +84,13 @@
           "idEsame": 120731872,
           "examType": "APPELLO D'ESAME"
         },
-        "sequence": 0,
-        "last_modified_utc": "2026-11-06T13:55:22+00:00"
+        "sequence": 1,
+        "last_modified_utc": "2026-11-06T14:43:15+00:00"
       },
-      "reason": "one valid upstream snapshot omitted this future event; awaiting confirmation"
+      "reason": "two consecutive valid upstream snapshots omitted this future event"
     },
     {
-      "type": "possible_cancellation",
+      "type": "confirmed_cancellation",
       "uid": "unicatt-exam-995023e2d71ed18b2822989a009a366249c1f2c9@codex",
       "summary": "MICROBE - HOST INTERACTION - Exam",
       "event": {
@@ -99,8 +99,8 @@
         "start": "2026-12-17T09:00:00+01:00",
         "end": "2026-12-17T11:00:00+01:00",
         "location": "",
-        "description": "Course code: MR000009\nTeacher: HAAS TOBIAS LONGIN\nSource date: 17/12/2026\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
-        "status": "TENTATIVE",
+        "description": "Course code: MR000009\nTeacher: HAAS TOBIAS LONGIN\nSource date: 17/12/2026\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.\n\nCalendar reliability note: cancelled after two consecutive valid upstream snapshots omitted this future event.",
+        "status": "CANCELLED",
         "source_kind": "exam",
         "source_record_id": "120454754",
         "source_date": "17/12/2026",
@@ -110,13 +110,13 @@
           "idEsame": 120454754,
           "examType": null
         },
-        "sequence": 2,
-        "last_modified_utc": "2026-11-06T13:55:22+00:00"
+        "sequence": 3,
+        "last_modified_utc": "2026-11-06T14:43:15+00:00"
       },
-      "reason": "one valid upstream snapshot omitted this future event; awaiting confirmation"
+      "reason": "two consecutive valid upstream snapshots omitted this future event"
     },
     {
-      "type": "possible_cancellation",
+      "type": "confirmed_cancellation",
       "uid": "unicatt-exam-occurrence-93252e822b9371d9809a5366883c5639502fa985@codex",
       "summary": "FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY 2 (RESPIRATORY/DIGESTIVE/URINARY/REPRODUCTIVE) - APPELLO D'ESAME",
       "event": {
@@ -125,8 +125,8 @@
         "start": "2026-12-21T09:00:00+01:00",
         "end": "2026-12-21T11:00:00+01:00",
         "location": "Giovanni XXIII - 2",
-        "description": "Course code: MR000008\nTeacher: SCICCHITANO BIANCA MARIA\nExam type: APPELLO D'ESAME\nSource date: 21/12/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
-        "status": "TENTATIVE",
+        "description": "Course code: MR000008\nTeacher: SCICCHITANO BIANCA MARIA\nExam type: APPELLO D'ESAME\nSource date: 21/12/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.\n\nCalendar reliability note: cancelled after two consecutive valid upstream snapshots omitted this future event.",
+        "status": "CANCELLED",
         "source_kind": "exam",
         "source_record_id": "122200286",
         "source_date": "21/12/2026",
@@ -136,10 +136,10 @@
           "idEsame": 120454736,
           "examType": "APPELLO D'ESAME"
         },
-        "sequence": 2,
-        "last_modified_utc": "2026-11-06T13:55:22+00:00"
+        "sequence": 3,
+        "last_modified_utc": "2026-11-06T14:43:15+00:00"
       },
-      "reason": "one valid upstream snapshot omitted this future event; awaiting confirmation"
+      "reason": "two consecutive valid upstream snapshots omitted this future event"
     }
   ],
   "retention_policy": "Entries are NOT erased as days pass. Past entries remain in place indefinitely for future audit. Corrections and cancellations retain event identity; no rolling date cutoff is permitted for this or any future station.",
@@ -1850,8 +1850,8 @@
       "start": "2026-12-14T09:30:00+01:00",
       "end": "2026-12-14T13:30:00+01:00",
       "location": "Economia - 109",
-      "description": "Course code: MR000007\nTeacher: GILARDONI SILVIA\nExam type: APPELLO D'ESAME\nSource date: 14/12/2026\nBuilding: Economia\nRoom: 109\nDuration: 04:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
-      "status": "TENTATIVE",
+      "description": "Course code: MR000007\nTeacher: GILARDONI SILVIA\nExam type: APPELLO D'ESAME\nSource date: 14/12/2026\nBuilding: Economia\nRoom: 109\nDuration: 04:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.\n\nCalendar reliability note: cancelled after two consecutive valid upstream snapshots omitted this future event.",
+      "status": "CANCELLED",
       "source_kind": "exam",
       "source_record_id": "122200740",
       "source_date": "14/12/2026",
@@ -1861,8 +1861,8 @@
         "idEsame": 120731872,
         "examType": "APPELLO D'ESAME"
       },
-      "sequence": 1,
-      "last_modified_utc": "2026-11-06T14:43:15+00:00"
+      "sequence": 2,
+      "last_modified_utc": "2026-11-06T15:32:27+00:00"
     },
     {
       "uid": "unicatt-exam-occurrence-e8830a7db04a16f8e0b53dbb4579b222b73c9304@codex",
@@ -1870,8 +1870,8 @@
       "start": "2026-12-14T09:30:00+01:00",
       "end": "2026-12-14T13:30:00+01:00",
       "location": "Economia - 108",
-      "description": "Course code: MR000007\nTeacher: GILARDONI SILVIA\nExam type: APPELLO D'ESAME\nSource date: 14/12/2026\nBuilding: Economia\nRoom: 108\nDuration: 04:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
-      "status": "TENTATIVE",
+      "description": "Course code: MR000007\nTeacher: GILARDONI SILVIA\nExam type: APPELLO D'ESAME\nSource date: 14/12/2026\nBuilding: Economia\nRoom: 108\nDuration: 04:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.\n\nCalendar reliability note: cancelled after two consecutive valid upstream snapshots omitted this future event.",
+      "status": "CANCELLED",
       "source_kind": "exam",
       "source_record_id": "122200735",
       "source_date": "14/12/2026",
@@ -1881,8 +1881,8 @@
         "idEsame": 120731872,
         "examType": "APPELLO D'ESAME"
       },
-      "sequence": 1,
-      "last_modified_utc": "2026-11-06T14:43:15+00:00"
+      "sequence": 2,
+      "last_modified_utc": "2026-11-06T15:32:27+00:00"
     },
     {
       "uid": "unicatt-exam-occurrence-c8b71fc12f78615bd3d54e8d109d27fbae7acdc3@codex",
@@ -1950,8 +1950,8 @@
       "start": "2026-12-17T09:00:00+01:00",
       "end": "2026-12-17T11:00:00+01:00",
       "location": "",
-      "description": "Course code: MR000009\nTeacher: HAAS TOBIAS LONGIN\nSource date: 17/12/2026\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
-      "status": "TENTATIVE",
+      "description": "Course code: MR000009\nTeacher: HAAS TOBIAS LONGIN\nSource date: 17/12/2026\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.\n\nCalendar reliability note: cancelled after two consecutive valid upstream snapshots omitted this future event.",
+      "status": "CANCELLED",
       "source_kind": "exam",
       "source_record_id": "120454754",
       "source_date": "17/12/2026",
@@ -1961,8 +1961,8 @@
         "idEsame": 120454754,
         "examType": null
       },
-      "sequence": 3,
-      "last_modified_utc": "2026-11-06T14:43:15+00:00"
+      "sequence": 4,
+      "last_modified_utc": "2026-11-06T15:32:27+00:00"
     },
     {
       "uid": "unicatt-exam-occurrence-c71220560722addf0a0470970daaf60ef7895c64@codex",
@@ -1990,8 +1990,8 @@
       "start": "2026-12-21T09:00:00+01:00",
       "end": "2026-12-21T11:00:00+01:00",
       "location": "Giovanni XXIII - 2",
-      "description": "Course code: MR000008\nTeacher: SCICCHITANO BIANCA MARIA\nExam type: APPELLO D'ESAME\nSource date: 21/12/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
-      "status": "TENTATIVE",
+      "description": "Course code: MR000008\nTeacher: SCICCHITANO BIANCA MARIA\nExam type: APPELLO D'ESAME\nSource date: 21/12/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.\n\nCalendar reliability note: cancelled after two consecutive valid upstream snapshots omitted this future event.",
+      "status": "CANCELLED",
       "source_kind": "exam",
       "source_record_id": "122200286",
       "source_date": "21/12/2026",
@@ -2001,8 +2001,8 @@
         "idEsame": 120454736,
         "examType": "APPELLO D'ESAME"
       },
-      "sequence": 3,
-      "last_modified_utc": "2026-11-06T14:43:15+00:00"
+      "sequence": 4,
+      "last_modified_utc": "2026-11-06T15:32:27+00:00"
     },
     {
       "uid": "unicatt-exam-occurrence-a94490b1e8db6f44f01c0cd35b546834cef6085b@codex",
