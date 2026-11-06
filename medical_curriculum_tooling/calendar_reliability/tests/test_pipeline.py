@@ -10,6 +10,7 @@ import unittest
 from datetime import UTC, datetime, timedelta
 from pathlib import Path
 from unittest import mock
+from urllib.error import URLError
 
 from medical_curriculum_tooling import unicatt_calendar_broadcast as source
 from medical_curriculum_tooling.calendar_reliability import pipeline
@@ -326,6 +327,30 @@ class CalendarPipelineTests(unittest.TestCase):
         self.assertEqual(status["consecutive_failures"], 1)
         self.assertIn("synthetic upstream HTTP 500", status["last_error"]["message"])
         self.assertFalse(pipeline.watchdog(paths, now=NOW + timedelta(hours=1), feed_ids=["year3-lessons"])["ok"])
+
+    def test_shared_transport_failure_emits_one_incident_and_keeps_last_good_ics(self):
+      with tempfile.TemporaryDirectory() as directory:
+        root = Path(directory)
+        paths, first = run(root, [lesson("keep", "01/11/2026")])
+        self.assertTrue(first["ok"])
+        ics_path, _ = pipeline.feed_public_paths(paths, "year3-lessons")
+        old_ics = ics_path.read_bytes()
+        with mock.patch.object(pipeline, "record_alert", wraps=pipeline.record_alert) as record:
+            failed = pipeline.run_all(
+                paths,
+                feeds=["year3-lessons"],
+                now=NOW + timedelta(minutes=15),
+                fetcher=fetcher_for(URLError("[Errno 8] nodename nor servname provided, or not known")),
+                enable_alerts=True,
+            )
+        self.assertFalse(failed["ok"])
+        self.assertEqual(record.call_count, 1)
+        alert = record.call_args.args[2]
+        self.assertEqual(alert["type"], "transport_failure")
+        self.assertEqual(ics_path.read_bytes(), old_ics)
+        timestamped = [path for path in paths.alerts.glob("*-all-*.json") if path.name != "latest.json"]
+        self.assertEqual(len(timestamped), 1)
+        self.assertNotIn("pipeline_failure", timestamped[0].read_text(encoding="utf-8"))
 
     def test_empty_after_history_and_duplicate_uid_fail_closed(self):
       with tempfile.TemporaryDirectory() as directory:

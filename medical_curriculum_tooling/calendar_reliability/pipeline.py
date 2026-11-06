@@ -37,9 +37,9 @@ except ModuleNotFoundError:  # Standalone publication bundle execution.
     import unicatt_calendar_broadcast as source  # type: ignore[no-redef]
 
 try:
-    from .telegram_notifier import notify_alert
+    from .telegram_notifier import clear_incident_receipts, notify_alert
 except ImportError:  # Standalone publication bundle execution.
-    from telegram_notifier import notify_alert  # type: ignore[no-redef]
+    from telegram_notifier import clear_incident_receipts, notify_alert  # type: ignore[no-redef]
 
 
 STATE_VERSION = 1
@@ -50,6 +50,16 @@ ALERT_DIRNAME = "alerts"
 STATE_DIRNAME = "state"
 PUBLIC_DIRNAME = "public"
 FEED_IDS = tuple(source.FEED_SPECS.keys())
+INCIDENT_STATE_FILENAME = "incident-state.json"
+INCIDENT_ALERT_TYPES = {
+    "transport_failure",
+    "pipeline_failure",
+    "watchdog_failure",
+    "publication_stale",
+    "integrity_mismatch",
+    "native_mismatch",
+}
+PROVISIONAL_ALERT_TYPES = {"possible_cancellation"}
 CORRECTIONS_FILENAME = "calendar_corrections.json"
 
 
@@ -823,12 +833,55 @@ def publish_files(paths: PipelinePaths, feed_id: str, ics_text: str, status: dic
             raise IOError(f"published ICS hash mismatch: {ics_path}")
 
 
+def _incident_key(feed_id: str, alert: dict[str, Any]) -> str | None:
+    explicit = str(alert.get("incident_key") or "").strip()
+    if explicit:
+        return explicit
+    alert_type = str(alert.get("type") or "")
+    if alert_type in INCIDENT_ALERT_TYPES:
+        return f"{alert_type}:{feed_id}"
+    return None
+
+
+def _incident_state_path(paths: PipelinePaths) -> Path:
+    return paths.alerts / INCIDENT_STATE_FILENAME
+
+
+def _load_incident_state(paths: PipelinePaths) -> dict[str, Any]:
+    payload = read_json(_incident_state_path(paths))
+    if not isinstance(payload, dict) or not isinstance(payload.get("active"), dict):
+        return {"version": 1, "active": {}}
+    return payload
+
+
+def clear_incident_alerts(paths: PipelinePaths) -> list[str]:
+    state = _load_incident_state(paths)
+    active = state.get("active", {})
+    keys = {str(key) for key in active}
+    if keys:
+        state["active"] = {}
+        state["resolved_at_utc"] = iso(utc_now())
+        atomic_write_json(_incident_state_path(paths), state)
+        clear_incident_receipts(paths.alerts / "telegram-delivery.json", keys)
+    return sorted(keys)
+
+
 def record_alert(paths: PipelinePaths, feed_id: str, alert: dict[str, Any], now: datetime) -> None:
     timezone_id = source.FEED_SPECS.get(feed_id, source.FEED_SPECS.get("year2-lessons")).timezone_id
+    incident_key = _incident_key(feed_id, alert)
     payload = {"feed_id": feed_id, "timezone_id": timezone_id, "observed_at_utc": iso(now), **alert}
+    if incident_key:
+        payload["incident_key"] = incident_key
     digest = sha256_text(canonical_json(payload))[:16]
     atomic_write_json(paths.alerts / f"{iso(now).replace(':', '').replace('+00:00', 'Z')}-{feed_id}-{digest}.json", payload)
     atomic_write_json(paths.alerts / "latest.json", payload)
+    incident_was_active = False
+    if incident_key:
+        state = _load_incident_state(paths)
+        incident_was_active = incident_key in state["active"]
+        if not incident_was_active:
+            state["active"][incident_key] = {"first_seen_at_utc": iso(now), "type": payload.get("type"), "feed_id": feed_id}
+            atomic_write_json(_incident_state_path(paths), state)
     try:
         notify_alert(payload, paths.alerts / "telegram-delivery.json")
     except Exception as exc:  # noqa: BLE001 - alerts must never break publication.
@@ -836,8 +889,13 @@ def record_alert(paths: PipelinePaths, feed_id: str, alert: dict[str, Any], now:
             paths.alerts / "telegram-notifier-error.json",
             {"observed_at_utc": iso(now), "type": type(exc).__name__, "message": str(exc)},
         )
-    if os.environ.get("CALENDAR_ENABLE_NATIVE_ALERTS") == "1" and platform.system() == "Darwin":
-        message = f"UCSC calendar alert [{feed_id}] {alert.get('type')}: {alert.get('summary', alert.get('message', ''))}"
+    if (
+        os.environ.get("CALENDAR_ENABLE_NATIVE_ALERTS") == "1"
+        and platform.system() == "Darwin"
+        and payload.get("type") not in PROVISIONAL_ALERT_TYPES
+        and not incident_was_active
+    ):
+        message = f"UCSC calendar alert [{feed_id}] {alert.get('type')}: {alert.get('user_message', alert.get('summary', alert.get('message', '')))}"
         try:
             subprocess.run(
                 ["osascript", "-e", f'display notification "{message.replace(chr(34), chr(39))}" with title "Calendar pipeline"'],
@@ -847,6 +905,23 @@ def record_alert(paths: PipelinePaths, feed_id: str, alert: dict[str, Any], now:
             )
         except Exception:
             pass
+
+
+def _is_transport_failure(result: dict[str, Any]) -> bool:
+    text = " ".join(str(result.get(key) or "") for key in ("error", "error_type", "message")).lower()
+    return any(
+        marker in text
+        for marker in (
+            "urlerror",
+            "nodename nor servname",
+            "name or service not known",
+            "temporary failure in name resolution",
+            "timed out",
+            "connection refused",
+            "network is unreachable",
+            "connection reset",
+        )
+    )
 
 
 def fail_state(state: dict[str, Any], feed_id: str, now: datetime, error: Exception) -> dict[str, Any]:
@@ -957,7 +1032,15 @@ def run_feed(
         finally:
             if enable_alerts:
                 record_alert(paths, feed_id, {"type": "pipeline_failure", "message": str(exc)}, observed_dt)
-        return {"feed_id": feed_id, "ok": False, "health": "degraded", "error": type(exc).__name__, "message": str(exc)}
+        return {
+            "feed_id": feed_id,
+            "ok": False,
+            "health": "degraded",
+            "error": type(exc).__name__,
+            "error_type": type(exc).__name__,
+            "message": str(exc),
+            "alerts": [{"type": "pipeline_failure", "message": str(exc)}],
+        }
 
 
 def run_all(
@@ -969,8 +1052,33 @@ def run_all(
     enable_alerts: bool = True,
 ) -> dict[str, Any]:
     selected_feeds = tuple(feeds)
-    results = [run_feed(feed_id, paths, now=now, fetcher=fetcher, enable_alerts=enable_alerts) for feed_id in selected_feeds]
+    # Run the fan-out quietly, then emit one user-facing incident for a shared
+    # failure. Per-feed state and receipts remain available for diagnosis.
+    results = [run_feed(feed_id, paths, now=now, fetcher=fetcher, enable_alerts=False) for feed_id in selected_feeds]
     observed = now or utc_now()
+    if enable_alerts:
+        failed = [result for result in results if not result["ok"]]
+        if failed:
+            incident_type = "transport_failure" if all(_is_transport_failure(result) for result in failed) else "pipeline_failure"
+            affected = ", ".join(str(result["feed_id"]) for result in failed)
+            detail = "Official source or network unavailable; the last good publication was retained and retry is automatic." if incident_type == "transport_failure" else "One or more feeds failed validation; the last good publication was retained."
+            record_alert(
+                paths,
+                "all",
+                {
+                    "type": incident_type,
+                    "incident_key": f"{incident_type}:all",
+                    "summary": "UCSC calendar pipeline incident",
+                    "message": f"{detail} Affected feeds: {affected}.",
+                    "user_message": f"{detail} Affected feeds: {affected}.",
+                },
+                observed,
+            )
+        else:
+            clear_incident_alerts(paths)
+            for result in results:
+                for alert in group_alerts(str(result["feed_id"]), result.get("alerts", [])):
+                    record_alert(paths, str(result["feed_id"]), alert, observed)
     leases: list[str] = []
     for feed_id in selected_feeds:
         _, status_path = feed_public_paths(paths, feed_id)
@@ -1155,12 +1263,14 @@ def watchdog(
     atomic_write_json(paths.public / "watchdog.json", payload)
     if failures:
         record_alert(paths, "all", {"type": "watchdog_failure", "message": "; ".join(failures)}, observed)
+    else:
+        clear_incident_alerts(paths)
     return payload
 
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("command", choices=("run", "watchdog", "verify", "remote-watchdog"), nargs="?", default="run")
+    parser.add_argument("command", choices=("run", "watchdog", "verify", "remote-watchdog", "incident", "clear-incidents"), nargs="?", default="run")
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parent)
     parser.add_argument("--public", type=Path)
     parser.add_argument("--state", type=Path)
@@ -1171,6 +1281,10 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--max-publication-age-seconds", type=int, default=DEFAULT_MAX_PUBLICATION_AGE_SECONDS)
     parser.add_argument("--sync-local", action="store_true")
     parser.add_argument("--no-alerts", action="store_true")
+    parser.add_argument("--incident-key", default="")
+    parser.add_argument("--incident-type", default="transport_failure")
+    parser.add_argument("--message", default="")
+    parser.add_argument("--feed-id", default="all")
     return parser.parse_args()
 
 
@@ -1189,6 +1303,21 @@ def main() -> int:
             max_publication_age_seconds=args.max_publication_age_seconds,
             sync_paths=paths if args.sync_local else None,
         )
+    elif args.command == "incident":
+        record_alert(
+            paths,
+            args.feed_id,
+            {
+                "type": args.incident_type,
+                "incident_key": args.incident_key or f"{args.incident_type}:{args.feed_id}",
+                "summary": "UCSC calendar reliability incident",
+                "message": args.message or "The calendar backstop could not complete its check; the last good publication was retained.",
+            },
+            utc_now(),
+        )
+        payload = {"ok": False, "incident_key": args.incident_key or f"{args.incident_type}:{args.feed_id}"}
+    elif args.command == "clear-incidents":
+        payload = {"ok": True, "cleared": clear_incident_alerts(paths)}
     else:
         payload = verify_publication(paths, feeds)
     print(json.dumps(payload, ensure_ascii=False, indent=2))

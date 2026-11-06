@@ -176,6 +176,7 @@ def render_message(event: dict[str, Any], fingerprint: str) -> str:
         "cancellation_reversed": "📅 UCSC calendar update — event restored",
         "event_updated": "📅 UCSC calendar update — details changed",
         "pipeline_failure": "⚠️ UCSC calendar problem — publication failed",
+        "transport_failure": "⚠️ UCSC calendar problem — source/network unavailable",
         "watchdog_failure": "⚠️ UCSC calendar problem — integrity check failed",
         "publication_stale": "⚠️ UCSC calendar problem — publication is stale",
         "publication_recovered": "✅ UCSC calendar recovered",
@@ -252,6 +253,24 @@ def save_ledger(path: Path, ledger: dict[str, Any]) -> None:
             temporary.unlink()
 
 
+def clear_incident_receipts(path: Path, incident_keys: set[str]) -> None:
+    """Forget delivery receipts for resolved incidents so a later outage alerts again."""
+    if not incident_keys:
+        return
+    ledger = load_ledger(path)
+    changed = False
+    for bucket_name in ("sent", "failures"):
+        bucket = ledger.get(bucket_name)
+        if not isinstance(bucket, dict):
+            continue
+        for fingerprint, receipt in list(bucket.items()):
+            if isinstance(receipt, dict) and receipt.get("incident_key") in incident_keys:
+                bucket.pop(fingerprint, None)
+                changed = True
+    if changed:
+        save_ledger(path, ledger)
+
+
 def _post_message(
     token: str,
     chat_id: str,
@@ -320,6 +339,7 @@ def notify_alert(
             "observed_at_utc": observed,
             "type": event.get("type"),
             "feed_id": event.get("feed_id", "all"),
+            "incident_key": event.get("incident_key"),
         }
         save_ledger(receipt_path, ledger)
         return {"status": "not_configured", "fingerprint": fingerprint}
@@ -335,6 +355,7 @@ def notify_alert(
                 "message_id": message_id,
                 "type": event.get("type"),
                 "feed_id": event.get("feed_id", "all"),
+                "incident_key": event.get("incident_key"),
             }
             ledger.setdefault("failures", {}).pop(fingerprint, None)
             save_ledger(receipt_path, ledger)
@@ -351,6 +372,7 @@ def notify_alert(
         "error": last_error,
         "type": event.get("type"),
         "feed_id": event.get("feed_id", "all"),
+        "incident_key": event.get("incident_key"),
     }
     save_ledger(receipt_path, ledger)
     return {"status": "failed", "fingerprint": fingerprint, "attempts": attempts, "error": last_error}
