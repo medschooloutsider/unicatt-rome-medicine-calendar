@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "observed_at_utc": "2026-11-06T13:55:34+00:00",
+  "observed_at_utc": "2026-11-06T14:43:23+00:00",
   "freshness_lease": {
     "max_age_seconds": 2700,
-    "expires_at_utc": "2026-11-06T14:40:15+00:00",
+    "expires_at_utc": "2026-11-06T15:28:12+00:00",
     "feed_count": 8
   },
   "results": [
@@ -19,7 +19,112 @@
       "ok": true,
       "health": "healthy",
       "event_count": 94,
-      "alerts": []
+      "alerts": [
+        {
+          "type": "possible_cancellation",
+          "uid": "unicatt-exam-occurrence-e8830a7db04a16f8e0b53dbb4579b222b73c9304@codex",
+          "summary": "ITALIAN LANGUAGE II - APPELLO D'ESAME",
+          "event": {
+            "uid": "unicatt-exam-occurrence-e8830a7db04a16f8e0b53dbb4579b222b73c9304@codex",
+            "summary": "ITALIAN LANGUAGE II - APPELLO D'ESAME",
+            "start": "2026-12-14T09:30:00+01:00",
+            "end": "2026-12-14T13:30:00+01:00",
+            "location": "Economia - 108",
+            "description": "Course code: MR000007\nTeacher: GILARDONI SILVIA\nExam type: APPELLO D'ESAME\nSource date: 14/12/2026\nBuilding: Economia\nRoom: 108\nDuration: 04:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
+            "status": "TENTATIVE",
+            "source_kind": "exam",
+            "source_record_id": "122200735",
+            "source_date": "14/12/2026",
+            "metadata": {
+              "codiceInsegnamento": "MR000007",
+              "codiceCorsoIntegrato": null,
+              "idEsame": 120731872,
+              "examType": "APPELLO D'ESAME"
+            },
+            "sequence": 0,
+            "last_modified_utc": "2026-11-06T13:55:22+00:00"
+          },
+          "reason": "one valid upstream snapshot omitted this future event; awaiting confirmation"
+        },
+        {
+          "type": "possible_cancellation",
+          "uid": "unicatt-exam-occurrence-30a62b3c58a210a5ea247fd02fb6437adc1240ad@codex",
+          "summary": "ITALIAN LANGUAGE II - APPELLO D'ESAME",
+          "event": {
+            "uid": "unicatt-exam-occurrence-30a62b3c58a210a5ea247fd02fb6437adc1240ad@codex",
+            "summary": "ITALIAN LANGUAGE II - APPELLO D'ESAME",
+            "start": "2026-12-14T09:30:00+01:00",
+            "end": "2026-12-14T13:30:00+01:00",
+            "location": "Economia - 109",
+            "description": "Course code: MR000007\nTeacher: GILARDONI SILVIA\nExam type: APPELLO D'ESAME\nSource date: 14/12/2026\nBuilding: Economia\nRoom: 109\nDuration: 04:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
+            "status": "TENTATIVE",
+            "source_kind": "exam",
+            "source_record_id": "122200740",
+            "source_date": "14/12/2026",
+            "metadata": {
+              "codiceInsegnamento": "MR000007",
+              "codiceCorsoIntegrato": null,
+              "idEsame": 120731872,
+              "examType": "APPELLO D'ESAME"
+            },
+            "sequence": 0,
+            "last_modified_utc": "2026-11-06T13:55:22+00:00"
+          },
+          "reason": "one valid upstream snapshot omitted this future event; awaiting confirmation"
+        },
+        {
+          "type": "possible_cancellation",
+          "uid": "unicatt-exam-995023e2d71ed18b2822989a009a366249c1f2c9@codex",
+          "summary": "MICROBE - HOST INTERACTION - Exam",
+          "event": {
+            "uid": "unicatt-exam-995023e2d71ed18b2822989a009a366249c1f2c9@codex",
+            "summary": "MICROBE - HOST INTERACTION - Exam",
+            "start": "2026-12-17T09:00:00+01:00",
+            "end": "2026-12-17T11:00:00+01:00",
+            "location": "",
+            "description": "Course code: MR000009\nTeacher: HAAS TOBIAS LONGIN\nSource date: 17/12/2026\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
+            "status": "TENTATIVE",
+            "source_kind": "exam",
+            "source_record_id": "120454754",
+            "source_date": "17/12/2026",
+            "metadata": {
+              "codiceInsegnamento": "MR000009",
+              "codiceCorsoIntegrato": null,
+              "idEsame": 120454754,
+              "examType": null
+            },
+            "sequence": 2,
+            "last_modified_utc": "2026-11-06T13:55:22+00:00"
+          },
+          "reason": "one valid upstream snapshot omitted this future event; awaiting confirmation"
+        },
+        {
+          "type": "possible_cancellation",
+          "uid": "unicatt-exam-occurrence-93252e822b9371d9809a5366883c5639502fa985@codex",
+          "summary": "FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY 2 (RESPIRATORY/DIGESTIVE/URINARY/REPRODUCTIVE) - APPELLO D'ESAME",
+          "event": {
+            "uid": "unicatt-exam-occurrence-93252e822b9371d9809a5366883c5639502fa985@codex",
+            "summary": "FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY 2 (RESPIRATORY/DIGESTIVE/URINARY/REPRODUCTIVE) - APPELLO D'ESAME",
+            "start": "2026-12-21T09:00:00+01:00",
+            "end": "2026-12-21T11:00:00+01:00",
+            "location": "Giovanni XXIII - 2",
+            "description": "Course code: MR000008\nTeacher: SCICCHITANO BIANCA MARIA\nExam type: APPELLO D'ESAME\nSource date: 21/12/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
+            "status": "TENTATIVE",
+            "source_kind": "exam",
+            "source_record_id": "122200286",
+            "source_date": "21/12/2026",
+            "metadata": {
+              "codiceInsegnamento": "MR000008",
+              "codiceCorsoIntegrato": null,
+              "idEsame": 120454736,
+              "examType": "APPELLO D'ESAME"
+            },
+            "sequence": 2,
+            "last_modified_utc": "2026-11-06T13:55:22+00:00"
+          },
+          "reason": "one valid upstream snapshot omitted this future event; awaiting confirmation"
+        }
+      ]
     },
     {
       "feed_id": "year1-exams",
