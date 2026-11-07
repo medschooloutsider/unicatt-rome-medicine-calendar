@@ -1,11 +1,11 @@
 {
   "ok": true,
-  "checked_at_utc": "2026-11-07T16:27:07+00:00",
+  "checked_at_utc": "2026-11-07T18:17:42+00:00",
   "failures": [],
   "feeds": {
     "year2-lessons": {
-      "source_age_seconds": 24,
-      "publication_age_seconds": 24,
+      "source_age_seconds": 23,
+      "publication_age_seconds": 23,
       "health": "healthy",
       "last_error": null
     },
@@ -28,8 +28,8 @@
       "last_error": null
     },
     "year3-lessons": {
-      "source_age_seconds": 5,
-      "publication_age_seconds": 5,
+      "source_age_seconds": 4,
+      "publication_age_seconds": 4,
       "health": "healthy",
       "last_error": null
     },
