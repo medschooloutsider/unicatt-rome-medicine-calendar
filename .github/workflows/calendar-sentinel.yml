@@ -112,15 +112,21 @@ jobs:
           git add alerts
           git diff --cached --quiet || git commit -m "Record UCSC calendar alert delivery"
           for attempt in 1 2 3 4 5; do
-            if git push; then
+            if git push origin HEAD:main; then
               exit 0
             fi
             if [ "$attempt" -eq 5 ]; then
               echo "git push failed after 5 attempts" >&2
               exit 1
             fi
+            git fetch origin main
+            if ! git rebase origin/main; then
+              echo "git rebase failed after a concurrent main-branch update; refusing to guess through a conflict" >&2
+              git rebase --abort || true
+              exit 1
+            fi
             delay=$((attempt * 10))
-            echo "git push failed; retrying in ${delay}s (attempt $((attempt + 1))/5)" >&2
+            echo "git push raced with another main update; rebased and retrying in ${delay}s (attempt $((attempt + 1))/5)" >&2
             sleep "$delay"
           done
       - name: Preserve sentinel failure state
