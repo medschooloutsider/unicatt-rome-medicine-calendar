@@ -1,13 +1,13 @@
 {
   "feed_id": "year3-lessons",
   "calendar_name": "UCSC Rome Medicine Year 3 Lessons",
-  "generated_at_utc": "2026-11-08T17:05:13+00:00",
-  "last_successful_fetch_at_utc": "2026-11-08T17:05:13+00:00",
-  "last_publication_at_utc": "2026-11-08T17:05:13+00:00",
+  "generated_at_utc": "2026-11-08T17:27:51+00:00",
+  "last_successful_fetch_at_utc": "2026-11-08T17:27:51+00:00",
+  "last_publication_at_utc": "2026-11-08T17:27:51+00:00",
   "freshness_lease": {
     "max_age_seconds": 2700,
-    "issued_at_utc": "2026-11-08T17:05:13+00:00",
-    "expires_at_utc": "2026-11-08T17:50:13+00:00"
+    "issued_at_utc": "2026-11-08T17:27:51+00:00",
+    "expires_at_utc": "2026-11-08T18:12:51+00:00"
   },
   "generated_age_seconds": 0,
   "event_count": 132,
@@ -36,7 +36,7 @@
   ],
   "source_snapshot_hash": "62ceffb5a51a7a6b5fce8a035d3227c419a2fe82a8cb9a2f4de27f0320d94a86",
   "last_published_source_snapshot_hash": "62ceffb5a51a7a6b5fce8a035d3227c419a2fe82a8cb9a2f4de27f0320d94a86",
-  "content_hash": "502f3f98e587e0b9fdb19a4a6d2e110482c5bce1855da4b73c8da961a2f6ac25",
+  "content_hash": "915a6e20a28308e422031e8a00993e13df7a1be08a234ce04a0b7167deffc892",
   "publication_mode": "github-pages-static",
   "dynamic_refresh": "GitHub Actions poller; no Vercel Blob dependency",
   "health": "healthy",
@@ -1753,43 +1753,12 @@
       "last_modified_utc": "2026-11-04T13:04:24+00:00"
     },
     {
-      "uid": "unicatt-lesson-occurrence-122054170@codex",
-      "summary": "FIRST AID AND NURSING PRACTICE PROFESSIONAL TRAINING (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
-      "start": "2026-11-03T14:15:00+01:00",
-      "end": "2026-11-03T19:15:00+01:00",
-      "location": "Policlinico - Gemelli Training Center",
-      "description": "Course code: MR000128\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SCAPIGLIATI ANDREA\nSource date: 03/11/2026\nBuilding: Policlinico\nRoom: Gemelli Training Center\nDuration: 05:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.\n\nCalendar reliability note: cancelled after two consecutive valid upstream snapshots omitted this future event.\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.\n\nCalendar reliability note: Group 1 reconciliation: Group 1 remains scheduled with CESARE MANUELE; this cancelled source record is a different record.",
-      "status": "CANCELLED",
-      "source_kind": "lesson",
-      "source_record_id": "122054170",
-      "source_date": "03/11/2026",
-      "metadata": {
-        "codiceInsegnamento": "MR000128",
-        "codiceCorsoIntegrato": "MR000015",
-        "idLezione": 121777004,
-        "idCalendarioAula": 122054170,
-        "matchKey": [
-          "MR000128",
-          "03/11/2026",
-          "14:15",
-          "19:15"
-        ],
-        "flags": {
-          "room_change": false,
-          "extra_lesson": false,
-          "suspension": false
-        }
-      },
-      "sequence": 3,
-      "last_modified_utc": "2026-11-03T18:54:35+00:00"
-    },
-    {
       "uid": "unicatt-lesson-occurrence-122054081@codex",
-      "summary": "GROUP 1 | FIRST AID AND NURSING PRACTICE PROFESSIONAL TRAINING (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "summary": "ACTIVE RECORD | FIRST AID AND NURSING PRACTICE PROFESSIONAL TRAINING (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
       "start": "2026-11-03T14:15:00+01:00",
       "end": "2026-11-03T19:15:00+01:00",
       "location": "Policlinico - Gemelli Training Center",
-      "description": "Course code: MR000128\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: CESARE MANUELE\nSource date: 03/11/2026\nBuilding: Policlinico\nRoom: Gemelli Training Center\nDuration: 05:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.\n\nCalendar reliability note: Group 1 reconciliation: this record remains scheduled with CESARE MANUELE. The separate cancelled source record in this same slot does not cancel Group 1.",
+      "description": "Course code: MR000128\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: CESARE MANUELE\nSource date: 03/11/2026\nBuilding: Policlinico\nRoom: Gemelli Training Center\nDuration: 05:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.\n\nCalendar reliability note: Mixed-slot reconciliation: this active source record remains scheduled with CESARE MANUELE. A separate cancelled source record shares this time slot. This does not establish your assigned group.",
       "status": null,
       "source_kind": "lesson",
       "source_record_id": "122054081",
@@ -1813,6 +1782,37 @@
       },
       "sequence": 1,
       "last_modified_utc": "2026-11-04T13:04:24+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-122054170@codex",
+      "summary": "FIRST AID AND NURSING PRACTICE PROFESSIONAL TRAINING (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-11-03T14:15:00+01:00",
+      "end": "2026-11-03T19:15:00+01:00",
+      "location": "Policlinico - Gemelli Training Center",
+      "description": "Course code: MR000128\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SCAPIGLIATI ANDREA\nSource date: 03/11/2026\nBuilding: Policlinico\nRoom: Gemelli Training Center\nDuration: 05:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.\n\nCalendar reliability note: cancelled after two consecutive valid upstream snapshots omitted this future event.\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.\n\nCalendar reliability note: Mixed-slot reconciliation: this source record is cancelled. A separate active source record remains scheduled in this time slot. This does not establish your assigned group.",
+      "status": "CANCELLED",
+      "source_kind": "lesson",
+      "source_record_id": "122054170",
+      "source_date": "03/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000128",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121777004,
+        "idCalendarioAula": 122054170,
+        "matchKey": [
+          "MR000128",
+          "03/11/2026",
+          "14:15",
+          "19:15"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 3,
+      "last_modified_utc": "2026-11-03T18:54:35+00:00"
     },
     {
       "uid": "unicatt-lesson-occurrence-121920317@codex",
@@ -2094,43 +2094,12 @@
       "last_modified_utc": "2026-10-27T08:32:23+00:00"
     },
     {
-      "uid": "unicatt-lesson-occurrence-122054182@codex",
-      "summary": "FIRST AID AND NURSING PRACTICE PROFESSIONAL TRAINING (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
-      "start": "2026-11-09T14:15:00+01:00",
-      "end": "2026-11-09T19:15:00+01:00",
-      "location": "Policlinico - Gemelli Training Center",
-      "description": "Course code: MR000128\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SCAPIGLIATI ANDREA\nSource date: 09/11/2026\nBuilding: Policlinico\nRoom: Gemelli Training Center\nDuration: 05:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.\n\nCalendar reliability note: cancelled after two consecutive valid upstream snapshots omitted this future event.\n\nCalendar reliability note: Group 1 reconciliation: Group 1 remains scheduled with CESARE MANUELE; this cancelled source record is a different record.",
-      "status": "CANCELLED",
-      "source_kind": "lesson",
-      "source_record_id": "122054182",
-      "source_date": "09/11/2026",
-      "metadata": {
-        "codiceInsegnamento": "MR000128",
-        "codiceCorsoIntegrato": "MR000015",
-        "idLezione": 121777004,
-        "idCalendarioAula": 122054182,
-        "matchKey": [
-          "MR000128",
-          "09/11/2026",
-          "14:15",
-          "19:15"
-        ],
-        "flags": {
-          "room_change": false,
-          "extra_lesson": false,
-          "suspension": false
-        }
-      },
-      "sequence": 2,
-      "last_modified_utc": "2026-10-30T11:38:50+00:00"
-    },
-    {
       "uid": "unicatt-lesson-occurrence-122054089@codex",
-      "summary": "GROUP 1 | FIRST AID AND NURSING PRACTICE PROFESSIONAL TRAINING (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "summary": "ACTIVE RECORD | FIRST AID AND NURSING PRACTICE PROFESSIONAL TRAINING (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
       "start": "2026-11-09T14:15:00+01:00",
       "end": "2026-11-09T19:15:00+01:00",
       "location": "Policlinico - Gemelli Training Center",
-      "description": "Course code: MR000128\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: CESARE MANUELE\nSource date: 09/11/2026\nBuilding: Policlinico\nRoom: Gemelli Training Center\nDuration: 05:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: Group 1 reconciliation: this record remains scheduled with CESARE MANUELE. The separate cancelled source record in this same slot does not cancel Group 1.",
+      "description": "Course code: MR000128\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: CESARE MANUELE\nSource date: 09/11/2026\nBuilding: Policlinico\nRoom: Gemelli Training Center\nDuration: 05:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: Mixed-slot reconciliation: this active source record remains scheduled with CESARE MANUELE. A separate cancelled source record shares this time slot. This does not establish your assigned group.",
       "status": null,
       "source_kind": "lesson",
       "source_record_id": "122054089",
@@ -2154,6 +2123,37 @@
       },
       "sequence": 0,
       "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-122054182@codex",
+      "summary": "FIRST AID AND NURSING PRACTICE PROFESSIONAL TRAINING (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+      "start": "2026-11-09T14:15:00+01:00",
+      "end": "2026-11-09T19:15:00+01:00",
+      "location": "Policlinico - Gemelli Training Center",
+      "description": "Course code: MR000128\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SCAPIGLIATI ANDREA\nSource date: 09/11/2026\nBuilding: Policlinico\nRoom: Gemelli Training Center\nDuration: 05:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.\n\nCalendar reliability note: cancelled after two consecutive valid upstream snapshots omitted this future event.\n\nCalendar reliability note: Mixed-slot reconciliation: this source record is cancelled. A separate active source record remains scheduled in this time slot. This does not establish your assigned group.",
+      "status": "CANCELLED",
+      "source_kind": "lesson",
+      "source_record_id": "122054182",
+      "source_date": "09/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000128",
+        "codiceCorsoIntegrato": "MR000015",
+        "idLezione": 121777004,
+        "idCalendarioAula": 122054182,
+        "matchKey": [
+          "MR000128",
+          "09/11/2026",
+          "14:15",
+          "19:15"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 2,
+      "last_modified_utc": "2026-10-30T11:38:50+00:00"
     },
     {
       "uid": "unicatt-lesson-occurrence-121873435@codex",
