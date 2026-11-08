@@ -30,6 +30,10 @@ ledger and health receipts alongside them.
   a cancelled record must be reported as a mixed slot if another record remains
   active. Alerts name the active teacher/record and tell the user to follow the
   assigned group; they must not imply that the whole time slot is cancelled.
+- Cancelled events remain visible in the subscribed ICS with their original UID
+  and `STATUS:CANCELLED`. For a verified Group 1 mixed slot, the active event
+  is labelled `GROUP 1 | ...` and both event descriptions explain that the
+  cancellation belongs to a different source record; no event is suppressed.
 
 ## Repository layout for cutover
 

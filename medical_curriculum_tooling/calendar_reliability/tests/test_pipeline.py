@@ -254,6 +254,39 @@ class CalendarPipelineTests(unittest.TestCase):
         self.assertEqual([item["uid"] for item in counterparts], ["unicatt-lesson-occurrence-active@codex"])
         self.assertIn("CESARE MANUELE", counterparts[0]["description"])
 
+    def test_group1_mixed_slot_keeps_both_events_but_marks_which_record_is_mine(self):
+      with tempfile.TemporaryDirectory() as directory:
+        root = Path(directory)
+        active = lesson("active", "02/11/2026")
+        cancelled = lesson("cancelled", "02/11/2026")
+        for row in (active, cancelled):
+            row["codiceInsegnamento"] = "MR000128"
+            row["descrizioneInsegnamento"] = "FIRST AID AND NURSING PRACTICE PROFESSIONAL TRAINING"
+            row["descrizioneCorsoIntegrato"] = "MECHANISMS AND MANIFESTATIONS OF DISEASES"
+            row["descrizioneEdificio"] = "Policlinico"
+            row["descrizioneAula"] = "Gemelli Training Center"
+        active["docente"] = "CESARE MANUELE"
+        cancelled["docente"] = "SCAPIGLIATI ANDREA"
+        paths, first = run(root, [active, cancelled])
+        self.assertTrue(first["ok"])
+        second = pipeline.run_feed(
+            "year3-lessons", paths, now=NOW + timedelta(minutes=15),
+            fetcher=fetcher_for([active]), enable_alerts=False,
+        )
+        self.assertTrue(second["ok"])
+        third = pipeline.run_feed(
+            "year3-lessons", paths, now=NOW + timedelta(minutes=30),
+            fetcher=fetcher_for([active]), enable_alerts=False,
+        )
+        self.assertTrue(third["ok"])
+        status = json.loads(pipeline.feed_public_paths(paths, "year3-lessons")[1].read_text(encoding="utf-8"))
+        visible = {row["uid"]: row for row in status["events"]}
+        self.assertEqual(len(visible), 2)
+        self.assertTrue(visible["unicatt-lesson-occurrence-active@codex"]["summary"].startswith("GROUP 1 | "))
+        self.assertIn("does not cancel Group 1", visible["unicatt-lesson-occurrence-active@codex"]["description"])
+        self.assertIn("Group 1 remains scheduled", visible["unicatt-lesson-occurrence-cancelled@codex"]["description"])
+        self.assertEqual(visible["unicatt-lesson-occurrence-cancelled@codex"]["status"], "CANCELLED")
+
     def test_source_uid_replacement_is_an_update_not_a_cancellation(self):
       with tempfile.TemporaryDirectory() as directory:
         root = Path(directory)
