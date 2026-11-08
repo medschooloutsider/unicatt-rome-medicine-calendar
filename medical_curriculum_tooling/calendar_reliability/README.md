@@ -26,6 +26,11 @@ ledger and health receipts alongside them.
   The sentinel uses the durable GitHub issue as its fallback and the weekly
   canary proves that the Bot API accepts a heartbeat.
 
+  When distinct source records share the same course, date, time, and location,
+  a cancelled record must be reported as a mixed slot if another record remains
+  active. Alerts name the active teacher/record and tell the user to follow the
+  assigned group; they must not imply that the whole time slot is cancelled.
+
 ## Repository layout for cutover
 
 The destination GitHub repository must contain this module plus the existing

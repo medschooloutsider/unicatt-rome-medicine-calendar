@@ -196,12 +196,28 @@ def render_message(event: dict[str, Any], fingerprint: str) -> str:
         if len(occurrences) > 1:
             lines.append(f"Occurrence {index + 1}:")
         lines.extend(_format_occurrence(occurrence, timezone_id))
-    if alert_type == "explicit_cancellation":
-        lines.append("Reason: The official source explicitly marked this event suspended.")
-        lines.append("Action: Treat this event as cancelled and do not travel for it.")
-    elif alert_type == "confirmed_cancellation":
-        lines.append("Reason: The event was absent from two consecutive valid official snapshots.")
-        lines.append("Action: Treat this event as cancelled and check the live timetable if needed.")
+    if alert_type in {"explicit_cancellation", "confirmed_cancellation"}:
+        if alert_type == "explicit_cancellation":
+            lines.append("Reason: The official source explicitly marked this event suspended.")
+        else:
+            lines.append("Reason: The event was absent from two consecutive valid official snapshots.")
+        active_same_slot_events = event.get("same_slot_active_events")
+        if isinstance(active_same_slot_events, list) and active_same_slot_events:
+            lines.append("Important: This is a mixed slot, not a full-slot cancellation.")
+            for active_event in active_same_slot_events[:5]:
+                active_title, _ = _event_title(active_event.get("summary"))
+                active_fields = _description_fields(active_event.get("description"))
+                teacher = _human_text(active_fields.get("teacher"))
+                active_when = _format_occurrence(active_event, timezone_id)[0]
+                detail = f"Still scheduled: {active_title}; {active_when}"
+                if teacher:
+                    detail += f"; Teacher: {teacher}"
+                lines.append(detail)
+            lines.append("Action: Only the named source record is cancelled; check your assigned group before skipping this time slot.")
+        elif alert_type == "explicit_cancellation":
+            lines.append("Action: Treat this event as cancelled and do not travel for it.")
+        else:
+            lines.append("Action: Treat this event as cancelled and check the live timetable if needed.")
     elif alert_type == "cancellation_reversed":
         lines.append("Reason: The event reappeared in the official source.")
         lines.append("Action: Use the restored calendar details.")

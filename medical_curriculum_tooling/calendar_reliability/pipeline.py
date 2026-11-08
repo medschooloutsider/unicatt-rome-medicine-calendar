@@ -562,6 +562,28 @@ def _event_logical_key(row: dict[str, Any]) -> tuple[str, str, str, str, str]:
     )
 
 
+def _active_same_slot_events(event: dict[str, Any], rows: Iterable[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Find distinct source rows that still occupy the cancelled event's slot."""
+    event_uid = str(event.get("uid") or "")
+    event_key = _event_logical_key(event)
+    matches: list[dict[str, Any]] = []
+    for row in rows:
+        if not isinstance(row, dict) or str(row.get("uid") or "") == event_uid:
+            continue
+        if str(row.get("status") or "").upper() == "CANCELLED":
+            continue
+        if _event_logical_key(row) == event_key:
+            matches.append(dict(row))
+    return matches
+
+
+def _description_teacher(description: Any) -> str:
+    for line in str(description or "").splitlines():
+        if line.strip().casefold().startswith("teacher:"):
+            return line.split(":", 1)[1].strip()
+    return ""
+
+
 def _replacement_pairs(
     prior_ledger: dict[str, Any],
     fresh_rows: dict[str, dict[str, Any]],
@@ -621,6 +643,14 @@ def group_alerts(feed_id: str, alerts: list[dict[str, Any]]) -> list[dict[str, A
             current.setdefault("previous_events", []).append(dict(previous_event))
         if not current.get("summary") and alert.get("summary"):
             current["summary"] = alert["summary"]
+        active_same_slot_events = alert.get("same_slot_active_events")
+        if isinstance(active_same_slot_events, list):
+            existing = current.setdefault("same_slot_active_events", [])
+            seen = {str(item.get("uid") or "") for item in existing if isinstance(item, dict)}
+            for item in active_same_slot_events:
+                if isinstance(item, dict) and str(item.get("uid") or "") not in seen:
+                    existing.append(dict(item))
+                    seen.add(str(item.get("uid") or ""))
     result: list[dict[str, Any]] = []
     for alert in grouped.values():
         if not alert["events"]:
@@ -734,6 +764,15 @@ def apply_snapshot(
 
     merged_rows = [record["event"] for record in ledger.values()]
     merged_rows.sort(key=lambda row: (str(row.get("start", "")), str(row.get("summary", "")), str(row.get("uid", ""))))
+    for alert in alerts:
+        if alert.get("type") not in {"explicit_cancellation", "confirmed_cancellation", "possible_cancellation"}:
+            continue
+        event = alert.get("event")
+        if not isinstance(event, dict):
+            continue
+        active_same_slot_events = _active_same_slot_events(event, merged_rows)
+        if active_same_slot_events:
+            alert["same_slot_active_events"] = active_same_slot_events
     merged_events = [source.event_from_status_row(row) for row in merged_rows]
     content = source.render_ics(
         source.FEED_SPECS[feed_id].calendar_name,
@@ -896,6 +935,17 @@ def record_alert(paths: PipelinePaths, feed_id: str, alert: dict[str, Any], now:
         and not incident_was_active
     ):
         message = f"UCSC calendar alert [{feed_id}] {alert.get('type')}: {alert.get('user_message', alert.get('summary', alert.get('message', '')))}"
+        active_same_slot_events = alert.get("same_slot_active_events")
+        if isinstance(active_same_slot_events, list) and active_same_slot_events:
+            teachers = []
+            for occurrence in active_same_slot_events:
+                teacher = _description_teacher(occurrence.get("description")) if isinstance(occurrence, dict) else ""
+                if teacher and teacher not in teachers:
+                    teachers.append(teacher)
+            suffix = "another source record remains scheduled in the same slot"
+            if teachers:
+                suffix += f" ({', '.join(teachers)})"
+            message += f" Specific record only: {suffix}; check your assigned group before skipping the slot."
         try:
             subprocess.run(
                 ["osascript", "-e", f'display notification "{message.replace(chr(34), chr(39))}" with title "Calendar pipeline"'],

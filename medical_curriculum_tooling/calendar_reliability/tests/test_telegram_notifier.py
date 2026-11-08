@@ -82,6 +82,36 @@ class TelegramNotifierTests(unittest.TestCase):
         self.assertIn("Tuesday 03 November 2026", message)
         self.assertIn("Monday 09 November 2026", message)
 
+    def test_mixed_slot_cancellation_is_not_reported_as_full_slot_cancelled(self):
+        message = telegram_notifier.render_message(
+            {
+                "type": "confirmed_cancellation",
+                "feed_id": "year3-lessons",
+                "summary": "FIRST AID AND NURSING PRACTICE PROFESSIONAL TRAINING (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+                "timezone_id": "Europe/Rome",
+                "event": {
+                    "summary": "FIRST AID AND NURSING PRACTICE PROFESSIONAL TRAINING (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+                    "start": "2026-11-09T14:15:00+01:00",
+                    "end": "2026-11-09T19:15:00+01:00",
+                    "location": "Policlinico - Gemelli Training Center",
+                    "description": "Teacher: SCAPIGLIATI ANDREA",
+                    "status": "CANCELLED",
+                },
+                "same_slot_active_events": [
+                    {
+                        "summary": "FIRST AID AND NURSING PRACTICE PROFESSIONAL TRAINING (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+                        "description": "Teacher: CESARE MANUELE",
+                        "status": None,
+                    }
+                ],
+            },
+            "internal-fingerprint",
+        )
+        self.assertIn("mixed slot, not a full-slot cancellation", message)
+        self.assertIn("Still scheduled", message)
+        self.assertIn("Cesare Manuele", message)
+        self.assertIn("check your assigned group", message)
+
     def test_provisional_cancellation_is_suppressed(self):
         def opener(*_args, **_kwargs):
             raise AssertionError("provisional cancellation must not reach Telegram")

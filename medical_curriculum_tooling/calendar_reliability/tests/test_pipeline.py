@@ -225,6 +225,35 @@ class CalendarPipelineTests(unittest.TestCase):
         self.assertEqual(dropped["status"], "CANCELLED")
         self.assertIn("two consecutive valid upstream snapshots", dropped["description"])
 
+    def test_cancellation_alert_identifies_active_same_slot_source_record(self):
+      with tempfile.TemporaryDirectory() as directory:
+        root = Path(directory)
+        active = lesson("active", "02/11/2026")
+        cancelled = lesson("cancelled", "02/11/2026")
+        for row in (active, cancelled):
+            row["codiceInsegnamento"] = "MR000128"
+            row["descrizioneInsegnamento"] = "FIRST AID AND NURSING PRACTICE PROFESSIONAL TRAINING"
+            row["descrizioneCorsoIntegrato"] = "MECHANISMS AND MANIFESTATIONS OF DISEASES"
+            row["descrizioneEdificio"] = "Policlinico"
+            row["descrizioneAula"] = "Gemelli Training Center"
+        active["docente"] = "CESARE MANUELE"
+        cancelled["docente"] = "SCAPIGLIATI ANDREA"
+        paths, first = run(root, [active, cancelled])
+        self.assertTrue(first["ok"])
+        second = pipeline.run_feed(
+            "year3-lessons", paths, now=NOW + timedelta(minutes=15),
+            fetcher=fetcher_for([active]), enable_alerts=False,
+        )
+        self.assertTrue(second["ok"])
+        third = pipeline.run_feed(
+            "year3-lessons", paths, now=NOW + timedelta(minutes=30),
+            fetcher=fetcher_for([active]), enable_alerts=False,
+        )
+        cancellation = next(item for item in third["alerts"] if item["type"] == "confirmed_cancellation")
+        counterparts = cancellation.get("same_slot_active_events")
+        self.assertEqual([item["uid"] for item in counterparts], ["unicatt-lesson-occurrence-active@codex"])
+        self.assertIn("CESARE MANUELE", counterparts[0]["description"])
+
     def test_source_uid_replacement_is_an_update_not_a_cancellation(self):
       with tempfile.TemporaryDirectory() as directory:
         root = Path(directory)
