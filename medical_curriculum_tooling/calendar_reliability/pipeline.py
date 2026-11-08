@@ -482,7 +482,7 @@ def apply_source_corrections(
         for record in ledger.values()
         if isinstance(record, dict) and isinstance(record.get("event"), dict)
     ]
-    annotated_rows = annotate_group1_mixed_slots(
+    annotated_rows = annotate_mixed_slots(
         feed_id,
         [source.event_to_status_row(event) for event in events],
     )
@@ -589,13 +589,8 @@ def _description_teacher(description: Any) -> str:
     return ""
 
 
-GROUP1_PREFERRED_TEACHERS = {
-    "MR000128": ("manuele cesare", "cesare manuele"),
-}
-
-
-def annotate_group1_mixed_slots(feed_id: str, rows: Iterable[dict[str, Any]]) -> list[dict[str, Any]]:
-    """Clarify Group 1 conflicts while preserving every source event."""
+def annotate_mixed_slots(feed_id: str, rows: Iterable[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Clarify mixed source records without inferring the user's subgroup."""
     copied = [dict(row) for row in rows]
     if feed_id != "year3-lessons":
         return copied
@@ -607,26 +602,18 @@ def annotate_group1_mixed_slots(feed_id: str, rows: Iterable[dict[str, Any]]) ->
         cancelled = [row for row in slot_rows if str(row.get("status") or "").upper() == "CANCELLED"]
         if not active or not cancelled:
             continue
-        metadata = active[0].get("metadata") if isinstance(active[0].get("metadata"), dict) else {}
-        match_key = metadata.get("matchKey")
-        course_code = str(match_key[0]).strip() if isinstance(match_key, list) and match_key else ""
-        preferred = GROUP1_PREFERRED_TEACHERS.get(course_code, ())
-        group1_active = next(
-            (row for row in active if _description_teacher(row.get("description")).casefold() in preferred),
-            None,
-        )
-        if group1_active is None:
-            continue
-        teacher = _description_teacher(group1_active.get("description"))
-        group1_active["summary"] = f"GROUP 1 | {group1_active.get('summary', '')}" if not str(group1_active.get("summary", "")).startswith("GROUP 1 | ") else group1_active["summary"]
-        group1_active["description"] = append_note(
-            str(group1_active.get("description") or ""),
-            f"Group 1 reconciliation: this record remains scheduled with {teacher}. The separate cancelled source record in this same slot does not cancel Group 1.",
-        )
+        for row in active:
+            teacher = _description_teacher(row.get("description"))
+            teacher_note = f" with {teacher}" if teacher else ""
+            row["summary"] = f"ACTIVE RECORD | {row.get('summary', '')}" if not str(row.get("summary", "")).startswith("ACTIVE RECORD | ") else row["summary"]
+            row["description"] = append_note(
+                str(row.get("description") or ""),
+                f"Mixed-slot reconciliation: this active source record remains scheduled{teacher_note}. A separate cancelled source record shares this time slot. This does not establish your assigned group.",
+            )
         for row in cancelled:
             row["description"] = append_note(
                 str(row.get("description") or ""),
-                f"Group 1 reconciliation: Group 1 remains scheduled with {teacher}; this cancelled source record is a different record.",
+                "Mixed-slot reconciliation: this source record is cancelled. A separate active source record remains scheduled in this time slot. This does not establish your assigned group.",
             )
     return copied
 
@@ -820,7 +807,7 @@ def apply_snapshot(
         active_same_slot_events = _active_same_slot_events(event, merged_rows)
         if active_same_slot_events:
             alert["same_slot_active_events"] = active_same_slot_events
-    annotated_rows = annotate_group1_mixed_slots(feed_id, merged_rows)
+    annotated_rows = annotate_mixed_slots(feed_id, merged_rows)
     merged_events = [source.event_from_status_row(row) for row in annotated_rows]
     content = source.render_ics(
         source.FEED_SPECS[feed_id].calendar_name,

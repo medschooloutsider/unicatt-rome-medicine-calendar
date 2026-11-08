@@ -254,7 +254,7 @@ class CalendarPipelineTests(unittest.TestCase):
         self.assertEqual([item["uid"] for item in counterparts], ["unicatt-lesson-occurrence-active@codex"])
         self.assertIn("CESARE MANUELE", counterparts[0]["description"])
 
-    def test_group1_mixed_slot_keeps_both_events_but_marks_which_record_is_mine(self):
+    def test_mixed_slot_keeps_both_events_without_inventing_a_group(self):
       with tempfile.TemporaryDirectory() as directory:
         root = Path(directory)
         active = lesson("active", "02/11/2026")
@@ -282,9 +282,10 @@ class CalendarPipelineTests(unittest.TestCase):
         status = json.loads(pipeline.feed_public_paths(paths, "year3-lessons")[1].read_text(encoding="utf-8"))
         visible = {row["uid"]: row for row in status["events"]}
         self.assertEqual(len(visible), 2)
-        self.assertTrue(visible["unicatt-lesson-occurrence-active@codex"]["summary"].startswith("GROUP 1 | "))
-        self.assertIn("does not cancel Group 1", visible["unicatt-lesson-occurrence-active@codex"]["description"])
-        self.assertIn("Group 1 remains scheduled", visible["unicatt-lesson-occurrence-cancelled@codex"]["description"])
+        self.assertTrue(visible["unicatt-lesson-occurrence-active@codex"]["summary"].startswith("ACTIVE RECORD | "))
+        self.assertIn("does not establish your assigned group", visible["unicatt-lesson-occurrence-active@codex"]["description"])
+        self.assertIn("does not establish your assigned group", visible["unicatt-lesson-occurrence-cancelled@codex"]["description"])
+        self.assertNotIn("GROUP 1", visible["unicatt-lesson-occurrence-active@codex"]["summary"])
         self.assertEqual(visible["unicatt-lesson-occurrence-cancelled@codex"]["status"], "CANCELLED")
 
     def test_source_uid_replacement_is_an_update_not_a_cancellation(self):

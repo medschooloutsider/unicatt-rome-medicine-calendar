@@ -31,9 +31,9 @@ ledger and health receipts alongside them.
   active. Alerts name the active teacher/record and tell the user to follow the
   assigned group; they must not imply that the whole time slot is cancelled.
 - Cancelled events remain visible in the subscribed ICS with their original UID
-  and `STATUS:CANCELLED`. For a verified Group 1 mixed slot, the active event
-  is labelled `GROUP 1 | ...` and both event descriptions explain that the
-  cancellation belongs to a different source record; no event is suppressed.
+  and `STATUS:CANCELLED`. For a mixed slot, active source records are labelled
+  `ACTIVE RECORD | ...` and both event descriptions explain that the records are
+  separate; no subgroup is inferred and no event is suppressed.
 
 ## Repository layout for cutover
 
