@@ -58,6 +58,13 @@
       "sent_at_utc": "2026-11-02T16:14:45+00:00",
       "type": "heartbeat"
     },
+    "heartbeat-2026-W46": {
+      "feed_id": "all",
+      "incident_key": null,
+      "message_id": 19,
+      "sent_at_utc": "2026-11-09T16:37:32+00:00",
+      "type": "heartbeat"
+    },
     "sentinel-issue-": {
       "feed_id": "all",
       "message_id": 9,
@@ -98,6 +105,6 @@
       "type": "watchdog_failure"
     }
   },
-  "updated_at_utc": "2026-11-09T06:23:43+00:00",
+  "updated_at_utc": "2026-11-09T16:37:32+00:00",
   "version": 1
 }
