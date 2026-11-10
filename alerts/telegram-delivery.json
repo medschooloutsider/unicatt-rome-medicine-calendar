@@ -110,8 +110,15 @@
       "message_id": 20,
       "sent_at_utc": "2026-11-09T16:44:37+00:00",
       "type": "publication_recovered"
+    },
+    "sentinel-issue-6": {
+      "feed_id": "all",
+      "incident_key": null,
+      "message_id": 21,
+      "sent_at_utc": "2026-11-10T07:45:07+00:00",
+      "type": "watchdog_failure"
     }
   },
-  "updated_at_utc": "2026-11-09T16:44:37+00:00",
+  "updated_at_utc": "2026-11-10T07:45:07+00:00",
   "version": 1
 }
