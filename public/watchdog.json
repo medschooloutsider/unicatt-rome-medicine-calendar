@@ -1,11 +1,11 @@
 {
   "ok": true,
-  "checked_at_utc": "2026-11-10T18:55:53+00:00",
+  "checked_at_utc": "2026-11-10T19:43:22+00:00",
   "failures": [],
   "feeds": {
     "year2-lessons": {
-      "source_age_seconds": 20,
-      "publication_age_seconds": 20,
+      "source_age_seconds": 15,
+      "publication_age_seconds": 15,
       "health": "healthy",
       "last_error": null
     },
@@ -22,20 +22,20 @@
       "last_error": null
     },
     "year1-lessons": {
-      "source_age_seconds": 9,
-      "publication_age_seconds": 9,
+      "source_age_seconds": 7,
+      "publication_age_seconds": 7,
       "health": "healthy",
       "last_error": null
     },
     "year3-lessons": {
-      "source_age_seconds": 3,
-      "publication_age_seconds": 3,
+      "source_age_seconds": 4,
+      "publication_age_seconds": 4,
       "health": "healthy",
       "last_error": null
     },
     "year3-exams": {
-      "source_age_seconds": 0,
-      "publication_age_seconds": 0,
+      "source_age_seconds": 1,
+      "publication_age_seconds": 1,
       "health": "healthy",
       "last_error": null
     },
