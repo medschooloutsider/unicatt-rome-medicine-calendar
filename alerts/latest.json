@@ -1,8 +1,8 @@
 {
   "feed_id": "year2-exams",
   "timezone_id": "Europe/Rome",
-  "observed_at_utc": "2026-11-12T13:43:19+00:00",
-  "type": "possible_cancellation",
+  "observed_at_utc": "2026-11-12T14:31:27+00:00",
+  "type": "confirmed_cancellation",
   "uid": "unicatt-exam-occurrence-93252e822b9371d9809a5366883c5639502fa985@codex",
   "summary": "FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY 2 (RESPIRATORY/DIGESTIVE/URINARY/REPRODUCTIVE) - APPELLO D'ESAME",
   "event": {
@@ -11,8 +11,8 @@
     "start": "2026-12-21T09:00:00+01:00",
     "end": "2026-12-21T11:00:00+01:00",
     "location": "Giovanni XXIII - 2",
-    "description": "Course code: MR000008\nTeacher: SCICCHITANO BIANCA MARIA\nExam type: APPELLO D'ESAME\nSource date: 21/12/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
-    "status": "TENTATIVE",
+    "description": "Course code: MR000008\nTeacher: SCICCHITANO BIANCA MARIA\nExam type: APPELLO D'ESAME\nSource date: 21/12/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.\n\nCalendar reliability note: cancelled after two consecutive valid upstream snapshots omitted this future event.",
+    "status": "CANCELLED",
     "source_kind": "exam",
     "source_record_id": "122200286",
     "source_date": "21/12/2026",
@@ -22,8 +22,8 @@
       "idEsame": 120454736,
       "examType": "APPELLO D'ESAME"
     },
-    "sequence": 5,
-    "last_modified_utc": "2026-11-06T16:53:52+00:00"
+    "sequence": 6,
+    "last_modified_utc": "2026-11-12T13:43:11+00:00"
   },
-  "reason": "one valid upstream snapshot omitted this future event; awaiting confirmation"
+  "reason": "two consecutive valid upstream snapshots omitted this future event"
 }
