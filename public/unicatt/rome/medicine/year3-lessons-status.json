@@ -1,25 +1,25 @@
 {
   "feed_id": "year3-lessons",
   "calendar_name": "UCSC Rome Medicine Year 3 Lessons",
-  "generated_at_utc": "2026-11-12T06:02:24+00:00",
-  "last_successful_fetch_at_utc": "2026-11-12T06:02:24+00:00",
-  "last_publication_at_utc": "2026-11-12T06:02:24+00:00",
+  "generated_at_utc": "2026-11-12T10:08:40+00:00",
+  "last_successful_fetch_at_utc": "2026-11-12T10:08:40+00:00",
+  "last_publication_at_utc": "2026-11-12T10:08:40+00:00",
   "freshness_lease": {
     "max_age_seconds": 2700,
-    "issued_at_utc": "2026-11-12T06:02:24+00:00",
-    "expires_at_utc": "2026-11-12T06:47:24+00:00"
+    "issued_at_utc": "2026-11-12T10:08:40+00:00",
+    "expires_at_utc": "2026-11-12T10:53:40+00:00"
   },
   "generated_age_seconds": 0,
   "event_count": 132,
   "cancelled_count": 7,
   "tentative_count": 0,
   "source_counts": {
-    "base_lessons": 60,
+    "base_lessons": 57,
     "room_changes": 7,
     "extra_lessons": 0,
     "suspensions": 1,
     "merge_notes": 8,
-    "authoritative_corrections": 1
+    "authoritative_corrections": 0
   },
   "source_payload": {
     "codiceSede": "RM",
@@ -34,9 +34,9 @@
     "https://secure.unicatt.it/didatticaweb2/lezionistraordinarie/",
     "https://secure.unicatt.it/didatticaweb2/sospensioni/"
   ],
-  "source_snapshot_hash": "3d6feefdebaead384d83b985d70edb928077a27c705e8b55199ab9ce353264fa",
-  "last_published_source_snapshot_hash": "3d6feefdebaead384d83b985d70edb928077a27c705e8b55199ab9ce353264fa",
-  "content_hash": "aec7f7d023a8d284b686aef44ba3d77d0d8aef71a8fd9d2d812189a81d8b879d",
+  "source_snapshot_hash": "a7060ed57bdaf472cb94277ce0051d3d706756ad8882df7210f41303ea83788c",
+  "last_published_source_snapshot_hash": "a7060ed57bdaf472cb94277ce0051d3d706756ad8882df7210f41303ea83788c",
+  "content_hash": "1414a89c80b2b5d9232d534d513c14c2aee4978cb50d0711a74ab9cb26bb397b",
   "publication_mode": "github-pages-static",
   "dynamic_refresh": "GitHub Actions poller; no Vercel Blob dependency",
   "health": "healthy",
@@ -2223,7 +2223,7 @@
       "start": "2026-11-11T08:30:00+01:00",
       "end": "2026-11-11T10:00:00+01:00",
       "location": "Giovanni XXIII - 2",
-      "description": "Course code: MR000125\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SERINI SIMONA\nSource date: 11/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "description": "Course code: MR000125\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SERINI SIMONA\nSource date: 11/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
       "status": null,
       "source_kind": "lesson",
       "source_record_id": "121920420",
@@ -2245,8 +2245,8 @@
           "suspension": false
         }
       },
-      "sequence": 0,
-      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+      "sequence": 1,
+      "last_modified_utc": "2026-11-12T10:08:40+00:00"
     },
     {
       "uid": "unicatt-lesson-occurrence-121920053@codex",
@@ -2254,7 +2254,7 @@
       "start": "2026-11-11T10:00:00+01:00",
       "end": "2026-11-11T10:45:00+01:00",
       "location": "Giovanni XXIII - 2",
-      "description": "Course code: MR000126\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: GAMBASSI GIOVANNI\nSource date: 11/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 00:45\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: External correction: instructor-reported no class on 11 November 2026. Correction observed: 2026-11-05T16:18:00+01:00.",
+      "description": "Course code: MR000126\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: GAMBASSI GIOVANNI\nSource date: 11/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 00:45\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: External correction: instructor-reported no class on 11 November 2026. Correction observed: 2026-11-05T16:18:00+01:00.\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
       "status": "CANCELLED",
       "source_kind": "lesson",
       "source_record_id": "121920053",
@@ -2282,8 +2282,8 @@
           "observed_at": "2026-11-05T16:18:00+01:00"
         }
       },
-      "sequence": 1,
-      "last_modified_utc": "2026-11-05T16:28:59+00:00"
+      "sequence": 2,
+      "last_modified_utc": "2026-11-12T10:08:40+00:00"
     },
     {
       "uid": "unicatt-lesson-occurrence-121873449@codex",
@@ -2291,7 +2291,7 @@
       "start": "2026-11-11T10:45:00+01:00",
       "end": "2026-11-11T13:00:00+01:00",
       "location": "Giovanni XXIII - 2",
-      "description": "Course code: MR000132\nIntegrated course code: MR000016\nIntegrated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: RIA FRANCESCO\nSource date: 11/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "description": "Course code: MR000132\nIntegrated course code: MR000016\nIntegrated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: RIA FRANCESCO\nSource date: 11/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
       "status": null,
       "source_kind": "lesson",
       "source_record_id": "121873449",
@@ -2313,8 +2313,8 @@
           "suspension": false
         }
       },
-      "sequence": 0,
-      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+      "sequence": 1,
+      "last_modified_utc": "2026-11-12T10:08:40+00:00"
     },
     {
       "uid": "unicatt-lesson-occurrence-121873387@codex",
