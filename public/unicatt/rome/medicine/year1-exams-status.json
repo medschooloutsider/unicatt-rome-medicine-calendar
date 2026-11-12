@@ -1,13 +1,13 @@
 {
   "feed_id": "year1-exams",
   "calendar_name": "UCSC Rome Medicine Year 1 Exams",
-  "generated_at_utc": "2026-11-12T10:55:08+00:00",
-  "last_successful_fetch_at_utc": "2026-11-12T10:55:08+00:00",
-  "last_publication_at_utc": "2026-11-12T10:55:08+00:00",
+  "generated_at_utc": "2026-11-12T12:09:21+00:00",
+  "last_successful_fetch_at_utc": "2026-11-12T12:09:21+00:00",
+  "last_publication_at_utc": "2026-11-12T12:09:21+00:00",
   "freshness_lease": {
     "max_age_seconds": 2700,
-    "issued_at_utc": "2026-11-12T10:55:08+00:00",
-    "expires_at_utc": "2026-11-12T11:40:08+00:00"
+    "issued_at_utc": "2026-11-12T12:09:21+00:00",
+    "expires_at_utc": "2026-11-12T12:54:21+00:00"
   },
   "generated_age_seconds": 0,
   "event_count": 95,
@@ -28,7 +28,7 @@
   ],
   "source_snapshot_hash": "5cdbb839b94c450b990cc2ed7e2476747c5d22e62c46b9ebb89660a6b928f6de",
   "last_published_source_snapshot_hash": "5cdbb839b94c450b990cc2ed7e2476747c5d22e62c46b9ebb89660a6b928f6de",
-  "content_hash": "dcd35c2c84b7ebcf89e393e6491951323813d2bc214c78b5c6fcece1c702230d",
+  "content_hash": "e12ec8b39c027edbc0b6b0fd0c5c9a538cde95cdff300bf5b45791e496266658",
   "publication_mode": "github-pages-static",
   "dynamic_refresh": "GitHub Actions poller; no Vercel Blob dependency",
   "health": "healthy",
