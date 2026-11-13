@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "observed_at_utc": "2026-11-13T07:13:24+00:00",
+  "observed_at_utc": "2026-11-13T08:01:09+00:00",
   "freshness_lease": {
     "max_age_seconds": 2700,
-    "expires_at_utc": "2026-11-13T07:58:09+00:00",
+    "expires_at_utc": "2026-11-13T08:45:45+00:00",
     "feed_count": 8
   },
   "results": [
@@ -25,7 +25,7 @@
       "feed_id": "year1-exams",
       "ok": true,
       "health": "healthy",
-      "event_count": 95,
+      "event_count": 102,
       "alerts": []
     },
     {

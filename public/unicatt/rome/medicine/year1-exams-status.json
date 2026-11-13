@@ -1,20 +1,20 @@
 {
   "feed_id": "year1-exams",
   "calendar_name": "UCSC Rome Medicine Year 1 Exams",
-  "generated_at_utc": "2026-11-13T07:13:15+00:00",
-  "last_successful_fetch_at_utc": "2026-11-13T07:13:15+00:00",
-  "last_publication_at_utc": "2026-11-13T07:13:15+00:00",
+  "generated_at_utc": "2026-11-13T08:00:56+00:00",
+  "last_successful_fetch_at_utc": "2026-11-13T08:00:56+00:00",
+  "last_publication_at_utc": "2026-11-13T08:00:56+00:00",
   "freshness_lease": {
     "max_age_seconds": 2700,
-    "issued_at_utc": "2026-11-13T07:13:15+00:00",
-    "expires_at_utc": "2026-11-13T07:58:15+00:00"
+    "issued_at_utc": "2026-11-13T08:00:56+00:00",
+    "expires_at_utc": "2026-11-13T08:45:56+00:00"
   },
   "generated_age_seconds": 0,
-  "event_count": 95,
+  "event_count": 102,
   "cancelled_count": 4,
   "tentative_count": 0,
   "source_counts": {
-    "base_exams": 82
+    "base_exams": 89
   },
   "source_payload": {
     "codiceSede": "RM",
@@ -26,9 +26,9 @@
   "source_urls": [
     "https://secure.unicatt.it/didatticaweb2/ps/esami/"
   ],
-  "source_snapshot_hash": "5cdbb839b94c450b990cc2ed7e2476747c5d22e62c46b9ebb89660a6b928f6de",
-  "last_published_source_snapshot_hash": "5cdbb839b94c450b990cc2ed7e2476747c5d22e62c46b9ebb89660a6b928f6de",
-  "content_hash": "6db2439c4590396a136597a58fe4a6de971ca0e0bb430a942f2f45b831387a0c",
+  "source_snapshot_hash": "9659267fe46fd9e6adaa633d401adb6c53654c78d24203de25c799c42e4747cb",
+  "last_published_source_snapshot_hash": "9659267fe46fd9e6adaa633d401adb6c53654c78d24203de25c799c42e4747cb",
+  "content_hash": "133ad6b1bb749e6f4eafa6ba689700f815b92fbf547a57c44ef169468d85b787",
   "publication_mode": "github-pages-static",
   "dynamic_refresh": "GitHub Actions poller; no Vercel Blob dependency",
   "health": "healthy",
@@ -1938,6 +1938,146 @@
       },
       "sequence": 0,
       "last_modified_utc": "2026-09-07T09:06:01.724734+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-bff3e907cbb29aef47ac10a753a3edb6f109e7ca@codex",
+      "summary": "ITALIAN LANGUAGE I - APPELLO D'ESAME",
+      "start": "2026-12-14T09:30:00+01:00",
+      "end": "2026-12-14T13:00:00+01:00",
+      "location": "Economia - 202",
+      "description": "Course code: A002221\nTeacher: LEWIS SIMON GRAHAM\nExam type: APPELLO D'ESAME\nSource date: 14/12/2026\nBuilding: Economia\nRoom: 202\nDuration: 03:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "122221312",
+      "source_date": "14/12/2026",
+      "metadata": {
+        "codiceInsegnamento": "A002221",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120731870,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-11-13T08:00:56+00:00"
+    },
+    {
+      "uid": "unicatt-exam-d3711a0a05853b6a8e6871ae4367241e4e276b35@codex",
+      "summary": "BASIC SCIENCES - Exam",
+      "start": "2026-12-15T09:00:00+01:00",
+      "end": "2026-12-15T11:00:00+01:00",
+      "location": "",
+      "description": "Course code: A001980\nTeacher: PAPI MASSIMILIANO\nSource date: 15/12/2026\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "120043412",
+      "source_date": "15/12/2026",
+      "metadata": {
+        "codiceInsegnamento": "A001980",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120043412,
+        "examType": null
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-11-13T08:00:56+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-5ec7d223c79de920a0dd264a2cc95107b4476806@codex",
+      "summary": "LIFE OF CELLS, TISSUES AND MICROBES - APPELLO D'ESAME",
+      "start": "2026-12-16T08:00:00+01:00",
+      "end": "2026-12-16T10:00:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: A002193\nTeacher: LATTANZI WANDA\nExam type: APPELLO D'ESAME\nSource date: 16/12/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "122221373",
+      "source_date": "16/12/2026",
+      "metadata": {
+        "codiceInsegnamento": "A002193",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120043408,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-11-13T08:00:56+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-728593a757a521ae0aa9ed4dedcf5e095df3b06f@codex",
+      "summary": "SCIENTIFIC ENGLISH - APPELLO D'ESAME",
+      "start": "2026-12-16T11:30:00+01:00",
+      "end": "2026-12-16T13:30:00+01:00",
+      "location": "Economia - 109",
+      "description": "Course code: A002225\nTeacher: TAYLOR ANITA\nExam type: APPELLO D'ESAME\nSource date: 16/12/2026\nBuilding: Economia\nRoom: 109\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "122221349",
+      "source_date": "16/12/2026",
+      "metadata": {
+        "codiceInsegnamento": "A002225",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120646392,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-11-13T08:00:56+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-d492681af19084e2b2b9f1aee7dea8635dff935c@codex",
+      "summary": "FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY (MSK/HEART/VASCULAR SYSTEM) - APPELLO D'ESAME",
+      "start": "2026-12-18T09:00:00+01:00",
+      "end": "2026-12-18T11:00:00+01:00",
+      "location": "Giovanni XXIII - Laboratorio informatica",
+      "description": "Course code: A002232\nTeacher: TAMAGNONE LUCA\nExam type: APPELLO D'ESAME\nSource date: 18/12/2026\nBuilding: Giovanni XXIII\nRoom: Laboratorio informatica\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "122220877",
+      "source_date": "18/12/2026",
+      "metadata": {
+        "codiceInsegnamento": "A002232",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120043392,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-11-13T08:00:56+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-fc8f0538ff012764c783c06ff1f5ae2d2d633856@codex",
+      "summary": "THEOLOGY 1: INTRODUCTION TO CHRISTOLOGY AND SCRIPTURES - APPELLO D'ESAME",
+      "start": "2026-12-18T09:00:00+01:00",
+      "end": "2026-12-18T11:00:00+01:00",
+      "location": "Giovanni XXIII - 6",
+      "description": "Course code: A002562\nTeacher: IODICE FABIO\nExam type: APPELLO D'ESAME\nSource date: 18/12/2026\nBuilding: Giovanni XXIII\nRoom: 6\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "122220853",
+      "source_date": "18/12/2026",
+      "metadata": {
+        "codiceInsegnamento": "A002562",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120657200,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-11-13T08:00:56+00:00"
+    },
+    {
+      "uid": "unicatt-exam-occurrence-df93c83bbc36abfca657909c1ead6db56b901de7@codex",
+      "summary": "GENE REGULATION AND CELL METABOLISM - APPELLO D'ESAME",
+      "start": "2026-12-21T09:00:00+01:00",
+      "end": "2026-12-21T11:00:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: A002229\nTeacher: ARCOVITO ALESSANDRO\nExam type: APPELLO D'ESAME\nSource date: 21/12/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
+      "source_kind": "exam",
+      "source_record_id": "122220873",
+      "source_date": "21/12/2026",
+      "metadata": {
+        "codiceInsegnamento": "A002229",
+        "codiceCorsoIntegrato": null,
+        "idEsame": 120043395,
+        "examType": "APPELLO D'ESAME"
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-11-13T08:00:56+00:00"
     }
   ]
 }
