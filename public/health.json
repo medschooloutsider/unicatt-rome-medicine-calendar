@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "observed_at_utc": "2026-11-13T16:05:39+00:00",
+  "observed_at_utc": "2026-11-13T16:47:59+00:00",
   "freshness_lease": {
     "max_age_seconds": 2700,
-    "expires_at_utc": "2026-11-13T16:50:19+00:00",
+    "expires_at_utc": "2026-11-13T17:32:37+00:00",
     "feed_count": 8
   },
   "results": [
@@ -19,34 +19,7 @@
       "ok": true,
       "health": "healthy",
       "event_count": 96,
-      "alerts": [
-        {
-          "type": "confirmed_cancellation",
-          "uid": "unicatt-exam-995023e2d71ed18b2822989a009a366249c1f2c9@codex",
-          "summary": "MICROBE - HOST INTERACTION - Exam",
-          "event": {
-            "uid": "unicatt-exam-995023e2d71ed18b2822989a009a366249c1f2c9@codex",
-            "summary": "MICROBE - HOST INTERACTION - Exam",
-            "start": "2026-12-17T09:00:00+01:00",
-            "end": "2026-12-17T11:00:00+01:00",
-            "location": "",
-            "description": "Course code: MR000009\nTeacher: HAAS TOBIAS LONGIN\nSource date: 17/12/2026\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.\n\nCalendar reliability note: cancelled after two consecutive valid upstream snapshots omitted this future event.",
-            "status": "CANCELLED",
-            "source_kind": "exam",
-            "source_record_id": "120454754",
-            "source_date": "17/12/2026",
-            "metadata": {
-              "codiceInsegnamento": "MR000009",
-              "codiceCorsoIntegrato": null,
-              "idEsame": 120454754,
-              "examType": null
-            },
-            "sequence": 11,
-            "last_modified_utc": "2026-11-13T15:18:10+00:00"
-          },
-          "reason": "two consecutive valid upstream snapshots omitted this future event"
-        }
-      ]
+      "alerts": []
     },
     {
       "feed_id": "year1-exams",
@@ -55,7 +28,7 @@
       "event_count": 103,
       "alerts": [
         {
-          "type": "possible_cancellation",
+          "type": "confirmed_cancellation",
           "uid": "unicatt-exam-d3711a0a05853b6a8e6871ae4367241e4e276b35@codex",
           "summary": "BASIC SCIENCES - Exam",
           "event": {
@@ -64,8 +37,8 @@
             "start": "2026-12-15T09:00:00+01:00",
             "end": "2026-12-15T11:00:00+01:00",
             "location": "",
-            "description": "Course code: A001980\nTeacher: PAPI MASSIMILIANO\nSource date: 15/12/2026\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
-            "status": "TENTATIVE",
+            "description": "Course code: A001980\nTeacher: PAPI MASSIMILIANO\nSource date: 15/12/2026\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.\n\nCalendar reliability note: cancelled after two consecutive valid upstream snapshots omitted this future event.",
+            "status": "CANCELLED",
             "source_kind": "exam",
             "source_record_id": "120043412",
             "source_date": "15/12/2026",
@@ -75,10 +48,10 @@
               "idEsame": 120043412,
               "examType": null
             },
-            "sequence": 6,
-            "last_modified_utc": "2026-11-13T15:18:11+00:00"
+            "sequence": 7,
+            "last_modified_utc": "2026-11-13T16:05:26+00:00"
           },
-          "reason": "one valid upstream snapshot omitted this future event; awaiting confirmation"
+          "reason": "two consecutive valid upstream snapshots omitted this future event"
         }
       ]
     },
