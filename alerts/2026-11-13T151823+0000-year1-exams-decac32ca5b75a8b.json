@@ -1,0 +1,29 @@
+{
+  "feed_id": "year1-exams",
+  "timezone_id": "Europe/Rome",
+  "observed_at_utc": "2026-11-13T15:18:23+00:00",
+  "type": "possible_cancellation",
+  "uid": "unicatt-exam-occurrence-040b7ab2ad6129013d62df9d95ae2f41831d9cbd@codex",
+  "summary": "BASIC SCIENCES - APPELLO D'ESAME",
+  "event": {
+    "uid": "unicatt-exam-occurrence-040b7ab2ad6129013d62df9d95ae2f41831d9cbd@codex",
+    "summary": "BASIC SCIENCES - APPELLO D'ESAME",
+    "start": "2026-12-15T11:30:00+01:00",
+    "end": "2026-12-15T13:30:00+01:00",
+    "location": "Giovanni XXIII - Laboratorio linguistico",
+    "description": "Course code: A001980\nTeacher: PAPI MASSIMILIANO\nExam type: APPELLO D'ESAME\nSource date: 15/12/2026\nBuilding: Giovanni XXIII\nRoom: Laboratorio linguistico\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
+    "status": "TENTATIVE",
+    "source_kind": "exam",
+    "source_record_id": "122221433",
+    "source_date": "15/12/2026",
+    "metadata": {
+      "codiceInsegnamento": "A001980",
+      "codiceCorsoIntegrato": null,
+      "idEsame": 120043412,
+      "examType": "APPELLO D'ESAME"
+    },
+    "sequence": 0,
+    "last_modified_utc": "2026-11-13T14:30:54+00:00"
+  },
+  "reason": "one valid upstream snapshot omitted this future event; awaiting confirmation"
+}
