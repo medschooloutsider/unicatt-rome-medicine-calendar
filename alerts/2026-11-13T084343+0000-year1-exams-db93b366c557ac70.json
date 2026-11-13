@@ -1,0 +1,29 @@
+{
+  "feed_id": "year1-exams",
+  "timezone_id": "Europe/Rome",
+  "observed_at_utc": "2026-11-13T08:43:43+00:00",
+  "type": "possible_cancellation",
+  "uid": "unicatt-exam-occurrence-bff3e907cbb29aef47ac10a753a3edb6f109e7ca@codex",
+  "summary": "ITALIAN LANGUAGE I - APPELLO D'ESAME",
+  "event": {
+    "uid": "unicatt-exam-occurrence-bff3e907cbb29aef47ac10a753a3edb6f109e7ca@codex",
+    "summary": "ITALIAN LANGUAGE I - APPELLO D'ESAME",
+    "start": "2026-12-14T09:30:00+01:00",
+    "end": "2026-12-14T13:00:00+01:00",
+    "location": "Economia - 202",
+    "description": "Course code: A002221\nTeacher: LEWIS SIMON GRAHAM\nExam type: APPELLO D'ESAME\nSource date: 14/12/2026\nBuilding: Economia\nRoom: 202\nDuration: 03:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
+    "status": "TENTATIVE",
+    "source_kind": "exam",
+    "source_record_id": "122221312",
+    "source_date": "14/12/2026",
+    "metadata": {
+      "codiceInsegnamento": "A002221",
+      "codiceCorsoIntegrato": null,
+      "idEsame": 120731870,
+      "examType": "APPELLO D'ESAME"
+    },
+    "sequence": 0,
+    "last_modified_utc": "2026-11-13T08:00:56+00:00"
+  },
+  "reason": "one valid upstream snapshot omitted this future event; awaiting confirmation"
+}
