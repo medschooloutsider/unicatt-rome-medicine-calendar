@@ -1,0 +1,29 @@
+{
+  "feed_id": "year1-exams",
+  "timezone_id": "Europe/Rome",
+  "observed_at_utc": "2026-11-13T12:02:07+00:00",
+  "type": "possible_cancellation",
+  "uid": "unicatt-exam-d3711a0a05853b6a8e6871ae4367241e4e276b35@codex",
+  "summary": "BASIC SCIENCES - Exam",
+  "event": {
+    "uid": "unicatt-exam-d3711a0a05853b6a8e6871ae4367241e4e276b35@codex",
+    "summary": "BASIC SCIENCES - Exam",
+    "start": "2026-12-15T09:00:00+01:00",
+    "end": "2026-12-15T11:00:00+01:00",
+    "location": "",
+    "description": "Course code: A001980\nTeacher: PAPI MASSIMILIANO\nSource date: 15/12/2026\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
+    "status": "TENTATIVE",
+    "source_kind": "exam",
+    "source_record_id": "120043412",
+    "source_date": "15/12/2026",
+    "metadata": {
+      "codiceInsegnamento": "A001980",
+      "codiceCorsoIntegrato": null,
+      "idEsame": 120043412,
+      "examType": null
+    },
+    "sequence": 2,
+    "last_modified_utc": "2026-11-13T10:16:31+00:00"
+  },
+  "reason": "one valid upstream snapshot omitted this future event; awaiting confirmation"
+}

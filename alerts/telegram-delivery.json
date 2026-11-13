@@ -1,6 +1,13 @@
 {
   "failures": {},
   "sent": {
+    "calendar-002bf6dbfe8332323f36c603": {
+      "feed_id": "year2-exams",
+      "incident_key": null,
+      "message_id": 27,
+      "sent_at_utc": "2026-11-13T12:02:07+00:00",
+      "type": "confirmed_cancellation"
+    },
     "calendar-0c5830364c39deee10aa8bc7": {
       "feed_id": "year3-lessons",
       "message_id": 7,
@@ -154,6 +161,6 @@
       "type": "publication_recovered"
     }
   },
-  "updated_at_utc": "2026-11-13T00:57:21+00:00",
+  "updated_at_utc": "2026-11-13T12:02:07+00:00",
   "version": 1
 }
