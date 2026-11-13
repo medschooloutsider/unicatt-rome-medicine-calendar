@@ -1,29 +1,29 @@
 {
-  "feed_id": "year1-exams",
+  "feed_id": "year2-exams",
   "timezone_id": "Europe/Rome",
-  "observed_at_utc": "2026-11-13T08:43:43+00:00",
+  "observed_at_utc": "2026-11-13T10:16:38+00:00",
   "type": "possible_cancellation",
-  "uid": "unicatt-exam-occurrence-df93c83bbc36abfca657909c1ead6db56b901de7@codex",
-  "summary": "GENE REGULATION AND CELL METABOLISM - APPELLO D'ESAME",
+  "uid": "unicatt-exam-occurrence-4303ba07d76c23d85620c1ebd180a09dd6a54eda@codex",
+  "summary": "MICROBE - HOST INTERACTION - APPELLO D'ESAME",
   "event": {
-    "uid": "unicatt-exam-occurrence-df93c83bbc36abfca657909c1ead6db56b901de7@codex",
-    "summary": "GENE REGULATION AND CELL METABOLISM - APPELLO D'ESAME",
-    "start": "2026-12-21T09:00:00+01:00",
-    "end": "2026-12-21T11:00:00+01:00",
-    "location": "Giovanni XXIII - 2",
-    "description": "Course code: A002229\nTeacher: ARCOVITO ALESSANDRO\nExam type: APPELLO D'ESAME\nSource date: 21/12/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
+    "uid": "unicatt-exam-occurrence-4303ba07d76c23d85620c1ebd180a09dd6a54eda@codex",
+    "summary": "MICROBE - HOST INTERACTION - APPELLO D'ESAME",
+    "start": "2026-12-17T10:00:00+01:00",
+    "end": "2026-12-17T12:00:00+01:00",
+    "location": "Giovanni XXIII - Laboratorio linguistico",
+    "description": "Course code: MR000009\nTeacher: HAAS TOBIAS LONGIN\nExam type: APPELLO D'ESAME\nSource date: 17/12/2026\nBuilding: Giovanni XXIII\nRoom: Laboratorio linguistico\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
     "status": "TENTATIVE",
     "source_kind": "exam",
-    "source_record_id": "122220873",
-    "source_date": "21/12/2026",
+    "source_record_id": "122221508",
+    "source_date": "17/12/2026",
     "metadata": {
-      "codiceInsegnamento": "A002229",
+      "codiceInsegnamento": "MR000009",
       "codiceCorsoIntegrato": null,
-      "idEsame": 120043395,
+      "idEsame": 120454754,
       "examType": "APPELLO D'ESAME"
     },
     "sequence": 0,
-    "last_modified_utc": "2026-11-13T08:00:56+00:00"
+    "last_modified_utc": "2026-11-13T08:43:33+00:00"
   },
   "reason": "one valid upstream snapshot omitted this future event; awaiting confirmation"
 }

@@ -1,13 +1,13 @@
 {
   "feed_id": "year2-exams",
   "calendar_name": "UCSC Rome Medicine Year 2 Exams",
-  "generated_at_utc": "2026-11-13T08:43:33+00:00",
-  "last_successful_fetch_at_utc": "2026-11-13T08:43:33+00:00",
-  "last_publication_at_utc": "2026-11-13T08:43:33+00:00",
+  "generated_at_utc": "2026-11-13T10:16:30+00:00",
+  "last_successful_fetch_at_utc": "2026-11-13T10:16:30+00:00",
+  "last_publication_at_utc": "2026-11-13T10:16:30+00:00",
   "freshness_lease": {
     "max_age_seconds": 2700,
-    "issued_at_utc": "2026-11-13T08:43:33+00:00",
-    "expires_at_utc": "2026-11-13T09:28:33+00:00"
+    "issued_at_utc": "2026-11-13T10:16:30+00:00",
+    "expires_at_utc": "2026-11-13T11:01:30+00:00"
   },
   "generated_age_seconds": 0,
   "event_count": 96,
@@ -26,9 +26,9 @@
   "source_urls": [
     "https://secure.unicatt.it/didatticaweb2/ps/esami/"
   ],
-  "source_snapshot_hash": "53af7dc4af0ec0673709444f2ae20b36b0d8c2858ea3da71d42e3ae969c1b526",
-  "last_published_source_snapshot_hash": "53af7dc4af0ec0673709444f2ae20b36b0d8c2858ea3da71d42e3ae969c1b526",
-  "content_hash": "de33d61ae66abf8e1191425cab4cff94c20d7359ec03ed83ee8fd6014abcabfe",
+  "source_snapshot_hash": "bf2471b62d9e23ea3d331e3b284385e8821cd6f2866f98ff668ab874daa79a04",
+  "last_published_source_snapshot_hash": "bf2471b62d9e23ea3d331e3b284385e8821cd6f2866f98ff668ab874daa79a04",
+  "content_hash": "047b1dc0bb785356793939beb64a49432ee39e28bf8bab9530ec6d6d3c827b09",
   "publication_mode": "github-pages-static",
   "dynamic_refresh": "GitHub Actions poller; no Vercel Blob dependency",
   "health": "healthy",
@@ -39,27 +39,27 @@
   "alerts": [
     {
       "type": "possible_cancellation",
-      "uid": "unicatt-exam-995023e2d71ed18b2822989a009a366249c1f2c9@codex",
-      "summary": "MICROBE - HOST INTERACTION - Exam",
+      "uid": "unicatt-exam-occurrence-4303ba07d76c23d85620c1ebd180a09dd6a54eda@codex",
+      "summary": "MICROBE - HOST INTERACTION - APPELLO D'ESAME",
       "event": {
-        "uid": "unicatt-exam-995023e2d71ed18b2822989a009a366249c1f2c9@codex",
-        "summary": "MICROBE - HOST INTERACTION - Exam",
-        "start": "2026-12-17T09:00:00+01:00",
-        "end": "2026-12-17T11:00:00+01:00",
-        "location": "",
-        "description": "Course code: MR000009\nTeacher: HAAS TOBIAS LONGIN\nSource date: 17/12/2026\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
+        "uid": "unicatt-exam-occurrence-4303ba07d76c23d85620c1ebd180a09dd6a54eda@codex",
+        "summary": "MICROBE - HOST INTERACTION - APPELLO D'ESAME",
+        "start": "2026-12-17T10:00:00+01:00",
+        "end": "2026-12-17T12:00:00+01:00",
+        "location": "Giovanni XXIII - Laboratorio linguistico",
+        "description": "Course code: MR000009\nTeacher: HAAS TOBIAS LONGIN\nExam type: APPELLO D'ESAME\nSource date: 17/12/2026\nBuilding: Giovanni XXIII\nRoom: Laboratorio linguistico\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
         "status": "TENTATIVE",
         "source_kind": "exam",
-        "source_record_id": "120454754",
+        "source_record_id": "122221508",
         "source_date": "17/12/2026",
         "metadata": {
           "codiceInsegnamento": "MR000009",
           "codiceCorsoIntegrato": null,
           "idEsame": 120454754,
-          "examType": null
+          "examType": "APPELLO D'ESAME"
         },
-        "sequence": 5,
-        "last_modified_utc": "2026-11-06T16:53:52+00:00"
+        "sequence": 0,
+        "last_modified_utc": "2026-11-13T08:43:33+00:00"
       },
       "reason": "one valid upstream snapshot omitted this future event; awaiting confirmation"
     }
@@ -1872,8 +1872,8 @@
       "start": "2026-12-17T09:00:00+01:00",
       "end": "2026-12-17T11:00:00+01:00",
       "location": "",
-      "description": "Course code: MR000009\nTeacher: HAAS TOBIAS LONGIN\nSource date: 17/12/2026\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
-      "status": "TENTATIVE",
+      "description": "Course code: MR000009\nTeacher: HAAS TOBIAS LONGIN\nSource date: 17/12/2026\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
+      "status": null,
       "source_kind": "exam",
       "source_record_id": "120454754",
       "source_date": "17/12/2026",
@@ -1883,8 +1883,8 @@
         "idEsame": 120454754,
         "examType": null
       },
-      "sequence": 6,
-      "last_modified_utc": "2026-11-13T08:43:33+00:00"
+      "sequence": 7,
+      "last_modified_utc": "2026-11-13T10:16:30+00:00"
     },
     {
       "uid": "unicatt-exam-occurrence-4303ba07d76c23d85620c1ebd180a09dd6a54eda@codex",
@@ -1892,8 +1892,8 @@
       "start": "2026-12-17T10:00:00+01:00",
       "end": "2026-12-17T12:00:00+01:00",
       "location": "Giovanni XXIII - Laboratorio linguistico",
-      "description": "Course code: MR000009\nTeacher: HAAS TOBIAS LONGIN\nExam type: APPELLO D'ESAME\nSource date: 17/12/2026\nBuilding: Giovanni XXIII\nRoom: Laboratorio linguistico\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/",
-      "status": null,
+      "description": "Course code: MR000009\nTeacher: HAAS TOBIAS LONGIN\nExam type: APPELLO D'ESAME\nSource date: 17/12/2026\nBuilding: Giovanni XXIII\nRoom: Laboratorio linguistico\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
+      "status": "TENTATIVE",
       "source_kind": "exam",
       "source_record_id": "122221508",
       "source_date": "17/12/2026",
@@ -1903,8 +1903,8 @@
         "idEsame": 120454754,
         "examType": "APPELLO D'ESAME"
       },
-      "sequence": 0,
-      "last_modified_utc": "2026-11-13T08:43:33+00:00"
+      "sequence": 1,
+      "last_modified_utc": "2026-11-13T10:16:30+00:00"
     },
     {
       "uid": "unicatt-exam-occurrence-c71220560722addf0a0470970daaf60ef7895c64@codex",

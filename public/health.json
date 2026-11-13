@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "observed_at_utc": "2026-11-13T08:43:43+00:00",
+  "observed_at_utc": "2026-11-13T10:16:38+00:00",
   "freshness_lease": {
     "max_age_seconds": 2700,
-    "expires_at_utc": "2026-11-13T09:28:29+00:00",
+    "expires_at_utc": "2026-11-13T11:01:24+00:00",
     "feed_count": 8
   },
   "results": [
@@ -22,27 +22,27 @@
       "alerts": [
         {
           "type": "possible_cancellation",
-          "uid": "unicatt-exam-995023e2d71ed18b2822989a009a366249c1f2c9@codex",
-          "summary": "MICROBE - HOST INTERACTION - Exam",
+          "uid": "unicatt-exam-occurrence-4303ba07d76c23d85620c1ebd180a09dd6a54eda@codex",
+          "summary": "MICROBE - HOST INTERACTION - APPELLO D'ESAME",
           "event": {
-            "uid": "unicatt-exam-995023e2d71ed18b2822989a009a366249c1f2c9@codex",
-            "summary": "MICROBE - HOST INTERACTION - Exam",
-            "start": "2026-12-17T09:00:00+01:00",
-            "end": "2026-12-17T11:00:00+01:00",
-            "location": "",
-            "description": "Course code: MR000009\nTeacher: HAAS TOBIAS LONGIN\nSource date: 17/12/2026\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
+            "uid": "unicatt-exam-occurrence-4303ba07d76c23d85620c1ebd180a09dd6a54eda@codex",
+            "summary": "MICROBE - HOST INTERACTION - APPELLO D'ESAME",
+            "start": "2026-12-17T10:00:00+01:00",
+            "end": "2026-12-17T12:00:00+01:00",
+            "location": "Giovanni XXIII - Laboratorio linguistico",
+            "description": "Course code: MR000009\nTeacher: HAAS TOBIAS LONGIN\nExam type: APPELLO D'ESAME\nSource date: 17/12/2026\nBuilding: Giovanni XXIII\nRoom: Laboratorio linguistico\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
             "status": "TENTATIVE",
             "source_kind": "exam",
-            "source_record_id": "120454754",
+            "source_record_id": "122221508",
             "source_date": "17/12/2026",
             "metadata": {
               "codiceInsegnamento": "MR000009",
               "codiceCorsoIntegrato": null,
               "idEsame": 120454754,
-              "examType": null
+              "examType": "APPELLO D'ESAME"
             },
-            "sequence": 5,
-            "last_modified_utc": "2026-11-06T16:53:52+00:00"
+            "sequence": 0,
+            "last_modified_utc": "2026-11-13T08:43:33+00:00"
           },
           "reason": "one valid upstream snapshot omitted this future event; awaiting confirmation"
         }
@@ -53,190 +53,7 @@
       "ok": true,
       "health": "healthy",
       "event_count": 102,
-      "alerts": [
-        {
-          "type": "possible_cancellation",
-          "uid": "unicatt-exam-occurrence-bff3e907cbb29aef47ac10a753a3edb6f109e7ca@codex",
-          "summary": "ITALIAN LANGUAGE I - APPELLO D'ESAME",
-          "event": {
-            "uid": "unicatt-exam-occurrence-bff3e907cbb29aef47ac10a753a3edb6f109e7ca@codex",
-            "summary": "ITALIAN LANGUAGE I - APPELLO D'ESAME",
-            "start": "2026-12-14T09:30:00+01:00",
-            "end": "2026-12-14T13:00:00+01:00",
-            "location": "Economia - 202",
-            "description": "Course code: A002221\nTeacher: LEWIS SIMON GRAHAM\nExam type: APPELLO D'ESAME\nSource date: 14/12/2026\nBuilding: Economia\nRoom: 202\nDuration: 03:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
-            "status": "TENTATIVE",
-            "source_kind": "exam",
-            "source_record_id": "122221312",
-            "source_date": "14/12/2026",
-            "metadata": {
-              "codiceInsegnamento": "A002221",
-              "codiceCorsoIntegrato": null,
-              "idEsame": 120731870,
-              "examType": "APPELLO D'ESAME"
-            },
-            "sequence": 0,
-            "last_modified_utc": "2026-11-13T08:00:56+00:00"
-          },
-          "reason": "one valid upstream snapshot omitted this future event; awaiting confirmation"
-        },
-        {
-          "type": "possible_cancellation",
-          "uid": "unicatt-exam-d3711a0a05853b6a8e6871ae4367241e4e276b35@codex",
-          "summary": "BASIC SCIENCES - Exam",
-          "event": {
-            "uid": "unicatt-exam-d3711a0a05853b6a8e6871ae4367241e4e276b35@codex",
-            "summary": "BASIC SCIENCES - Exam",
-            "start": "2026-12-15T09:00:00+01:00",
-            "end": "2026-12-15T11:00:00+01:00",
-            "location": "",
-            "description": "Course code: A001980\nTeacher: PAPI MASSIMILIANO\nSource date: 15/12/2026\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
-            "status": "TENTATIVE",
-            "source_kind": "exam",
-            "source_record_id": "120043412",
-            "source_date": "15/12/2026",
-            "metadata": {
-              "codiceInsegnamento": "A001980",
-              "codiceCorsoIntegrato": null,
-              "idEsame": 120043412,
-              "examType": null
-            },
-            "sequence": 0,
-            "last_modified_utc": "2026-11-13T08:00:56+00:00"
-          },
-          "reason": "one valid upstream snapshot omitted this future event; awaiting confirmation"
-        },
-        {
-          "type": "possible_cancellation",
-          "uid": "unicatt-exam-occurrence-5ec7d223c79de920a0dd264a2cc95107b4476806@codex",
-          "summary": "LIFE OF CELLS, TISSUES AND MICROBES - APPELLO D'ESAME",
-          "event": {
-            "uid": "unicatt-exam-occurrence-5ec7d223c79de920a0dd264a2cc95107b4476806@codex",
-            "summary": "LIFE OF CELLS, TISSUES AND MICROBES - APPELLO D'ESAME",
-            "start": "2026-12-16T08:00:00+01:00",
-            "end": "2026-12-16T10:00:00+01:00",
-            "location": "Giovanni XXIII - 2",
-            "description": "Course code: A002193\nTeacher: LATTANZI WANDA\nExam type: APPELLO D'ESAME\nSource date: 16/12/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
-            "status": "TENTATIVE",
-            "source_kind": "exam",
-            "source_record_id": "122221373",
-            "source_date": "16/12/2026",
-            "metadata": {
-              "codiceInsegnamento": "A002193",
-              "codiceCorsoIntegrato": null,
-              "idEsame": 120043408,
-              "examType": "APPELLO D'ESAME"
-            },
-            "sequence": 0,
-            "last_modified_utc": "2026-11-13T08:00:56+00:00"
-          },
-          "reason": "one valid upstream snapshot omitted this future event; awaiting confirmation"
-        },
-        {
-          "type": "possible_cancellation",
-          "uid": "unicatt-exam-occurrence-728593a757a521ae0aa9ed4dedcf5e095df3b06f@codex",
-          "summary": "SCIENTIFIC ENGLISH - APPELLO D'ESAME",
-          "event": {
-            "uid": "unicatt-exam-occurrence-728593a757a521ae0aa9ed4dedcf5e095df3b06f@codex",
-            "summary": "SCIENTIFIC ENGLISH - APPELLO D'ESAME",
-            "start": "2026-12-16T11:30:00+01:00",
-            "end": "2026-12-16T13:30:00+01:00",
-            "location": "Economia - 109",
-            "description": "Course code: A002225\nTeacher: TAYLOR ANITA\nExam type: APPELLO D'ESAME\nSource date: 16/12/2026\nBuilding: Economia\nRoom: 109\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
-            "status": "TENTATIVE",
-            "source_kind": "exam",
-            "source_record_id": "122221349",
-            "source_date": "16/12/2026",
-            "metadata": {
-              "codiceInsegnamento": "A002225",
-              "codiceCorsoIntegrato": null,
-              "idEsame": 120646392,
-              "examType": "APPELLO D'ESAME"
-            },
-            "sequence": 0,
-            "last_modified_utc": "2026-11-13T08:00:56+00:00"
-          },
-          "reason": "one valid upstream snapshot omitted this future event; awaiting confirmation"
-        },
-        {
-          "type": "possible_cancellation",
-          "uid": "unicatt-exam-occurrence-d492681af19084e2b2b9f1aee7dea8635dff935c@codex",
-          "summary": "FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY (MSK/HEART/VASCULAR SYSTEM) - APPELLO D'ESAME",
-          "event": {
-            "uid": "unicatt-exam-occurrence-d492681af19084e2b2b9f1aee7dea8635dff935c@codex",
-            "summary": "FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY (MSK/HEART/VASCULAR SYSTEM) - APPELLO D'ESAME",
-            "start": "2026-12-18T09:00:00+01:00",
-            "end": "2026-12-18T11:00:00+01:00",
-            "location": "Giovanni XXIII - Laboratorio informatica",
-            "description": "Course code: A002232\nTeacher: TAMAGNONE LUCA\nExam type: APPELLO D'ESAME\nSource date: 18/12/2026\nBuilding: Giovanni XXIII\nRoom: Laboratorio informatica\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
-            "status": "TENTATIVE",
-            "source_kind": "exam",
-            "source_record_id": "122220877",
-            "source_date": "18/12/2026",
-            "metadata": {
-              "codiceInsegnamento": "A002232",
-              "codiceCorsoIntegrato": null,
-              "idEsame": 120043392,
-              "examType": "APPELLO D'ESAME"
-            },
-            "sequence": 0,
-            "last_modified_utc": "2026-11-13T08:00:56+00:00"
-          },
-          "reason": "one valid upstream snapshot omitted this future event; awaiting confirmation"
-        },
-        {
-          "type": "possible_cancellation",
-          "uid": "unicatt-exam-occurrence-fc8f0538ff012764c783c06ff1f5ae2d2d633856@codex",
-          "summary": "THEOLOGY 1: INTRODUCTION TO CHRISTOLOGY AND SCRIPTURES - APPELLO D'ESAME",
-          "event": {
-            "uid": "unicatt-exam-occurrence-fc8f0538ff012764c783c06ff1f5ae2d2d633856@codex",
-            "summary": "THEOLOGY 1: INTRODUCTION TO CHRISTOLOGY AND SCRIPTURES - APPELLO D'ESAME",
-            "start": "2026-12-18T09:00:00+01:00",
-            "end": "2026-12-18T11:00:00+01:00",
-            "location": "Giovanni XXIII - 6",
-            "description": "Course code: A002562\nTeacher: IODICE FABIO\nExam type: APPELLO D'ESAME\nSource date: 18/12/2026\nBuilding: Giovanni XXIII\nRoom: 6\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
-            "status": "TENTATIVE",
-            "source_kind": "exam",
-            "source_record_id": "122220853",
-            "source_date": "18/12/2026",
-            "metadata": {
-              "codiceInsegnamento": "A002562",
-              "codiceCorsoIntegrato": null,
-              "idEsame": 120657200,
-              "examType": "APPELLO D'ESAME"
-            },
-            "sequence": 0,
-            "last_modified_utc": "2026-11-13T08:00:56+00:00"
-          },
-          "reason": "one valid upstream snapshot omitted this future event; awaiting confirmation"
-        },
-        {
-          "type": "possible_cancellation",
-          "uid": "unicatt-exam-occurrence-df93c83bbc36abfca657909c1ead6db56b901de7@codex",
-          "summary": "GENE REGULATION AND CELL METABOLISM - APPELLO D'ESAME",
-          "event": {
-            "uid": "unicatt-exam-occurrence-df93c83bbc36abfca657909c1ead6db56b901de7@codex",
-            "summary": "GENE REGULATION AND CELL METABOLISM - APPELLO D'ESAME",
-            "start": "2026-12-21T09:00:00+01:00",
-            "end": "2026-12-21T11:00:00+01:00",
-            "location": "Giovanni XXIII - 2",
-            "description": "Course code: A002229\nTeacher: ARCOVITO ALESSANDRO\nExam type: APPELLO D'ESAME\nSource date: 21/12/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
-            "status": "TENTATIVE",
-            "source_kind": "exam",
-            "source_record_id": "122220873",
-            "source_date": "21/12/2026",
-            "metadata": {
-              "codiceInsegnamento": "A002229",
-              "codiceCorsoIntegrato": null,
-              "idEsame": 120043395,
-              "examType": "APPELLO D'ESAME"
-            },
-            "sequence": 0,
-            "last_modified_utc": "2026-11-13T08:00:56+00:00"
-          },
-          "reason": "one valid upstream snapshot omitted this future event; awaiting confirmation"
-        }
-      ]
+      "alerts": []
     },
     {
       "feed_id": "year1-lessons",
@@ -249,7 +66,7 @@
       "feed_id": "year3-lessons",
       "ok": true,
       "health": "healthy",
-      "event_count": 132,
+      "event_count": 133,
       "alerts": []
     },
     {
