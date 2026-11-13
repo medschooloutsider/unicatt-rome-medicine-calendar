@@ -1,0 +1,29 @@
+{
+  "feed_id": "year2-exams",
+  "timezone_id": "Europe/Rome",
+  "observed_at_utc": "2026-11-13T14:31:07+00:00",
+  "type": "possible_cancellation",
+  "uid": "unicatt-exam-occurrence-4303ba07d76c23d85620c1ebd180a09dd6a54eda@codex",
+  "summary": "MICROBE - HOST INTERACTION - APPELLO D'ESAME",
+  "event": {
+    "uid": "unicatt-exam-occurrence-4303ba07d76c23d85620c1ebd180a09dd6a54eda@codex",
+    "summary": "MICROBE - HOST INTERACTION - APPELLO D'ESAME",
+    "start": "2026-12-17T10:00:00+01:00",
+    "end": "2026-12-17T12:00:00+01:00",
+    "location": "Giovanni XXIII - Laboratorio linguistico",
+    "description": "Course code: MR000009\nTeacher: HAAS TOBIAS LONGIN\nExam type: APPELLO D'ESAME\nSource date: 17/12/2026\nBuilding: Giovanni XXIII\nRoom: Laboratorio linguistico\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
+    "status": "TENTATIVE",
+    "source_kind": "exam",
+    "source_record_id": "122221508",
+    "source_date": "17/12/2026",
+    "metadata": {
+      "codiceInsegnamento": "MR000009",
+      "codiceCorsoIntegrato": null,
+      "idEsame": 120454754,
+      "examType": "APPELLO D'ESAME"
+    },
+    "sequence": 3,
+    "last_modified_utc": "2026-11-13T12:55:33+00:00"
+  },
+  "reason": "one valid upstream snapshot omitted this future event; awaiting confirmation"
+}

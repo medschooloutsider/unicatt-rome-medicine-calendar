@@ -1,29 +1,29 @@
 {
-  "feed_id": "year2-exams",
+  "feed_id": "year1-exams",
   "timezone_id": "Europe/Rome",
-  "observed_at_utc": "2026-11-13T13:43:20+00:00",
-  "type": "confirmed_cancellation",
-  "uid": "unicatt-exam-995023e2d71ed18b2822989a009a366249c1f2c9@codex",
-  "summary": "MICROBE - HOST INTERACTION - Exam",
+  "observed_at_utc": "2026-11-13T14:31:07+00:00",
+  "type": "possible_cancellation",
+  "uid": "unicatt-exam-d3711a0a05853b6a8e6871ae4367241e4e276b35@codex",
+  "summary": "BASIC SCIENCES - Exam",
   "event": {
-    "uid": "unicatt-exam-995023e2d71ed18b2822989a009a366249c1f2c9@codex",
-    "summary": "MICROBE - HOST INTERACTION - Exam",
-    "start": "2026-12-17T09:00:00+01:00",
-    "end": "2026-12-17T11:00:00+01:00",
+    "uid": "unicatt-exam-d3711a0a05853b6a8e6871ae4367241e4e276b35@codex",
+    "summary": "BASIC SCIENCES - Exam",
+    "start": "2026-12-15T09:00:00+01:00",
+    "end": "2026-12-15T11:00:00+01:00",
     "location": "",
-    "description": "Course code: MR000009\nTeacher: HAAS TOBIAS LONGIN\nSource date: 17/12/2026\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.\n\nCalendar reliability note: cancelled after two consecutive valid upstream snapshots omitted this future event.",
-    "status": "CANCELLED",
+    "description": "Course code: A001980\nTeacher: PAPI MASSIMILIANO\nSource date: 15/12/2026\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
+    "status": "TENTATIVE",
     "source_kind": "exam",
-    "source_record_id": "120454754",
-    "source_date": "17/12/2026",
+    "source_record_id": "120043412",
+    "source_date": "15/12/2026",
     "metadata": {
-      "codiceInsegnamento": "MR000009",
+      "codiceInsegnamento": "A001980",
       "codiceCorsoIntegrato": null,
-      "idEsame": 120454754,
+      "idEsame": 120043412,
       "examType": null
     },
-    "sequence": 8,
+    "sequence": 4,
     "last_modified_utc": "2026-11-13T12:55:33+00:00"
   },
-  "reason": "two consecutive valid upstream snapshots omitted this future event"
+  "reason": "one valid upstream snapshot omitted this future event; awaiting confirmation"
 }
