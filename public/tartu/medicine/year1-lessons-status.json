@@ -1,13 +1,13 @@
 {
   "feed_id": "tartu-y1-lessons",
   "calendar_name": "University of Tartu Medicine Year 1 Lessons",
-  "generated_at_utc": "2026-11-14T05:48:37+00:00",
-  "last_successful_fetch_at_utc": "2026-11-14T05:48:37+00:00",
-  "last_publication_at_utc": "2026-11-14T05:48:37+00:00",
+  "generated_at_utc": "2026-11-14T08:03:28+00:00",
+  "last_successful_fetch_at_utc": "2026-11-14T08:03:28+00:00",
+  "last_publication_at_utc": "2026-11-14T08:03:28+00:00",
   "freshness_lease": {
     "max_age_seconds": 2700,
-    "issued_at_utc": "2026-11-14T05:48:37+00:00",
-    "expires_at_utc": "2026-11-14T06:33:37+00:00"
+    "issued_at_utc": "2026-11-14T08:03:28+00:00",
+    "expires_at_utc": "2026-11-14T08:48:28+00:00"
   },
   "generated_age_seconds": 0,
   "event_count": 58,
@@ -30,7 +30,7 @@
   ],
   "source_snapshot_hash": "124262f9d6eec235988d0b205045b247bb9d09501910927442c209828dc60691",
   "last_published_source_snapshot_hash": "124262f9d6eec235988d0b205045b247bb9d09501910927442c209828dc60691",
-  "content_hash": "c06a1dd8ba6e6cf753ba4ef7465948ec1bf528539e1a1876f8acf659cb601a74",
+  "content_hash": "8db6d3a3d2458c23a988d6a6ee1bfea20a7e4b6d2c6d3bcdbee20ab146af2df5",
   "publication_mode": "github-pages-static",
   "dynamic_refresh": "GitHub Actions poller; no Vercel Blob dependency",
   "health": "healthy",
