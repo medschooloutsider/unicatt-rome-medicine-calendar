@@ -79,6 +79,13 @@
       "sent_at_utc": "2026-11-09T16:37:32+00:00",
       "type": "heartbeat"
     },
+    "heartbeat-2026-W47": {
+      "feed_id": "all",
+      "incident_key": null,
+      "message_id": 31,
+      "sent_at_utc": "2026-11-16T16:03:57+00:00",
+      "type": "heartbeat"
+    },
     "sentinel-issue-": {
       "feed_id": "all",
       "message_id": 9,
@@ -182,6 +189,6 @@
       "type": "publication_recovered"
     }
   },
-  "updated_at_utc": "2026-11-14T20:34:14+00:00",
+  "updated_at_utc": "2026-11-16T16:03:57+00:00",
   "version": 1
 }
