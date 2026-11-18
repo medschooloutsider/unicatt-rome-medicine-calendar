@@ -1,18 +1,18 @@
 {
   "feed_id": "year2-exams",
   "calendar_name": "UCSC Rome Medicine Year 2 Exams",
-  "generated_at_utc": "2026-11-18T19:11:15+00:00",
-  "last_successful_fetch_at_utc": "2026-11-18T19:11:15+00:00",
-  "last_publication_at_utc": "2026-11-18T19:11:15+00:00",
+  "generated_at_utc": "2026-11-18T20:25:50+00:00",
+  "last_successful_fetch_at_utc": "2026-11-18T20:25:50+00:00",
+  "last_publication_at_utc": "2026-11-18T20:25:50+00:00",
   "freshness_lease": {
     "max_age_seconds": 2700,
-    "issued_at_utc": "2026-11-18T19:11:15+00:00",
-    "expires_at_utc": "2026-11-18T19:56:15+00:00"
+    "issued_at_utc": "2026-11-18T20:25:50+00:00",
+    "expires_at_utc": "2026-11-18T21:10:50+00:00"
   },
   "generated_age_seconds": 0,
   "event_count": 97,
-  "cancelled_count": 12,
-  "tentative_count": 1,
+  "cancelled_count": 13,
+  "tentative_count": 0,
   "source_counts": {
     "base_exams": 77
   },
@@ -28,7 +28,7 @@
   ],
   "source_snapshot_hash": "bed3a2d6e506033e6da05e852057da2ebd4ae3ddf545b283c09cb394501f9f6e",
   "last_published_source_snapshot_hash": "bed3a2d6e506033e6da05e852057da2ebd4ae3ddf545b283c09cb394501f9f6e",
-  "content_hash": "0ec903fce0a04a6c9dcd04fb2e76d3595604a56f96f264e30e752b035e70090b",
+  "content_hash": "78559349bf8bf0fdea8dba6b881de10f37e37fe338437799adf78004ea735fae",
   "publication_mode": "github-pages-static",
   "dynamic_refresh": "GitHub Actions poller; no Vercel Blob dependency",
   "health": "healthy",
@@ -38,7 +38,7 @@
   "last_error": null,
   "alerts": [
     {
-      "type": "possible_cancellation",
+      "type": "confirmed_cancellation",
       "uid": "unicatt-exam-8d4d16cca6b69ec2f5aeb606b3edf45d5dfacd64@codex",
       "summary": "FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY 3 (ENDOCRINE/NERVOUS SYSTEM) - Exam",
       "event": {
@@ -47,8 +47,8 @@
         "start": "2026-12-16T09:00:00+01:00",
         "end": "2026-12-16T11:00:00+01:00",
         "location": "",
-        "description": "Course code: MR000011\nTeacher: GELOSO MARIA CONCETTA\nSource date: 16/12/2026\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
-        "status": "TENTATIVE",
+        "description": "Course code: MR000011\nTeacher: GELOSO MARIA CONCETTA\nSource date: 16/12/2026\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.\n\nCalendar reliability note: cancelled after two consecutive valid upstream snapshots omitted this future event.",
+        "status": "CANCELLED",
         "source_kind": "exam",
         "source_record_id": "120454733",
         "source_date": "16/12/2026",
@@ -58,10 +58,10 @@
           "idEsame": 120454733,
           "examType": null
         },
-        "sequence": 9,
-        "last_modified_utc": "2026-11-18T16:34:21+00:00"
+        "sequence": 10,
+        "last_modified_utc": "2026-11-18T19:11:15+00:00"
       },
-      "reason": "one valid upstream snapshot omitted this future event; awaiting confirmation"
+      "reason": "two consecutive valid upstream snapshots omitted this future event"
     }
   ],
   "retention_policy": "Entries are NOT erased as days pass. Past entries remain in place indefinitely for future audit. Corrections and cancellations retain event identity; no rolling date cutoff is permitted for this or any future station.",
@@ -1852,8 +1852,8 @@
       "start": "2026-12-16T09:00:00+01:00",
       "end": "2026-12-16T11:00:00+01:00",
       "location": "",
-      "description": "Course code: MR000011\nTeacher: GELOSO MARIA CONCETTA\nSource date: 16/12/2026\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
-      "status": "TENTATIVE",
+      "description": "Course code: MR000011\nTeacher: GELOSO MARIA CONCETTA\nSource date: 16/12/2026\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.\n\nCalendar reliability note: cancelled after two consecutive valid upstream snapshots omitted this future event.",
+      "status": "CANCELLED",
       "source_kind": "exam",
       "source_record_id": "120454733",
       "source_date": "16/12/2026",
@@ -1863,8 +1863,8 @@
         "idEsame": 120454733,
         "examType": null
       },
-      "sequence": 10,
-      "last_modified_utc": "2026-11-18T19:11:15+00:00"
+      "sequence": 11,
+      "last_modified_utc": "2026-11-18T20:25:50+00:00"
     },
     {
       "uid": "unicatt-exam-occurrence-4dd2e7585c79c62f81fd006c129bae3d662787bc@codex",

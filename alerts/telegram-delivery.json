@@ -1,15 +1,5 @@
 {
-  "failures": {
-    "calendar-22a1adbe8f655fd924b92701": {
-      "attempts": 3,
-      "error": "telegram_transport_TimeoutError",
-      "feed_id": "year2-exams",
-      "incident_key": null,
-      "observed_at_utc": "2026-11-18T15:16:42+00:00",
-      "status": "failed",
-      "type": "confirmed_cancellation"
-    }
-  },
+  "failures": {},
   "sent": {
     "calendar-002bf6dbfe8332323f36c603": {
       "feed_id": "year2-exams",
@@ -29,6 +19,13 @@
       "feed_id": "year3-lessons",
       "message_id": 7,
       "sent_at_utc": "2026-10-30T11:38:54+00:00",
+      "type": "confirmed_cancellation"
+    },
+    "calendar-22a1adbe8f655fd924b92701": {
+      "feed_id": "year2-exams",
+      "incident_key": null,
+      "message_id": 36,
+      "sent_at_utc": "2026-11-18T20:26:01+00:00",
       "type": "confirmed_cancellation"
     },
     "calendar-277798fe8dcc4abfc2da8601": {
@@ -206,6 +203,6 @@
       "type": "publication_recovered"
     }
   },
-  "updated_at_utc": "2026-11-18T15:17:46+00:00",
+  "updated_at_utc": "2026-11-18T20:26:01+00:00",
   "version": 1
 }
