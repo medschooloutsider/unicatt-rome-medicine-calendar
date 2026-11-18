@@ -1,20 +1,20 @@
 {
   "feed_id": "year3-lessons",
   "calendar_name": "UCSC Rome Medicine Year 3 Lessons",
-  "generated_at_utc": "2026-11-18T07:14:53+00:00",
-  "last_successful_fetch_at_utc": "2026-11-18T07:14:53+00:00",
-  "last_publication_at_utc": "2026-11-18T07:14:53+00:00",
+  "generated_at_utc": "2026-11-18T08:15:18+00:00",
+  "last_successful_fetch_at_utc": "2026-11-18T08:15:18+00:00",
+  "last_publication_at_utc": "2026-11-18T08:15:18+00:00",
   "freshness_lease": {
     "max_age_seconds": 2700,
-    "issued_at_utc": "2026-11-18T07:14:53+00:00",
-    "expires_at_utc": "2026-11-18T07:59:53+00:00"
+    "issued_at_utc": "2026-11-18T08:15:18+00:00",
+    "expires_at_utc": "2026-11-18T09:00:18+00:00"
   },
   "generated_age_seconds": 0,
   "event_count": 133,
   "cancelled_count": 7,
   "tentative_count": 0,
   "source_counts": {
-    "base_lessons": 48,
+    "base_lessons": 45,
     "room_changes": 4,
     "extra_lessons": 0,
     "suspensions": 1,
@@ -34,9 +34,9 @@
     "https://secure.unicatt.it/didatticaweb2/lezionistraordinarie/",
     "https://secure.unicatt.it/didatticaweb2/sospensioni/"
   ],
-  "source_snapshot_hash": "3548f27f3cd717d5f2da01943dc3e1006af88317521dfe852e2bfb44cf1e792b",
-  "last_published_source_snapshot_hash": "3548f27f3cd717d5f2da01943dc3e1006af88317521dfe852e2bfb44cf1e792b",
-  "content_hash": "b2b3ae4ad17bdbd5d234956ad7338abd401654aba04a18d28224cd19f59705fc",
+  "source_snapshot_hash": "34518e495735a998bdbbdc95d9088e1a409015effe616fd6e529fef0be6ef9e6",
+  "last_published_source_snapshot_hash": "34518e495735a998bdbbdc95d9088e1a409015effe616fd6e529fef0be6ef9e6",
+  "content_hash": "c0c8b412027e5cb3cef8e3d458d382a4c6582990eceabf3889c0be686eef62a3",
   "publication_mode": "github-pages-static",
   "dynamic_refresh": "GitHub Actions poller; no Vercel Blob dependency",
   "health": "healthy",
@@ -2632,7 +2632,7 @@
       "start": "2026-11-17T08:30:00+01:00",
       "end": "2026-11-17T10:45:00+01:00",
       "location": "Giovanni XXIII - 2",
-      "description": "Course code: MR000132\nIntegrated course code: MR000016\nIntegrated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: RIA FRANCESCO\nSource date: 17/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "description": "Course code: MR000132\nIntegrated course code: MR000016\nIntegrated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: RIA FRANCESCO\nSource date: 17/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
       "status": null,
       "source_kind": "lesson",
       "source_record_id": "121873457",
@@ -2654,8 +2654,8 @@
           "suspension": false
         }
       },
-      "sequence": 0,
-      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+      "sequence": 1,
+      "last_modified_utc": "2026-11-18T08:15:18+00:00"
     },
     {
       "uid": "unicatt-lesson-occurrence-121920325@codex",
@@ -2663,7 +2663,7 @@
       "start": "2026-11-17T10:45:00+01:00",
       "end": "2026-11-17T12:15:00+01:00",
       "location": "Giovanni XXIII - 2",
-      "description": "Course code: MR000125\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: MARINO MARIAPAOLA\nSource date: 17/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "description": "Course code: MR000125\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: MARINO MARIAPAOLA\nSource date: 17/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
       "status": null,
       "source_kind": "lesson",
       "source_record_id": "121920325",
@@ -2685,8 +2685,8 @@
           "suspension": false
         }
       },
-      "sequence": 0,
-      "last_modified_utc": "2026-10-27T08:32:23+00:00"
+      "sequence": 1,
+      "last_modified_utc": "2026-11-18T08:15:18+00:00"
     },
     {
       "uid": "unicatt-lesson-occurrence-122222192@codex",
@@ -2694,7 +2694,7 @@
       "start": "2026-11-17T14:15:00+01:00",
       "end": "2026-11-17T15:45:00+01:00",
       "location": "Istituti Biologici - Moscati",
-      "description": "Course code: MR000127\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SCAPIGLIATI ANDREA\nSource date: 17/11/2026\nBuilding: Istituti Biologici\nRoom: Moscati\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "description": "Course code: MR000127\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SCAPIGLIATI ANDREA\nSource date: 17/11/2026\nBuilding: Istituti Biologici\nRoom: Moscati\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: retained because the event is past and absent from the upstream snapshot.",
       "status": null,
       "source_kind": "lesson",
       "source_record_id": "122222192",
@@ -2716,8 +2716,8 @@
           "suspension": false
         }
       },
-      "sequence": 0,
-      "last_modified_utc": "2026-11-13T10:16:34+00:00"
+      "sequence": 1,
+      "last_modified_utc": "2026-11-18T08:15:18+00:00"
     },
     {
       "uid": "unicatt-lesson-occurrence-121920329@codex",
