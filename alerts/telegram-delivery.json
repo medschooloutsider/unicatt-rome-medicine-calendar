@@ -1,5 +1,15 @@
 {
-  "failures": {},
+  "failures": {
+    "calendar-22a1adbe8f655fd924b92701": {
+      "attempts": 3,
+      "error": "telegram_transport_TimeoutError",
+      "feed_id": "year2-exams",
+      "incident_key": null,
+      "observed_at_utc": "2026-11-18T15:16:42+00:00",
+      "status": "failed",
+      "type": "confirmed_cancellation"
+    }
+  },
   "sent": {
     "calendar-002bf6dbfe8332323f36c603": {
       "feed_id": "year2-exams",
@@ -196,6 +206,6 @@
       "type": "publication_recovered"
     }
   },
-  "updated_at_utc": "2026-11-18T13:43:20+00:00",
+  "updated_at_utc": "2026-11-18T15:17:46+00:00",
   "version": 1
 }
