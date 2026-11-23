@@ -1,24 +1,24 @@
 {
   "feed_id": "year3-lessons",
   "calendar_name": "UCSC Rome Medicine Year 3 Lessons",
-  "generated_at_utc": "2026-11-23T07:43:58+00:00",
-  "last_successful_fetch_at_utc": "2026-11-23T07:43:58+00:00",
-  "last_publication_at_utc": "2026-11-23T07:43:58+00:00",
+  "generated_at_utc": "2026-11-23T09:58:19+00:00",
+  "last_successful_fetch_at_utc": "2026-11-23T09:58:19+00:00",
+  "last_publication_at_utc": "2026-11-23T09:58:19+00:00",
   "freshness_lease": {
     "max_age_seconds": 2700,
-    "issued_at_utc": "2026-11-23T07:43:58+00:00",
-    "expires_at_utc": "2026-11-23T08:28:58+00:00"
+    "issued_at_utc": "2026-11-23T09:58:19+00:00",
+    "expires_at_utc": "2026-11-23T10:43:19+00:00"
   },
   "generated_age_seconds": 0,
-  "event_count": 133,
+  "event_count": 135,
   "cancelled_count": 7,
   "tentative_count": 0,
   "source_counts": {
-    "base_lessons": 38,
+    "base_lessons": 40,
     "room_changes": 2,
     "extra_lessons": 0,
-    "suspensions": 0,
-    "merge_notes": 2,
+    "suspensions": 1,
+    "merge_notes": 3,
     "authoritative_corrections": 0
   },
   "source_payload": {
@@ -34,9 +34,9 @@
     "https://secure.unicatt.it/didatticaweb2/lezionistraordinarie/",
     "https://secure.unicatt.it/didatticaweb2/sospensioni/"
   ],
-  "source_snapshot_hash": "123d3642542f4d6e072b9507258910cca774106842c7556fa5168e7198599657",
-  "last_published_source_snapshot_hash": "123d3642542f4d6e072b9507258910cca774106842c7556fa5168e7198599657",
-  "content_hash": "ca17c29b8f0b33a69c9ecbde612d296c620e747b07135d0e7e4dbdd1f44a83ef",
+  "source_snapshot_hash": "b84acb105a9cb234f01b3eb51dd0870cf35823f6591ac8e4160e8ed40db27cb5",
+  "last_published_source_snapshot_hash": "b84acb105a9cb234f01b3eb51dd0870cf35823f6591ac8e4160e8ed40db27cb5",
+  "content_hash": "9f588a174fa0267618df719cbd25a8edf88b60f9b5b345d50f041bafc016fff8",
   "publication_mode": "github-pages-static",
   "dynamic_refresh": "GitHub Actions poller; no Vercel Blob dependency",
   "health": "healthy",
@@ -3123,6 +3123,37 @@
       "last_modified_utc": "2026-10-30T10:50:12+00:00"
     },
     {
+      "uid": "unicatt-lesson-occurrence-122279784@codex",
+      "summary": "CLINICAL PATHOLOGY (APPROACH TO DIAGNOSIS AND TREATMENT)",
+      "start": "2026-11-26T08:30:00+01:00",
+      "end": "2026-11-26T10:00:00+01:00",
+      "location": "Giovanni XXIII - 2",
+      "description": "Course code: MR000132\nIntegrated course code: MR000016\nIntegrated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: RIA FRANCESCO\nSource date: 26/11/2026\nBuilding: Giovanni XXIII\nRoom: 2\nDuration: 01:30\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "122279784",
+      "source_date": "26/11/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000132",
+        "codiceCorsoIntegrato": "MR000016",
+        "idLezione": 121776992,
+        "idCalendarioAula": 122279784,
+        "matchKey": [
+          "MR000132",
+          "26/11/2026",
+          "08:30",
+          "10:00"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-11-23T09:58:19+00:00"
+    },
+    {
       "uid": "unicatt-lesson-occurrence-121920072@codex",
       "summary": "INTERNAL MEDICINE (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
       "start": "2026-11-26T10:45:00+01:00",
@@ -3338,6 +3369,37 @@
       },
       "sequence": 0,
       "last_modified_utc": "2026-10-27T08:32:23+00:00"
+    },
+    {
+      "uid": "unicatt-lesson-occurrence-122279788@codex",
+      "summary": "CLINICAL PATHOLOGY (APPROACH TO DIAGNOSIS AND TREATMENT)",
+      "start": "2026-12-02T11:00:00+01:00",
+      "end": "2026-12-02T13:15:00+01:00",
+      "location": "Giovanni XXIII - Lazzati",
+      "description": "Course code: MR000132\nIntegrated course code: MR000016\nIntegrated course: APPROACH TO DIAGNOSIS AND TREATMENT\nTeacher: RIA FRANCESCO\nSource date: 02/12/2026\nBuilding: Giovanni XXIII\nRoom: Lazzati\nDuration: 02:15\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no",
+      "status": null,
+      "source_kind": "lesson",
+      "source_record_id": "122279788",
+      "source_date": "02/12/2026",
+      "metadata": {
+        "codiceInsegnamento": "MR000132",
+        "codiceCorsoIntegrato": "MR000016",
+        "idLezione": 121776992,
+        "idCalendarioAula": 122279788,
+        "matchKey": [
+          "MR000132",
+          "02/12/2026",
+          "11:00",
+          "13:15"
+        ],
+        "flags": {
+          "room_change": false,
+          "extra_lesson": false,
+          "suspension": false
+        }
+      },
+      "sequence": 0,
+      "last_modified_utc": "2026-11-23T09:58:19+00:00"
     },
     {
       "uid": "unicatt-lesson-occurrence-122162418@codex",
