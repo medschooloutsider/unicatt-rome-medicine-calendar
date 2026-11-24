@@ -7,7 +7,9 @@ import argparse
 import hashlib
 import json
 import sys
+import time
 from datetime import UTC, datetime
+from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
 
@@ -23,11 +25,39 @@ FEED_ROUTES = (
     "tartu/medicine/year1-lessons",
 )
 
+RETRYABLE_HTTP_STATUS = frozenset({408, 425, 429, 500, 502, 503, 504})
+FETCH_ATTEMPTS = 3
+FETCH_RETRY_DELAYS_SECONDS = (1.0, 3.0)
 
-def fetch(url: str) -> bytes:
+
+def _retryable_fetch_error(exc: BaseException) -> bool:
+    if isinstance(exc, HTTPError):
+        return exc.code in RETRYABLE_HTTP_STATUS
+    return isinstance(exc, (URLError, TimeoutError, ConnectionError, OSError))
+
+
+def fetch(
+    url: str,
+    *,
+    attempts: int = FETCH_ATTEMPTS,
+    retry_delays_seconds: tuple[float, ...] = FETCH_RETRY_DELAYS_SECONDS,
+) -> bytes:
+    """Fetch a public artifact with bounded retry for transient transport errors."""
     request = Request(url, headers={"Accept": "application/json, text/calendar", "User-Agent": "unicatt-calendar-public-sentinel/1.0"})
-    with urlopen(request, timeout=20) as response:
-        return response.read()
+    last_error: BaseException | None = None
+    for attempt in range(max(1, attempts)):
+        try:
+            with urlopen(request, timeout=20) as response:
+                return response.read()
+        except (HTTPError, URLError, TimeoutError, ConnectionError, OSError) as exc:
+            last_error = exc
+            if attempt + 1 >= max(1, attempts) or not _retryable_fetch_error(exc):
+                raise
+            delay = retry_delays_seconds[min(attempt, len(retry_delays_seconds) - 1)] if retry_delays_seconds else 0.0
+            if delay > 0:
+                time.sleep(delay)
+    assert last_error is not None
+    raise last_error
 
 
 def unfold(text: str) -> list[str]:

@@ -35,6 +35,18 @@ ledger and health receipts alongside them.
   `ACTIVE RECORD | ...` and both event descriptions explain that the records are
   separate; no subgroup is inferred and no event is suppressed.
 
+## Recovery supervision
+
+The public sentinel retries transient HTTP and transport failures before
+classifying a feed as unhealthy. When every failure is publication freshness,
+the sentinel invokes `publisher_supervisor.py`, which reuses an active
+publisher, respects a cooldown, dispatches at most one eligible recovery, waits
+for that exact run (including GitHub API visibility lag), and re-probes every
+public artifact before declaring recovery. The Mac backstop uses the same
+supervisor and retries its hosted probe before touching local upstream or
+Apple Calendar. A failed recovery remains visible as a failed workflow and a
+durable issue; a successful recovery does not create false failure noise.
+
 ## Repository layout for cutover
 
 The destination GitHub repository must contain this module plus the existing

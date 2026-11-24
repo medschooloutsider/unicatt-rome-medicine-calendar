@@ -18,7 +18,7 @@ jobs:
   sentinel:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Verify public feeds
         id: verify
         continue-on-error: true
@@ -32,8 +32,45 @@ jobs:
           stale_only="$(python3 -c 'import json,sys; failures=json.load(open(sys.argv[1], encoding="utf-8")).get("failures", []); allowed=("health.json: freshness lease expired or missing",); print("true" if failures and all((f in allowed or f.endswith(": publication age")) for f in failures) else "false")' sentinel-result.json)"
           echo "stale_only=$stale_only" >> "$GITHUB_OUTPUT"
           exit 0
-      - name: Open and notify the durable alert issue
-        if: steps.verify.outputs.ok != 'true'
+      - name: Recover stale publication and re-probe
+        id: recover
+        if: steps.verify.outputs.ok != 'true' && steps.verify.outputs.stale_only == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set +e
+          python3 medical_curriculum_tooling/calendar_reliability/publisher_supervisor.py recover \
+            --repo "$GITHUB_REPOSITORY" \
+            --workflow calendar-publish.yml \
+            --reason sentinel-stale-publication \
+            --cooldown-seconds 1800 \
+            --timeout-seconds 240 > recovery-result.json
+          recovery_code=$?
+          cat recovery-result.json
+          if [ "$recovery_code" -eq 0 ]; then
+            echo "publisher_ok=true" >> "$GITHUB_OUTPUT"
+            python3 medical_curriculum_tooling/calendar_reliability/check_public_calendar.py > recovery-sentinel-result.json
+            probe_code=$?
+            cat recovery-sentinel-result.json
+            if [ "$probe_code" -eq 0 ]; then echo "final_ok=true" >> "$GITHUB_OUTPUT"; else echo "final_ok=false" >> "$GITHUB_OUTPUT"; fi
+          else
+            echo "publisher_ok=false" >> "$GITHUB_OUTPUT"
+            echo "final_ok=false" >> "$GITHUB_OUTPUT"
+          fi
+          exit 0
+      - name: Determine final result
+        id: final
+        if: always()
+        run: |
+          if [ "${{ steps.verify.outputs.ok }}" = "true" ]; then
+            echo "final_ok=true" >> "$GITHUB_OUTPUT"
+          elif [ "${{ steps.verify.outputs.stale_only }}" = "true" ] && [ "${{ steps.recover.outputs.final_ok }}" = "true" ]; then
+            echo "final_ok=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "final_ok=false" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Open and notify unresolved alert
+        if: steps.final.outputs.final_ok != 'true'
         env:
           GH_TOKEN: ${{ github.token }}
           CALENDAR_ALERT_TELEGRAM_BOT_TOKEN: ${{ secrets.CALENDAR_ALERT_TELEGRAM_BOT_TOKEN }}
@@ -43,54 +80,19 @@ jobs:
           issue_number="$(gh issue list --state open --search '[Calendar Alert] UCSC publication' --json number --jq '.[0].number // empty')"
           created=0
           if [ -z "$issue_number" ]; then
-            issue_url="$(gh issue create --title "[Calendar Alert] UCSC publication" --body "The independent public-feed sentinel failed. Inspect workflow run $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID and its JSON diagnostics. Keep this issue open until a successful sentinel run confirms recovery.")"
+            issue_url="$(gh issue create --title "[Calendar Alert] UCSC publication" --body "The independent public-feed sentinel failed after bounded retries and any eligible recovery. Inspect workflow run $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID and its JSON diagnostics. Keep this issue open until a successful sentinel run confirms recovery.")"
             issue_number="${issue_url##*/}"
             case "$issue_number" in
               (''|*[!0-9]*) issue_number="" ;;
               (*) created=1 ;;
             esac
           fi
-          result="$(python3 -m medical_curriculum_tooling.calendar_reliability.telegram_notifier --event-type watchdog_failure --feed-id all --summary "Public calendar sentinel failed" --message "Inspect GitHub issue #$issue_number and workflow run $GITHUB_RUN_ID." --fingerprint "sentinel-issue-$issue_number" --receipt alerts/telegram-delivery.json)"
+          result="$(python3 -m medical_curriculum_tooling.calendar_reliability.telegram_notifier --event-type watchdog_failure --feed-id all --summary "Public calendar sentinel failed after bounded recovery" --message "Inspect GitHub issue #$issue_number and workflow run $GITHUB_RUN_ID." --fingerprint "sentinel-issue-$issue_number" --receipt alerts/telegram-delivery.json)"
           status="$(printf '%s' "$result" | python3 -c 'import json,sys; print(json.load(sys.stdin).get("status", "unknown"))')"
           if [ -n "$issue_number" ] && { [ "$created" -eq 1 ] || [ "$status" = "failed" ] || [ "$status" = "not_configured" ]; }; then gh issue comment "$issue_number" --body "Telegram delivery status: ${status}. The issue remains the durable fallback." >/dev/null; fi
           printf '%s\n' "$result"
-      - name: Dispatch bounded hosted recovery for stale publication
-        id: recover
-        if: steps.verify.outputs.stale_only == 'true'
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          set -euo pipefail
-          repo="$GITHUB_REPOSITORY"
-          now_epoch="$(date -u +%s)"
-          last_dispatch="$(gh run list --repo "$repo" --workflow calendar-publish.yml --event workflow_dispatch --limit 1 --json createdAt --jq '.[0].createdAt // empty')"
-          if [ -n "$last_dispatch" ]; then
-            last_epoch="$(python3 -c 'import datetime,sys; print(int(datetime.datetime.fromisoformat(sys.argv[1].replace("Z", "+00:00")).timestamp()))' "$last_dispatch")"
-            age=$((now_epoch - last_epoch))
-            if [ "$age" -lt 1800 ]; then
-              echo "Hosted publisher cooldown is active (${age}s since last dispatch)."
-              issue_number="$(gh issue list --repo "$repo" --state open --search '[Calendar Alert] UCSC publication' --json number --jq '.[0].number // empty')"
-              if [ -n "$issue_number" ]; then
-                gh issue comment "$issue_number" --repo "$repo" --body "Hosted recovery not re-dispatched: publisher cooldown is active (${age}s since the last hosted dispatch)." >/dev/null
-              fi
-              echo "dispatched=false" >> "$GITHUB_OUTPUT"
-              exit 0
-            fi
-          fi
-          active="$(gh run list --repo "$repo" --workflow calendar-publish.yml --limit 20 --json status --jq '[.[] | select(.status == "queued" or .status == "in_progress")] | length')"
-          if [ "$active" -gt 0 ]; then
-            echo "A hosted publisher is already queued or running; not dispatching another."
-            echo "dispatched=false" >> "$GITHUB_OUTPUT"
-            exit 0
-          fi
-          gh workflow run calendar-publish.yml --repo "$repo" --ref main -f recovery_reason="sentinel-stale-publication"
-          issue_number="$(gh issue list --repo "$repo" --state open --search '[Calendar Alert] UCSC publication' --json number --jq '.[0].number // empty')"
-          if [ -n "$issue_number" ]; then
-            gh issue comment "$issue_number" --repo "$repo" --body "Hosted recovery publisher dispatched by sentinel. The issue remains open until a later sentinel proves fresh public publication." >/dev/null
-          fi
-          echo "dispatched=true" >> "$GITHUB_OUTPUT"
-      - name: Close the durable alert issue after recovery
-        if: steps.verify.outputs.ok == 'true'
+      - name: Close durable alert issue after verified recovery
+        if: steps.final.outputs.final_ok == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
           CALENDAR_ALERT_TELEGRAM_BOT_TOKEN: ${{ secrets.CALENDAR_ALERT_TELEGRAM_BOT_TOKEN }}
@@ -99,10 +101,10 @@ jobs:
           set +e
           issue_number="$(gh issue list --state open --search '[Calendar Alert] UCSC publication' --json number --jq '.[0].number // empty')"
           if [ -n "$issue_number" ]; then
-            result="$(python3 -m medical_curriculum_tooling.calendar_reliability.telegram_notifier --event-type publication_recovered --feed-id all --summary "Public calendar recovered" --message "Public feed health, freshness, hashes, and UID parity passed." --fingerprint "sentinel-issue-$issue_number-recovered" --receipt alerts/telegram-delivery.json)"
+            result="$(python3 -m medical_curriculum_tooling.calendar_reliability.telegram_notifier --event-type publication_recovered --feed-id all --summary "Public calendar recovered" --message "Public feed health, freshness, hashes, and UID parity passed after bounded verification." --fingerprint "sentinel-issue-$issue_number-recovered" --receipt alerts/telegram-delivery.json)"
             status="$(printf '%s' "$result" | python3 -c 'import json,sys; print(json.load(sys.stdin).get("status", "unknown"))')"
             printf '%s\n' "$result"
-            if [ "$status" = "sent" ] || [ "$status" = "duplicate" ] || [ "$status" = "not_configured" ]; then gh issue close "$issue_number" --comment "Independent sentinel recovered: public feed health, freshness, hashes, and UID parity passed. Telegram delivery status: ${status}." >/dev/null; else gh issue comment "$issue_number" --body "Public feeds recovered, but Telegram recovery delivery failed; leaving this issue open for retry." >/dev/null; fi
+            if [ "$status" = "sent" ] || [ "$status" = "duplicate" ] || [ "$status" = "not_configured" ]; then gh issue close "$issue_number" --comment "Independent sentinel recovered: public feed health, freshness, hashes, and UID parity passed after bounded recovery. Telegram delivery status: ${status}." >/dev/null; else gh issue comment "$issue_number" --body "Public feeds recovered, but Telegram recovery delivery failed; leaving this issue open for retry." >/dev/null; fi
           fi
       - name: Commit Telegram delivery receipt
         if: always()
@@ -130,5 +132,5 @@ jobs:
             sleep "$delay"
           done
       - name: Preserve sentinel failure state
-        if: steps.verify.outputs.ok != 'true'
+        if: steps.final.outputs.final_ok != 'true'
         run: exit 1

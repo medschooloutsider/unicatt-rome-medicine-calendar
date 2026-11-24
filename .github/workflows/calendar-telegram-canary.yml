@@ -17,7 +17,7 @@ jobs:
   canary:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Send weekly Telegram heartbeat
         env:
           CALENDAR_ALERT_TELEGRAM_BOT_TOKEN: ${{ secrets.CALENDAR_ALERT_TELEGRAM_BOT_TOKEN }}
