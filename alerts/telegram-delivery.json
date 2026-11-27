@@ -21,6 +21,13 @@
       "sent_at_utc": "2026-10-30T11:38:54+00:00",
       "type": "confirmed_cancellation"
     },
+    "calendar-1b9022c52ef2e701bc263e8f": {
+      "feed_id": "year3-lessons",
+      "incident_key": null,
+      "message_id": 44,
+      "sent_at_utc": "2026-11-27T11:39:34+00:00",
+      "type": "confirmed_cancellation"
+    },
     "calendar-22a1adbe8f655fd924b92701": {
       "feed_id": "year2-exams",
       "incident_key": null,
@@ -245,6 +252,6 @@
       "type": "publication_recovered"
     }
   },
-  "updated_at_utc": "2026-11-27T08:08:11+00:00",
+  "updated_at_utc": "2026-11-27T11:39:34+00:00",
   "version": 1
 }
