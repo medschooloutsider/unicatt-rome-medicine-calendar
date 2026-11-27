@@ -1,29 +1,40 @@
 {
-  "feed_id": "year2-exams",
+  "feed_id": "year3-lessons",
   "timezone_id": "Europe/Rome",
-  "observed_at_utc": "2026-11-18T20:26:00+00:00",
-  "type": "confirmed_cancellation",
-  "uid": "unicatt-exam-8d4d16cca6b69ec2f5aeb606b3edf45d5dfacd64@codex",
-  "summary": "FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY 3 (ENDOCRINE/NERVOUS SYSTEM) - Exam",
+  "observed_at_utc": "2026-11-27T10:32:24+00:00",
+  "type": "possible_cancellation",
+  "uid": "unicatt-lesson-occurrence-122177497@codex",
+  "summary": "FIRST AID AND NURSING PRACTICE PROFESSIONAL TRAINING (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
   "event": {
-    "uid": "unicatt-exam-8d4d16cca6b69ec2f5aeb606b3edf45d5dfacd64@codex",
-    "summary": "FUNCTIONAL ARCHITECTURE OF THE HUMAN BODY 3 (ENDOCRINE/NERVOUS SYSTEM) - Exam",
-    "start": "2026-12-16T09:00:00+01:00",
-    "end": "2026-12-16T11:00:00+01:00",
-    "location": "",
-    "description": "Course code: MR000011\nTeacher: GELOSO MARIA CONCETTA\nSource date: 16/12/2026\nDuration: 02:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/esami/\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.\n\nCalendar reliability note: cancelled after two consecutive valid upstream snapshots omitted this future event.",
-    "status": "CANCELLED",
-    "source_kind": "exam",
-    "source_record_id": "120454733",
-    "source_date": "16/12/2026",
+    "uid": "unicatt-lesson-occurrence-122177497@codex",
+    "summary": "FIRST AID AND NURSING PRACTICE PROFESSIONAL TRAINING (MECHANISMS AND MANIFESTATIONS OF DISEASES)",
+    "start": "2026-12-03T14:15:00+01:00",
+    "end": "2026-12-03T19:15:00+01:00",
+    "location": "Policlinico - Gemelli Training Center",
+    "description": "Course code: MR000128\nIntegrated course code: MR000015\nIntegrated course: MECHANISMS AND MANIFESTATIONS OF DISEASES\nTeacher: SCAPIGLIATI ANDREA\nSource date: 03/12/2026\nBuilding: Policlinico\nRoom: Gemelli Training Center\nDuration: 05:00\nSource: https://secure.unicatt.it/didatticaweb2/ps/lezioni/\nSource kind: lesson\nRoom change: no\nExtra lesson: no\nSuspended: no\nExercise: no\n\nCalendar reliability note: tentative because one valid upstream snapshot omitted this future event; awaiting confirmation.",
+    "status": "TENTATIVE",
+    "source_kind": "lesson",
+    "source_record_id": "122177497",
+    "source_date": "03/12/2026",
     "metadata": {
-      "codiceInsegnamento": "MR000011",
-      "codiceCorsoIntegrato": null,
-      "idEsame": 120454733,
-      "examType": null
+      "codiceInsegnamento": "MR000128",
+      "codiceCorsoIntegrato": "MR000015",
+      "idLezione": 121777004,
+      "idCalendarioAula": 122177497,
+      "matchKey": [
+        "MR000128",
+        "03/12/2026",
+        "14:15",
+        "19:15"
+      ],
+      "flags": {
+        "room_change": false,
+        "extra_lesson": false,
+        "suspension": false
+      }
     },
-    "sequence": 10,
-    "last_modified_utc": "2026-11-18T19:11:15+00:00"
+    "sequence": 0,
+    "last_modified_utc": "2026-10-30T10:50:12+00:00"
   },
-  "reason": "two consecutive valid upstream snapshots omitted this future event"
+  "reason": "one valid upstream snapshot omitted this future event; awaiting confirmation"
 }
