@@ -162,6 +162,13 @@
       "sent_at_utc": "2026-11-27T18:10:27+00:00",
       "type": "publication_recovered"
     },
+    "sentinel-issue-13": {
+      "feed_id": "all",
+      "incident_key": null,
+      "message_id": 46,
+      "sent_at_utc": "2026-11-28T09:31:35+00:00",
+      "type": "watchdog_failure"
+    },
     "sentinel-issue-3": {
       "feed_id": "all",
       "message_id": 11,
@@ -259,6 +266,6 @@
       "type": "publication_recovered"
     }
   },
-  "updated_at_utc": "2026-11-27T18:10:27+00:00",
+  "updated_at_utc": "2026-11-28T09:31:35+00:00",
   "version": 1
 }
